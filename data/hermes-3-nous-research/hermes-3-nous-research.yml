@@ -1,0 +1,473 @@
+name: Hermes 3 (Nous Research)
+description: Nous Research's latest general-use model with advanced long-term
+  context retention, multi-turn conversation capability, complex roleplaying
+  abilities, and enhanced agentic function-calling. Available in multiple sizes
+  based on LLaMA architecture.
+source_url: https://nousresearch.com/hermes3/
+category: Instruction-Tuned Models
+tags:
+  - conversational
+  - function-calling
+  - roleplaying
+featured: true
+markdown: >-
+  ## Overview
+
+
+  Hermes 3 is Nous Research's latest generation of general-use language models,
+  representing significant advancements in conversational AI, agentic
+  capabilities, and function-calling. Built on LLaMA and LLaMA 2 architectures,
+  Hermes 3 excels at long-term context retention, complex multi-turn
+  conversations, and sophisticated roleplaying scenarios.
+
+
+  ## Architecture
+
+
+  - **Base Models:** LLaMA and LLaMA 2
+
+  - **Model Sizes:** Multiple variants (7B, 13B, 34B, 70B, and larger)
+
+  - **Training Focus:** Conversation, function-calling, and agentic behavior
+
+  - **Design:** General-purpose with specialized capabilities
+
+
+  ## Key Features
+
+
+  - Advanced long-term context retention
+
+  - Sophisticated multi-turn conversation capability
+
+  - Complex roleplaying and character consistency
+
+  - Internal monologue abilities
+
+  - Enhanced agentic function-calling
+
+  - Tool use and API integration
+
+  - Neutral, unbiased general-use design
+
+
+  ## Core Capabilities
+
+
+  ### Long-Term Context Retention
+
+  - Maintains context across extended conversations
+
+  - Remembers details from earlier in dialogue
+
+  - Coherent narrative consistency
+
+  - Effective information tracking
+
+
+  ### Multi-Turn Conversations
+
+  - Natural dialogue flow
+
+  - Context-aware responses
+
+  - Appropriate tone and style adaptation
+
+  - Conversation history understanding
+
+
+  ### Complex Roleplaying
+
+  - Character consistency and development
+
+  - Internal monologue capabilities
+
+  - Nuanced personality expression
+
+  - Creative narrative generation
+
+
+  ### Agentic Function-Calling
+
+  - Enhanced tool use capabilities
+
+  - API integration and calling
+
+  - Multi-step task execution
+
+  - Structured output generation
+
+
+  ## Hermes Model Evolution
+
+
+  ### Hermes 1.0 (Original)
+
+  - Based on LLaMA
+
+  - General-purpose capabilities
+
+  - Foundation for series
+
+
+  ### Hermes 2.0
+
+  - Improved instruction following
+
+  - Enhanced conversational abilities
+
+  - Better general performance
+
+  - Multiple size variants
+
+
+  ### Hermes 3.0 (Latest)
+
+  - Long-term context retention
+
+  - Advanced agentic capabilities
+
+  - Internal monologue features
+
+  - Enhanced function-calling
+
+
+  ## Model Variants
+
+
+  ### Hermes 2 Yi 34B
+
+  - Built on Yi-34B base
+
+  - Trained on 1,000,000 entries
+
+  - High-quality dataset curation
+
+  - Significant performance improvements
+
+  - Excellent benchmark results
+
+
+  ### Hermes 2 Vision (Multimodal)
+
+  - Vision-language capabilities
+
+  - Based on OpenHermes-2.5-Mistral-7B
+
+  - Pioneering multimodal integration
+
+  - Image understanding
+
+
+  ### Various Size Options
+
+  - 7B: Efficient deployment
+
+  - 13B: Good balance
+
+  - 34B: Enhanced capabilities (Yi-based)
+
+  - 70B: Maximum performance
+
+
+  ## Training Methodology
+
+
+  ### High-Quality Data
+
+  - Hermes 2 Yi trained on 1M entries
+
+  - Curated from open datasets
+
+  - Emphasis on quality over quantity
+
+  - Diverse task coverage
+
+
+  ### Specialized Training
+
+  - Function-calling data
+
+  - Conversational datasets
+
+  - Roleplaying scenarios
+
+  - Agentic task examples
+
+
+  ## Function-Calling Excellence
+
+
+  ### Tool Use
+
+  - Natural language to API calls
+
+  - Structured output generation
+
+  - Multi-step tool orchestration
+
+  - Error handling and recovery
+
+
+  ### Integration Capabilities
+
+  - External API integration
+
+  - Database queries
+
+  - Web searches
+
+  - Custom function definitions
+
+
+  ## Deployment Options
+
+
+  - Self-hosting on appropriate GPU infrastructure
+
+  - Available through Ollama (`ollama run nous-hermes`)
+
+  - HuggingFace model hub
+
+  - Cloud deployment options
+
+  - Compatible with standard frameworks
+
+  - Quantization support for efficiency
+
+
+  ## Use Cases
+
+
+  ### Conversational AI
+
+  - Advanced chatbot applications
+
+  - Customer service with memory
+
+  - Personal assistants
+
+  - Interactive storytelling
+
+
+  ### Agentic Applications
+
+  - Autonomous task execution
+
+  - Multi-tool workflows
+
+  - API orchestration
+
+  - Complex problem-solving
+
+
+  ### Creative Applications
+
+  - Roleplaying and character AI
+
+  - Interactive fiction
+
+  - Content generation with consistency
+
+  - Creative writing assistance
+
+
+  ### Development Tools
+
+  - Function-calling for automation
+
+  - Tool integration
+
+  - Workflow orchestration
+
+  - Development assistance
+
+
+  ## Performance Highlights
+
+
+  ### Hermes 2 Yi 34B
+
+  - Significant improvements over earlier versions
+
+  - Strong benchmark performance
+
+  - Excellent instruction following
+
+  - High-quality outputs
+
+
+  ### Function-Calling
+
+  - Accurate API usage
+
+  - Proper function invocation
+
+  - Good error handling
+
+  - Reliable structured output
+
+
+  ## Nous Research Philosophy
+
+
+  ### Open Source Commitment
+
+  - All models freely available
+
+  - Transparent development
+
+  - Community-driven improvements
+
+  - Accessible to all
+
+
+  ### General Use Focus
+
+  - Neutral, unbiased models
+
+  - Broad capability coverage
+
+  - Flexible for various applications
+
+  - Not overly restricted
+
+
+  ## Comparison with Alternatives
+
+
+  ### vs. OpenAI Function Calling
+
+  - Open-source vs. proprietary
+
+  - Self-hostable
+
+  - No API costs
+
+  - Full control
+
+
+  ### vs. Other Open Models
+
+  - Superior long-term context retention
+
+  - Better roleplaying capabilities
+
+  - Enhanced function-calling
+
+  - Strong multi-turn conversations
+
+
+  ### vs. Base Models (LLaMA, Yi)
+
+  - Much better instruction following
+
+  - Specialized capabilities
+
+  - Enhanced conversational abilities
+
+  - Tool use integration
+
+
+  ## Technical Innovations
+
+
+  ### Internal Monologue
+
+  - Model can express reasoning process
+
+  - Transparent decision-making
+
+  - Enhanced interpretability
+
+  - Better debugging of outputs
+
+
+  ### Context Management
+
+  - Advanced long-term memory
+
+  - Efficient context utilization
+
+  - Coherent extended dialogues
+
+  - Information prioritization
+
+
+  ## Community and Ecosystem
+
+
+  ### Active Community
+
+  - Strong user base
+
+  - Active development
+
+  - Community contributions
+
+  - Extensive documentation
+
+
+  ### Integration Support
+
+  - Ollama integration
+
+  - HuggingFace ecosystem
+
+  - LangChain compatibility
+
+  - Custom tooling support
+
+
+  ## Vision-Language Capabilities
+
+
+  ### Hermes 2 Vision
+
+  - Multimodal understanding
+
+  - Image and text processing
+
+  - Visual question answering
+
+  - Pioneering VLM from Nous
+
+
+  ## Available Platforms
+
+
+  - **Ollama:** Easy local deployment
+
+  - **HuggingFace:** Model weights and documentation
+
+  - **Nous Portal:** Official model hub
+
+  - **GitHub:** Code and resources
+
+
+  ## Fine-Tuning and Customization
+
+
+  - Good base for domain-specific fine-tuning
+
+  - Adaptable to specialized use cases
+
+  - Community fine-tuned variants
+
+  - Custom function definitions
+
+
+  ## Licensing
+
+
+  Follows base model licensing:
+
+  - Generally permissive (LLaMA, Yi licenses)
+
+  - Commercial use typically permitted
+
+  - Check specific variant for exact terms
+
+  - Community-friendly approach
+brand: Nous Research
+updated_at: 2026-03-03 13:09

@@ -1,0 +1,431 @@
+name: OPT-175B (Meta)
+description: Meta's 175-billion-parameter open-source model released for
+  research, matching GPT-3 scale. Trained with fully documented process and
+  released with training logs, providing transparency into large-scale language
+  model development.
+source_url: https://opt.alpa.ai/
+category: Foundation Models
+tags:
+  - large-scale
+  - research
+  - transparent
+featured: false
+markdown: >-
+  ## Overview
+
+
+  OPT-175B (Open Pre-trained Transformer) is Meta AI's 175-billion-parameter
+  language model released in May 2022 to promote research on large language
+  models. Matching the scale of GPT-3, OPT-175B was released with unprecedented
+  transparency, including training logs and detailed documentation of the
+  development process.
+
+
+  ## Architecture
+
+
+  - **Parameters:** 175 billion (also smaller variants: 125M to 66B)
+
+  - **Model Type:** Decoder-only Transformer
+
+  - **Context Length:** 2048 tokens
+
+  - **Training:** Fully documented with logs
+
+  - **Design:** Based on GPT-3 architecture
+
+
+  ## Key Features
+
+
+  - GPT-3 scale (175B parameters)
+
+  - Fully open training logs
+
+  - Complete transparency in development
+
+  - Research-focused release
+
+  - Multiple model sizes available
+
+  - Democratizing large-scale LLM research
+
+  - Carbon footprint documented
+
+
+  ## Model Family
+
+
+  ### OPT Model Sizes
+
+  - **125M, 350M, 1.3B, 2.7B:** Small-scale variants
+
+  - **6.7B, 13B, 30B:** Medium-scale models
+
+  - **66B:** Large-scale model
+
+  - **175B:** Full-scale flagship
+
+
+  ### Use by Size
+
+  - Smaller: Experimentation and development
+
+  - Medium: Research and applications
+
+  - Large: Cutting-edge research
+
+  - 175B: GPT-3 scale investigations
+
+
+  ## Transparency and Documentation
+
+
+  ### Unprecedented Openness
+
+  - **Training Logs:** Complete logs released
+
+  - **Carbon Footprint:** Environmental impact documented
+
+  - **Challenges:** Training difficulties shared
+
+  - **Methodology:** Fully documented process
+
+
+  ### Research Value
+
+  - Understanding training dynamics
+
+  - Studying large-scale challenges
+
+  - Reproducible research
+
+  - Learning from failures and successes
+
+
+  ## Training Details
+
+
+  ### Scale and Scope
+
+  - Trained on diverse text corpus
+
+  - Similar scale to GPT-3
+
+  - Extensive compute requirements
+
+  - Multi-month training process
+
+
+  ### Documented Challenges
+
+  - Training instabilities
+
+  - Hardware failures
+
+  - Optimization difficulties
+
+  - Solutions and workarounds
+
+
+  ## Performance
+
+
+  ### Benchmark Results
+
+  - Comparable to GPT-3 on many tasks
+
+  - Strong general knowledge
+
+  - Good text generation
+
+  - Effective few-shot learning
+
+
+  ### Capabilities
+
+  - General language understanding
+
+  - Text generation
+
+  - Few-shot task completion
+
+  - Knowledge retrieval
+
+
+  ## Research Focus
+
+
+  ### Intended Use
+
+  - Academic research
+
+  - Large-scale LLM studies
+
+  - Training methodology research
+
+  - Bias and fairness investigations
+
+  - Environmental impact studies
+
+
+  ### Not for Production
+
+  - Released for research purposes
+
+  - Non-commercial license
+
+  - Study and analysis focused
+
+  - Understanding LLMs at scale
+
+
+  ## Comparison with GPT-3
+
+
+  ### Similarities
+
+  - Same parameter count (175B)
+
+  - Similar architecture
+
+  - Comparable capabilities
+
+  - Similar training scale
+
+
+  ### Differences
+
+  - Open vs. closed
+
+  - Fully documented vs. limited information
+
+  - Research-focused vs. commercial
+
+  - Transparent training vs. proprietary
+
+
+  ## Environmental Impact
+
+
+  ### Carbon Footprint Transparency
+
+  - Detailed emissions documentation
+
+  - Training energy usage reported
+
+  - Environmental considerations
+
+  - Promoting awareness
+
+
+  ### Significance
+
+  - First major model with public carbon data
+
+  - Encouraged sustainability discussions
+
+  - Set precedent for transparency
+
+
+  ## Deployment Considerations
+
+
+  ### Resource Requirements
+
+  - Requires significant GPU memory (175B)
+
+  - Multi-GPU or GPU cluster necessary
+
+  - High computational costs
+
+  - Specialized infrastructure needed
+
+
+  ### Smaller Variants
+
+  - More accessible deployment
+
+  - Research on various scales
+
+  - Efficiency studies
+
+  - Comparative analysis
+
+
+  ## Use Cases
+
+
+  ### Research Applications
+
+  - Large-scale LLM studies
+
+  - Training methodology research
+
+  - Bias and safety research
+
+  - Efficiency investigations
+
+  - Scaling law studies
+
+
+  ### Academic Studies
+
+  - Understanding emergent capabilities
+
+  - Few-shot learning research
+
+  - Model behavior analysis
+
+  - Comparative studies
+
+
+  ## Impact on Open-Source AI
+
+
+  OPT-175B demonstrated:
+
+  - Mega-scale models can be open
+
+  - Transparency benefits research community
+
+  - Training challenges should be shared
+
+  - Carbon footprint matters
+
+  - Open science is viable at scale
+
+
+  ## Training Transparency
+
+
+  ### Shared Information
+
+  - Complete training logs
+
+  - Failure modes documented
+
+  - Restart and recovery details
+
+  - Optimization challenges
+
+  - Hardware issues and solutions
+
+
+  ### Research Value
+
+  - Learn from Meta's experience
+
+  - Understand large-scale training
+
+  - Avoid known pitfalls
+
+  - Improve future training runs
+
+
+  ## Comparison with Other Open Models
+
+
+  ### vs. BLOOM (176B)
+
+  - Similar scale
+
+  - Different training approaches
+
+  - OPT: Meta-led vs. BLOOM: community
+
+  - Both valuable for research
+
+
+  ### vs. LLaMA (65B max)
+
+  - OPT larger (175B vs 65B)
+
+  - Different release timing
+
+  - Different licenses
+
+  - Complementary research value
+
+
+  ## Community Reception
+
+
+  - Praised for transparency
+
+  - Valuable for research
+
+  - Enabled academic studies
+
+  - Advanced understanding of LLMs
+
+
+  ## Limitations
+
+
+  ### Model Limitations
+
+  - Knowledge cutoff
+
+  - Potential biases
+
+  - Hallucination issues
+
+  - Not optimized for all tasks
+
+
+  ### Practical Limitations
+
+  - Research-only license
+
+  - High resource requirements
+
+  - Not production-optimized
+
+  - Limited commercial use
+
+
+  ## Legacy and Influence
+
+
+  - Advanced transparency in AI
+
+  - Enabled GPT-3-scale research
+
+  - Informed future model development
+
+  - Set standards for openness
+
+  - Contributed to scaling law understanding
+
+
+  ## Documentation and Resources
+
+
+  - Extensive technical reports
+
+  - Training logs and metrics
+
+  - Model cards
+
+  - Research papers
+
+  - GitHub repositories
+
+
+  ## Licensing
+
+
+  **OPT-175B License:**
+
+  - Research use permitted
+
+  - Non-commercial focus
+
+  - Academic and research institutions
+
+  - Restrictions on commercial deployment
+
+  - Encouraging responsible use
+brand: Meta AI
+updated_at: 2026-03-03 13:09

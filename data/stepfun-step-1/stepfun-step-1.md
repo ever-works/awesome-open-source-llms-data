@@ -1,0 +1,113 @@
+## Overview
+
+StepFun is a Chinese AI startup that is part of the "AI tigers" group of prominent Chinese AI companies. The company specializes in multimodal AI models with particular strength in vision-language capabilities, serving both enterprise and consumer markets in China.
+
+## Key Features
+
+- Advanced multimodal capabilities
+- Strong vision-language understanding
+- Chinese market optimization
+- Enterprise and consumer focus
+- Innovative model architectures
+- Commercial applications
+
+## Multimodal Excellence
+
+### Vision-Language Integration
+- Image understanding and analysis
+- Visual question answering
+- Document processing
+- Scene comprehension
+
+### Use Cases
+- Visual content analysis
+- Document digitization
+- Educational applications
+- Enterprise visual AI
+
+## AI Tigers Position
+
+### Chinese AI Ecosystem
+StepFun is part of the "AI tigers" group:
+- StepFun
+- Moonshot AI
+- Baichuan Intelligence
+- Zhipu AI
+- MiniMax
+- 01.AI
+
+### Market Presence
+- Growing commercial traction
+- Enterprise partnerships
+- Consumer products
+- Research collaborations
+
+## Technology Focus
+
+### Multimodal Models
+- Vision and language integration
+- Advanced understanding
+- Efficient processing
+- Production-ready deployment
+
+### Innovation Areas
+- Visual reasoning
+- Document understanding
+- Cross-modal learning
+- Application-specific optimization
+
+## Applications
+
+### Enterprise Solutions
+- Document processing automation
+- Visual inspection systems
+- Knowledge management
+- Business intelligence
+
+### Consumer Products
+- Visual assistants
+- Educational tools
+- Content creation aids
+- Accessibility features
+
+## Chinese Market Optimization
+
+### Localization
+- Chinese language mastery
+- Cultural context understanding
+- Local service integration
+- Domestic infrastructure
+
+### Market Fit
+- Chinese user needs
+- Local regulations compliance
+- Domestic partnerships
+- Regional deployment
+
+## Competitive Position
+
+### Strengths
+- Multimodal specialization
+- Chinese market focus
+- Commercial viability
+- Innovation capability
+
+### Market Strategy
+- Enterprise focus
+- Consumer applications
+- API services
+- Platform development
+
+## Future Directions
+
+- Enhanced multimodal capabilities
+- Broader application coverage
+- International potential
+- Continued innovation
+
+## Access and Licensing
+
+- Commercial products
+- Enterprise licensing
+- API availability
+- Check StepFun for specific terms

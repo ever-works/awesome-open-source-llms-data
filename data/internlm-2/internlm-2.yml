@@ -1,0 +1,192 @@
+name: InternLM 2
+description: Multilingual foundational language model developed by SenseTime and
+  Shanghai AI Lab with 7B and 20B variants. Pre-trained on 1.6T tokens across
+  104B parameters, offering strong Chinese and multilingual capabilities for
+  research and commercial applications.
+source_url: https://github.com/InternLM/InternLM
+category: Foundation Models
+tags:
+  - multilingual
+  - chinese
+  - research
+featured: false
+markdown: >-
+  ## Overview
+
+
+  InternLM 2 is a multilingual foundational language model developed through
+  collaboration between SenseTime, Shanghai AI Lab, the Chinese University of
+  Hong Kong, Fudan University, and Shanghai Jiaotong University. The model
+  represents a major academic-industry collaboration in Chinese AI research.
+
+
+  ## Architecture
+
+
+  - **Model Sizes:** 7B and 20B parameters
+
+  - **Full Model:** 104B total parameters
+
+  - **Training Data:** Pre-trained on 1.6T tokens
+
+  - **Training Process:** Multi-phase progressive approach
+
+  - **Model Type:** Advanced Transformer architecture
+
+
+  ## Key Features
+
+
+  - Strong multilingual capabilities
+
+  - Emphasis on Chinese language understanding
+
+  - Multi-phase progressive training process
+
+  - Academic rigor combined with industry applications
+
+  - Open-source with research focus
+
+  - Good general-purpose performance
+
+  - Suitable for fine-tuning and customization
+
+
+  ## Model Variants
+
+
+  ### InternLM2-7B
+
+  - 7 billion parameters
+
+  - Efficient deployment option
+
+  - Good balance of performance and resources
+
+  - Suitable for most applications
+
+
+  ### InternLM2-20B
+
+  - 20 billion parameters
+
+  - Enhanced capabilities
+
+  - Stronger reasoning and knowledge
+
+  - Better for complex tasks
+
+
+  ## Training Methodology
+
+
+  - Multi-phase progressive training process
+
+  - Large-scale pre-training on diverse corpora
+
+  - Careful data curation and filtering
+
+  - Academic research-backed methodology
+
+  - Emphasis on reproducibility
+
+
+  ## Performance
+
+
+  - Strong performance on Chinese language benchmarks
+
+  - Competitive multilingual understanding
+
+  - Good reasoning and problem-solving
+
+  - Solid coding capabilities
+
+  - Effective for conversational tasks
+
+
+  ## Collaborative Development
+
+
+  Developed by leading Chinese institutions:
+
+  - **SenseTime:** Leading AI company
+
+  - **Shanghai AI Lab:** Government-backed research institute
+
+  - **CUHK:** Chinese University of Hong Kong
+
+  - **Fudan University:** Top Chinese university
+
+  - **Shanghai Jiaotong University:** Leading technical university
+
+
+  ## Deployment Options
+
+
+  - Self-hosting on GPU infrastructure
+
+  - Cloud deployment options
+
+  - Compatible with Hugging Face and PyTorch
+
+  - Support for quantization
+
+  - Integration with Chinese cloud platforms
+
+
+  ## Use Cases
+
+
+  - Multilingual applications with Chinese focus
+
+  - Academic research in NLP
+
+  - Conversational AI systems
+
+  - Content generation and analysis
+
+  - Educational applications
+
+  - Cross-lingual understanding
+
+  - Enterprise applications in Chinese markets
+
+
+  ## Research Focus
+
+
+  InternLM emphasizes:
+
+  - Academic rigor in model development
+
+  - Reproducible training methodologies
+
+  - Open collaboration between institutions
+
+  - Advancing Chinese NLP research
+
+  - Bridging research and applications
+
+
+  ## Community and Ecosystem
+
+
+  - Active open-source community
+
+  - Available on GitHub
+
+  - Strong academic support
+
+  - Growing ecosystem of tools and applications
+
+  - Regular updates and improvements
+
+
+  ## Licensing
+
+
+  Released under permissive open-source license allowing research and commercial
+  use.
+brand: Shanghai AI Lab
+updated_at: 2026-03-03 13:09

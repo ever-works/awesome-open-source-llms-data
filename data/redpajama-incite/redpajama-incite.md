@@ -1,0 +1,225 @@
+## Overview
+
+RedPajama-INCITE is a family of open-source language models trained on the RedPajama dataset, a fully open-source reproduction of the LLaMA training dataset. Developed by Together AI, RedPajama represents an important milestone in creating leading open-source models with clean, transparent data provenance.
+
+## Architecture
+
+- **Model Sizes:** 3B and 7B parameters
+- **Training Data:** RedPajama dataset (1.2+ trillion tokens)
+- **Model Variants:** Base, Chat, and Instruct for each size
+- **Context Length:** 2048 tokens
+- **Model Type:** GPT-style autoregressive Transformer
+
+## Key Features
+
+- Fully open-source training dataset
+- Clean data provenance and licensing
+- Multiple model variants for different use cases
+- Apache 2.0 license for unrestricted use
+- Strong performance for model sizes
+- Transparent training process
+- Commercial use permitted
+
+## RedPajama Dataset
+
+### Dataset Overview
+- **Size:** Over 1.2 trillion tokens
+- **Purpose:** Open reproduction of LLaMA training data
+- **License:** Fully open and permissive
+- **Composition:** Diverse high-quality sources
+
+### Data Sources
+Reproducing the LLaMA dataset mix:
+- CommonCrawl (web data)
+- C4 (cleaned web text)
+- GitHub (code)
+- Books
+- ArXiv (scientific papers)
+- Wikipedia
+- StackExchange
+
+### Impact
+Many open-source projects have used the RedPajama dataset for training, making it one of the most important open training datasets in the field.
+
+## Model Variants
+
+### RedPajama-INCITE-Base (3B and 7B)
+- Foundation models for fine-tuning
+- Trained on full RedPajama dataset
+- General-purpose capabilities
+- Suitable for customization
+
+### RedPajama-INCITE-Chat (3B and 7B)
+- Fine-tuned for conversational use
+- Better dialogue capabilities
+- Improved instruction following
+- Optimized for chat applications
+
+### RedPajama-INCITE-Instruct (3B and 7B)
+- Instruction-tuned variants
+- Strong task completion
+- Good zero-shot performance
+- Effective for diverse instructions
+
+## Performance Highlights
+
+### RedPajama-3B Performance
+- Trained for 800 billion tokens
+- **Outperforms GPT-Neo** on benchmarks
+- **Outperforms Pythia-2.8B** on benchmarks
+- Strong performance for size class
+
+### General Performance
+- Competitive with similar-sized models
+- Good general knowledge
+- Effective text generation
+- Solid reasoning for size
+
+## Training Details
+
+### Training Scale
+- RedPajama-3B: 800B tokens
+- RedPajama-7B: Extensive training
+- Large-scale distributed training
+- Optimized training procedures
+
+### Together AI's Approach
+- Focus on efficiency and quality
+- Transparent methodology
+- Community-oriented development
+- Production-ready models
+
+## Deployment Options
+
+- Self-hosting on consumer to enterprise GPUs
+- Together AI's inference platform
+- Cloud deployment options
+- Compatible with Hugging Face and other frameworks
+- Efficient serving options
+
+## Use Cases
+
+### Production Applications
+- Cost-effective text generation
+- Conversational AI (Chat variants)
+- Task automation (Instruct variants)
+- Content creation
+
+### Development
+- Fine-tuning base for specific domains
+- Research and experimentation
+- Educational projects
+- Commercial applications
+
+### Research
+- Training data studies
+- Model behavior analysis
+- Comparative benchmarking
+- Open-source AI research
+
+## Significance of Open Data
+
+### Clean Data Provenance
+- Fully documented training data
+- No proprietary or restricted data
+- Reproducible training process
+- Clear licensing for all components
+
+### Enabling Research
+- Researchers can study training data
+- Reproducible model development
+- Understanding of data impact
+- Transparency in AI development
+
+## Together AI's Mission
+
+RedPajama represents Together AI's commitment to:
+- Democratizing AI development
+- Creating open-source alternatives
+- Providing clean, usable datasets
+- Supporting the research community
+- Enabling commercial applications
+
+## Community Impact
+
+### Dataset Usage
+- Used by numerous open-source projects
+- Foundation for many derivative models
+- Standard reference dataset
+- Educational resource
+
+### Model Adoption
+- Deployed in various applications
+- Base for fine-tuned variants
+- Research baseline
+- Commercial deployments
+
+## Comparison with Alternatives
+
+### vs. GPT-Neo
+- Better performance at similar sizes
+- Cleaner training data
+- More recent development
+
+### vs. Pythia
+- RedPajama-3B outperforms Pythia-2.8B
+- Different focus (production vs. research)
+- Similar open-source ethos
+
+### vs. LLaMA
+- RedPajama dataset reproduces LLaMA training data
+- Fully open data vs. model-only release
+- Different licensing approach
+
+## Technical Details
+
+### Architecture Choices
+- GPT-style decoder-only Transformer
+- Standard attention mechanisms
+- Efficient implementation
+- Optimized for inference
+
+### Training Infrastructure
+- Large-scale distributed training
+- Efficient parallelization
+- Production-ready training pipeline
+- Cost-optimized approach
+
+## Open-Source Philosophy
+
+RedPajama demonstrates:
+- Importance of open training data
+- Viability of fully open model development
+- Value of transparent processes
+- Community benefits from openness
+
+## Future Developments
+
+- Continued dataset improvements
+- Potential larger model sizes
+- Enhanced training techniques
+- Community contributions
+
+## Resources and Availability
+
+### Models
+- Available on Hugging Face
+- Together AI platform
+- GitHub repositories
+- Extensive documentation
+
+### Dataset
+- Publicly available for download
+- Well-documented composition
+- Active maintenance
+- Community support
+
+## Licensing
+
+**Apache 2.0 License** for both models and dataset:
+- Full commercial use permitted
+- Modification and redistribution allowed
+- No usage restrictions
+- Clear, permissive terms
+- Enterprise-friendly
+- Most permissive open-source license

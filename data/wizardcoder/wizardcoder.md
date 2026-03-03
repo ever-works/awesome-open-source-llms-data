@@ -1,0 +1,243 @@
+## Overview
+
+WizardCoder is a family of code-specialized large language models developed by Microsoft and Peking University researchers using the Evol-Instruct methodology adapted for code. WizardCoder models achieve exceptional performance on coding benchmarks, with some variants surpassing well-known closed-source models including Anthropic's Claude and Google's Bard.
+
+## Architecture
+
+- **Base Models:** Various (StarCoder, DeepSeek-Coder, Code Llama)
+- **Training Method:** Code Evol-Instruct
+- **Model Sizes:** 15B, 33B, and other variants
+- **Focus:** Code generation and understanding
+
+## Key Features
+
+- Code-specific Evol-Instruct training
+- Exceptional programming performance
+- Surpasses many proprietary coding models
+- Support for multiple programming languages
+- Strong debugging and refactoring capabilities
+- Open-source with Microsoft backing
+
+## Performance Highlights
+
+### Benchmark Results
+
+**WizardCoder-33B-V1.1:**
+- **HumanEval:** 79.9 pass@1
+- **HumanEval-Plus:** 73.2 pass@1
+- Trained from deepseek-coder-33b-base
+
+**WizardCoder-15B:**
+- Surpasses Anthropic's Claude on HumanEval
+- Surpasses Google's Bard on HumanEval
+- Beats many larger closed-source models
+- Exceptional performance for size
+
+### Competitive Position
+- Among the best open-source code models
+- Competitive with or exceeds proprietary alternatives
+- Strong across multiple programming languages
+- Excellent on both standard and advanced benchmarks
+
+## Code Evol-Instruct Methodology
+
+### Adaptation for Code
+- Evolves simple coding problems into complex ones
+- Increases code complexity and difficulty progressively
+- Covers diverse programming scenarios
+- Generates high-quality code solutions
+
+### Evolution Dimensions
+- **Complexity:** Makes problems more challenging
+- **Breadth:** Adds diverse programming concepts
+- **Depth:** Increases problem-solving depth
+- **Difficulty:** Progressively harder test cases
+
+### Training Process
+1. Start with seed coding problems
+2. Evolve problems to increase complexity
+3. Generate high-quality code solutions
+4. Filter for correctness and quality
+5. Fine-tune model on evolved dataset
+
+## Model Variants
+
+### WizardCoder-15B-V1.0
+- Built on StarCoder base
+- 15 billion parameters
+- Surpasses Claude and Bard
+- Excellent for general coding
+
+### WizardCoder-33B-V1.1
+- Built on DeepSeek-Coder-33B
+- 33 billion parameters
+- 79.9% HumanEval pass@1
+- State-of-the-art open-source performance
+
+### Various Specialized Versions
+- Python-focused variants
+- Multi-language generalists
+- Different base model options
+
+## Supported Programming Languages
+
+Strong performance across:
+- Python (exceptional)
+- JavaScript/TypeScript
+- Java
+- C++/C
+- Go
+- Rust
+- PHP
+- Ruby
+- And many more
+
+## Capabilities
+
+### Code Generation
+- Function and class implementation
+- Algorithm development
+- Complete program generation
+- Code from natural language descriptions
+
+### Code Understanding
+- Code explanation and documentation
+- Bug detection and analysis
+- Code review assistance
+- Refactoring suggestions
+
+### Problem Solving
+- Algorithm design
+- Data structure implementation
+- Optimization solutions
+- Complex coding challenges
+
+## Deployment Options
+
+- Self-hosting on GPU infrastructure
+- Cloud deployment through various providers
+- IDE integration possibilities
+- API deployment for coding assistants
+- Compatible with standard ML frameworks
+
+## Use Cases
+
+### Software Development
+- Code autocompletion and generation
+- Debugging and bug fixing
+- Code refactoring
+- Documentation generation
+- Unit test creation
+
+### Education
+- Programming education and tutoring
+- Code explanation and learning
+- Practice problem generation
+- Solution verification
+
+### Development Tools
+- IDE plugins and extensions
+- Code review automation
+- Development assistance
+- Automated code documentation
+
+## Training Data and Methodology
+
+### Code Evol-Instruct Dataset
+- Automatically generated coding problems
+- Progressively complex challenges
+- Diverse programming scenarios
+- High-quality reference solutions
+
+### Quality Assurance
+- Code correctness verification
+- Test case validation
+- Filtering for quality
+- Emphasis on working code
+
+## Comparison with Alternatives
+
+### vs. Closed-Source Models
+- **Surpasses Claude** on HumanEval (15B variant)
+- **Surpasses Bard** on HumanEval (15B variant)
+- Competitive with GPT-3.5 Codex
+- Open-source vs. API-only
+
+### vs. Other Open Code Models
+- Better than base StarCoder on benchmarks
+- Competitive with Code Llama variants
+- Different approach than DeepSeek-Coder (though built on it)
+- Evol-Instruct provides unique advantages
+
+## Technical Innovations
+
+### Code-Specific Evolution
+- Adapted Evol-Instruct for code domain
+- Programming-specific complexity metrics
+- Code correctness validation
+- Diverse algorithm coverage
+
+### Training Efficiency
+- Effective use of evolved data
+- High-quality training examples
+- Automated data generation
+- Scalable methodology
+
+## Research Collaboration
+
+### Microsoft Research
+- Research leadership and resources
+- Computational infrastructure
+- Publication support
+- Open-source commitment
+
+### Peking University
+- Academic expertise
+- Research methodology
+- Student involvement
+- Collaborative development
+
+## Open-Source Ecosystem
+
+### Community Resources
+- GitHub repository with code and models
+- Evol-Instruct dataset available
+- Training scripts and documentation
+- Active community contributions
+
+### Derivatives and Variants
+- Community fine-tuned versions
+- Domain-specific adaptations
+- Integration examples
+- Tool ecosystem
+
+## Impact on Coding AI
+
+WizardCoder demonstrated:
+- Open-source can exceed proprietary code models
+- Evol-Instruct works exceptionally well for code
+- Automated data generation creates high-quality training data
+- Smaller models can outperform larger ones with right training
+
+## Limitations and Considerations
+
+- May hallucinate code in edge cases
+- Requires careful validation of generated code
+- Performance varies by programming language
+- Best used as coding assistant, not autonomous coder
+
+## Future Directions
+
+- Continued model improvements
+- Larger variants with better performance
+- Enhanced multi-language support
+- Integration with development tools
+- Reinforcement learning from code execution
+
+## Licensing
+
+Varies by base model:
+- Generally follows base model license (StarCoder, DeepSeek-Coder, etc.)
+- Open-source availability
+- Check specific variant for exact terms
+- Commercial use typically permitted

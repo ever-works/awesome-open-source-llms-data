@@ -1,0 +1,122 @@
+name: Yi 1.5 (01.AI)
+description: 01.AI's open-source language model excelling at handling long
+  sequences and maintaining contextual coherence. Known as a dark horse model
+  with strong coding capabilities and performance in long-context understanding
+  tasks.
+source_url: https://www.01.ai/
+category: Foundation Models
+tags:
+  - long-context
+  - coding
+  - apache-2.0
+featured: false
+markdown: >-
+  ## Overview
+
+
+  Yi 1.5 is an open-source large language model developed by 01.AI, a Chinese AI
+  startup founded by Kai-Fu Lee. The model is particularly known for its ability
+  to handle long sequences and maintain contextual coherence, earning
+  recognition as a "dark horse" in the open-source LLM landscape.
+
+
+  ## Architecture
+
+
+  - **Model Type:** Transformer-based language model
+
+  - **Context Handling:** Optimized for long-sequence processing
+
+  - **Training:** Advanced training on diverse datasets
+
+  - **Optimization:** Designed for efficient long-context understanding
+
+
+  ## Key Features
+
+
+  - Exceptional long-sequence handling
+
+  - Superior contextual coherence across extended texts
+
+  - Strong coding and programming capabilities
+
+  - Good general-purpose performance
+
+  - Efficient architecture for deployment
+
+  - Multilingual support with emphasis on Chinese and English
+
+
+  ## Performance Highlights
+
+
+  - Excels in long-context benchmarks
+
+  - Strong coding performance comparable to specialized models
+
+  - Good reasoning and problem-solving abilities
+
+  - Competitive performance on standard LLM benchmarks
+
+  - Maintains coherence across long documents
+
+
+  ## Specialized Capabilities
+
+
+  ### Long Context Understanding
+
+  - Handles extended documents effectively
+
+  - Maintains contextual coherence across long sequences
+
+  - Suitable for document analysis and summarization
+
+
+  ### Coding
+
+  - Yi-Code variants excel in programming benchmarks
+
+  - Strong performance on code generation tasks
+
+  - Good understanding of multiple programming languages
+
+
+  ## Deployment Options
+
+
+  - Self-hosting on standard GPU infrastructure
+
+  - Cloud deployment through various providers
+
+  - Optimized for inference efficiency
+
+  - Compatible with popular ML frameworks
+
+  - Support for quantization and optimization
+
+
+  ## Use Cases
+
+
+  - Long document analysis and summarization
+
+  - Code generation and software development
+
+  - Extended conversational contexts
+
+  - Research requiring long-context models
+
+  - Enterprise applications with complex documents
+
+  - Multilingual applications
+
+
+  ## Licensing
+
+
+  Released under **Apache 2.0 license**, allowing full commercial use without
+  restrictions.
+brand: 01.AI
+updated_at: 2026-03-03 13:09

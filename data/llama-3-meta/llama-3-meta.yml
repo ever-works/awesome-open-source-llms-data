@@ -1,0 +1,92 @@
+name: LLaMA 3 (Meta)
+description: Meta's third-generation open source large language model family,
+  featuring improved efficiency, better reasoning abilities, and enhanced
+  multi-turn dialogue understanding. Widely adopted by startups, enterprises,
+  and research teams for its transparency, customization options, and strong
+  performance across diverse tasks.
+source_url: https://llama.meta.com/
+category: Foundation Models
+tags:
+  - transformer
+  - open-weights
+  - multilingual
+featured: true
+markdown: >-
+  ## Overview
+
+
+  LLaMA 3 is Meta's third-generation open source large language model, released
+  in 2024 as a successor to LLaMA 2. The model represents a significant
+  advancement in open source AI, with improved efficiency, better reasoning
+  abilities, and enhanced multi-turn dialogue understanding.
+
+
+  ## Architecture
+
+
+  - **Model Type:** Transformer-based autoregressive language model
+
+  - **Available Sizes:** Multiple parameter counts including 8B, 70B, and 405B
+  variants
+
+  - **Context Length:** Extended context window for better long-form
+  understanding
+
+  - **Training Data:** Trained on diverse, high-quality datasets
+
+
+  ## Key Features
+
+
+  - Improved reasoning and problem-solving capabilities
+
+  - Enhanced multi-turn dialogue performance
+
+  - Better instruction following
+
+  - Multilingual support
+
+  - Optimized for fine-tuning and customization
+
+  - Superior performance on coding tasks
+
+  - Enhanced factual accuracy
+
+
+  ## Performance
+
+
+  LLaMA 3 demonstrates competitive performance with proprietary models on
+  standard benchmarks:
+
+  - Strong MMLU (Massive Multitask Language Understanding) scores
+
+  - Excellent HumanEval coding benchmark results
+
+  - High performance on reasoning tasks
+
+  - Competitive multilingual capabilities
+
+
+  ## Deployment Options
+
+
+  - Can be deployed on-premises or in cloud environments
+
+  - Optimized for GPU acceleration
+
+  - Support for quantization and model compression
+
+  - Compatible with popular frameworks (Hugging Face, vLLM, etc.)
+
+  - Available through various hosting providers
+
+
+  ## Licensing
+
+
+  Released under Meta's LLaMA 3 Community License, which allows commercial use
+  with certain restrictions on services exceeding specified user thresholds.
+brand: Meta
+brand_logo_url: https://llama.meta.com/favicon.ico
+updated_at: 2026-03-03 13:09

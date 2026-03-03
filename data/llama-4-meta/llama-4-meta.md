@@ -1,0 +1,49 @@
+## Overview
+
+LLaMA 4 is Meta's fourth-generation open source large language model, released in April 2025. This release marks a significant architectural shift as the first LLaMA iteration to use a mixture-of-experts (MoE) architecture.
+
+## Architecture
+
+- **Model Type:** Mixture-of-Experts (MoE) Transformer
+- **Variants:** Llama 4 Scout and Llama 4 Maverick
+- **Innovation:** First LLaMA model to use MoE architecture for improved efficiency
+- **Training:** Advanced training techniques for better performance
+
+## Key Features
+
+- Mixture-of-experts architecture for efficient inference
+- Enhanced reasoning and problem-solving
+- Improved instruction following
+- Better multi-turn conversations
+- Advanced multilingual capabilities
+- State-of-the-art coding performance
+- Optimized for various deployment scenarios
+
+## Performance
+
+LLaMA 4 represents Meta's most capable open source model to date:
+- Competitive with leading proprietary models
+- Strong performance across academic benchmarks
+- Excellent coding capabilities
+- Superior reasoning abilities
+
+## Deployment Options
+
+- Scalable deployment options from edge to cloud
+- GPU-optimized inference
+- Support for quantization techniques
+- Compatible with major ML frameworks
+- Available through cloud providers and self-hosting
+
+## Use Cases
+
+- Conversational AI and chatbots
+- Code generation and assistance
+- Content creation and summarization
+- Research and development
+- Enterprise applications
+- Fine-tuning for specialized tasks
+
+## Licensing
+
+Released under Meta's LLaMA Community License with provisions for commercial use.

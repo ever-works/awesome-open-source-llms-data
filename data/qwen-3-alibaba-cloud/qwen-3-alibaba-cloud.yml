@@ -1,0 +1,133 @@
+name: Qwen 3 (Alibaba Cloud)
+description: Alibaba Cloud's next-generation open-source LLM family with models
+  up to 110B parameters, excelling in multilingual tasks (supporting 119
+  languages), coding, and extended context understanding. Built for flexibility
+  and scale with strong performance across diverse applications.
+source_url: https://qwenlm.github.io/
+category: Foundation Models
+tags:
+  - multilingual
+  - apache-2.0
+  - coding
+featured: true
+markdown: >-
+  ## Overview
+
+
+  Qwen 3 (short for "Tongyi Qianwen") is Alibaba Cloud's next-generation
+  open-source large language model family. The Qwen series has become one of the
+  most advanced and versatile open LLM families, particularly noted for
+  multilingual abilities and coding skills.
+
+
+  ## Architecture
+
+
+  - **Model Sizes:** Multiple variants from 0.5B to 110B parameters
+
+  - **Qwen 2.5 Series:** Models from 0.5B to 72B parameters
+
+  - **Qwen3-Next:** Larger variants with advanced capabilities
+
+  - **Qwen2.5-Max:** Over 1 trillion parameters via MoE architecture
+
+  - **Languages:** Supports 119 languages
+
+
+  ## Key Features
+
+
+  - Exceptional multilingual capabilities across 119 languages
+
+  - Strong Chinese, Japanese, Korean, and Arabic support
+
+  - Advanced coding and programming abilities
+
+  - Extended context windows
+
+  - Excellent instruction following
+
+  - Superior reasoning capabilities
+
+  - Optimized for various deployment scenarios
+
+
+  ## Performance Highlights
+
+
+  Qwen 3.5 achieves second-tier performance in 2026 rankings:
+
+  - Strong all-around performance profile
+
+  - Outperforms most competitors in Asian languages
+
+  - Competitive MMLU and reasoning scores
+
+  - Excellent coding benchmarks
+
+  - Top-tier multilingual understanding
+
+
+  ## Qwen 2.5 Series
+
+
+  Released in early 2025, the Qwen 2.5 series includes:
+
+  - **Qwen 2.5-0.5B:** Ultra-lightweight for edge deployment
+
+  - **Qwen 2.5-7B:** Balanced performance and efficiency
+
+  - **Qwen 2.5-14B:** Enhanced capabilities
+
+  - **Qwen 2.5-32B:** Strong general-purpose model
+
+  - **Qwen 2.5-72B:** Flagship model with top performance
+
+
+  ## Specialized Variants
+
+
+  - **Qwen-Coder:** Optimized for programming tasks
+
+  - **Qwen-Math:** Specialized for mathematical reasoning
+
+  - **Qwen-VL:** Multimodal vision-language model
+
+
+  ## Deployment Options
+
+
+  - Self-hosting from edge to data center
+
+  - Cloud deployment through Alibaba Cloud and others
+
+  - Optimized inference engines
+
+  - Support for quantization and compression
+
+  - Compatible with standard ML frameworks
+
+
+  ## Use Cases
+
+
+  - Multilingual applications and translation
+
+  - Code generation and software development
+
+  - Content creation in multiple languages
+
+  - Conversational AI for global markets
+
+  - Research and development
+
+  - Enterprise AI applications
+
+
+  ## Licensing
+
+
+  Released under **Apache 2.0 license**, allowing full commercial use without
+  restrictions.
+brand: Alibaba Cloud
+updated_at: 2026-03-03 13:09

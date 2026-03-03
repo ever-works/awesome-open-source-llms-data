@@ -1,0 +1,193 @@
+name: Phi-4 (Microsoft)
+description: Microsoft's 14-billion-parameter small language model released
+  January 2025 under MIT license. Phi-4-reasoning-plus approaches full DeepSeek
+  R1 performance on AIME 2025, with a 14B model rivaling a 671B model, making it
+  the poster child for the small language model revolution.
+source_url: https://azure.microsoft.com/en-us/products/phi-3
+category: Small Language Models
+tags:
+  - efficient
+  - reasoning
+  - mit-license
+featured: true
+markdown: >-
+  ## Overview
+
+
+  Phi-4 is Microsoft's state-of-the-art small language model with 14 billion
+  parameters, released in January 2025 under the MIT license. The model
+  represents the "small language model revolution," achieving performance that
+  rivals models many times its size through advanced training on synthetic
+  datasets and high-quality data.
+
+
+  ## Architecture
+
+
+  - **Parameters:** 14 billion
+
+  - **Model Type:** Optimized Transformer architecture
+
+  - **Training Data:** Blend of synthetic datasets, filtered public domain
+  websites, and academic books and Q&A datasets
+
+  - **Design Philosophy:** Maximum performance from minimal parameters
+
+
+  ## Key Features
+
+
+  - Exceptional reasoning capabilities
+
+  - State-of-the-art performance for size class
+
+  - Efficient deployment on consumer hardware
+
+  - Strong mathematical and logical reasoning
+
+  - Advanced problem-solving abilities
+
+  - Fast inference speed
+
+  - Low memory footprint
+
+
+  ## Performance Highlights
+
+
+  ### Breakthrough Achievement
+
+  - **Phi-4-reasoning-plus** approaches full DeepSeek R1 performance on AIME
+  2025
+
+  - A 14B model rivaling a 671B model
+
+  - Poster child for efficient model design
+
+  - Demonstrates that smaller models can compete with giants
+
+
+  ### Benchmark Scores
+
+  - Exceptional AIME 2025 performance (advanced mathematics)
+
+  - Strong reasoning across multiple domains
+
+  - Competitive with much larger models
+
+  - Outperforms Gemma 7B despite being similar size
+
+
+  ### Efficiency Metrics
+
+  - Best-in-class performance per parameter
+
+  - 48x smaller than comparable performing large models
+
+  - Significantly faster inference
+
+  - Lower deployment costs
+
+
+  ## Phi Model Family
+
+
+  ### Phi-3-mini
+
+  - 3.8 billion parameters
+
+  - Higher performance than Gemma 7B
+
+  - Ultra-efficient for edge deployment
+
+
+  ### Phi-4
+
+  - 14 billion parameters (flagship)
+
+  - State-of-the-art reasoning
+
+  - Released January 2025
+
+
+  ## Deployment Options
+
+
+  - Consumer-grade GPUs sufficient
+
+  - Edge and mobile deployment possible
+
+  - Cloud deployment with minimal resources
+
+  - Compatible with ONNX, PyTorch, and other frameworks
+
+  - Optimized for CPU and GPU inference
+
+  - Quantization-friendly architecture
+
+
+  ## Use Cases
+
+
+  - Mathematical problem solving
+
+  - Logical reasoning tasks
+
+  - Educational applications
+
+  - Research on efficient models
+
+  - Resource-constrained deployments
+
+  - Edge AI applications
+
+  - Cost-effective production systems
+
+  - Code generation and analysis
+
+
+  ## Innovation Significance
+
+
+  Phi-4 demonstrates that:
+
+  - Model size isn't everything
+
+  - High-quality training data matters more than scale
+
+  - Synthetic data can be highly effective
+
+  - Efficient architectures can compete with brute force
+
+  - Open-source can match or exceed proprietary performance
+
+
+  ## Competitive Position
+
+
+  As of early 2026, Phi-4 remains a top choice for:
+
+  - Organizations prioritizing efficiency
+
+  - Deployments with resource constraints
+
+  - Applications requiring reasoning at low cost
+
+  - Research on model efficiency
+
+
+  ## Licensing
+
+
+  Released under **MIT License**, one of the most permissive open-source
+  licenses:
+
+  - Full commercial use allowed
+
+  - No restrictions on modification
+
+  - No usage limits or requirements
+
+  - Can be integrated into proprietary systems
+brand: Microsoft
+updated_at: 2026-03-03 13:09

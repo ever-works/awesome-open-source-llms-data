@@ -1,0 +1,378 @@
+name: GPT-NeoX-20B (EleutherAI)
+description: EleutherAI's 20-billion-parameter autoregressive language model
+  trained using the GPT-NeoX library. Open-source model with Apache 2.0 license,
+  supporting research and production use with strong general-purpose
+  capabilities across diverse tasks.
+source_url: https://github.com/EleutherAI/gpt-neox
+category: Foundation Models
+tags:
+  - open-source
+  - research
+  - apache-2.0
+featured: false
+markdown: >-
+  ## Overview
+
+
+  GPT-NeoX-20B is EleutherAI's 20-billion-parameter autoregressive language
+  model, representing a significant step up from GPT-J-6B. Trained using the
+  GPT-NeoX library, it demonstrates EleutherAI's continued commitment to
+  open-source AI development and provides researchers and developers with a
+  powerful, freely available language model.
+
+
+  ## Architecture
+
+
+  - **Parameters:** 20 billion
+
+  - **Model Type:** Autoregressive Transformer
+
+  - **Training Library:** GPT-NeoX (EleutherAI)
+
+  - **Context Length:** 2048 tokens
+
+  - **Training Data:** The Pile dataset
+
+
+  ## Key Features
+
+
+  - 20 billion parameters for strong capabilities
+
+  - Trained on high-quality curated data (The Pile)
+
+  - Open-source with permissive licensing
+
+  - Good general-purpose performance
+
+  - Suitable for research and production
+
+  - Strong community support
+
+  - Available for commercial use
+
+
+  ## GPT-NeoX Library
+
+
+  ### Training Framework
+
+  - Implementation of model parallel autoregressive transformers
+
+  - Based on Megatron and DeepSpeed libraries
+
+  - Optimized for large-scale training
+
+  - Efficient distributed training support
+
+
+  ### Supported Architectures
+
+  As of May 2024, GPT-NeoX supports:
+
+  - Pythia
+
+  - PaLM
+
+  - Falcon
+
+  - LLaMA 1 & 2
+
+  - RWKV (with pipeline parallelism)
+
+
+  ## Performance
+
+
+  - Strong general knowledge for size class
+
+  - Good reasoning capabilities
+
+  - Effective text generation
+
+  - Competitive with similar-sized models
+
+  - Better than GPT-J-6B across benchmarks
+
+
+  ## Training Details
+
+
+  ### The Pile Dataset
+
+  - Diverse, high-quality training data
+
+  - Academic papers, code, books, web content
+
+  - Carefully curated and filtered
+
+  - 800GB+ of text data
+
+
+  ### Training Infrastructure
+
+  - Distributed training on GPUs
+
+  - Model parallelism for efficiency
+
+  - DeepSpeed optimizations
+
+  - Megatron-style architecture
+
+
+  ## Deployment Options
+
+
+  - Self-hosting on GPU infrastructure (multi-GPU recommended)
+
+  - Cloud deployment through various providers
+
+  - Compatible with Hugging Face Transformers
+
+  - Support for quantization to reduce memory
+
+  - Efficient serving frameworks available
+
+
+  ## Use Cases
+
+
+  ### Research
+
+  - NLP research and experimentation
+
+  - Model behavior analysis
+
+  - Fine-tuning studies
+
+  - Baseline for comparisons
+
+
+  ### Production Applications
+
+  - General text generation
+
+  - Content creation
+
+  - Conversational applications
+
+  - Classification and analysis tasks
+
+
+  ### Education
+
+  - Teaching about large language models
+
+  - Student projects and research
+
+  - Academic coursework
+
+  - Demonstrations and tutorials
+
+
+  ## EleutherAI's Model Family
+
+
+  ### Progression
+
+  1. **GPT-Neo** (1.3B, 2.7B) - Early models
+
+  2. **GPT-J-6B** - First widely accessible 6B model
+
+  3. **GPT-NeoX-20B** - Scaling to 20B parameters
+
+  4. **Pythia Suite** - Research-focused model family
+
+
+  ## Comparison with Alternatives
+
+
+  ### vs. GPT-J-6B
+
+  - 3.3x more parameters
+
+  - Better performance across tasks
+
+  - Higher resource requirements
+
+  - More capable reasoning
+
+
+  ### vs. LLaMA-13B/30B
+
+  - Similar size range
+
+  - Different training approaches
+
+  - GPT-NeoX released earlier (2022)
+
+  - Both strong open-source options
+
+
+  ### vs. Proprietary Models
+
+  - Open-source and fully available
+
+  - Permissive licensing
+
+  - Community-driven development
+
+  - Full transparency
+
+
+  ## Technical Innovations
+
+
+  ### Model Parallelism
+
+  - Efficient distribution across GPUs
+
+  - Based on Megatron techniques
+
+  - Scalable training approach
+
+  - Production-ready implementation
+
+
+  ### Training Efficiency
+
+  - DeepSpeed optimizations
+
+  - Mixed precision training
+
+  - Gradient accumulation
+
+  - Efficient memory usage
+
+
+  ## Community and Ecosystem
+
+
+  - Active EleutherAI community
+
+  - Available on Hugging Face
+
+  - Extensive documentation
+
+  - Research papers and analyses
+
+  - Growing ecosystem of applications
+
+
+  ## Open-Source Impact
+
+
+  GPT-NeoX-20B demonstrated:
+
+  - Community can create larger models
+
+  - Open training frameworks are viable
+
+  - Permissive licensing enables broad use
+
+  - Academic-community collaboration works
+
+
+  ## GPT-NeoX Library Features
+
+
+  ### Flexibility
+
+  - Support for various architectures
+
+  - Configurable for different model sizes
+
+  - Extensible design
+
+  - Well-documented codebase
+
+
+  ### Research-Friendly
+
+  - Easy experimentation
+
+  - Reproducible training
+
+  - Multiple architecture support
+
+  - Active development
+
+
+  ## Fine-Tuning and Customization
+
+
+  - Good base model for fine-tuning
+
+  - Adaptable to specific domains
+
+  - Instruction tuning potential
+
+  - Parameter-efficient fine-tuning support
+
+
+  ## Resource Requirements
+
+
+  ### Training
+
+  - Requires multiple high-end GPUs
+
+  - Significant computational resources
+
+  - Distributed training necessary
+
+  - Memory-intensive
+
+
+  ### Inference
+
+  - Can run on single high-memory GPU (A100, H100)
+
+  - Multi-GPU recommended for best performance
+
+  - Quantization reduces requirements
+
+  - CPU inference possible but slow
+
+
+  ## Legacy and Influence
+
+
+  - Advanced open-source LLM development
+
+  - Enabled research on 20B-scale models
+
+  - Contributed training frameworks to community
+
+  - Inspired derivative models and research
+
+
+  ## Ongoing Development
+
+
+  - GPT-NeoX library continues to evolve
+
+  - Support for new architectures added
+
+  - Community contributions
+
+  - Integration improvements
+
+
+  ## Licensing
+
+
+  Released under **Apache 2.0 license:**
+
+  - Full commercial use permitted
+
+  - Modification and redistribution allowed
+
+  - No usage restrictions
+
+  - Enterprise-friendly terms
+
+  - Most permissive open-source license
+brand: EleutherAI
+updated_at: 2026-03-03 13:09

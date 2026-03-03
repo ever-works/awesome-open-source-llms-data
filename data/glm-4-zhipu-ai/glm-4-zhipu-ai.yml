@@ -1,0 +1,136 @@
+name: GLM-4 (Zhipu AI)
+description: Zhipu AI's fourth-generation bilingual (Chinese-English)
+  open-source language model, with GLM-4.7 achieving top rankings in early 2026
+  with exceptional coding (94.2 HumanEval) and mathematical reasoning (95.7 AIME
+  2025). Features 200K context window.
+source_url: https://www.zhipuai.cn/
+category: Foundation Models
+tags:
+  - reasoning
+  - coding
+  - bilingual
+featured: true
+markdown: >-
+  ## Overview
+
+
+  GLM-4 is Zhipu AI's fourth-generation open-source bilingual language model,
+  supporting both Chinese and English. The GLM series represents China's leading
+  open-source AI efforts, with GLM-4.7 achieving top-tier performance in early
+  2026 benchmarks.
+
+
+  ## Architecture
+
+
+  - **Model Sizes:** Multiple variants including GLM-4.7 and larger
+  configurations
+
+  - **Context Window:** 200,000 tokens
+
+  - **Languages:** Bilingual (Chinese and English)
+
+  - **Model Type:** Advanced Transformer architecture
+
+  - **Training:** Optimized for reasoning and coding tasks
+
+
+  ## Key Features
+
+
+  - Exceptional code generation capabilities
+
+  - Advanced mathematical reasoning
+
+  - Strong bilingual performance
+
+  - Extended 200K context window
+
+  - Superior instruction following
+
+  - Excellent problem-solving abilities
+
+  - Optimized for research and production use
+
+
+  ## Performance Highlights
+
+
+  ### GLM-4.7 (Reasoning) - February 2026
+
+
+  - **Quality Index:** 49.64 (leading open-source model)
+
+  - **HumanEval:** 94.2 (exceptional code generation)
+
+  - **AIME 2025:** 95.7 (hardest math benchmark, matching Gemini 2.0 Pro)
+
+  - **GPQA Diamond:** 85.7 (doctoral-level science reasoning)
+
+  - **LiveCodeBench:** 84.9 (real-world coding tasks)
+
+  - **IFEval:** 88.0 (instruction following)
+
+
+  ### GLM-5 (Reasoning)
+
+  - Quality Index: 49.64
+
+  - Best 32B-scale open-source model
+
+  - Excellent all-around performance
+
+
+  ## Model Variants
+
+
+  ### ChatGLM Series
+
+  - **ChatGLM2-6B:** Second-generation 6B bilingual chat model
+
+  - **GLM-4.5:** 355B parameters with advanced capabilities
+
+  - **GLM-4.5-Air:** 106B parameters for efficient deployment
+
+  - **GLM-4.7:** Latest variant with top benchmark performance
+
+
+  ## Deployment Options
+
+
+  - Self-hosting on GPU infrastructure
+
+  - Cloud deployment options
+
+  - Optimized for inference efficiency
+
+  - Compatible with Chinese and international cloud providers
+
+  - Support for model quantization
+
+
+  ## Use Cases
+
+
+  - Advanced coding and software development
+
+  - Mathematical problem solving
+
+  - Scientific reasoning and analysis
+
+  - Bilingual conversational AI
+
+  - Enterprise applications in Chinese and English markets
+
+  - Research and development
+
+  - Educational applications
+
+
+  ## Licensing
+
+
+  Released under permissive open-source license allowing commercial use
+  (specific license terms vary by model version).
+brand: Zhipu AI
+updated_at: 2026-03-03 13:09

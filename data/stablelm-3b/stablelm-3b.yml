@@ -1,0 +1,215 @@
+name: StableLM 3B
+description: Stability AI's open-source language model with 3 billion
+  parameters, trained on 1.5 trillion text tokens using an updated version of
+  The Pile dataset. Released under CC BY-SA-4.0 for commercial use, achieving
+  state-of-the-art performance at the 3B scale.
+source_url: https://stability.ai/
+category: Small Language Models
+tags:
+  - efficient
+  - open-source
+  - lightweight
+featured: false
+markdown: >-
+  ## Overview
+
+
+  StableLM 3B is Stability AI's open-source language model, representing their
+  entry into the language model space. Known for developing Stable Diffusion,
+  Stability AI applied similar open-source principles to create efficient text
+  generation models.
+
+
+  ## Architecture
+
+
+  - **Parameters:** 3 billion
+
+  - **Training Data:** 1.5 trillion text tokens
+
+  - **Dataset:** Updated version of EleutherAI's The Pile (3x the data used by
+  EleutherAI)
+
+  - **Model Type:** Transformer-based language model
+
+
+  ## Key Features
+
+
+  - State-of-the-art performance at 3B parameter scale (as of September 2023)
+
+  - Efficient deployment on consumer hardware
+
+  - Large training dataset (1.5T tokens)
+
+  - Good balance of performance and resource requirements
+
+  - Strong for size class
+
+  - Compatible with popular frameworks
+
+
+  ## StableLM Model Family
+
+
+  ### Initial Alpha Release
+
+  - 3B and 7B parameter models
+
+  - Trained on 800 billion data tokens
+
+  - Foundation for subsequent releases
+
+
+  ### Planned Models
+
+  - 15B, 30B, and 65B parameter models (in progress)
+
+  - 175B parameter model (planned)
+
+  - Various fine-tuned versions
+
+
+  ### StableLM-Alpha v2
+
+  - Architectural improvements
+
+  - Enhanced performance
+
+  - Updated training methodology
+
+
+  ### StableLM 2
+
+  - 1.6B variant for ultra-efficient deployment
+
+  - Further optimizations
+
+  - Improved training techniques
+
+
+  ## Performance
+
+
+  - State-of-the-art at 3B scale (September 2023)
+
+  - Good general knowledge for size
+
+  - Effective text generation
+
+  - Solid reasoning capabilities considering parameter count
+
+  - Competitive with similar-sized models
+
+
+  ## Training Data
+
+
+  ### The Pile (Updated)
+
+  - 3x the data used for EleutherAI models
+
+  - Diverse text sources
+
+  - High-quality curation
+
+  - Academic papers, code, books, websites
+
+
+  ## Deployment Options
+
+
+  - Consumer-grade GPUs sufficient
+
+  - CPU inference possible with quantization
+
+  - Cloud deployment options
+
+  - Edge deployment feasible
+
+  - Compatible with Hugging Face, PyTorch
+
+  - Various optimization options available
+
+
+  ## Use Cases
+
+
+  - Resource-constrained applications
+
+  - Edge and mobile deployment
+
+  - Research on efficient models
+
+  - Educational applications
+
+  - Prototyping and development
+
+  - Cost-effective text generation
+
+  - Fine-tuning for specialized tasks
+
+
+  ## Fine-Tuned Variants
+
+
+  ### Base Models
+
+  - Released under CC BY-SA-4.0
+
+  - Allows commercial use
+
+  - Can be further fine-tuned
+
+
+  ### Instruction-Tuned Models
+
+  - Fine-tuned on instruction datasets
+
+  - Licensed for non-commercial use (due to Alpaca licensing)
+
+  - Better at following instructions
+
+
+  ## Active Development
+
+
+  - GitHub repository regularly updated
+
+  - New checkpoints released periodically
+
+  - Community contributions
+
+  - Ongoing improvements to architecture
+
+
+  ## Competitive Position
+
+
+  StableLM represents:
+
+  - Stability AI's commitment to open-source beyond images
+
+  - Efficient alternative to larger models
+
+  - Accessible option for resource-limited scenarios
+
+  - Foundation for specialized fine-tuning
+
+
+  ## Licensing
+
+
+  **Base Models:** Released under **CC BY-SA-4.0 license**:
+
+  - Commercial use allowed
+
+  - Share-alike requirements
+
+  - Attribution required
+
+
+  **Fine-tuned Models:** Non-commercial use only (due to upstream licensing from
+  Alpaca dataset)
+brand: Stability AI
+updated_at: 2026-03-03 13:09
