@@ -1,0 +1,20 @@
+- id: instruction-tuned-models
+  name: Instruction Tuned Models
+- id: foundation-models
+  name: Foundation Models
+- id: code-generation-models
+  name: Code Generation Models
+- id: small-language-models
+  name: Small Language Models
+- id: deployment-platforms
+  name: Deployment Platforms
+- id: multimodal-models
+  name: Multimodal Models
+- id: reasoning-models
+  name: Reasoning Models
+- id: research-models
+  name: Research Models
+- id: novel-architectures
+  name: Novel Architectures
+- id: specialized-models
+  name: Specialized Models

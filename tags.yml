@@ -1,0 +1,116 @@
+- id: instruction-tuned
+  name: Instruction Tuned
+- id: synthetic-data
+  name: Synthetic Data
+- id: fine-tuned
+  name: Fine Tuned
+- id: bilingual
+  name: Bilingual
+- id: chinese
+  name: Chinese
+- id: apache-20
+  name: Apache 2.0
+- id: multilingual
+  name: Multilingual
+- id: collaborative
+  name: Collaborative
+- id: large-scale
+  name: Large Scale
+- id: conversational
+  name: Conversational
+- id: coding
+  name: Coding
+- id: specialized
+  name: Specialized
+- id: long-context
+  name: Long Context
+- id: rag
+  name: Rag
+- id: enterprise
+  name: Enterprise
+- id: mixture-of-experts
+  name: Mixture Of Experts
+- id: commercial
+  name: Commercial
+- id: high-performance
+  name: High Performance
+- id: reasoning
+  name: Reasoning
+- id: human-annotated
+  name: Human Annotated
+- id: fully-open
+  name: Fully Open
+- id: multimodal
+  name: Multimodal
+- id: efficient
+  name: Efficient
+- id: google
+  name: Google
+- id: local-inference
+  name: Local Inference
+- id: privacy
+  name: Privacy
+- id: cpu-friendly
+  name: Cpu Friendly
+- id: open-source
+  name: Open Source
+- id: community
+  name: Community
+- id: historic
+  name: Historic
+- id: research
+  name: Research
+- id: open-weights
+  name: Open Weights
+- id: latest
+  name: Latest
+- id: software-engineering
+  name: Software Engineering
+- id: foundation
+  name: Foundation
+- id: safety-aligned
+  name: Safety Aligned
+- id: transformer
+  name: Transformer
+- id: vision-language
+  name: Vision Language
+- id: mathematics
+  name: Mathematics
+- id: code
+  name: Code
+- id: function-calling
+  name: Function Calling
+- id: roleplaying
+  name: Roleplaying
+- id: transparent
+  name: Transparent
+- id: community-driven
+  name: Community Driven
+- id: microsoft
+  name: Microsoft
+- id: mit-license
+  name: Mit License
+- id: mistral
+  name: Mistral
+- id: interpretability
+  name: Interpretability
+- id: open-science
+  name: Open Science
+- id: open-data
+  name: Open Data
+- id: rnn-transformer-hybrid
+  name: Rnn Transformer Hybrid
+- id: sql
+  name: Sql
+- id: lightweight
+  name: Lightweight
+- id: next-gen
+  name: Next Gen
+- id: chatbot
+  name: Chatbot
+- id: evol-instruct
+  name: Evol Instruct
+- id: dpo
+  name: Dpo
+- id: mistral-based
+  name: Mistral Based
