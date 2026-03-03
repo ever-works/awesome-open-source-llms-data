@@ -9,7 +9,7 @@
 - id: chinese
   name: Chinese
 - id: apache-20
-  name: Apache 2.0
+  name: Apache 20
 - id: multilingual
   name: Multilingual
 - id: collaborative
@@ -114,3 +114,33 @@
   name: Dpo
 - id: mistral-based
   name: Mistral Based
+- id: salesforce
+  name: Salesforce
+- id: meta
+  name: Meta
+- id: problem-solving
+  name: Problem Solving
+- id: databricks
+  name: Databricks
+- id: novel-architecture
+  name: Novel Architecture
+- id: hybrid-architecture
+  name: Hybrid Architecture
+- id: qlora
+  name: Qlora
+- id: state-space
+  name: State Space
+- id: creative
+  name: Creative
+- id: multi-turn
+  name: Multi Turn
+- id: curated-data
+  name: Curated Data
+- id: empathetic
+  name: Empathetic
+- id: assistant
+  name: Assistant
+- id: innovative
+  name: Innovative
+- id: korean
+  name: Korean
