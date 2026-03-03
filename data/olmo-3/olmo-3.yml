@@ -1,0 +1,98 @@
+name: OLMo 3
+description: Allen Institute for AI's latest open language model focusing on
+  interpretability and transparency. Provides complete training transparency
+  including data, code, and detailed documentation.
+source_url: https://allenai.org/olmo
+category: Research Models
+tags:
+  - research
+  - interpretability
+  - transparent
+  - open-science
+  - latest
+featured: true
+markdown: >-
+  ## Overview
+
+
+  OLMo 3 is the Allen Institute for AI's latest addition to their Open Language
+  Models series, emphasizing complete transparency and interpretability in large
+  language model development.
+
+
+  ## Philosophy
+
+
+  AI2 is committed to:
+
+  - **Transparency**: Full disclosure of training methodology
+
+  - **Reproducibility**: Complete ability to recreate the model
+
+  - **Interpretability**: Understanding model behavior
+
+  - **Open Science**: Advancing the field through openness
+
+
+  ## Key Features
+
+
+  - **Training Transparency**: Complete training data documentation
+
+  - **Code Availability**: Full training code release
+
+  - **Model Weights**: Open-source model weights
+
+  - **Documentation**: Comprehensive technical documentation
+
+
+  ## Use Cases
+
+
+  - Research and academic study
+
+  - Interpretability research
+
+  - Understanding model behavior
+
+  - Transparent AI development
+
+  - Reproducible research
+
+  - Education and learning
+
+
+  ## Research Focus
+
+
+  - Model interpretability
+
+  - Behavior understanding
+
+  - Scaling laws
+
+  - Training dynamics
+
+  - Model analysis
+
+
+  ## Licensing
+
+
+  Open-source with permissive licensing for research and development.
+
+
+  ## Availability
+
+
+  Available through AI2's platforms with complete documentation and
+  reproducibility materials.
+
+
+  ## Community
+
+
+  Part of AI2's commitment to advancing open-source AI research and fostering
+  scientific understanding of large language models.
+brand: AI2
+updated_at: 2026-03-03 13:51

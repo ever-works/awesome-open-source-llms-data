@@ -1,0 +1,84 @@
+name: Ministral 3 8B
+description: Mistral's efficient 8B model with native vision and multilingual
+  capabilities. Balanced performance and resource consumption for local
+  deployment.
+source_url: https://mistral.ai/news/mistral-3/
+category: Small Language Models
+tags:
+  - efficient
+  - multimodal
+  - apache-20
+  - latest
+featured: true
+markdown: >-
+  ## Overview
+
+
+  Ministral 3 8B provides excellent balance between capability and efficiency,
+  making it ideal for local deployment scenarios.
+
+
+  ## Architecture
+
+
+  - **Parameters**: 8 billion
+
+  - **Type**: Dense model
+
+  - **Modality**: Native multimodal
+
+  - **Languages**: Dozens supported
+
+
+  ## Variants
+
+
+  - **Base**: Foundation
+
+  - **Instruct**: Chat-optimized
+
+  - **Reasoning**: Extended thinking
+
+
+  ## Performance
+
+
+  - Matches larger models
+
+  - Produces fewer tokens
+
+  - Excellent efficiency
+
+  - Strong instruction following
+
+
+  ## Deployment
+
+
+  - Single GPU inference
+
+  - Consumer hardware compatible
+
+  - Quantization friendly
+
+  - Fast inference
+
+
+  ## Use Cases
+
+
+  - Local deployment
+
+  - Production inference
+
+  - Consumer devices
+
+  - Real-time applications
+
+
+  ## Licensing
+
+
+  Apache 2.0 licensed.
+brand: Mistral AI
+updated_at: 2026-03-03 13:51

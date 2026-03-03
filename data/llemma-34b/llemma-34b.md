@@ -1,0 +1,61 @@
+## Overview
+
+Llemma-34B is EleutherAI's larger mathematical reasoning model, providing enhanced capability for complex mathematical and scientific problems. Fine-tuned from Code Llama on the comprehensive Proof-Pile-2 dataset.
+
+## Model Size & Scale
+
+- **Parameters**: 34 billion
+- **Base Model**: Code Llama-34B
+- **Training Data**: Proof-Pile-2 (55B tokens)
+- **Specialization**: Mathematics and formal reasoning
+
+## Performance Profile
+
+- Excellent mathematical problem-solving
+- Advanced proof generation
+- Strong computational reasoning
+- Complex equation solving
+- Theorem proving
+
+## Capabilities
+
+**Problem Solving:**
+- Advanced mathematics
+- Formal proofs
+- Computational logic
+- Complex derivations
+- Multi-step reasoning
+
+**Integration:**
+- Calculator usage
+- Computer algebra systems
+- Formal theorem provers
+- Programming environments
+
+## Benchmark Performance
+
+- Top performance on MATH benchmark
+- Outperforms larger models on mathematical tasks
+- Strong on open-domain math problems
+- Excellent proof generation
+
+## Use Cases
+
+- Advanced mathematics research
+- Theorem proving and verification
+- Physics and engineering calculations
+- Educational mathematics
+- Automated research assistance
+- Algorithm development
+- Mathematical software development
+
+## Training & Reproducibility
+
+- Proof-Pile-2 dataset included
+- Training methodology documented
+- Code and weights fully open-source
+- Completely reproducible
+
+## Licensing
+
+Fully open-source with permissive licensing for all uses.

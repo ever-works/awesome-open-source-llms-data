@@ -1,0 +1,46 @@
+## Overview
+
+NousCoder-14B is a competitive programming model created by Nous Research through advanced reinforcement learning. Remarkably trained in just 4 days using 48 NVIDIA B200 GPUs, it demonstrates the power of verifiable reward signals.
+
+## Performance Metrics
+
+- LiveCodeBench v6 (08/01/2024 - 05/01/2025)
+- Pass@1 Accuracy: 67.87%
+- Improvement: +7.08% from baseline (60.79%)
+- Training: 24,000 verifiable coding problems
+
+## Open-Source Stack
+
+Uniquely, Nous released not just the model weights but the complete stack:
+- Full reinforcement learning environment
+- Complete benchmark suite
+- Training harness built on Atropos framework
+- Fully reproducible setup
+
+## Training Approach: Verifiable Rewards
+
+- Model generates code solutions
+- Solutions executed against test cases
+- Binary reward signal: correct or incorrect
+- Each problem contains hundreds of test cases
+- Modal cloud platform for parallel verification
+- Constraints: 15 seconds and 4GB memory limits
+
+## Technical Details
+
+- Base Model: Qwen3-14B
+- Fine-tuning Method: Reinforcement Learning
+- Training Problems: 24,000 verified problems
+- Training Duration: 4 days
+- Hardware: 48 NVIDIA B200 GPUs
+
+## Use Cases
+
+- Competitive programming assistance
+- Algorithm development
+- Code verification
+- Programming education
+
+## Reproducibility
+
+Full training infrastructure and environment released, enabling researchers to reproduce and extend the work with sufficient compute.

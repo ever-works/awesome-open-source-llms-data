@@ -1,0 +1,34 @@
+## Overview
+
+GLM-4.7 is a frontier-level open-source model from Zhipu AI featuring a Mixture-of-Experts (MoE) architecture designed to balance computational efficiency with depth. The model represents cutting-edge performance in code generation and reasoning tasks.
+
+## Key Specifications
+
+- Context Window: 200,000 tokens
+- Output Capacity: 128,000 tokens per generation
+- Architecture: MoE-based for efficiency
+- Can generate complete software frameworks in a single pass
+
+## Benchmark Performance
+
+**Coding Excellence:**
+- SWE-bench: 73.8% (5.8% improvement over predecessor)
+- SWE-bench Multilingual: 66.7% (12.9% improvement)
+- LiveCodeBench-v6: 84.9% (surpassing Claude Sonnet 4.5 at 64%)
+- Terminal Bench 2.0: 41% (+16.5% improvement)
+
+**Reasoning & Tool Use:**
+- τ²-Bench: 87.4 (highest for any open-source tool-using model)
+- HLE Benchmark: 42.8% (+12.4% improvement)
+- AIME 2025: 95.7%
+- GPQA-Diamond: 85.7%
+
+## Advanced Features
+
+- Interleaved Thinking with Preserved Thinking and Turn-level Thinking
+- Tool-use capabilities for complex workflows
+- Local deployment support via vLLM and SGLang
+
+## Deployment
+
+Supports multiple inference frameworks for flexible local and cloud deployment.

@@ -1,0 +1,107 @@
+name: Grok 3
+description: xAI's latest flagship model trained on 200,000 GPUs, described as
+  'an order of magnitude more capable' than Grok 2.5. Confirmed for open-source
+  release around February 2026 by Elon Musk.
+source_url: https://x.com/elonmusk
+category: Reasoning Models
+tags:
+  - reasoning
+  - high-performance
+  - latest
+featured: true
+markdown: >-
+  ## Overview
+
+
+  Grok 3 is xAI's latest frontier model launched in February 2025. Representing
+  a massive leap forward, it was trained on approximately 200,000 GPUs housed in
+  xAI's Memphis data center, creating an unprecedented scale of compute.
+
+
+  ## Capabilities
+
+
+  Elon Musk described Grok 3 as "an order of magnitude more capable" than Grok
+  2.5, with substantial improvements in:
+
+  - **Reasoning**: Advanced problem-solving
+
+  - **Coding**: Superior programming capabilities
+
+  - **Multimodal**: Enhanced vision understanding
+
+  - **General Knowledge**: Broader understanding
+
+
+  ## Training Infrastructure
+
+
+  - **Compute Scale**: 200,000 GPUs
+
+  - **Data Center**: xAI Memphis facility
+
+  - **Training Scale**: Massive dataset
+
+  - **Model Size**: Frontier-level parameters
+
+
+  ## Open-Source Plans
+
+
+  Elon Musk confirmed that Grok 3 will be open-sourced, continuing xAI's pattern
+  of releasing models after advancing to newer versions:
+
+  - **August 2025**: Grok 2.5 open-sourced
+
+  - **February 2026**: Grok 3 targeted for open-source release (~6 months after
+  announcement)
+
+
+  ## Historical Pattern
+
+
+  xAI follows a transparent release strategy:
+
+  - **Grok 1**: Open-sourced after advancing to Grok 2
+
+  - **Grok 2.5**: Open-sourced in August 2025
+
+  - **Grok 3**: Expected open-source release early 2026
+
+
+  ## Transparency Agenda
+
+
+  Through public release of recommendation algorithms and AI models, xAI
+  advances a transparency agenda distinguishing it from competitors like
+  Anthropic and previously OpenAI.
+
+
+  ## Performance Expected
+
+
+  - Frontier-level reasoning
+
+  - Advanced coding capabilities
+
+  - Strong mathematical ability
+
+  - Real-time information processing
+
+  - Multimodal understanding
+
+
+  ## Licensing
+
+
+  Likely to use Grok community license agreement similar to Grok 2.5.
+
+
+  ## Impact
+
+
+  When released open-source, Grok 3 will significantly impact the open-source AI
+  landscape, providing frontier-level capabilities to researchers and
+  developers.
+brand: xAI
+updated_at: 2026-03-03 13:51

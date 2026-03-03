@@ -1,0 +1,136 @@
+name: Hermes 4 70B
+description: Nous Research's 70B frontier-level open-weight model featuring
+  hybrid reasoning via toggleable thinking. Trained on massive dataset using
+  DataForge and Atropos RL framework, designed to rival ChatGPT and Claude.
+source_url: https://huggingface.co/NousResearch/Hermes-4-70B
+category: Reasoning Models
+tags:
+  - reasoning
+  - instruction-tuned
+  - hybrid-reasoning
+  - open-weights
+  - latest
+featured: true
+markdown: >-
+  ## Overview
+
+
+  Hermes 4 is Nous Research's latest line of frontier-level open-source models
+  released August 26, 2025. The 70B variant represents an aggressive push to
+  rival commercial AI systems while maintaining open accessibility and user
+  control.
+
+
+  ## Model Family
+
+
+  Available in three sizes based on Llama 3.1:
+
+  - **14B**: Lightweight variant
+
+  - **70B**: Balanced performance/efficiency
+
+  - **405B**: Maximum capability
+
+
+  ## Hybrid Reasoning Innovation
+
+
+  - **Toggle-On Reasoning**: Switch reasoning on/off dynamically
+
+  - **Explicit Thinking**: Use `<think>...</think>` tags for complex problems
+
+  - **Standard Mode**: Fast responses for straightforward tasks
+
+  - **Flexible Approach**: Choose reasoning depth per query
+
+
+  ## Training Infrastructure
+
+
+  **Novel Systems:**
+
+  - **DataForge**: Graph-based synthetic data generator
+
+  - **Atropos**: Open-source reinforcement learning framework
+
+  - Both systems fully reproducible and available
+
+
+  **Training Scale:**
+
+  - Previous: 1M samples, 1.2B tokens
+
+  - Current: ~5M samples, ~60B tokens
+
+  - Blended reasoning and non-reasoning data
+
+  - Massive post-training corpus
+
+
+  ## Performance
+
+
+  - Frontier-level performance in its weight class
+
+  - Surpasses ChatGPT on multiple benchmarks
+
+  - Competitive with Claude models
+
+  - Hybrid reasoning enables versatility
+
+  - Strong instruction following
+
+
+  ## Philosophy
+
+
+  Nous Research emphasizes:
+
+  - User control over AI behavior
+
+  - Steerability without rigid constraints
+
+  - Transparency in training
+
+  - Freedom from corporate content policies
+
+  - Reproducible research
+
+
+  ## Availability
+
+
+  **Deployment Options:**
+
+  - Hugging Face model download
+
+  - Nous Chat API
+
+  - Inference partners: Chutes, Nebius, Luminal
+
+  - Free for research and commercial use
+
+
+  ## Use Cases
+
+
+  - Complex reasoning tasks
+
+  - Research and analysis
+
+  - Creative writing
+
+  - Software development
+
+  - Agent orchestration
+
+  - Custom applications
+
+
+  ## Community
+
+
+  Full training stack and infrastructure released for research and development.
+brand: Nous Research
+updated_at: 2026-03-03 13:51

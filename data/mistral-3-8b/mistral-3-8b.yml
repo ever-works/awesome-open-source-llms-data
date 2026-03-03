@@ -1,0 +1,83 @@
+name: Mistral 3 8B
+description: Mistral's state-of-the-art dense 8B model with native vision
+  capabilities and multilingual support. Part of the Ministral 3 series,
+  available in base, instruct, and reasoning variants under Apache 2.0 license.
+source_url: https://mistral.ai/news/mistral-3/
+category: Small Language Models
+tags:
+  - efficient
+  - multimodal
+  - multilingual
+  - apache-20
+  - reasoning
+  - latest
+featured: true
+markdown: >-
+  ## Overview
+
+
+  Mistral 3 8B is a state-of-the-art small dense language model representing
+  Mistral's latest advancement in efficient AI. The model features native
+  multimodal and multilingual capabilities in a compact form factor.
+
+
+  ## Model Variants
+
+
+  Available in three distinct variants for different use cases:
+
+  - **Base**: Foundation model for fine-tuning
+
+  - **Instruct**: Optimized for following instructions and dialogue
+
+  - **Reasoning**: Extended thinking for complex problem-solving
+
+
+  ## Capabilities
+
+
+  - Native image understanding
+
+  - Multilingual support across dozens of languages
+
+  - Edge deployment optimization (fits in 24GB VRAM in FP8)
+
+  - Advanced reasoning in specialized variant
+
+
+  ## Performance
+
+
+  The Mistral 3 8B instruct variants match or exceed comparable model
+  performance while often producing an order of magnitude fewer tokens,
+  resulting in better efficiency.
+
+
+  ## Reasoning Performance
+
+
+  The reasoning variant achieves high accuracy for its size, with competitive
+  performance on mathematical reasoning benchmarks.
+
+
+  ## Language Support
+
+
+  Supports dozens of languages including English, French, Spanish, German,
+  Italian, Portuguese, Dutch, Chinese, Japanese, Korean, and Arabic.
+
+
+  ## Deployment
+
+
+  Optimized for local deployment with support for various inference engines. The
+  model can run efficiently on consumer-grade hardware when quantized.
+
+
+  ## Licensing
+
+
+  Released under the Apache 2.0 license, enabling free commercial and research
+  use.
+brand: Mistral AI
+updated_at: 2026-03-03 13:51

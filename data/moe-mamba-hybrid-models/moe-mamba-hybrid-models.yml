@@ -1,0 +1,97 @@
+name: Moe-Mamba Hybrid Models
+description: Hybrid architecture models combining Mamba SSM (State Space Models)
+  with Mixture-of-Experts for efficient long-context processing. Emerging
+  frontier in alternative architectures.
+source_url: https://github.com/state-spaces/mamba
+category: Novel Architectures
+tags:
+  - novel-architecture
+  - state-space
+  - long-context
+  - efficient
+featured: true
+markdown: >-
+  ## Overview
+
+
+  Moe-Mamba hybrid models represent an emerging frontier in LLM architecture,
+  combining the efficiency of Mamba's State Space Models with the power of
+  Mixture-of-Experts.
+
+
+  ## Architecture
+
+
+  - **Mamba Component**: State Space Model for efficiency
+
+  - **MoE Component**: Mixture-of-Experts for scaling
+
+  - **Hybrid Design**: Best of both worlds
+
+  - **Long Context**: Efficient on extended sequences
+
+
+  ## Advantages
+
+
+  - **Efficiency**: Reduced computational complexity
+
+  - **Long Context**: Better handling of long sequences
+
+  - **Scalability**: MoE for flexible scaling
+
+  - **Performance**: Competitive with transformers
+
+
+  ## Technology
+
+
+  - State Space Models: Efficient recurrent processing
+
+  - Sparse Activation: MoE reduces active parameters
+
+  - Fixed State: Memory-efficient long sequences
+
+  - Linear Recurrence: Fast training and inference
+
+
+  ## Applications
+
+
+  - Long document processing
+
+  - Streaming inference
+
+  - Memory-constrained systems
+
+  - Real-time applications
+
+  - Edge deployment
+
+
+  ## Research Status
+
+
+  - Active research area
+
+  - Multiple implementations emerging
+
+  - Promising early results
+
+  - Jamba pioneering approach
+
+  - Growing adoption
+
+
+  ## Future Potential
+
+
+  - Likely to see increased adoption
+
+  - Better performance/efficiency
+
+  - Novel capabilities
+
+  - Specialized applications
+brand: Open Source
+updated_at: 2026-03-03 13:51

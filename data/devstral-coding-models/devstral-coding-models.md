@@ -1,0 +1,62 @@
+## Overview
+
+Devstral is Mistral's new line of coding-specialized models, released as part of their push to deliver frontier-level open-source AI. These models focus specifically on software engineering tasks and programming challenges.
+
+## Model Series
+
+Devstral includes multiple model variants optimized for different coding scenarios and resource constraints.
+
+## Specialization
+
+- Code generation
+- Code understanding
+- Bug detection
+- Code review
+- Refactoring suggestions
+- Documentation generation
+
+## Capabilities
+
+- Multi-language code generation
+- Complex algorithm implementation
+- Code optimization
+- Testing and validation
+- Technical documentation
+- Code explanation
+
+## Performance
+
+- Strong on coding benchmarks
+- Competitive with specialized coding models
+- Reliable code generation
+- Good code quality
+- Efficient inference
+
+## Use Cases
+
+- IDE integration
+- Code completion tools
+- Developer assistance
+- Code review automation
+- Documentation generation
+- Software quality tools
+
+## Advantages
+
+- Specialized for coding
+- High-quality outputs
+- Open weights
+- Efficient inference
+- Fine-tuning friendly
+
+## Licensing
+
+Open-source under Mistral's licensing for commercial and research use.
+
+## Deployment
+
+- IDE plugins
+- Standalone deployment
+- Cloud integration
+- Self-hosted options
+- API access

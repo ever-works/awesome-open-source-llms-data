@@ -1,0 +1,118 @@
+name: Qwen3.5-35B-A3B
+description: Alibaba's efficient MoE model with 35B total parameters and 3B
+  activated per token. First in Qwen3.5 series supporting tool calling and
+  multimodal agentic capabilities under Apache 2.0 license.
+source_url: https://huggingface.co/Qwen/Qwen3.5-35B-A3B
+category: Small Language Models
+tags:
+  - mixture-of-experts
+  - efficient
+  - function-calling
+  - latest
+featured: true
+markdown: >-
+  ## Overview
+
+
+  Qwen3.5-35B-A3B is Alibaba's efficient sparse MoE model from the Qwen3.5
+  series, released for commercial usage. It demonstrates the effectiveness of
+  sparse activation in achieving high performance with minimal active
+  parameters.
+
+
+  ## Model Architecture
+
+
+  - **Total Parameters**: 35 billion
+
+  - **Activated Parameters**: Only 3 billion per token
+
+  - **Architecture**: Mixture-of-Experts with sparse activation
+
+  - **Efficiency Ratio**: ~10:1 parameter to active ratio
+
+
+  ## Technical Features
+
+
+  - **Gated Delta Networks**: Advanced MoE gating mechanism
+
+  - **Sparse Activation**: Only activate necessary experts
+
+  - **Quantization Support**: Maintains accuracy at 4-bit
+
+  - **Tool Calling**: Advanced function-calling capabilities
+
+
+  ## Performance
+
+
+  - Comparable performance to Claude Sonnet 4.5
+
+  - Efficient inference despite 35B total size
+
+  - Strong general capabilities
+
+  - Low latency responses
+
+  - Cost-effective operation
+
+
+  ## Deployment
+
+
+  - Single GPU deployment (with quantization)
+
+  - Minimal memory footprint
+
+  - Fast inference
+
+  - 4-bit quantization support
+
+  - Cloud and edge deployment
+
+
+  ## Capabilities
+
+
+  - Advanced agent support
+
+  - Function and tool calling
+
+  - Agentic workflows
+
+  - Complex problem solving
+
+  - Multilingual support
+
+
+  ## Licensing
+
+
+  Apache 2.0 licensed for commercial and research use.
+
+
+  ## Use Cases
+
+
+  - Efficient production deployments
+
+  - Cost-conscious applications
+
+  - Multi-turn conversations
+
+  - Tool-using agents
+
+  - Agentic AI systems
+
+  - Function calling workflows
+
+  - Edge deployment scenarios
+
+
+  ## Download & Access
+
+
+  Available on Hugging Face and ModelScope for free download and deployment.
+brand: Alibaba Cloud
+updated_at: 2026-03-03 13:51

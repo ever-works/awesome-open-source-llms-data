@@ -1,0 +1,74 @@
+name: InternLM 3
+description: Shanghai AI Lab's latest open-source model series providing
+  advanced capabilities for reasoning and complex tasks. Part of the InternLM
+  family with focus on multi-turn conversations.
+source_url: https://github.com/InternLM/InternLM
+category: Foundation Models
+tags:
+  - foundation
+  - multilingual
+  - open-source
+  - latest
+featured: true
+markdown: >-
+  ## Overview
+
+
+  InternLM 3 is the latest advancement in the InternLM series from Shanghai AI
+  Lab, providing frontier-level open-source models for diverse applications.
+
+
+  ## Focus Areas
+
+
+  - Advanced reasoning
+
+  - Multi-turn conversations
+
+  - Multilingual support
+
+  - Complex problem-solving
+
+  - Instruction following
+
+
+  ## Series Characteristics
+
+
+  - Open-source models
+
+  - Research-focused development
+
+  - Transparency in training
+
+  - Academic collaboration
+
+  - Community-driven
+
+
+  ## Use Cases
+
+
+  - Research applications
+
+  - Academic projects
+
+  - Multilingual systems
+
+  - Complex reasoning
+
+  - Educational technology
+
+
+  ## Availability
+
+
+  Available through GitHub and research channels.
+
+
+  ## Community
+
+
+  Part of Shanghai AI Lab's commitment to advancing open-source AI research.
+brand: Shanghai AI Lab
+updated_at: 2026-03-03 13:51

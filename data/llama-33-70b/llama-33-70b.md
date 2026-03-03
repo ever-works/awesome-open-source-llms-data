@@ -1,0 +1,37 @@
+## Overview
+
+Meta's Llama 3.3 is an instruction-tuned generative language model representing the latest advancement in the Llama series. At 70B parameters, it achieves remarkable performance comparable to its much larger 405B predecessor.
+
+## Technical Architecture
+
+- Auto-regressive language model using optimized transformer architecture
+- Grouped-Query Attention (GQA) for improved inference scalability
+- Supports code interpretation capabilities
+- 128,000 token context window (same as Llama 3.1)
+
+## Training & Alignment
+
+- Supervised Fine-Tuning (SFT) for instruction following
+- Reinforcement Learning with Human Feedback (RLHF) for safety and helpfulness
+- Aligned with human preferences for helpful and safe responses
+
+## Language Support
+
+Multilingual capabilities with supported languages including:
+English, German, French, Italian, Portuguese, Hindi, Spanish, and Thai
+
+## Performance Improvements
+
+Compared to Llama 3.1 70B:
+- Improved reasoning capabilities
+- Enhanced coding performance
+- Better mathematical problem-solving
+- Superior instruction-following
+
+## Release Information
+
+Released on December 6, 2024, Llama 3.3 demonstrates that a well-trained 70B model can match the performance of much larger models through optimized architecture and training techniques.
+
+## Input/Output
+
+Text-only inputs and outputs, making it suitable for a wide range of applications.

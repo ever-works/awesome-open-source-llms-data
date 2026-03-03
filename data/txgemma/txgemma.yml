@@ -1,0 +1,89 @@
+name: TxGemma
+description: Google's specialized Gemma model for therapeutics development.
+  Optimized for drug discovery, protein analysis, and biomedical research
+  applications.
+source_url: https://ai.google.dev/gemma
+category: Specialized Models
+tags:
+  - specialized
+  - research
+  - google
+  - biomedical
+featured: false
+markdown: >-
+  ## Overview
+
+
+  TxGemma is Google's specialized model designed for therapeutics development
+  and drug discovery applications. Tailored for biomedical research with focus
+  on therapeutic outcomes.
+
+
+  ## Application Domain
+
+
+  - Drug discovery
+
+  - Protein structure analysis
+
+  - Molecular biology
+
+  - Therapeutic development
+
+  - Biomedical research
+
+
+  ## Capabilities
+
+
+  - Molecular understanding
+
+  - Protein analysis
+
+  - Drug-target interaction prediction
+
+  - Therapeutic knowledge synthesis
+
+  - Research acceleration
+
+
+  ## Research Focus
+
+
+  - Accelerating drug discovery
+
+  - Understanding protein interactions
+
+  - Therapeutic compound analysis
+
+  - Biomedical literature synthesis
+
+  - Research hypothesis generation
+
+
+  ## Use Cases
+
+
+  - Pharmaceutical research
+
+  - Biotech applications
+
+  - Drug development pipelines
+
+  - Protein engineering
+
+  - Clinical research support
+
+
+  ## Integration
+
+
+  Part of Google's Gemma ecosystem with connections to other biomedical tools.
+
+
+  ## Licensing
+
+
+  Open weights for research and therapeutic development applications.
+brand: Google DeepMind
+updated_at: 2026-03-03 13:51
