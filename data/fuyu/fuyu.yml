@@ -1,0 +1,447 @@
+name: Fuyu
+description: Adept's multimodal model with novel architecture eliminating image
+  encoding stage. Fuyu-8B processes images directly alongside text, enabling
+  simpler architecture and better fine-tuning capabilities for vision-language
+  tasks.
+source_url: https://www.adept.ai/blog/fuyu-8b
+category: Multimodal Models
+tags:
+  - multimodal
+  - vision-language
+  - novel-architecture
+featured: false
+markdown: >-
+  ## Overview
+
+
+  Fuyu is a multimodal model from Adept with a novel architecture that
+  eliminates the traditional image encoding stage. Instead of using a separate
+  vision encoder, Fuyu processes images directly alongside text tokens,
+  resulting in a simpler and more flexible architecture.
+
+
+  ## Model Specifications
+
+
+  - **Parameters**: 8 billion
+
+  - **Architecture**: Decoder-only (no separate vision encoder)
+
+  - **Innovation**: Direct image token processing
+
+  - **Modalities**: Vision and language
+
+
+  ## Key Innovation
+
+
+  **No Separate Vision Encoder**:
+
+  - Images processed as token patches directly
+
+  - No CLIP or vision transformer
+
+  - Simpler architecture
+
+  - Easier fine-tuning
+
+  - More flexible for tasks
+
+
+  ### Advantages
+
+  - **Simplicity**: Fewer components
+
+  - **Flexibility**: Easier adaptation
+
+  - **Fine-tuning**: More straightforward
+
+  - **Performance**: Competitive results
+
+  - **Efficiency**: Direct processing
+
+
+  ## Architecture Details
+
+
+  ### Traditional VLM Architecture
+
+  1. Vision encoder (CLIP, etc.)
+
+  2. Projection layer
+
+  3. Language model
+
+  4. Complex integration
+
+
+  ### Fuyu Architecture
+
+  1. Image → token patches
+
+  2. Process directly with text
+
+  3. Single decoder
+
+  4. Unified processing
+
+
+  ## Key Features
+
+
+  - **Novel Architecture**: No vision encoder
+
+  - **Direct Processing**: Images as tokens
+
+  - **Simple Design**: Fewer moving parts
+
+  - **Easy Fine-Tuning**: Straightforward adaptation
+
+  - **Multimodal**: Vision and language
+
+  - **Open Source**: Freely available
+
+
+  ## Capabilities
+
+
+  ### Image Understanding
+
+  - Visual question answering
+
+  - Image description
+
+  - Object recognition
+
+  - Scene understanding
+
+  - OCR and text extraction
+
+
+  ### Document Understanding
+
+  - Chart and graph reading
+
+  - Diagram interpretation
+
+  - Form processing
+
+  - Document analysis
+
+  - Table extraction
+
+
+  ### UI Understanding
+
+  - Screen comprehension
+
+  - UI element recognition
+
+  - Layout understanding
+
+  - Interface navigation
+
+
+  ## Use Cases
+
+
+  ### Document Processing
+
+  - OCR and text extraction
+
+  - Form understanding
+
+  - Invoice processing
+
+  - Document QA
+
+
+  ### Visual QA
+
+  - Answer questions about images
+
+  - Scene description
+
+  - Object identification
+
+  - Visual reasoning
+
+
+  ### UI/UX Applications
+
+  - Screen understanding
+
+  - Accessibility tools
+
+  - Automated testing
+
+  - UI analysis
+
+
+  ### Research
+
+  - Multimodal AI research
+
+  - Architecture studies
+
+  - Fine-tuning experiments
+
+  - Novel applications
+
+
+  ## Performance
+
+
+  **Competitive Results**:
+
+  - Good visual question answering
+
+  - Strong document understanding
+
+  - Effective UI comprehension
+
+  - Efficient inference
+
+
+  **Benchmarks**:
+
+  - VQA (Visual Question Answering)
+
+  - Document VQA
+
+  - OCR tasks
+
+  - General multimodal evaluation
+
+
+  ## Training Approach
+
+
+  1. **Image Tokenization**: Convert images to patches
+
+  2. **Unified Training**: Train single decoder
+
+  3. **Multimodal Data**: Image-text pairs
+
+  4. **Direct Processing**: No separate encoders
+
+  5. **End-to-End**: Single model training
+
+
+  ## Advantages Over Traditional VLMs
+
+
+  ### Simplicity
+
+  - Fewer architectural components
+
+  - Single model to train/deploy
+
+  - Easier to understand
+
+  - Reduced complexity
+
+
+  ### Fine-Tuning
+
+  - Simpler adaptation process
+
+  - Fewer layers to adjust
+
+  - More straightforward training
+
+  - Better task specialization
+
+
+  ### Flexibility
+
+  - Easier to modify
+
+  - Novel task adaptation
+
+  - Custom fine-tuning
+
+  - Domain specialization
+
+
+  ## Deployment
+
+
+  **Advantages**:
+
+  - 8B parameters relatively compact
+
+  - Simpler architecture deployment
+
+  - Efficient inference
+
+  - Single model to serve
+
+
+  **Infrastructure**:
+
+  - Cloud platforms
+
+  - On-premises servers
+
+  - GPU required for images
+
+  - Standard frameworks
+
+
+  ## Adept's Vision
+
+
+  **Company Focus**:
+
+  - Useful AI agents
+
+  - Practical applications
+
+  - Novel architectures
+
+  - Real-world problems
+
+  - Open research
+
+
+  ## Technical Innovation
+
+
+  **Key Insights**:
+
+  - Vision encoders may not be necessary
+
+  - Direct token processing viable
+
+  - Simpler can be better
+
+  - Architecture flexibility matters
+
+  - Unified processing advantages
+
+
+  ## Fine-Tuning Capabilities
+
+
+  **Easy Adaptation For**:
+
+  - Domain-specific documents
+
+  - Custom UI understanding
+
+  - Specialized OCR
+
+  - Industry-specific tasks
+
+  - Novel applications
+
+
+  ## Comparison with Other VLMs
+
+
+  **vs LLaVA/CLIP-based**:
+
+  - Fuyu: No separate encoder
+
+  - Others: CLIP + LLM
+
+  - Fuyu: Simpler architecture
+
+  - Others: More established
+
+
+  **vs Traditional OCR**:
+
+  - Fuyu: Multimodal understanding
+
+  - OCR: Text extraction only
+
+  - Fuyu: Context comprehension
+
+
+  ## Research Impact
+
+
+  **Fuyu Demonstrates**:
+
+  - Viability of encoder-free VLMs
+
+  - Simpler architectures can work
+
+  - Direct image processing effectiveness
+
+  - Fine-tuning advantages
+
+  - Alternative design paradigms
+
+
+  ## Limitations
+
+
+  **Acknowledged**:
+
+  - 8B size limits compared to larger VLMs
+
+  - Newer architecture, less established
+
+  - Fewer pre-trained checkpoints
+
+  - Smaller community (so far)
+
+
+  ## Community and Adoption
+
+
+  - Research interest
+
+  - Fine-tuning experiments
+
+  - Novel applications
+
+  - Architecture studies
+
+  - Growing adoption
+
+
+  ## Future Directions
+
+
+  - Larger model variants
+
+  - Enhanced capabilities
+
+  - Broader task support
+
+  - Community contributions
+
+  - Extended applications
+
+
+  ## Integration
+
+
+  **Compatible with**:
+
+  - Hugging Face Transformers
+
+  - Standard inference frameworks
+
+  - Custom applications
+
+  - Research platforms
+
+
+  ## Licensing
+
+
+  Open-source with commercial-friendly license.
+
+
+  ## Pricing
+
+
+  Free and open-source.
+brand: Adept
+images: []
+updated_at: 2026-03-03 13:39

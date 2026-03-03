@@ -1,0 +1,292 @@
+name: IBM Granite
+description: Enterprise-focused language model family from IBM with specialized
+  variants for language, code, time series, and geospatial data. Granite 4.0
+  features hybrid Mamba/Transformer architecture reducing memory by 70% for
+  long-context inference.
+source_url: https://www.ibm.com/granite
+category: Specialized Models
+tags:
+  - enterprise
+  - apache-20
+  - hybrid-architecture
+featured: true
+markdown: >-
+  ## Overview
+
+
+  Granite is a series of large language models created by IBM for enterprise
+  applications. The models are open-source under Apache 2.0 license and designed
+  with governance, risk, privacy, and bias mitigation in mind.
+
+
+  ## Model Families
+
+
+  ### Granite for Language
+
+  - Core language models with reasoning
+
+  - Optimized for RAG and agentic workflows
+
+  - Enterprise-grade performance
+
+
+  ### Granite for Code
+
+  - Trained on 100+ programming languages
+
+  - Enterprise-level software tasks
+
+  - Code generation and understanding
+
+
+  ### Granite for Time Series
+
+  - Fine-tuned for time series forecasting
+
+  - Business analytics applications
+
+  - Predictive modeling
+
+
+  ### Granite for GeoSpatial
+
+  - Created with NASA partnership
+
+  - Earth observation with satellite data
+
+  - Large-scale geospatial analysis
+
+
+  ## Granite 4.0 Innovation
+
+
+  ### Hybrid Mamba/Transformer Architecture
+
+  - **Canonical Ratio**: 9:1 (Mamba:Transformer)
+
+  - **Memory Reduction**: Over 70% for long-context inference
+
+  - **Performance**: Maintains quality while reducing requirements
+
+  - **Inspiration**: Pioneered by NVIDIA's Nemotron-H
+
+
+  ### Size Variants
+
+  - **Nano models**: Ultra-compact for edge deployment
+
+  - **Standard models**: Balanced performance
+
+  - **Large models**: Maximum capability
+
+
+  ## Key Features
+
+
+  - **Enterprise Focus**: Designed for business applications
+
+  - **Multiple Domains**: Language, code, time series, geospatial
+
+  - **Apache 2.0 License**: Permissive commercial use
+
+  - **Governance**: Built with enterprise governance in mind
+
+  - **Hybrid Architecture**: Efficient Mamba/Transformer design
+
+  - **NASA Partnership**: Geospatial capabilities
+
+  - **Indemnity**: Uncapped IP indemnity from IBM
+
+
+  ## Training Approach
+
+
+  **Enterprise-Grade Data Curation**:
+
+  - Carefully curated datasets
+
+  - Filtered for objectionable content
+
+  - Governance and risk considerations
+
+  - Privacy and bias mitigation
+
+  - Quality-focused training
+
+
+  ## Performance Benefits
+
+
+  ### Memory Efficiency
+
+  - 70%+ memory reduction for long contexts
+
+  - Multi-session inference optimization
+
+  - Cost-effective deployment
+
+  - Scalable architecture
+
+
+  ### Enterprise Reliability
+
+  - Robust performance
+
+  - Predictable behavior
+
+  - Safety-aligned outputs
+
+  - Compliance-ready
+
+
+  ## Use Cases
+
+
+  ### Enterprise Language Applications
+
+  - Document processing
+
+  - Customer service automation
+
+  - Internal knowledge management
+
+  - Compliance and governance
+
+
+  ### Code Development
+
+  - Software engineering assistance
+
+  - Code review and analysis
+
+  - Legacy code understanding
+
+  - Multi-language development
+
+
+  ### Time Series Analysis
+
+  - Business forecasting
+
+  - Demand prediction
+
+  - Financial modeling
+
+  - Operational analytics
+
+
+  ### Geospatial Intelligence
+
+  - Satellite data analysis
+
+  - Environmental monitoring
+
+  - Climate change research
+
+  - Disaster response
+
+
+  ## IBM Indemnity
+
+
+  IBM provides:
+
+  - Uncapped indemnity for third-party IP claims
+
+  - Protection for IBM-developed models
+
+  - Enterprise-grade legal support
+
+  - Commercial deployment confidence
+
+
+  ## Deployment Options
+
+
+  - **IBM Cloud**: Native deployment
+
+  - **Red Hat OpenShift**: Container orchestration
+
+  - **On-Premises**: Private deployment
+
+  - **Hybrid Cloud**: Flexible infrastructure
+
+  - **Edge Devices**: Nano models for edge
+
+
+  ## Technical Specifications
+
+
+  **Architecture Innovation**:
+
+  - Hybrid Mamba/Transformer blocks
+
+  - 9:1 ratio optimizes efficiency
+
+  - Selective state space models
+
+  - Efficient attention mechanisms
+
+
+  **Context Windows**:
+
+  - Extended context support
+
+  - Efficient long-context processing
+
+  - Multi-turn conversation handling
+
+
+  ## Comparison with Other Models
+
+
+  Granite differentiates through:
+
+  - Enterprise-specific features
+
+  - Legal indemnity
+
+  - Domain specialization
+
+  - Governance focus
+
+  - Hybrid architecture efficiency
+
+
+  ## Research Collaboration
+
+
+  - IBM Research development
+
+  - NASA partnership (geospatial)
+
+  - Red Hat integration
+
+  - Academic collaborations
+
+  - Industry partnerships
+
+
+  ## Granite 3.0 vs 4.0
+
+
+  **Granite 3.0**: State-of-the-art enterprise models
+
+  **Granite 4.0**: Hyper-efficient hybrid models with 70% memory reduction
+
+
+  ## Licensing
+
+
+  Apache 2.0 license with IBM indemnity for IBM-developed models.
+
+
+  ## Pricing
+
+
+  Free and open-source under Apache 2.0 License.
+brand: IBM
+brand_logo_url: https://www.ibm.com/favicon.ico
+images: []
+updated_at: 2026-03-03 13:39

@@ -1,0 +1,53 @@
+## Overview
+
+GPT-J is a 6 billion parameter autoregressive language model developed by EleutherAI and trained on The Pile, a large-scale curated dataset. It represents an important milestone in democratizing access to large language models.
+
+## Architecture
+
+- **Parameters**: 6 billion
+- **Architecture**: GPT-style autoregressive transformer
+- **Training Data**: The Pile (825 GB of diverse text)
+- **Context Length**: 2048 tokens
+
+## Historical Significance
+
+GPT-J was one of the first widely-accessible open-source alternatives to GPT-3, released when most powerful language models were closed-source. It demonstrated that community-driven efforts could create competitive models.
+
+## Training Data: The Pile
+
+Trained on The Pile, a 825 GB dataset comprising:
+- Academic papers
+- Books
+- Code repositories
+- Web content
+- Wikipedia
+- And more diverse sources
+
+## Performance
+
+At release, GPT-J achieved competitive performance with much larger proprietary models on many benchmarks, demonstrating efficient architecture and training.
+
+## Key Features
+
+- **Fully Open Source**: Complete weights and code available
+- **Community-Driven**: Developed by EleutherAI collective
+- **Efficient**: Good performance relative to parameter count
+- **Well-Documented**: Extensive documentation and research papers
+- **Broad Applications**: General-purpose language understanding
+
+## Use Cases
+
+- Text generation
+- Code completion
+- Question answering
+- Research in language models
+- Base model for fine-tuning
+- Educational purposes
+
+## Licensing
+
+Released under Apache 2.0 license, allowing for commercial use.
+
+## Pricing
+
+Free and open-source.

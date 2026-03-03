@@ -1,0 +1,73 @@
+## Overview
+
+ChatGLM is an open-source family of large language models developed by Zhipu AI and Tsinghua University, designed for bilingual applications, particularly in Chinese and English. The family spans from ChatGLM-6B to the latest GLM-4 series.
+
+## Model Evolution
+
+### ChatGLM-6B
+The original 6 billion parameter bilingual model optimized for Chinese tasks.
+
+### ChatGLM2-6B
+Second generation with improved performance and longer context support.
+
+### ChatGLM3
+Enhanced multilingual capabilities and better instruction-following.
+
+### GLM-4 Series
+Latest generation including:
+- **GLM-4-9B**: General purpose model
+- **GLM-4-9B-Chat**: Conversational variant
+- **GLM-4-9B-Chat-1M**: Extreme long-context variant
+
+## Long Context Support
+
+Certain versions of ChatGLM, such as GLM-4-9B-Chat-1M, support extremely large context windows—up to 1 million tokens, allowing them to understand and reason over long documents.
+
+## Key Features
+
+- **Bilingual Excellence**: Optimized for Chinese and English
+- **Long Context**: Up to 1M token context in some variants
+- **Efficient Inference**: Optimized for deployment
+- **Multiple Variants**: Different sizes for different use cases
+- **Active Development**: Continuously updated family
+
+## Architecture
+
+- Based on General Language Model (GLM) architecture
+- Bidirectional and autoregressive objectives
+- Efficient attention mechanisms
+- Optimized for bilingual tasks
+
+## Performance
+
+ChatGLM achieves strong performance on:
+- Chinese language understanding
+- Bilingual translation
+- Long document processing
+- Conversational tasks
+- Question answering
+
+## Use Cases
+
+- Chinese-English bilingual applications
+- Long document analysis (with 1M context variants)
+- Conversational AI in Chinese markets
+- Translation services
+- Content generation in Chinese
+- Research and development
+
+## Deployment
+
+Optimized for efficient deployment with:
+- Quantization support (INT4, INT8)
+- CPU and GPU inference
+- Mobile deployment options
+- Low memory requirements
+
+## Licensing
+
+Released under permissive open-source license for research and commercial use.
+
+## Pricing
+
+Free and open-source.

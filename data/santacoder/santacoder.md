@@ -1,0 +1,92 @@
+## Overview
+
+SantaCoder is a 1.1B parameter decoder-only model developed by the BigCode Project. Despite its compact size, it achieves competitive performance on code generation tasks through efficient architecture and high-quality training.
+
+## Architecture
+
+- **Parameters**: 1.1 billion
+- **Architecture**: Decoder-only transformer
+- **Attention**: Multi-Query Attention for efficiency
+- **Training Tokens**: 236 billion
+- **Context Window**: 2K tokens
+
+## Supported Languages
+
+SantaCoder focuses on three popular programming languages:
+- **Python**: Score 39 on benchmarks
+- **Java**: Score 37 on benchmarks
+- **JavaScript**: Score 37 on benchmarks
+
+## Performance
+
+Despite being only 1.1B parameters, SantaCoder achieves:
+- **Python**: 39/100 on coding benchmarks
+- **Java**: 37/100 on coding benchmarks
+- **JavaScript**: 37/100 on coding benchmarks
+
+## Key Features
+
+- **Compact Size**: Only 1.1B parameters
+- **Efficient Architecture**: Multi-Query Attention
+- **Fast Inference**: Quick code generation
+- **Focused Training**: Three main languages
+- **Easy Deployment**: Runs on consumer hardware
+- **Open Source**: Fully available
+
+## Multi-Query Attention
+
+SantaCoder uses Multi-Query Attention (MQA) which:
+- Reduces memory requirements
+- Speeds up inference
+- Enables efficient batching
+- Maintains model quality
+
+## Training Data
+
+- **Source**: The Stack (BigCode's dataset)
+- **Tokens**: 236 billion
+- **Languages**: Python, Java, JavaScript focus
+- **Curation**: High-quality code repositories
+
+## Use Cases
+
+- **Edge Deployment**: Small enough for edge devices
+- **Local Development**: Runs on laptops
+- **Learning Tools**: Educational applications
+- **Prototyping**: Quick code generation
+- **Resource-Constrained Environments**: Low-resource deployment
+- **Mobile Applications**: Potential mobile deployment
+
+## Advantages
+
+**Size Efficiency**: 1.1B parameters makes it:
+- Easy to download and deploy
+- Fast to run inference
+- Suitable for consumer hardware
+- Low memory requirements
+
+**Focused Training**: Three-language focus provides:
+- Better performance on supported languages
+- Cleaner training signal
+- More efficient learning
+
+## Comparison
+
+SantaCoder represents a sweet spot between:
+- Very small models (< 500M) with limited capability
+- Large models (> 10B) requiring significant resources
+
+## Deployment
+
+- Compatible with standard inference frameworks
+- Runs on CPU and GPU
+- Suitable for on-device inference
+- Low latency code completion
+
+## Licensing
+
+Released under BigCode OpenRAIL-M license.
+
+## Pricing
+
+Free and open-source.

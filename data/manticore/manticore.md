@@ -1,0 +1,218 @@
+## Overview
+
+Manticore is an instruction-tuned model series from OpenAccess AI Collective focused on roleplay, creative writing, and engaging multi-turn conversations with strong character consistency.
+
+## Model Variants
+
+### Manticore 13B
+- **Base**: Llama 2 13B
+- **Focus**: Roleplay and creativity
+- **Performance**: Strong character consistency
+
+### Manticore 7B
+- **Base**: Llama 2 7B
+- **Size**: Efficient deployment
+- **Quality**: Good for compact size
+
+## Key Features
+
+- **Roleplay Excellence**: Character consistency
+- **Creative Writing**: Story and narrative
+- **Multi-Turn**: Long conversations
+- **Character Acting**: Personality embodiment
+- **Engaging**: Interactive narratives
+- **Open Source**: Freely available
+
+## Training Focus
+
+### Roleplay Data
+- Character interaction examples
+- Personality consistency training
+- Dialogue scenarios
+- Character development
+- Immersive experiences
+
+### Creative Writing
+- Story generation
+- Narrative techniques
+- Character development
+- Plot progression
+- Creative scenarios
+
+## Capabilities
+
+### Roleplay
+- Character embodiment
+- Personality consistency
+- Interactive scenarios
+- Immersive interaction
+- Context-appropriate responses
+
+### Creative Writing
+- Story generation
+- Plot development
+- Character creation
+- Narrative flow
+- Creative scenarios
+
+### Conversational
+- Multi-turn dialogue
+- Context retention
+- Natural interaction
+- Engaging responses
+- Tone consistency
+
+## Use Cases
+
+### Interactive Fiction
+- Text-based games
+- Interactive stories
+- Character-driven narratives
+- Adventure scenarios
+- Immersive experiences
+
+### Character AI
+- Consistent characters
+- Personality simulation
+- Interactive companions
+- Roleplay partners
+- Virtual characters
+
+### Creative Tools
+- Writing assistance
+- Story brainstorming
+- Character development
+- Plot ideation
+- Creative scenarios
+
+### Entertainment
+- Interactive entertainment
+- Text adventures
+- Creative experiences
+- Roleplay communities
+- Gaming applications
+
+## Performance
+
+**Strong Areas**:
+- Character consistency
+- Creative quality
+- Roleplay immersion
+- Dialogue naturalness
+- Context retention
+
+**User Feedback**:
+- High engagement
+- Character believability
+- Creative output quality
+- Interaction enjoyment
+
+## OpenAccess AI Collective
+
+**Organization**:
+- Community-driven
+- Open-source focus
+- Accessible AI
+- Collaborative development
+- Ethical AI principles
+
+## Training Approach
+
+### Data Curation
+- Roleplay examples
+- Creative writing samples
+- Character interaction data
+- Multi-turn conversations
+- Engaging scenarios
+
+### Fine-Tuning
+1. Start with Llama 2 base
+2. Curate roleplay/creative data
+3. Fine-tune for character consistency
+4. Optimize for engagement
+5. Test and iterate
+
+## Deployment
+
+**Infrastructure**:
+- **7B**: Consumer hardware
+- **13B**: Moderate servers
+- Efficient inference
+- Low latency possible
+
+**Platforms**:
+- Cloud services
+- On-premises
+- Local deployment
+- Mobile (quantized)
+
+## Comparison with Other Models
+
+**vs General Models**:
+- Manticore: Roleplay focus
+- Others: Broader functionality
+- Manticore: Character consistency
+- Others: General purpose
+
+**vs Other Roleplay Models**:
+- Similar specialization
+- Different training approaches
+- Community development
+- Open-source advantage
+
+## Technical Specifications
+
+**Architecture**: Llama 2 based
+**Context**: Standard context length
+**Training**: Roleplay/creative fine-tuning
+**Optimization**: Character consistency
+
+## Community and Adoption
+
+- Roleplay applications
+- Interactive fiction
+- Creative tools
+- Entertainment platforms
+- Research projects
+
+## Integration
+
+**Compatible with**:
+- LM Studio
+- Ollama
+- SillyTavern
+- Text Generation WebUI
+- Custom applications
+
+## Character Consistency
+
+**Key Strength**:
+- Maintains personality
+- Consistent behavior
+- Appropriate responses
+- Character memory
+- Immersive interaction
+
+## Limitations
+
+**Acknowledged**:
+- Specialization trade-offs
+- Context window limits
+- Base model constraints
+- Not for all use cases
+
+## Future Development
+
+- Enhanced capabilities
+- Larger variants
+- Improved consistency
+- Community contributions
+- Regular updates
+
+## Licensing
+
+Follows Llama 2 Community License.
+
+## Pricing
+
+Free and open-source.

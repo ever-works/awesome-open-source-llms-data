@@ -1,0 +1,65 @@
+## Overview
+
+RedPajama is a project to create leading open-source models by reproducing the LLaMA training dataset. RedPajama-V1 is an open reproduction of the LLaMA training dataset with over 1.2 trillion tokens.
+
+## Components
+
+### RedPajama Dataset
+- **Size**: 1.2 trillion tokens
+- **Methodology**: Follows LLaMA paper recipe
+- **License**: Fully open and permissive
+- **Goal**: Enable fully reproducible training
+
+### RedPajama-INCITE Models
+The first family of models trained on the RedPajama base dataset:
+- **3B parameters**: Base and instruct variants
+- **7B parameters**: Base and instruct variants
+- **License**: Apache 2.0
+
+## Key Features
+
+- **Fully Open**: Dataset and models both open-source
+- **Reproducible**: Complete training recipe available
+- **Apache License**: Permissive commercial use
+- **Community-Driven**: Collaborative development
+- **LLaMA-Inspired**: Following proven training methodology
+
+## Dataset Composition
+
+The RedPajama dataset includes:
+- CommonCrawl
+- C4
+- GitHub
+- Books
+- ArXiv
+- Wikipedia
+- StackExchange
+
+## Goals
+
+The RedPajama project aims to:
+1. Create leading open-source models
+2. Ensure full reproducibility
+3. Provide permissive licensing
+4. Enable community innovation
+5. Democratize access to training data
+
+## RedPajama-V2
+
+An enhanced version with improved data quality and additional filtering techniques.
+
+## Use Cases
+
+- Training custom language models
+- Research in model training
+- Creating domain-specific models
+- Educational purposes
+- Commercial applications
+
+## Licensing
+
+Released under Apache 2.0 license for both dataset and models.
+
+## Pricing
+
+Free and open-source.

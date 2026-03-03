@@ -1,0 +1,157 @@
+## Overview
+
+The TigerBot family consists of base and chat models ranging from 7, 13, 70 to 180 billion parameters. Developed from Llama-2 and BLOOM, it achieves significant performance improvements, particularly for Chinese language tasks.
+
+## Model Variants
+
+- **TigerBot-7B**: Compact 7 billion parameter model
+- **TigerBot-13B**: Mid-size 13 billion parameter variant
+- **TigerBot-70B**: Large 70 billion parameter model
+- **TigerBot-180B**: Flagship 180 billion parameter model
+
+### Chat Variants
+Each base model has corresponding chat-optimized variants for conversational applications.
+
+## Performance Improvements
+
+Compared to Llama-2:
+- **English**: 6% performance gain
+- **Chinese**: 20% performance gain
+
+These improvements demonstrate TigerBot's optimization for bilingual applications, particularly Chinese.
+
+## Training Data
+
+TigerBot released comprehensive training resources:
+- **100GB pretraining data**
+- **Domain-specific data** covering:
+  - Finance
+  - Law
+  - Encyclopedic knowledge
+
+## Key Features
+
+- **Multilingual**: Strong Chinese and English support
+- **Multiple Scales**: 7B to 180B parameters
+- **Domain Specialization**: Finance, law, encyclopedic
+- **Open Resources**: Models, code, and data released
+- **Performance**: Significant gains over base models
+- **Chat Variants**: Conversational capabilities
+
+## Domain Specialization
+
+### Financial Domain
+- Financial question answering
+- Market analysis support
+- Financial document understanding
+- Investment research
+
+### Legal Domain
+- Legal document analysis
+- Case law understanding
+- Legal reasoning
+- Regulatory compliance
+
+### Encyclopedic Knowledge
+- General knowledge questions
+- Factual information retrieval
+- Educational content
+- Reference material understanding
+
+## Architecture
+
+- **Base**: Llama-2 and BLOOM foundations
+- **Enhancements**: Specialized training and fine-tuning
+- **Multilingual**: Optimized for Chinese-English
+- **Scale**: Multiple size options
+
+## Released Resources
+
+The TigerBot project released:
+- **Models**: All size variants with weights
+- **Training Code**: Complete training implementation
+- **Pretraining Data**: 100GB dataset
+- **Domain Data**: Finance, law, and encyclopedic datasets
+
+## Use Cases
+
+### Financial Services
+- Financial question answering
+- Investment research assistance
+- Market analysis
+- Financial document processing
+
+### Legal Services
+- Legal document analysis
+- Case research
+- Legal consultation support
+- Compliance checking
+
+### Education and Research
+- Knowledge question answering
+- Educational assistance
+- Research support
+- Information retrieval
+
+### General Applications
+- Bilingual chatbots
+- Content generation
+- Translation services
+- Customer support
+
+## Performance Benchmarks
+
+**Chinese Language**:
+- 20% improvement over Llama-2
+- Strong domain-specific performance
+- Natural Chinese generation
+
+**English Language**:
+- 6% improvement over Llama-2
+- Maintained multilingual capabilities
+- Domain expertise retained
+
+## Training Methodology
+
+1. **Base Training**: Built on Llama-2 and BLOOM
+2. **Domain Data**: Specialized training on finance, law, encyclopedic content
+3. **Bilingual Optimization**: Enhanced Chinese-English performance
+4. **Chat Fine-tuning**: Conversational variants for dialogue
+
+## Deployment
+
+- Multiple size options for different hardware
+- Quantization support for efficient inference
+- Cloud and on-premises deployment
+- API access available
+
+## Chinese Open-Source Contribution
+
+Part of growing Chinese open LLM ecosystem:
+- Demonstrates domain specialization
+- Open data and code release
+- Community contribution
+- Practical applications focus
+
+## Community and Support
+
+- Open-source GitHub repository
+- Active development
+- Community contributions
+- Documentation in Chinese and English
+
+## Comparison
+
+TigerBot competes with:
+- Qwen (Alibaba)
+- ChatGLM (Zhipu AI)
+- Baichuan (Baichuan Intelligence)
+- Yi (01.AI)
+
+## Licensing
+
+Open-source license for research and commercial use.
+
+## Pricing
+
+Free and open-source.

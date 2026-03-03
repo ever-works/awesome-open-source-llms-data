@@ -1,0 +1,431 @@
+name: Nous Hermes
+description: High-performing instruction-tuned model series from Nous Research,
+  featuring strong reasoning and long-form output capabilities. Nous Hermes 2
+  variants available in multiple sizes based on Mixtral, Llama, and Yi
+  foundations.
+source_url: https://huggingface.co/NousResearch
+category: Instruction Tuned Models
+tags:
+  - instruction-tuned
+  - reasoning
+  - long-context
+featured: false
+markdown: >-
+  ## Overview
+
+
+  Nous Hermes is a series of state-of-the-art instruction-tuned language models
+  from Nous Research, known for strong reasoning capabilities, long-form
+  outputs, and excellent instruction-following.
+
+
+  ## Model Variants
+
+
+  ### Nous Hermes 2 - Mixtral 8x7B
+
+  - **Base**: Mixtral 8x7B MoE
+
+  - **DPO Training**: Direct Preference Optimization
+
+  - **Performance**: Top-tier instruction-following
+
+  - **Context**: Extended context support
+
+
+  ### Nous Hermes 2 - Llama 2 (Multiple Sizes)
+
+  - **7B**: Efficient deployment
+
+  - **13B**: Balanced performance
+
+  - **70B**: Maximum capability
+
+
+  ### Nous Hermes 2 - Yi 34B
+
+  - **Base**: Yi 34B model
+
+  - **Features**: Strong multilingual and reasoning
+
+  - **Context**: Long-context capable
+
+
+  ### Nous Hermes - Llama 2
+
+  - Original series based on Llama 2
+
+  - Various sizes and optimizations
+
+
+  ## Key Features
+
+
+  - **Strong Reasoning**: Excellent logical capabilities
+
+  - **Long-Form Output**: Detailed, comprehensive responses
+
+  - **DPO Training**: Advanced alignment technique
+
+  - **Multiple Bases**: Mixtral, Llama, Yi foundations
+
+  - **Instruction Excellence**: Top-tier command following
+
+  - **Open Source**: Freely available
+
+
+  ## Training Methodology
+
+
+  ### Direct Preference Optimization (DPO)
+
+  - More stable than RLHF
+
+  - Efficient preference learning
+
+  - Better alignment with human preferences
+
+  - High-quality outputs
+
+
+  ### High-Quality Data
+
+  - Curated instruction datasets
+
+  - Long-form response training
+
+  - Reasoning-focused examples
+
+  - Diverse task coverage
+
+
+  ## Performance Highlights
+
+
+  **Reasoning**:
+
+  - Excellent logical reasoning
+
+  - Multi-step problem-solving
+
+  - Complex instruction handling
+
+  - Chain-of-thought capabilities
+
+
+  **Long-Form Generation**:
+
+  - Detailed explanations
+
+  - Comprehensive responses
+
+  - Coherent long outputs
+
+  - Structured information
+
+
+  **Instruction-Following**:
+
+  - Precise task execution
+
+  - Nuanced understanding
+
+  - Format compliance
+
+  - Context retention
+
+
+  ## Use Cases
+
+
+  ### Complex Reasoning Tasks
+
+  - Problem-solving
+
+  - Analysis and research
+
+  - Technical explanations
+
+  - Logical deduction
+
+
+  ### Content Generation
+
+  - Long-form articles
+
+  - Detailed documentation
+
+  - Comprehensive guides
+
+  - Technical writing
+
+
+  ### Professional Applications
+
+  - Research assistance
+
+  - Technical support
+
+  - Educational content
+
+  - Business analysis
+
+
+  ### Interactive AI
+
+  - Advanced chatbots
+
+  - Virtual assistants
+
+  - Expert systems
+
+  - Tutoring applications
+
+
+  ## Nous Research
+
+
+  **Community-Driven Organization**:
+
+  - Open-source focus
+
+  - Research collaboration
+
+  - Model development
+
+  - Community engagement
+
+  - Innovation in training
+
+
+  ## Technical Specifications
+
+
+  ### Architecture
+
+  - Based on proven foundations (Mixtral, Llama, Yi)
+
+  - Enhanced through DPO training
+
+  - Optimized for instruction-following
+
+  - Extended context support
+
+
+  ### Context Length
+
+  - Standard: 4K-8K tokens
+
+  - Extended variants: Up to 32K+ tokens
+
+  - Efficient long-context handling
+
+
+  ## Benchmark Performance
+
+
+  **Strong Results On**:
+
+  - MT-Bench (multi-turn conversations)
+
+  - AGIEval (reasoning tasks)
+
+  - AlpacaEval (instruction-following)
+
+  - BigBench-Hard (complex reasoning)
+
+
+  ## Comparison with Other Models
+
+
+  **vs Other Instruction-Tuned Models**:
+
+  - Strong reasoning emphasis
+
+  - Long-form capability focus
+
+  - DPO training advantage
+
+  - Community-driven development
+
+
+  ## Deployment
+
+
+  ### Infrastructure Options
+
+  - Cloud platforms
+
+  - On-premises servers
+
+  - Local deployment (smaller variants)
+
+  - API services
+
+
+  ### Size Selection
+
+  - **7B**: Consumer hardware, fast inference
+
+  - **8x7B (Mixtral)**: Balanced performance
+
+  - **34B (Yi)**: Enhanced capabilities
+
+  - **70B (Llama 2)**: Maximum quality
+
+
+  ## DPO Training Benefits
+
+
+  **Advantages**:
+
+  - More stable than RLHF
+
+  - Direct optimization of preferences
+
+  - Efficient training process
+
+  - Better alignment results
+
+  - Reproducible methodology
+
+
+  ## Long-Form Capabilities
+
+
+  **Excels At**:
+
+  - Detailed explanations
+
+  - Comprehensive answers
+
+  - Step-by-step guides
+
+  - Technical documentation
+
+  - Research summaries
+
+  - Educational content
+
+
+  ## Community and Adoption
+
+
+  - Active user community
+
+  - Research applications
+
+  - Production deployments
+
+  - Fine-tuning base
+
+  - Educational use
+
+
+  ## Integration
+
+
+  **Compatible with**:
+
+  - Hugging Face Transformers
+
+  - LM Studio
+
+  - Ollama
+
+  - Text Generation WebUI
+
+  - Standard inference frameworks
+
+
+  ## Training Data
+
+
+  Focused on:
+
+  - High-quality instructions
+
+  - Long-form responses
+
+  - Reasoning examples
+
+  - Technical content
+
+  - Diverse domains
+
+
+  ## Nous Research Philosophy
+
+
+  **Principles**:
+
+  - Open-source commitment
+
+  - Community collaboration
+
+  - Quality over quantity
+
+  - Innovation in training
+
+  - Accessible AI
+
+
+  ## Variants Summary
+
+
+  | Variant | Base | Size | Specialty |
+
+  |---------|------|------|----------|
+
+  | Hermes 2 Mixtral | Mixtral 8x7B | ~47B | DPO, reasoning |
+
+  | Hermes 2 Llama 2 | Llama 2 | 7B-70B | Multiple sizes |
+
+  | Hermes 2 Yi | Yi 34B | 34B | Multilingual |
+
+  | Hermes Llama 2 | Llama 2 | Various | Original series |
+
+
+  ## Research Contributions
+
+
+  **Nous Hermes Demonstrated**:
+
+  - DPO effectiveness
+
+  - Long-form generation quality
+
+  - Reasoning capability enhancement
+
+  - Community-driven development
+
+  - Open-source viability
+
+
+  ## Future Development
+
+
+  - New base model variants
+
+  - Enhanced training techniques
+
+  - Larger context windows
+
+  - Improved reasoning
+
+  - Community contributions
+
+
+  ## Licensing
+
+
+  Follows base model licenses (generally permissive for commercial use).
+
+
+  ## Pricing
+
+
+  Free and open-source.
+brand: Nous Research
+images: []
+updated_at: 2026-03-03 13:39

@@ -1,70 +1,177 @@
 ## Overview
 
-Kimi K2.5 is Moonshot AI's latest open-source large language model released on January 27, 2026. The model achieves exceptional performance in software engineering and mathematical reasoning tasks, setting new benchmarks for open-source models.
-
-## Architecture
-
-- **Release Date:** January 27, 2026
-- **Model Type:** Advanced Transformer architecture
-- **Optimization:** Specialized for software engineering and reasoning
-- **Training:** Trained on high-quality code and mathematical datasets
-
-## Key Features
-
-- State-of-the-art software engineering capabilities
-- Exceptional mathematical reasoning
-- Superior code understanding and generation
-- Advanced problem-solving abilities
-- Strong instruction following
-- Optimized for real-world software development tasks
+Kimi K2.5 is an advanced language model from Moonshot AI, achieving top-tier performance on both Chinese and English tasks. It clusters within a tight ELO range (1445-1451) alongside GLM-5 on Chatbot Arena in 2026.
 
 ## Performance Highlights
 
-### Software Engineering
-- **SWE-bench Verified:** 76.8% (highest open-source score as of early 2026)
-- Industry-leading performance on real-world software engineering tasks
-- Excellent code comprehension and debugging
-- Strong repository-level understanding
+**Chatbot Arena (2026)**:
+- ELO rating: 1445-1451 range
+- Clusters with GLM-5
+- Top Chinese model performance
+- Strong bilingual capabilities
+- Competitive with leading models
 
-### Mathematical Reasoning
-- **AIME 2025:** 96% (outperforms most proprietary models)
-- Advanced problem-solving capabilities
-- Strong performance on complex mathematical tasks
-- Excellent logical reasoning
+## Key Features
 
-## Benchmark Comparison
+- **Bilingual Excellence**: Chinese and English
+- **High Performance**: Top Arena ELO
+- **Competitive**: Leading 2026 model
+- **Balanced**: General-purpose capabilities
+- **Latest**: State-of-the-art 2026 release
 
-Kimi K2.5 outperforms:
-- Most proprietary alternatives on mathematics
-- All open-source models on SWE-bench Verified
-- Competitive models in software engineering tasks
-- Strong showing across general benchmarks
+## Model Specifications
 
-## Deployment Options
+**Version**: Kimi K2.5 (latest)
+**Languages**: Chinese, English, multilingual
+**Performance**: Top-tier on benchmarks
+**Architecture**: Advanced transformer
 
-- Self-hosting on enterprise GPU infrastructure
-- Cloud deployment options
-- Optimized for development workflows
-- Compatible with standard ML frameworks
-- Integration with code editors and IDEs
+## Capabilities
+
+### Chinese Language
+- Native Chinese understanding
+- Cultural context awareness
+- Classical Chinese support
+- Regional variations
+- Idiomatic expressions
+
+### English Language
+- Strong English performance
+- Technical English
+- Academic writing
+- Professional communication
+- Natural conversation
+
+### General Tasks
+- Question answering
+- Content generation
+- Reasoning and analysis
+- Problem-solving
+- Creative writing
 
 ## Use Cases
 
-- Software engineering and code generation
-- Code review and debugging
-- Mathematical problem solving
-- Algorithm development
-- Technical documentation generation
-- Research and development
-- Educational applications in STEM
+### Chinese Market
+- Chinese language services
+- Local applications
+- Business communication
+- Content creation
+- Customer service
 
-## Competitive Position
+### International Applications
+- Bilingual services
+- Translation assistance
+- Cross-cultural communication
+- Global platforms
+- Multilingual support
 
-As of early 2026, Kimi K2.5 represents the cutting edge of open-source models for:
-- Real-world software engineering tasks
-- Advanced mathematical reasoning
-- Code-centric applications
+### Professional Services
+- Business analysis
+- Technical documentation
+- Research assistance
+- Content generation
+- Knowledge work
+
+## Moonshot AI
+
+**Company Background**:
+- Chinese AI company
+- Focus on practical AI
+- Research-driven development
+- Commercial applications
+- Innovation emphasis
+
+## Performance Metrics
+
+**Chatbot Arena**:
+- ELO: 1445-1451
+- Tight clustering with GLM-5
+- Top performance tier
+- Strong user preference
+
+**General Benchmarks**:
+- Competitive on standard evaluations
+- Strong reasoning
+- Good multilingual capability
+- Practical task performance
+
+## Comparison with Other Models
+
+**vs GLM-5**:
+- Similar ELO range (1445-1451)
+- Competitive performance
+- Both top Chinese models
+- Different training approaches
+
+**vs International Models**:
+- Strong Chinese advantage
+- Competitive English
+- Cultural understanding
+- Local optimization
+
+## Kimi Series Evolution
+
+**K2.5**: Latest version with enhanced capabilities
+**Previous Versions**: K2 and earlier
+**Continuous Improvement**: Regular updates
+
+## Deployment
+
+**Infrastructure**:
+- Cloud platforms
+- API services
+- On-premises options
+- Scalable deployment
+
+**Integration**:
+- Mobile applications
+- Web services
+- Enterprise systems
+- Custom solutions
+
+## Chinese AI Ecosystem
+
+**Part of Landscape**:
+- Moonshot AI's flagship
+- Competes with Qwen, GLM, DeepSeek
+- Commercial success
+- Market adoption
+
+## Research Contributions
+
+**Innovation Areas**:
+- Bilingual optimization
+- Cultural understanding
+- Performance efficiency
+- Practical applications
+
+## Commercial Availability
+
+**Kimi Services**:
+- API access
+- Cloud services
+- Enterprise solutions
+- Custom deployment
+
+## Community Impact
+
+- Chinese AI advancement
+- Open research contributions
+- Industry applications
+- Academic partnerships
+
+## Future Development
+
+- Enhanced capabilities
+- Broader language support
+- Performance improvements
+- New applications
+- Continued innovation
 
 ## Licensing
 
-Released under permissive open-source license allowing commercial use.
+Commercial model - check Moonshot AI for specific terms.
+
+## Pricing
+
+Commercial pricing through Moonshot AI services.

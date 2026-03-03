@@ -1,0 +1,101 @@
+## Overview
+
+CodeGen is a family of code generation models from Salesforce Research designed to support various coding tasks including code completion, generation, and understanding. CodeGen 2.5 represents the latest evolution of the series.
+
+## Model Evolution
+
+### CodeGen (First Generation)
+Original models with multiple size variants trained on The Pile and code-specific datasets.
+
+### CodeGen 2 (Second Generation)
+Improved architecture and training methodology with better performance.
+
+### CodeGen 2.5 (Latest)
+- **Release**: July 2023
+- **Size**: 7B parameters (primary variant)
+- **Improvements**: Enhanced code understanding and generation
+
+## Model Variants
+
+CodeGen offers multiple size options:
+- **350M parameters**: Lightweight variant
+- **2B parameters**: Balanced performance
+- **6B parameters**: Enhanced capabilities
+- **7B parameters**: CodeGen 2.5 flagship
+- **16B parameters**: Large-scale variant
+
+## Key Features
+
+- **Multi-Language Support**: Various programming languages
+- **Code Completion**: Real-time code suggestions
+- **Code Generation**: Generate code from natural language
+- **Code Understanding**: Explain and analyze existing code
+- **Multiple Scales**: Various sizes for different use cases
+- **Research-Backed**: Built on Salesforce Research insights
+
+## Architecture
+
+- Autoregressive transformer decoder
+- Optimized for code generation tasks
+- Efficient attention mechanisms
+- Trained on diverse programming data
+
+## Training Data
+
+CodeGen models are trained on:
+- The Pile (general text corpus)
+- GitHub code repositories
+- Multiple programming languages
+- Documentation and comments
+
+## Supported Programming Languages
+
+Includes popular languages such as:
+- Python
+- JavaScript/TypeScript
+- Java
+- C/C++
+- Go
+- And more
+
+## Use Cases
+
+- **Code Completion**: IDE integration for suggestions
+- **Code Generation**: Create code from descriptions
+- **Documentation**: Generate code documentation
+- **Code Translation**: Convert between languages
+- **Learning**: Educational programming assistance
+- **Debugging**: Understand and fix code issues
+
+## Performance
+
+CodeGen demonstrates competitive performance on:
+- HumanEval benchmark
+- MBPP (Mostly Basic Python Problems)
+- MultiPL-E (multilingual evaluation)
+- Code understanding tasks
+
+## Integration
+
+CodeGen can be integrated into:
+- IDEs and code editors
+- Development workflows
+- CI/CD pipelines
+- Code review tools
+- Educational platforms
+
+## Research Foundation
+
+Backed by Salesforce Research with:
+- Published papers and documentation
+- Ongoing improvements
+- Community contributions
+- Best practices for code LLMs
+
+## Licensing
+
+Released under permissive open-source license for research and commercial use.
+
+## Pricing
+
+Free and open-source.

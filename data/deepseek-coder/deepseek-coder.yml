@@ -1,0 +1,400 @@
+name: DeepSeek-Coder
+description: Code-specialized LLM series from DeepSeek with models up to 33B
+  parameters. DeepSeek-Coder-V2 achieves 90% on LiveCodeBench and serves as the
+  foundation for WizardCoder-33B's record-breaking 79.9% on HumanEval.
+source_url: https://github.com/deepseek-ai/DeepSeek-Coder
+category: Code Generation Models
+tags:
+  - coding
+  - specialized
+  - high-performance
+featured: true
+markdown: >-
+  ## Overview
+
+
+  DeepSeek-Coder is a series of code-specialized language models from DeepSeek,
+  ranging from 1.3B to 33B parameters. It achieves state-of-the-art performance
+  on code generation benchmarks and serves as the foundation for other leading
+  code models.
+
+
+  ## Model Variants
+
+
+  ### DeepSeek-Coder Series
+
+  - **1.3B parameters**: Lightweight code model
+
+  - **6.7B parameters**: Mid-size efficient model
+
+  - **33B parameters**: Flagship code model
+
+
+  ### DeepSeek-Coder-V2
+
+  - Enhanced architecture
+
+  - 90% on LiveCodeBench
+
+  - Improved multi-language support
+
+  - Better reasoning capabilities
+
+
+  ### Instruct Variants
+
+  - DeepSeek-Coder-Instruct models
+
+  - Optimized for instruction-following
+
+  - Interactive coding assistance
+
+
+  ## Performance Highlights
+
+
+  **DeepSeek-Coder-V2 Speciale**:
+
+  - **LiveCodeBench**: 90%
+
+  - State-of-the-art coding performance
+
+  - Multiple language excellence
+
+
+  **DeepSeek-Coder-33B**:
+
+  - Foundation for WizardCoder-33B
+
+  - Enables 79.9% HumanEval performance
+
+  - Strong baseline for fine-tuning
+
+
+  **General Performance**:
+
+  - Competitive with closed-source models
+
+  - Excellent multi-language support
+
+  - Strong code understanding
+
+
+  ## Key Features
+
+
+  - **Multi-Language**: 80+ programming languages
+
+  - **Multiple Scales**: 1.3B to 33B parameters
+
+  - **High Performance**: State-of-the-art benchmarks
+
+  - **Foundation Model**: Used by WizardCoder and others
+
+  - **Open Source**: Freely available
+
+  - **Instruct Variants**: Interactive assistance
+
+
+  ## Supported Programming Languages
+
+
+  Comprehensive support for:
+
+  - Python, JavaScript, TypeScript
+
+  - Java, C, C++, C#
+
+  - Go, Rust, Swift, Kotlin
+
+  - PHP, Ruby, Shell, SQL
+
+  - HTML, CSS, and 60+ more
+
+
+  ## Architecture
+
+
+  - Transformer-based decoder
+
+  - Optimized for code generation
+
+  - Efficient attention mechanisms
+
+  - Extended context support
+
+  - Multi-language tokenization
+
+
+  ## Training Data
+
+
+  - Large-scale code repositories
+
+  - 80+ programming languages
+
+  - High-quality filtered data
+
+  - GitHub and other sources
+
+  - Documentation and comments
+
+
+  ## Benchmark Performance
+
+
+  ### HumanEval
+
+  - Strong pass@1 scores
+
+  - Multiple language variants
+
+  - Competitive with larger models
+
+
+  ### LiveCodeBench
+
+  - V2 Speciale: 90%
+
+  - Real-world coding scenarios
+
+  - Practical problem-solving
+
+
+  ### MBPP
+
+  - Mostly Basic Python Problems
+
+  - Strong performance
+
+  - Good generalization
+
+
+  ### MultiPL-E
+
+  - Multi-language evaluation
+
+  - Broad language support
+
+  - Consistent performance
+
+
+  ## Use Cases
+
+
+  ### Code Generation
+
+  - Function and class generation
+
+  - Algorithm implementation
+
+  - Boilerplate code creation
+
+  - API integration
+
+
+  ### Code Completion
+
+  - IDE integration
+
+  - Real-time suggestions
+
+  - Context-aware completion
+
+  - Multi-language support
+
+
+  ### Code Understanding
+
+  - Code explanation
+
+  - Documentation generation
+
+  - Bug detection
+
+  - Code review assistance
+
+
+  ### Software Engineering
+
+  - Full program generation
+
+  - Refactoring assistance
+
+  - Test generation
+
+  - Code translation
+
+
+  ## Foundation for Other Models
+
+
+  **WizardCoder-33B-V1.1**:
+
+  - Built on DeepSeek-Coder-33B
+
+  - Achieves 79.9% on HumanEval
+
+  - 73.2% on HumanEval-Plus
+
+  - Evol-Instruct enhancement
+
+
+  ## Instruct Variants
+
+
+  **DeepSeek-Coder-Instruct**:
+
+  - Instruction-following optimization
+
+  - Interactive coding assistance
+
+  - Natural language to code
+
+  - Code explanation capabilities
+
+
+  ## Deployment
+
+
+  - Multiple size options for different hardware
+
+  - Efficient inference
+
+  - Quantization support
+
+  - Cloud and on-premises
+
+  - API access available
+
+
+  ## Comparison with Other Code Models
+
+
+  **vs StarCoder**:
+
+  - Competitive performance
+
+  - Different training approach
+
+  - Similar language coverage
+
+
+  **vs CodeLlama**:
+
+  - Strong alternative
+
+  - Different architecture choices
+
+  - Comparable results
+
+
+  **vs GPT-4 (Coding)**:
+
+  - Competitive on many benchmarks
+
+  - Open-source advantage
+
+  - Customization flexibility
+
+
+  ## Technical Specifications
+
+
+  ### Context Length
+
+  - Extended context windows
+
+  - Support for large code files
+
+  - Multi-file understanding
+
+
+  ### Inference Speed
+
+  - Optimized for fast generation
+
+  - Efficient architecture
+
+  - Real-time assistance capable
+
+
+  ## Community and Adoption
+
+
+  - Wide community adoption
+
+  - Used as base for fine-tuning
+
+  - Research applications
+
+  - Production deployments
+
+  - Educational use
+
+
+  ## Training Efficiency
+
+
+  - Efficient training approach
+
+  - High-quality data curation
+
+  - Optimized for code tasks
+
+  - Scalable architecture
+
+
+  ## Research Contributions
+
+
+  **DeepSeek-Coder Demonstrates**:
+
+  - Effective code specialization
+
+  - Multi-language capability
+
+  - Strong baseline for derivatives
+
+  - Open-source viability
+
+
+  ## Integration Options
+
+
+  - IDE plugins (VS Code, IntelliJ, etc.)
+
+  - API services
+
+  - Local deployment
+
+  - Cloud platforms
+
+  - Custom applications
+
+
+  ## Update History
+
+
+  - **V1**: Initial release with strong performance
+
+  - **V2**: Enhanced architecture and 90% LiveCodeBench
+
+  - **Continuous**: Ongoing improvements
+
+
+  ## Licensing
+
+
+  Open-source under permissive license for research and commercial use.
+
+
+  ## Pricing
+
+
+  Free and open-source. API services available at competitive rates.
+brand: DeepSeek
+brand_logo_url: https://avatars.githubusercontent.com/u/139821722
+images: []
+updated_at: 2026-03-03 13:39

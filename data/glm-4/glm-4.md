@@ -1,0 +1,56 @@
+## Overview
+
+GLM-4 is an open-source family of large language models developed by Zhipu AI and Tsinghua University. The models are pre-trained on ten trillions of tokens mostly in Chinese and English, along with a small set of corpus from 24 languages.
+
+## Model Variants
+
+### GLM-4.7
+The most well-rounded variant with exceptional performance across multiple domains:
+- **HumanEval**: 94.2 (best of any model listed)
+- **AIME 2025**: 95.7
+- **GPQA Diamond**: 85.7
+- **LiveCodeBench**: 84.9
+- **IFEval**: 88.0
+- **Context Window**: 200K tokens
+
+### GLM-5 (Reasoning)
+Leads the February 2026 rankings with:
+- **Quality Index**: 49.64
+- **Intelligence Index**: 50
+- **Chatbot Arena ELO**: 1445-1451 range
+
+### GLM-4.5 and GLM-4.5-Air
+Larger variants with 355B and 106B parameters respectively.
+
+## Architecture
+
+- Pre-trained on 10 trillion tokens
+- Multilingual support (primarily Chinese and English, plus 24 other languages)
+- Multimodal capabilities
+- Long context support (up to 200K tokens)
+
+## Performance Highlights
+
+**Coding Excellence**: GLM-4.7 scores 94.2 on HumanEval, the best of any open-source model.
+
+**Mathematical Reasoning**: Achieves 95.7% on AIME 2025, matching proprietary Gemini 2.0 Pro Thinking.
+
+**Scientific Reasoning**: Leads open-source models on PhD-level scientific reasoning (GPQA Diamond: 85.7).
+
+**Software Engineering**: 77.8% on SWE-Bench Verified.
+
+## Key Features
+
+- Strong instruction-following capabilities
+- Excellent coding performance across multiple programming languages
+- Advanced mathematical and scientific reasoning
+- Multilingual and multimodal understanding
+- Long context processing
+
+## Licensing
+
+Open-source with permissive licensing for research and commercial use.
+
+## Pricing
+
+Free and open-source.

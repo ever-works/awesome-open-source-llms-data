@@ -1,0 +1,138 @@
+name: Yi
+description: Bilingual language model series from 01.AI with strong performance
+  on both Chinese and English tasks. Available in multiple sizes from 6B to 34B
+  parameters with variants optimized for different applications.
+source_url: https://github.com/01-ai/Yi
+category: Foundation Models
+tags:
+  - bilingual
+  - chinese
+  - high-performance
+featured: false
+markdown: >-
+  ## Overview
+
+
+  Yi is a bilingual language model series developed by 01.AI (founded by Kai-Fu
+  Lee), delivering strong performance on both Chinese and English tasks. The
+  models are known for their efficiency and competitive performance.
+
+
+  ## Model Variants
+
+
+  ### Base Models
+
+  - **Yi-6B**: Efficient 6 billion parameter base model
+
+  - **Yi-34B**: Larger 34 billion parameter model
+
+
+  ### Specialized Variants
+
+  - **Yi-6B-Chat**: Conversational variant
+
+  - **Yi-34B-Chat**: Larger conversational model
+
+  - **Yi-6B-200K**: Extended context window (200K tokens)
+
+  - **Yi-34B-200K**: Larger model with extended context
+
+  - **Yi-VL**: Vision-language multimodal variant
+
+
+  ## Key Features
+
+
+  - **Bilingual Excellence**: Strong Chinese and English capabilities
+
+  - **Long Context**: Up to 200K tokens in extended variants
+
+  - **Multiple Scales**: From 6B to 34B parameters
+
+  - **Multimodal Options**: Vision-language capabilities in Yi-VL
+
+  - **Efficient Training**: High-quality training data and methodology
+
+
+  ## Architecture
+
+
+  - Transformer-based decoder architecture
+
+  - Optimized attention mechanisms
+
+  - Efficient scaling across model sizes
+
+  - Extended context support in certain variants
+
+
+  ## Performance
+
+
+  Yi models achieve competitive performance with:
+
+  - Strong bilingual understanding
+
+  - Efficient parameter usage
+
+  - Good reasoning capabilities
+
+  - Solid code generation
+
+
+  ## Training Data
+
+
+  Trained on high-quality bilingual corpus:
+
+  - Chinese web content
+
+  - English web content
+
+  - Books and academic papers
+
+  - Code repositories
+
+
+  ## Use Cases
+
+
+  - Bilingual applications (Chinese-English)
+
+  - Long document processing (200K context variants)
+
+  - Conversational AI
+
+  - Code generation
+
+  - Vision-language tasks (Yi-VL)
+
+  - General-purpose NLP
+
+
+  ## Deployment
+
+
+  - Available on Hugging Face
+
+  - Supports quantization for efficient inference
+
+  - Compatible with popular inference frameworks
+
+  - Cloud and on-premises deployment options
+
+
+  ## Licensing
+
+
+  Released under Apache 2.0 license for commercial and research use.
+
+
+  ## Pricing
+
+
+  Free and open-source.
+brand: 01.AI
+images: []
+updated_at: 2026-03-03 13:39

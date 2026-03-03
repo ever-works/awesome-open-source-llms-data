@@ -1,0 +1,438 @@
+name: Nous Capybara
+description: Multi-turn conversational model from Nous Research with extended
+  context support. Trained on high-quality multi-turn datasets for improved
+  dialogue coherence and context retention across long conversations.
+source_url: https://huggingface.co/NousResearch/Nous-Capybara-7B-V1.9
+category: Instruction Tuned Models
+tags:
+  - conversational
+  - long-context
+  - multi-turn
+featured: false
+markdown: >-
+  ## Overview
+
+
+  Nous Capybara is a multi-turn conversational model from Nous Research designed
+  for extended context and improved dialogue coherence. It excels at maintaining
+  context across long conversations.
+
+
+  ## Model Variants
+
+
+  ### Capybara 34B
+
+  - **Base**: Yi 34B or similar
+
+  - **Context**: Extended support
+
+  - **Performance**: High-quality conversations
+
+
+  ### Capybara 7B
+
+  - **Base**: Mistral 7B or Llama 2 7B
+
+  - **Size**: Efficient deployment
+
+  - **Quality**: Strong for compact size
+
+
+  ### Capybara 13B
+
+  - **Base**: Llama 2 13B
+
+  - **Balance**: Performance and efficiency
+
+
+  ## Key Features
+
+
+  - **Multi-Turn Excellence**: Superior dialogue handling
+
+  - **Extended Context**: Long conversation support
+
+  - **Coherence**: Maintains topic consistency
+
+  - **Context Retention**: Remembers conversation history
+
+  - **High-Quality Data**: Curated training examples
+
+  - **Open Source**: Freely available
+
+
+  ## Training Approach
+
+
+  ### Multi-Turn Dataset
+
+  - **High-Quality Conversations**: Curated dialogues
+
+  - **Extended Interactions**: Long conversation examples
+
+  - **Context Dependencies**: Multi-turn reasoning
+
+  - **Diverse Topics**: Broad coverage
+
+  - **Natural Flow**: Realistic conversations
+
+
+  ### Training Focus
+
+  - Multi-turn understanding
+
+  - Context retention
+
+  - Coherent responses
+
+  - Topic consistency
+
+  - Natural progression
+
+
+  ## Capabilities
+
+
+  ### Multi-Turn Dialogue
+
+  - Maintains context across turns
+
+  - References previous messages
+
+  - Coherent conversation flow
+
+  - Topic tracking
+
+  - Natural transitions
+
+
+  ### Extended Context
+
+  - Long conversation support
+
+  - History retention
+
+  - Context-aware responses
+
+  - Consistent throughout
+
+  - No information loss
+
+
+  ### Conversational Quality
+
+  - Natural language flow
+
+  - Appropriate tone
+
+  - Engaging responses
+
+  - Coherent narrative
+
+  - Contextual awareness
+
+
+  ## Use Cases
+
+
+  ### Long Conversations
+
+  - Extended dialogues
+
+  - Multi-topic discussions
+
+  - Evolving conversations
+
+  - Context-dependent interactions
+
+  - Therapeutic conversations
+
+
+  ### Customer Support
+
+  - Multi-issue resolution
+
+  - Follow-up questions
+
+  - Complex problem-solving
+
+  - Contextual assistance
+
+  - Conversation history awareness
+
+
+  ### Personal Assistants
+
+  - Extended task management
+
+  - Context-aware help
+
+  - Multi-step guidance
+
+  - Ongoing assistance
+
+  - Relationship building
+
+
+  ### Education and Tutoring
+
+  - Progressive learning
+
+  - Building on concepts
+
+  - Context-aware teaching
+
+  - Long tutoring sessions
+
+  - Student progress tracking
+
+
+  ## Performance
+
+
+  **Strong Areas**:
+
+  - Multi-turn consistency
+
+  - Context retention
+
+  - Conversation coherence
+
+  - Topic tracking
+
+  - Natural dialogue
+
+
+  **Benchmarks**:
+
+  - High MT-Bench scores (multi-turn)
+
+  - Strong conversational evaluations
+
+  - Good context retention tests
+
+  - User satisfaction
+
+
+  ## Technical Specifications
+
+
+  ### Context Handling
+
+  - Extended context windows
+
+  - Efficient attention mechanisms
+
+  - History management
+
+  - Context compression
+
+  - Memory optimization
+
+
+  ### Architecture
+
+  - Based on strong foundation models
+
+  - Optimized for conversations
+
+  - Multi-turn specialization
+
+  - Context retention focus
+
+
+  ## Deployment
+
+
+  **Infrastructure Options**:
+
+  - **7B**: Consumer hardware, fast inference
+
+  - **13B**: Balanced deployment
+
+  - **34B**: Server infrastructure
+
+
+  **Platforms**:
+
+  - Cloud services
+
+  - On-premises servers
+
+  - Local deployment (smaller variants)
+
+  - API endpoints
+
+
+  ## Nous Research
+
+
+  **Organization**:
+
+  - Community-driven
+
+  - Research focus
+
+  - Open-source commitment
+
+  - Quality emphasis
+
+  - Innovation in training
+
+
+  ## Comparison with Other Models
+
+
+  **vs Short-Context Models**:
+
+  - Capybara: Extended context
+
+  - Others: Limited history
+
+  - Capybara: Better coherence
+
+  - Capybara: Multi-turn focus
+
+
+  **vs General Models**:
+
+  - Capybara: Conversation specialization
+
+  - Others: Broader but less specialized
+
+  - Capybara: Multi-turn optimization
+
+
+  ## Training Data Characteristics
+
+
+  **Focus On**:
+
+  - Multi-turn conversations
+
+  - Extended dialogues
+
+  - Context dependencies
+
+  - Natural progression
+
+  - Diverse scenarios
+
+
+  **Quality**:
+
+  - Curated examples
+
+  - Natural conversations
+
+  - Realistic interactions
+
+  - Error-free dialogues
+
+  - Coherent narratives
+
+
+  ## Integration
+
+
+  **Compatible with**:
+
+  - LM Studio
+
+  - Ollama
+
+  - Text Generation WebUI
+
+  - Hugging Face Transformers
+
+  - Custom chat applications
+
+
+  ## Community and Adoption
+
+
+  - Conversational AI applications
+
+  - Customer service bots
+
+  - Personal assistants
+
+  - Educational tools
+
+  - Research projects
+
+
+  ## Versions and Updates
+
+
+  **Iterative Development**:
+
+  - Version 1.9: Latest improvements
+
+  - Regular updates
+
+  - Community feedback
+
+  - Performance enhancements
+
+  - Bug fixes
+
+
+  ## Research Contributions
+
+
+  **Demonstrates**:
+
+  - Multi-turn training importance
+
+  - Context retention techniques
+
+  - Conversation specialization
+
+  - Data quality impact
+
+  - Open-source viability
+
+
+  ## Limitations
+
+
+  **Acknowledged**:
+
+  - Context window limits (though extended)
+
+  - Specialization trade-offs
+
+  - Base model constraints
+
+  - Training data scope
+
+
+  ## Future Development
+
+
+  - Longer context support
+
+  - Enhanced coherence
+
+  - New base models
+
+  - Improved retention
+
+  - Community contributions
+
+
+  ## Licensing
+
+
+  Follows base model licensing (typically permissive).
+
+
+  ## Pricing
+
+
+  Free and open-source.
+brand: Nous Research
+images: []
+updated_at: 2026-03-03 13:39

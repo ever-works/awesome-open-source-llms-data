@@ -1,0 +1,165 @@
+name: OpenHermes
+description: Mistral-based instruction-tuned model trained on 1 million entries
+  of primarily GPT-4 generated data. OpenHermes 2.5 Mistral 7B achieves strong
+  performance on instruction-following and code generation tasks.
+source_url: https://huggingface.co/teknium/OpenHermes-2.5-Mistral-7B
+category: Instruction Tuned Models
+tags:
+  - instruction-tuned
+  - mistral-based
+  - synthetic-data
+featured: false
+markdown: >-
+  ## Overview
+
+
+  OpenHermes 2.5 Mistral 7B is a state-of-the-art Mistral fine-tune,
+  representing a continuation of the OpenHermes 2 model with additional training
+  on code datasets. It demonstrates exceptional instruction-following
+  capabilities.
+
+
+  ## Training Data
+
+
+  The model was trained on **1,000,000 entries** comprising:
+
+  - Primarily GPT-4 generated data
+
+  - High-quality data from open datasets across the AI landscape
+
+  - Code instruction datasets (7-14% of total)
+
+  - Diverse task types and domains
+
+
+  ## Key Innovation
+
+
+  Training on a good ratio of around 7-14% of the total dataset of code
+  instruction boosted several non-code benchmarks, including:
+
+  - **TruthfulQA**: Improved truthfulness
+
+  - **AGIEval**: Better reasoning
+
+  - **GPT4All suite**: Enhanced general capabilities
+
+
+  ## Performance
+
+
+  OpenHermes leads in summary generation tasks, particularly excelling at:
+
+  - Consistency in summaries
+
+  - Minimizing contradictions
+
+  - Instruction-following accuracy
+
+  - Code generation and explanation
+
+
+  ## Key Features
+
+
+  - **High-Quality Training**: 1M GPT-4 generated examples
+
+  - **Code-Enhanced**: Better overall performance through code training
+
+  - **Instruction Excellence**: Strong instruction-following
+
+  - **Diverse Capabilities**: General-purpose applications
+
+  - **Compact Size**: 7B parameters
+
+
+  ## Training Methodology
+
+
+  - Fine-tuned from Mistral-7B base
+
+  - Curated high-quality instruction dataset
+
+  - Balanced mix of code and non-code tasks
+
+  - GPT-4 generated examples for quality
+
+
+  ## Supported Tasks
+
+
+  - **Instruction Following**: Precise task execution
+
+  - **Code Generation**: Programming assistance
+
+  - **Text Summarization**: Consistent, contradiction-free summaries
+
+  - **Question Answering**: Accurate information retrieval
+
+  - **Conversational AI**: Natural dialogue
+
+  - **Content Generation**: Creative and technical writing
+
+
+  ## Performance Highlights
+
+
+  **Summarization**: OpenHermes and Starling are in the lead, depending on
+  whether higher importance is given to consistency or minimizing
+  contradictions.
+
+
+  **General Benchmarks**: Improved scores across multiple evaluation suites due
+  to code training integration.
+
+
+  ## Use Cases
+
+
+  - Development assistance with code generation
+
+  - Document summarization
+
+  - Instruction-based task automation
+
+  - Conversational interfaces
+
+  - Content creation and editing
+
+  - Educational applications
+
+
+  ## Deployment
+
+
+  - Efficient inference on consumer hardware
+
+  - Quantization support (AWQ and other methods)
+
+  - Compatible with vLLM for fast serving
+
+  - Standard Hugging Face integration
+
+
+  ## Comparison
+
+
+  OpenHermes competes strongly with other instruction-tuned 7B models, often
+  leading in specific tasks like summarization while maintaining broad
+  capabilities.
+
+
+  ## Licensing
+
+
+  Based on Mistral-7B, follows Apache 2.0 license terms.
+
+
+  ## Pricing
+
+
+  Free and open-source.
+brand: Teknium
+images: []
+updated_at: 2026-03-03 13:39

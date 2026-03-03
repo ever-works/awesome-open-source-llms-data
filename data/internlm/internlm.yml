@@ -1,0 +1,262 @@
+name: InternLM
+description: Large language model from SenseTime and Shanghai AI Lab with 104
+  billion parameters trained on 1.6 trillion tokens. InternLM2 available in 7B
+  and 20B sizes with comprehensive capabilities in mathematics, code, dialogue,
+  and creative writing.
+source_url: https://github.com/InternLM/InternLM
+category: Foundation Models
+tags:
+  - chinese
+  - multilingual
+  - research
+featured: false
+markdown: >-
+  ## Overview
+
+
+  InternLM is a large language model developed through collaboration between
+  SenseTime, Shanghai AI Lab, Chinese University of Hong Kong, Fudan University,
+  and Shanghai Jiao Tong University. It represents a major Chinese contribution
+  to open-source AI.
+
+
+  ## Model Variants
+
+
+  ### InternLM (Original)
+
+  - **Parameters**: 104 billion
+
+  - **Training Tokens**: 1.6 trillion
+
+  - **Focus**: Multilingual capabilities
+
+
+  ### InternLM2
+
+  - **7B variant**: Compact, efficient model
+
+  - **20B variant**: Enhanced capabilities
+
+  - **Capabilities**: Mathematics, code, dialogue, creative writing
+
+
+  ### Specialized Variants
+
+  - **InternLM-Law**: Legal domain specialization
+
+  - **InternLM-Chat**: Conversational models
+
+  - **InternLM-Math**: Mathematics-focused
+
+
+  ## Key Features
+
+
+  - **Large Scale**: Up to 104B parameters
+
+  - **Multilingual**: Strong Chinese and English support
+
+  - **Comprehensive**: Math, code, dialogue, writing
+
+  - **Research-Grade**: Academic collaboration
+
+  - **Multiple Sizes**: 7B, 20B, 104B variants
+
+  - **Domain Specialization**: Legal, math, and other domains
+
+
+  ## Architecture
+
+
+  - Transformer-based architecture
+
+  - Optimized for both Chinese and English
+
+  - Efficient training and inference
+
+  - Scalable across parameter sizes
+
+
+  ## Training Data
+
+
+  - **Scale**: 1.6 trillion tokens (original InternLM)
+
+  - **Languages**: Primarily Chinese and English
+
+  - **Diversity**: Code, mathematics, dialogue, literature
+
+  - **Quality**: Curated high-quality corpus
+
+
+  ## Performance Domains
+
+
+  ### Mathematics
+
+  - Strong mathematical reasoning
+
+  - Problem-solving capabilities
+
+  - Formula understanding
+
+
+  ### Code Generation
+
+  - Multiple programming languages
+
+  - Code explanation
+
+  - Algorithm implementation
+
+
+  ### Dialogue
+
+  - Natural conversation
+
+  - Context understanding
+
+  - Coherent responses
+
+
+  ### Creative Writing
+
+  - Text generation
+
+  - Story creation
+
+  - Content composition
+
+
+  ## InternLM-Law (Legal Specialization)
+
+
+  An open-source Chinese legal large language model:
+
+  - Legal document understanding
+
+  - Case law analysis
+
+  - Legal reasoning
+
+  - Chinese legal system expertise
+
+
+  ## Research Collaboration
+
+
+  Developed by:
+
+  - **SenseTime**: Leading AI company
+
+  - **Shanghai AI Lab**: Research institution
+
+  - **Chinese University of Hong Kong**: Academic partner
+
+  - **Fudan University**: Research contributor
+
+  - **Shanghai Jiao Tong University**: Academic partner
+
+
+  ## Use Cases
+
+
+  - **Chinese NLP Applications**: Language understanding and generation
+
+  - **Legal Tech**: Legal document processing (InternLM-Law)
+
+  - **Education**: Tutoring and learning assistance
+
+  - **Code Generation**: Programming assistance
+
+  - **Research**: AI research and experiments
+
+  - **Content Creation**: Writing and creative tasks
+
+  - **Mathematics**: Problem-solving and tutoring
+
+
+  ## Technical Capabilities
+
+
+  - Long-context understanding
+
+  - Multi-turn dialogue
+
+  - Instruction-following
+
+  - Few-shot learning
+
+  - Chain-of-thought reasoning
+
+
+  ## Deployment
+
+
+  - Available on Hugging Face
+
+  - Multiple size options for different hardware
+
+  - Quantization support
+
+  - Efficient inference frameworks
+
+  - Chinese and international cloud platforms
+
+
+  ## Community and Ecosystem
+
+
+  - Active open-source community
+
+  - Regular updates and improvements
+
+  - Documentation in Chinese and English
+
+  - Research paper publications
+
+  - Academic and industry partnerships
+
+
+  ## Comparison
+
+
+  Part of the Chinese open-source LLM ecosystem alongside:
+
+  - ChatGLM/GLM series
+
+  - Baichuan models
+
+  - Qwen series
+
+  - Yi models
+
+
+  ## Research Impact
+
+
+  Contributes to:
+
+  - Open-source AI democratization
+
+  - Chinese NLP advancement
+
+  - Domain-specific LLM development
+
+  - Academic research opportunities
+
+
+  ## Licensing
+
+
+  Open-source license for research and commercial use.
+
+
+  ## Pricing
+
+
+  Free and open-source.
+brand: SenseTime & Shanghai AI Lab
+images: []
+updated_at: 2026-03-03 13:39

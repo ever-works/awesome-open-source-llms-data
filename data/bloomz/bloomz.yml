@@ -1,0 +1,401 @@
+name: BLOOMZ
+description: Instruction-tuned variant of BLOOM with 176B parameters, fine-tuned
+  on multilingual tasks using xP3 dataset. Supports instruction-following across
+  46 languages, making it ideal for global multilingual applications.
+source_url: https://huggingface.co/bigscience/bloomz
+category: Instruction Tuned Models
+tags:
+  - multilingual
+  - instruction-tuned
+  - large-scale
+featured: false
+markdown: >-
+  ## Overview
+
+
+  BLOOMZ is the instruction-tuned variant of BLOOM, fine-tuned on multilingual
+  tasks to follow user instructions across 46 languages. It represents a massive
+  multilingual instruction-following model from the BigScience collaboration.
+
+
+  ## Model Specifications
+
+
+  - **Parameters**: 176 billion (same as BLOOM)
+
+  - **Languages**: 46 natural languages
+
+  - **Programming Languages**: 13
+
+  - **Base**: BLOOM 176B
+
+  - **Training**: Fine-tuned on xP3 dataset
+
+
+  ## Key Innovation
+
+
+  **Multilingual Instruction-Following**:
+
+  - Instruction-tuning across 46 languages
+
+  - Cross-lingual task generalization
+
+  - Multilingual zero-shot capabilities
+
+  - Global accessibility
+
+
+  ## BLOOMZ Variants
+
+
+  ### BLOOMZ-176B
+
+  - Full 176B parameter model
+
+  - Complete instruction-tuning
+
+  - All 46 languages
+
+
+  ### BLOOMZ-7B1
+
+  - Smaller 7.1B variant
+
+  - More efficient deployment
+
+  - Maintained multilingual capabilities
+
+
+  ### BLOOMZ-3B
+
+  - Compact 3B variant
+
+  - Consumer hardware friendly
+
+  - Core language support
+
+
+  ### BLOOMZ-1B7
+
+  - Smallest 1.7B variant
+
+  - Edge deployment capable
+
+  - Key languages maintained
+
+
+  ## Training Dataset: xP3
+
+
+  **Cross-lingual Public Pool of Prompts (xP3)**:
+
+  - Multilingual instruction dataset
+
+  - Diverse task coverage
+
+  - 46 language support
+
+  - Cross-lingual examples
+
+  - Task instructions and demonstrations
+
+
+  ## Key Features
+
+
+  - **Massive Multilingual**: 46 natural languages
+
+  - **Instruction-Following**: User command execution
+
+  - **Cross-Lingual**: Transfer across languages
+
+  - **Open Source**: Freely available
+
+  - **Multiple Sizes**: 1.7B to 176B parameters
+
+  - **Code Support**: 13 programming languages
+
+
+  ## Supported Languages
+
+
+  Includes major languages from:
+
+  - **Europe**: English, French, Spanish, German, Italian, etc.
+
+  - **Asia**: Chinese, Japanese, Korean, Hindi, Arabic, etc.
+
+  - **Africa**: Multiple African languages
+
+  - **Americas**: Portuguese, indigenous languages
+
+  - **And many more**: 46 total natural languages
+
+
+  ## Performance
+
+
+  **Instruction-Following**:
+
+  - Strong across all 46 languages
+
+  - Good cross-lingual transfer
+
+  - Competitive multilingual performance
+
+  - Maintained BLOOM capabilities
+
+
+  **Zero-Shot Tasks**:
+
+  - Generalization to new instructions
+
+  - Cross-lingual task transfer
+
+  - Multi-task capabilities
+
+
+  ## Use Cases
+
+
+  ### Global Applications
+
+  - Worldwide customer support
+
+  - Multilingual content generation
+
+  - International documentation
+
+  - Cross-border communication
+
+
+  ### Language-Specific Services
+
+  - Low-resource language support
+
+  - Local language applications
+
+  - Regional content creation
+
+  - Cultural preservation
+
+
+  ### Multilingual AI
+
+  - Translation services
+
+  - Cross-lingual information retrieval
+
+  - Multilingual question answering
+
+  - Global knowledge management
+
+
+  ### Instruction-Following
+
+  - Task execution in any supported language
+
+  - Natural language interfaces
+
+  - Automated workflows
+
+  - Interactive systems
+
+
+  ## Comparison with BLOOM
+
+
+  **BLOOMZ vs BLOOM**:
+
+  - BLOOMZ: Instruction-tuned, follows commands
+
+  - BLOOM: Base model, text generation
+
+  - BLOOMZ: Better task performance
+
+  - BLOOM: Raw generation capabilities
+
+
+  ## Training Approach
+
+
+  1. **Base**: Start with BLOOM 176B
+
+  2. **Dataset**: Use xP3 multilingual instructions
+
+  3. **Fine-Tuning**: Instruction-following training
+
+  4. **Languages**: Maintain all 46 languages
+
+  5. **Evaluation**: Cross-lingual testing
+
+
+  ## Deployment Options
+
+
+  ### Size Selection
+
+  - **176B**: Maximum capability, requires large infrastructure
+
+  - **7B1**: Balanced performance and efficiency
+
+  - **3B**: Consumer hardware deployment
+
+  - **1B7**: Edge and mobile potential
+
+
+  ### Infrastructure
+
+  - Cloud platforms
+
+  - On-premises clusters (176B)
+
+  - Single GPU (smaller variants)
+
+  - Quantization support
+
+
+  ## BigScience Collaboration
+
+
+  **Community Achievement**:
+
+  - Global researcher collaboration
+
+  - Multilingual AI advancement
+
+  - Open science principles
+
+  - Democratized access
+
+  - Reproducible research
+
+
+  ## Technical Specifications
+
+
+  **Architecture**: Same as BLOOM (decoder-only transformer)
+
+  **Context Length**: Standard for BLOOM
+
+  **Fine-Tuning**: xP3 dataset instruction-tuning
+
+  **Inference**: Standard transformer inference
+
+
+  ## Advantages
+
+
+  1. **Multilingual**: 46 language support
+
+  2. **Instruction-Following**: Task execution
+
+  3. **Open Source**: Free access
+
+  4. **Multiple Sizes**: Flexibility
+
+  5. **Community**: Global collaboration
+
+
+  ## Limitations
+
+
+  **Acknowledged**:
+
+  - 176B variant requires significant resources
+
+  - Language quality varies by corpus size
+
+  - Biases from training data
+
+  - Not all languages equally represented
+
+
+  ## Community Impact
+
+
+  BLOOMZ contributed:
+
+  - Multilingual instruction-following
+
+  - Low-resource language support
+
+  - Open-source multilingual AI
+
+  - Research democratization
+
+  - Global accessibility
+
+
+  ## Research Applications
+
+
+  - Multilingual NLP research
+
+  - Cross-lingual transfer studies
+
+  - Instruction-following research
+
+  - Low-resource language development
+
+  - Bias and fairness studies
+
+
+  ## Integration
+
+
+  **Compatible with**:
+
+  - Hugging Face Transformers
+
+  - Standard inference frameworks
+
+  - API services
+
+  - Custom applications
+
+
+  ## xP3 Dataset Impact
+
+
+  **xP3 Enabled**:
+
+  - Multilingual instruction-tuning
+
+  - Cross-lingual task transfer
+
+  - Diverse task coverage
+
+  - Open research data
+
+
+  ## Future Development
+
+
+  - Continued improvements
+
+  - Enhanced language support
+
+  - Better cross-lingual transfer
+
+  - Community contributions
+
+  - Research advancements
+
+
+  ## Licensing
+
+
+  BigScience RAIL License - permissive for research and commercial use with
+  responsible AI provisions.
+
+
+  ## Pricing
+
+
+  Free and open-source.
+brand: BigScience
+brand_logo_url: https://huggingface.co/datasets/huggingface/brand-assets/resolve/main/hf-logo.png
+images: []
+updated_at: 2026-03-03 13:39

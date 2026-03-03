@@ -1,0 +1,54 @@
+## Overview
+
+Open Pre-trained Transformer Language Models (OPT) is a family of open-source models from Meta AI designed to replicate GPT-3 with similar decoder-only architecture. Released to promote reproducibility and democratize access to large language models.
+
+## Model Variants
+
+OPT includes models at multiple scales:
+- **125M parameters**
+- **350M parameters**
+- **1.3B parameters**
+- **2.7B parameters**
+- **6.7B parameters**
+- **13B parameters**
+- **30B parameters**
+- **66B parameters**
+- **175B parameters** (OPT-175B, comparable to GPT-3)
+
+## Architecture
+
+- **Architecture**: Decoder-only transformer (similar to GPT-3)
+- **Training**: Causal language modeling
+- **Design Goal**: Reproducible GPT-3 alternative
+
+## Historical Context
+
+OPT was one of the early efforts by major tech companies to open-source large language models. While it has since been superseded by models such as LLaMA, GPT-J, and Pythia, it represented an important step in democratizing access.
+
+## Key Features
+
+- **Multiple Scales**: Wide range of model sizes
+- **Research Focus**: Designed to enable research
+- **Open Weights**: Model weights freely available
+- **GPT-3 Architecture**: Similar design to GPT-3
+- **Reproducibility**: Documentation and training details provided
+
+## Use Cases
+
+- Research in large language models
+- Studying scaling laws
+- Educational purposes
+- Base models for fine-tuning
+- Comparison studies with other architectures
+
+## Limitations
+
+OPT has been largely superseded by newer models like LLaMA, Mistral, and others that offer better performance and efficiency.
+
+## Licensing
+
+Released under Meta's OPT license for research and non-commercial use.
+
+## Pricing
+
+Free and open-source for research purposes.

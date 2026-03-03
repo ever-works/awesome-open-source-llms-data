@@ -1,13 +1,13 @@
 name: LLaVA (Large Language-and-Vision Assistant)
-description: Open-source multimodal model connecting vision encoder and LLM for
-  general-purpose visual and language understanding. LLaVA-OneVision-1.5
-  achieves state-of-the-art performance on native-resolution images with lower
-  training costs, leading multiple multimodal benchmarks.
+description: End-to-end trained large multimodal model connecting vision encoder
+  and LLM for visual and language understanding. LLaVA-OneVision-1.5 achieves
+  state-of-the-art performance on native-resolution images with comparatively
+  lower training costs.
 source_url: https://llava-vl.github.io/
 category: Multimodal Models
 tags:
-  - vision-language
   - multimodal
+  - vision-language
   - open-source
 featured: true
 markdown: >-
@@ -15,384 +15,227 @@ markdown: >-
 
 
   LLaVA (Large Language-and-Vision Assistant) is an end-to-end trained large
-  multimodal model that connects a vision encoder with a large language model
-  for general-purpose visual and language understanding. Developed through
-  collaboration with Microsoft Research, LLaVA represents a major achievement in
-  open-source multimodal AI.
-
-
-  ## Architecture
-
-
-  - **Model Type:** Vision-Language Multimodal
-
-  - **Components:** Vision encoder + LLM decoder
-
-  - **Vision Encoder:** CLIP or similar
-
-  - **Language Model:** Various LLaMA-based backbones
-
-  - **Training:** End-to-end instruction tuning
-
-
-  ## Key Features
-
-
-  - General-purpose visual and language understanding
-
-  - End-to-end trainable architecture
-
-  - Instruction following for vision tasks
-
-  - Native-resolution image processing (OneVision variants)
-
-  - Support for images, high-resolution images, and videos
-
-  - State-of-the-art performance on multimodal benchmarks
-
-  - Lower training costs than alternatives
-
-
-  ## LLaVA Evolution
-
-
-  ### LLaVA 1.0 (Original)
-
-  - Pioneering vision-language instruction tuning
-
-  - Demonstrated GPT-4V-like capabilities
-
-  - Strong visual question answering
-
-  - Effective image understanding
-
-
-  ### LLaVA 1.5
-
-  - Improved architecture and training
-
-  - Better performance across benchmarks
-
-  - Enhanced instruction following
-
-  - More efficient training
-
-
-  ### LLaVA-OneVision-1.5 (Latest)
-
-  - **Native-resolution image processing**
-
-  - **State-of-the-art performance** on multimodal benchmarks
-
-  - **Lower training costs** than competitors
-
-  - Leads multiple benchmark leaderboards
-
-  - Generally surpasses Qwen2.5-VL
-
-
-  ### LLaVA-OneVision-1.5-RL
-
-  - Reinforcement learning-enhanced variant
-
-  - Released December 2025
-
-  - Includes code, data, and model
-
-  - Advanced instruction following
+  multimodal model that connects a vision encoder and LLM for general-purpose
+  visual and language understanding. It represents one of the leading
+  open-source vision-language models.
 
 
   ## Model Variants
 
 
-  ### LLaVA-Mini
+  ### LLaVA-OneVision-1.5 (Latest)
 
-  - Efficient unified multimodal model
+  - **Sizes**: 0.5B, 7B, and 72B parameters
 
-  - Supports images, high-resolution images, and videos
+  - **Features**: Native-resolution image processing
 
-  - Optimized for resource efficiency
+  - **Performance**: State-of-the-art on multiple benchmarks
 
-  - Good balance of capability and cost
-
-
-  ### Different Backbone Sizes
-
-  - 7B parameter variants
-
-  - 13B parameter variants
-
-  - Larger variants for enhanced capability
+  - **Training Cost**: Efficient $16,000 budget for end-to-end training
 
 
-  ## Performance Highlights
+  ### LLaVA-OneVision (Original)
+
+  - First single model for three computer vision scenarios:
+    - Single-image tasks
+    - Multi-image tasks
+    - Video scenarios
+
+  ### Earlier Versions
+
+  - LLaVA 1.5
+
+  - LLaVA 1.6
+
+  - Various size variants
 
 
-  ### Benchmark Leadership
-
-  - Leads multiple multimodal benchmarks (as of late 2025)
-
-  - State-of-the-art on vision-language tasks
-
-  - Strong performance on instruction following
-
-  - Excellent visual question answering
+  ## Key Features
 
 
-  ### Comparison with Competitors
+  - **Multimodal Understanding**: Text and vision integration
 
-  - Generally surpasses Qwen2.5-VL
+  - **Native Resolution**: Process images at full resolution
 
-  - Competitive with Pixtral and other alternatives
+  - **Multiple Scenarios**: Single-image, multi-image, and video
 
-  - Better than earlier LLaVA-OneVision 7B variants
+  - **Cost-Efficient Training**: Complete training within $16,000
 
-  - Strong performance relative to training cost
+  - **State-of-the-Art**: Leading performance on benchmarks
+
+  - **Fully Open**: Complete training framework and weights
 
 
-  ## Capabilities
+  ## Training Resources
 
 
-  ### Visual Understanding
+  **LLaVA-OneVision-1.5 Includes**:
 
-  - Image captioning and description
+  - 85M concept-balanced pretraining dataset
 
-  - Visual question answering (VQA)
+  - 26M instruction dataset
 
-  - Object detection and localization
+  - Complete end-to-end training framework
+
+  - Pre-trained checkpoints (0.5B, 7B, 72B)
+
+
+  ## Performance
+
+
+  LLaVA-OneVision-1.5 generally surpasses Qwen2.5-VL and leads on multiple
+  multimodal benchmarks.
+
+
+  **Benchmark Performance**:
+
+  - Visual question answering
+
+  - Image captioning
+
+  - Multi-image reasoning
+
+  - Video understanding
+
+  - Instruction following with images
+
+
+  ## Architecture
+
+
+  **Components**:
+
+  - **Vision Encoder**: Processes visual inputs
+
+  - **Projection Layer**: Connects vision and language
+
+  - **Language Model**: Processes and generates text
+
+  - **End-to-End Training**: All components trained together
+
+
+  ## Supported Tasks
+
+
+  ### Single-Image Tasks
+
+  - Visual question answering
+
+  - Image captioning
+
+  - Object detection and description
 
   - Scene understanding
 
-  - OCR and text reading in images
+
+  ### Multi-Image Tasks
+
+  - Image comparison
+
+  - Multi-image reasoning
+
+  - Sequential image understanding
 
 
-  ### Multimodal Reasoning
-
-  - Combining visual and textual information
-
-  - Multi-step reasoning with images
-
-  - Chart and diagram understanding
-
-  - Document understanding
-
-
-  ### Video Understanding
-
-  - Temporal reasoning across frames
-
-  - Action recognition
+  ### Video Tasks
 
   - Video question answering
 
-  - Event understanding
+  - Video captioning
 
+  - Temporal reasoning
 
-  ## Training Methodology
-
-
-  ### Instruction Tuning
-
-  - Visual instruction-following datasets
-
-  - Alignment between vision and language
-
-  - End-to-end optimization
-
-  - Efficient training procedures
-
-
-  ### Data Efficiency
-
-  - Lower training costs than alternatives
-
-  - Effective use of training data
-
-  - Quality over quantity approach
-
-
-  ## Deployment Options
-
-
-  - Self-hosting on GPU infrastructure
-
-  - Cloud deployment options
-
-  - Integration with existing LLM serving frameworks
-
-  - Compatible with Hugging Face Transformers
-
-  - Various quantization options
+  - Action recognition
 
 
   ## Use Cases
 
 
-  ### Accessibility
+  - **Visual Question Answering**: Answer questions about images
 
-  - Image description for visually impaired
+  - **Image Understanding**: Describe and analyze images
 
-  - Document reading assistance
+  - **Video Analysis**: Understand video content
 
-  - Visual navigation aids
+  - **Accessibility**: Describe images for visually impaired
 
+  - **Content Moderation**: Analyze visual content
 
-  ### Education
+  - **Education**: Visual learning assistance
 
-  - Visual learning assistance
+  - **Research**: Multimodal AI research
 
-  - Diagram and chart explanation
 
-  - Interactive visual tutoring
+  ## 2026 Landscape
 
 
-  ### Enterprise
+  The latest wave, from Qwen3-VL to GLM-4.6V, pushes open-source multimodality
+  into new territory. However, LLaVA remains a strong competitor with its
+  efficient training and strong performance.
 
-  - Document understanding and processing
 
-  - Visual inspection and quality control
+  ## Training Efficiency
 
-  - Multimodal customer support
 
-  - Content moderation
+  LLaVA-OneVision-1.5 demonstrates that:
 
+  - State-of-the-art VLMs don't require massive budgets
 
-  ### Research
+  - $16,000 training budget is sufficient
 
-  - Multimodal AI research
+  - Efficient data curation matters
 
-  - Vision-language studies
+  - Open training frameworks enable reproducibility
 
-  - Benchmark development
 
-  - Model analysis
+  ## Deployment
 
 
-  ## Technical Innovations
+  - Available on Hugging Face
 
+  - Multiple size options for different hardware
 
-  ### Native-Resolution Processing
+  - Quantization support
 
-  - Handles images at original resolution
+  - Efficient inference
 
-  - Better detail preservation
 
-  - Improved text reading in images
+  ## Comparison with Other VLMs
 
-  - Enhanced visual fidelity
 
+  Compared to competitors:
 
-  ### Efficient Architecture
+  - **vs Qwen2-VL 7B**: LLaVA shows competitive performance
 
-  - Optimized vision-language connection
+  - **vs Pixtral 12B**: Different strengths on various tasks
 
-  - Reduced training requirements
+  - **vs Phi-3.5 Vision**: Generally stronger multimodal capabilities
 
-  - Effective parameter usage
 
-  - Fast inference
+  ## Research Impact
 
 
-  ## Open-Source Ecosystem
+  LLaVA has significantly influenced:
 
+  - Open-source vision-language research
 
-  ### Community Contributions
+  - Efficient multimodal training approaches
 
-  - Active development community
+  - Democratization of VLM technology
 
-  - Regular updates and improvements
-
-  - Extensive documentation
-
-  - Growing ecosystem of tools
-
-
-  ### Integration Support
-
-  - Hugging Face model hub
-
-  - GitHub repositories with code
-
-  - Pre-trained model releases
-
-  - Training scripts and data
-
-
-  ## Comparison with Multimodal Alternatives
-
-
-  ### vs. Proprietary Models (GPT-4V, Gemini Vision)
-
-  - Open-source and self-hostable
-
-  - Competitive performance
-
-  - Full control and customization
-
-  - No API costs
-
-
-  ### vs. Other Open Models
-
-  - Better instruction following than many alternatives
-
-  - State-of-the-art on multiple benchmarks
-
-  - Lower training costs
-
-  - Active development and improvements
-
-
-  ## Research Collaboration
-
-
-  ### Microsoft Research
-
-  - Institutional support and resources
-
-  - Advanced research contributions
-
-  - Integration with Microsoft ecosystem
-
-  - Academic rigor
-
-
-  ### Academic Community
-
-  - University collaborations
-
-  - Open research approach
-
-  - Peer-reviewed publications
-
-  - Reproducible research
-
-
-  ## Future Developments
-
-
-  - Continued benchmark improvements
-
-  - Enhanced video understanding
-
-  - More efficient architectures
-
-  - Broader modality support
-
-  - Reinforcement learning integration
+  - Community-driven AI development
 
 
   ## Licensing
 
 
-  Released under permissive open-source license:
+  Open-source under permissive license.
 
-  - Research and commercial use permitted
 
-  - Model weights publicly available
+  ## Pricing
 
-  - Training code and data accessible
 
-  - Active maintenance and support
-brand: Microsoft Research
-updated_at: 2026-03-03 13:09
+  Free and open-source.
+brand: University of Wisconsin-Madison
+images: []
+updated_at: 2026-03-03 13:39

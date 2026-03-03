@@ -1,0 +1,167 @@
+## Overview
+
+XVERSE is a multilingual large language model developed by Shenzhen Yuanxiang Technology. It supports over 40 languages and is trained on 3.2 trillion tokens of high-quality diverse data.
+
+## Model Variants
+
+### XVERSE-7B
+- **Parameters**: 7 billion
+- **Context**: 8K tokens
+- **Training**: 3.2 trillion tokens
+- **Languages**: 40+ supported
+
+### XVERSE-13B
+- **Parameters**: 13 billion
+- **Enhanced Capabilities**: Improved performance
+- **Multilingual**: Comprehensive language support
+
+### XVERSE-65B
+- **Parameters**: 65 billion
+- **Context**: 16K tokens
+- **Training**: 2.6 trillion tokens
+- **Primary Languages**: Chinese, English, Russian, Spanish
+
+## Language Support
+
+XVERSE supports over 40 languages including:
+- **Chinese**: Native language optimization
+- **English**: Full support
+- **Russian**: Comprehensive coverage
+- **Spanish**: Strong performance
+- **And 36+ additional languages**
+
+## Key Features
+
+- **Extensive Multilingual**: 40+ languages
+- **Long Context**: 8K-16K tokens depending on variant
+- **Large Scale**: Up to 65B parameters
+- **High-Quality Training**: Trillions of tokens
+- **Diverse Data**: Multiple languages and domains
+- **Open Source**: Freely available
+
+## Training Data
+
+### XVERSE-7B/13B
+- **3.2 trillion tokens** of high-quality diverse data
+- Multilingual corpus covering 40+ languages
+- Balanced language representation
+- Code and natural language
+
+### XVERSE-65B
+- **2.6 trillion tokens** for larger model
+- **16K context window** support
+- Focus on Chinese, English, Russian, Spanish
+- Enhanced quality filtering
+
+## Architecture
+
+- Transformer-based decoder architecture
+- Optimized attention mechanisms
+- Efficient multilingual processing
+- Extended context support (8K-16K)
+
+## Performance
+
+XVERSE demonstrates strong performance across:
+- Multilingual understanding
+- Cross-lingual transfer
+- Code generation
+- Long-context tasks
+- Question answering
+- Text generation
+
+## Use Cases
+
+### Multilingual Applications
+- Global content generation
+- Cross-language translation
+- Multilingual customer support
+- International documentation
+
+### Long-Context Tasks
+- Document analysis (8K-16K tokens)
+- Long-form content generation
+- Extended dialogue
+- Comprehensive summarization
+
+### Specific Language Markets
+- Chinese language applications
+- Russian language services
+- Spanish language content
+- Multi-language platforms
+
+## Technical Specifications
+
+**Context Windows**:
+- 7B/13B models: 8K tokens
+- 65B model: 16K tokens
+
+**Training Scale**:
+- Up to 3.2 trillion tokens
+- Diverse multilingual corpus
+- High-quality data curation
+
+## Deployment
+
+- Available on Hugging Face
+- Multiple size options
+- Quantization support
+- Efficient inference
+- Cloud and on-premises deployment
+
+## Comparison with Other Multilingual Models
+
+Compared to alternatives:
+- **vs BLOOM**: More languages, different scale
+- **vs Aya**: Different language focus and coverage
+- **vs mT5**: Decoder-only vs encoder-decoder
+
+## Chinese Open-Source Ecosystem
+
+Part of the broader Chinese LLM ecosystem:
+- Qwen series (Alibaba)
+- ChatGLM (Zhipu AI)
+- Baichuan (Baichuan Intelligence)
+- Yi (01.AI)
+- InternLM (SenseTime)
+
+## Applications by Region
+
+**Greater China**:
+- Chinese language services
+- Simplified and Traditional Chinese
+- Regional dialect understanding
+
+**Eastern Europe**:
+- Russian language applications
+- Cyrillic script support
+- Regional content
+
+**Latin America**:
+- Spanish language services
+- Regional variations
+- Latin American markets
+
+## Development Team
+
+Developed by Shenzhen Yuanxiang Technology:
+- Chinese AI company
+- Focus on multilingual models
+- Open-source commitment
+- Active development
+
+## Community
+
+- Open-source contributions
+- GitHub repository
+- Model sharing on Hugging Face
+- Documentation and examples
+- Community support
+
+## Licensing
+
+Open-source license for research and commercial use.
+
+## Pricing
+
+Free and open-source.

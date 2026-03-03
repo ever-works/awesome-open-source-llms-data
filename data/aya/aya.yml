@@ -1,0 +1,242 @@
+name: Aya
+description: Cohere's state-of-the-art massively multilingual LLM covering 101
+  languages including 50+ previously underserved languages. Result of year-long
+  collaboration with 3,000 researchers across 119 countries.
+source_url: https://cohere.com/research/aya
+category: Foundation Models
+tags:
+  - multilingual
+  - collaborative
+  - open-source
+featured: true
+markdown: >-
+  ## Overview
+
+
+  Aya is a state-of-the-art, open-source, massively multilingual research LLM
+  from Cohere covering 101 languages – including more than 50 previously
+  underserved languages. It was the result of a year-long project involving
+  3,000 researchers in 119 countries.
+
+
+  ## Model Variants
+
+
+  ### Aya 101
+
+  - **Languages**: 101 languages supported
+
+  - **Base**: Fine-tuned from 13B mT5 model
+
+  - **Architecture**: Multilingual generative model
+
+  - **Focus**: Instruction-following across diverse languages
+
+
+  ### Aya 23
+
+  - **Languages**: 23 languages (focused selection)
+
+  - **Sizes**: 8B and 35B parameters
+
+  - **Performance**: Outperforms Aya 101, Gemma, Mistral, and Mixtral
+
+  - **State-of-the-Art**: Leading multilingual performance
+
+
+  ### Tiny Aya
+
+  - **Parameters**: 3.35B base model
+
+  - **Languages**: 70+ languages
+
+  - **Focus**: Compact multilingual model
+
+  - **Regional Variants**: Specialized for different regions
+
+
+  ## Global Collaboration
+
+
+  Aya represents unprecedented collaboration:
+
+  - **3,000 researchers** worldwide
+
+  - **119 countries** represented
+
+  - **Year-long project** timeline
+
+  - **Community-driven** development
+
+  - **Democratized AI** goals
+
+
+  ## Language Coverage
+
+
+  Aya covers languages from:
+
+  - Major European languages
+
+  - Asian languages (Chinese, Japanese, Hindi, Arabic, etc.)
+
+  - African languages
+
+  - South American languages
+
+  - Pacific languages
+
+  - **50+ previously underserved languages**
+
+
+  ## Key Features
+
+
+  - **Massive Multilingual Coverage**: 101 languages in Aya 101
+
+  - **Underserved Languages**: Focus on linguistic diversity
+
+  - **Community-Built**: Global research collaboration
+
+  - **Multiple Scales**: From 3.35B to 35B parameters
+
+  - **Open Source**: Freely available
+
+  - **State-of-the-Art**: Leading performance in multilingual tasks
+
+
+  ## Performance
+
+
+  Aya 23 outperforms:
+
+  - Its predecessor Aya 101
+
+  - Gemma (various sizes)
+
+  - Mistral models
+
+  - Mixtral models
+
+
+  Across multiple multilingual benchmarks.
+
+
+  ## Comparison with Other Multilingual Models
+
+
+  Aya is one of a handful of open-source multilingual models:
+
+  - **vs BLOOM**: More languages (101 vs 46)
+
+  - **vs Jais**: Broader coverage beyond Arabic-English
+
+  - **vs Regional Models**: Global rather than regional focus
+
+
+  ## Use Cases
+
+
+  - **Global Applications**: Services for worldwide audiences
+
+  - **Underserved Languages**: AI for linguistic minorities
+
+  - **Translation**: Multilingual translation services
+
+  - **Education**: Learning in native languages
+
+  - **Accessibility**: Content for non-English speakers
+
+  - **Research**: Multilingual NLP research
+
+  - **Cultural Preservation**: Technology for endangered languages
+
+
+  ## Training Data
+
+
+  Comprehensive multilingual dataset including:
+
+  - Community-contributed data
+
+  - Diverse linguistic examples
+
+  - Cultural context
+
+  - Regional variations
+
+  - Underserved language resources
+
+
+  ## Impact
+
+
+  Aya democratizes AI access by:
+
+  - Supporting underserved languages
+
+  - Enabling global research collaboration
+
+  - Providing open multilingual models
+
+  - Reducing language barriers
+
+  - Promoting linguistic diversity in AI
+
+
+  ## Deployment
+
+
+  Available through:
+
+  - Hugging Face Hub
+
+  - Ollama for local deployment
+
+  - Cohere's API (for hosted versions)
+
+  - Standard inference frameworks
+
+
+  ## Regional Variants
+
+
+  Tiny Aya includes specialized variants for:
+
+  - Different geographic regions
+
+  - Language families
+
+  - Cultural contexts
+
+  - Resource-constrained environments
+
+
+  ## Research Contributions
+
+
+  - Largest open multilingual model collaboration
+
+  - Focus on underserved languages
+
+  - Community-driven AI development
+
+  - Scalable multilingual training approaches
+
+  - Benchmark creation for diverse languages
+
+
+  ## Licensing
+
+
+  Open-source license allowing research and commercial use.
+
+
+  ## Pricing
+
+
+  Free and open-source.
+brand: Cohere
+brand_logo_url: https://cohere.com/favicon.ico
+images: []
+updated_at: 2026-03-03 13:39
