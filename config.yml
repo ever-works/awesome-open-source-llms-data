@@ -34,7 +34,7 @@ pagination:
 custom_menu:
   header: []
   footer: []
-version: 0.1.1
+version: 0.1.2
 metadata:
   last_request_data:
     generation_method: create-update

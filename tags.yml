@@ -144,3 +144,21 @@
   name: Innovative
 - id: korean
   name: Korean
+- id: hybrid-reasoning
+  name: Hybrid Reasoning
+- id: medical
+  name: Medical
+- id: competitive-programming
+  name: Competitive Programming
+- id: competitive
+  name: Competitive
+- id: benchmark
+  name: Benchmark
+- id: thinking-mode
+  name: Thinking Mode
+- id: frontier
+  name: Frontier
+- id: content-moderation
+  name: Content Moderation
+- id: biomedical
+  name: Biomedical
