@@ -1,0 +1,75 @@
+## Overview
+
+vLLM is a fast and easy-to-use library for LLM inference and serving, specifically designed to address the speed and memory challenges that come with running large AI models. Originally developed at UC Berkeley, it has become one of the most popular open-source solutions for deploying LLMs in production.
+
+## Key Features
+
+### Performance
+- **Up to 24x throughput** improvements compared to HuggingFace Transformers and Text Generation Inference (TGI)
+- Significantly reduced KV cache waste
+- Constant token generation throughput regardless of sequence length
+
+### Compatibility
+- OpenAI-compatible API for drop-in integration
+- Supports the widest range of open-source models
+- Works with any hardware configuration
+
+### Integration Ecosystem
+- Hugging Face integration
+- LangChain and LlamaIndex support
+- Docker and Kubernetes deployment
+- KServe compatibility
+
+## Core Technology: PagedAttention
+
+vLLM's breakthrough innovation is PagedAttention, a novel attention algorithm that effectively manages attention keys and values:
+
+- **Dynamic Memory Allocation**: Memory is requested dynamically, so requests only use what they actually need
+- **Non-Contiguous Storage**: KV cache is stored in non-contiguous blocks
+- **Bigger Batch Sizes**: Eliminates wasted pre-allocated memory, enabling larger batch processing
+
+Traditional systems pre-allocate memory chunks whether used or not. vLLM allocates memory on-demand, dramatically reducing waste.
+
+## Hardware Support
+
+- NVIDIA GPUs
+- AMD CPUs and GPUs
+- Intel CPUs and GPUs
+- PowerPC CPUs
+- Arm CPUs
+- TPUs
+- Specialized accelerators: Intel Gaudi, IBM Spyre, Huawei Ascend
+
+## Additional Optimizations
+
+### Quantization
+Reduces memory space required to run models without significant quality loss.
+
+### Tensor Parallelism
+Breaks up processing work among multiple GPUs for faster inference.
+
+### Speculative Decoding
+Speeds up text generation by using a smaller model to predict tokens and a larger model to validate predictions.
+
+## Deployment Scenarios
+
+- Production API endpoints
+- Real-time chat applications
+- Batch inference workloads
+- Multi-tenant serving
+- Edge deployment with resource constraints
+
+## Performance Comparison
+
+Compared to similar systems:
+- **vs. HuggingFace Transformers**: Up to 24x higher throughput
+- **vs. Text Generation Inference**: Significantly better memory efficiency
+- **Constant Throughput**: All tokens generated at constant speed without memory increase
+
+## Licensing
+
+Apache 2.0 license - fully open source.
+
+## Pricing
+
+Free and open source. Available on GitHub at https://github.com/vllm-project/vllm

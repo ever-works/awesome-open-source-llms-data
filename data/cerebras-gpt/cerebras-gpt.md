@@ -1,0 +1,262 @@
+## Overview
+
+Cerebras-GPT is a family of seven GPT models ranging from 111 million to 13 billion parameters, all trained using the Chinchilla formula for optimal compute efficiency. Released under the Apache 2.0 license, these models represent the first family of GPT models trained with Chinchilla-optimal compute budgets to be made available open-source.
+
+## Model Family
+
+Seven models with varying sizes:
+- **Cerebras-GPT-111M**: 111 million parameters
+- **Cerebras-GPT-256M**: 256 million parameters
+- **Cerebras-GPT-590M**: 590 million parameters
+- **Cerebras-GPT-1.3B**: 1.3 billion parameters
+- **Cerebras-GPT-2.7B**: 2.7 billion parameters
+- **Cerebras-GPT-6.7B**: 6.7 billion parameters
+- **Cerebras-GPT-13B**: 13 billion parameters
+
+## Training Methodology
+
+### Chinchilla Formula
+
+All models trained using the **Chinchilla formula**:
+- **20 tokens per parameter**
+- Optimal compute budget allocation
+- Highest accuracy for given compute
+- Efficient scaling approach
+
+### Training Infrastructure
+
+**Andromeda AI Supercomputer**:
+- **16 CS-2 wafer scale systems**
+- Purpose-built for large-scale AI training
+- Efficient distributed training
+- Optimized for transformer models
+
+## Key Innovation
+
+### First Chinchilla-Optimal Open-Source GPT Models
+
+Cerebras-GPT models are the **first family of GPT models** to:
+1. Be trained using the Chinchilla formula
+2. Released under Apache 2.0 license
+3. Provide complete training details
+4. Make all weights publicly available
+
+### Compute Efficiency
+
+- **Optimal token-to-parameter ratio** (20:1)
+- **Better accuracy per compute dollar**
+- **Reduced training costs**
+- **Efficient scaling strategy**
+
+## Training Details
+
+### Training Data
+- High-quality curated datasets
+- Diverse text corpora
+- Carefully filtered content
+- Balanced domain coverage
+
+### Training Tokens
+
+Each model trained on:
+- **111M model**: ~2.2B tokens
+- **256M model**: ~5.1B tokens
+- **590M model**: ~11.8B tokens
+- **1.3B model**: ~26B tokens
+- **2.7B model**: ~54B tokens
+- **6.7B model**: ~134B tokens
+- **13B model**: ~260B tokens
+
+## Benchmark Performance
+
+### Compute-Efficiency Leadership
+
+- **Highest accuracy** for given compute budget
+- **Superior to equally-sized models** trained with different ratios
+- **Validates Chinchilla formula** effectiveness
+- **Demonstrates optimal scaling**
+
+### General Performance
+
+- Strong on standard language benchmarks
+- Competitive with larger models
+- Efficient parameter utilization
+- Good generalization capabilities
+
+## Availability and Openness
+
+### Complete Release Package
+
+**Models**: All seven models with full weights
+
+**Training Methodology**: Detailed documentation
+
+**Checkpoints**: Available on Hugging Face
+
+**Code**: Training and inference code
+
+## Apache 2.0 License Benefits
+
+### Permissive Commercial Use
+
+- **No royalties** required
+- **Free commercial deployment**
+- **Modification allowed**
+- **Redistribution permitted**
+- **No crediting required** (though appreciated)
+
+### Research and Development
+
+- **Academic research**
+- **Commercial ventures**
+- **Educational purposes**
+- **Model fine-tuning**
+- **Derivative works**
+
+## Use Cases
+
+### Research Applications
+
+- **Scaling law research**
+- **Training efficiency studies**
+- **Model architecture experiments**
+- **Fine-tuning baselines**
+
+### Production Deployments
+
+- **Resource-constrained environments** (smaller models)
+- **Specialized fine-tuning**
+- **Domain adaptation**
+- **Efficient inference applications**
+
+### Educational Use
+
+- **Teaching LLM concepts**
+- **Training methodology demonstrations**
+- **Compute efficiency studies**
+- **Open-source AI education**
+
+## Deployment Options
+
+### Platforms
+
+- **Hugging Face Hub**: All seven models
+  - cerebras/Cerebras-GPT-111M
+  - cerebras/Cerebras-GPT-256M
+  - cerebras/Cerebras-GPT-590M
+  - cerebras/Cerebras-GPT-1.3B
+  - cerebras/Cerebras-GPT-2.7B
+  - cerebras/Cerebras-GPT-6.7B
+  - cerebras/Cerebras-GPT-13B
+- **GitHub**: Training code and documentation
+- **Standard inference frameworks**
+
+### Hardware Requirements
+
+Varies by model size:
+
+**111M-590M**: Consumer CPUs/GPUs
+
+**1.3B-2.7B**: Consumer GPUs
+
+**6.7B-13B**: High-end GPUs or multiple consumer GPUs
+
+## Chinchilla Formula Explained
+
+### Optimal Training
+
+The Chinchilla formula determines:
+- **Optimal model size** for given compute budget
+- **Optimal number of training tokens**
+- **Best performance-to-cost ratio**
+
+### 20 Tokens Per Parameter
+
+Training with 20x tokens as parameters provides:
+- **Better accuracy** than undertrained larger models
+- **Lower compute costs** for target performance
+- **Efficient use of resources**
+
+## Research Contribution
+
+### Validates Chinchilla Approach
+
+Cerebras-GPT demonstrates:
+- **Chinchilla formula effectiveness**
+- **Open-source application** of research insights
+- **Practical implementation** details
+- **Reproducible results**
+
+### Enables Further Research
+
+By releasing complete models and methodology:
+- **Researchers can build upon** Chinchilla-optimal models
+- **Compare different scaling approaches**
+- **Study compute-efficiency tradeoffs**
+- **Develop improved training methods**
+
+## Cerebras CS-2 Wafer-Scale System
+
+### Training Infrastructure
+
+**Wafer-Scale Engine**: Largest chip ever built for AI
+
+**Distributed Training**: 16-system supercomputer
+
+**Efficiency**: Optimized for transformer training
+
+**Performance**: Fast training iterations
+
+## Model Variants
+
+### Base Models
+
+All seven sizes available as:
+- **Pretrained base models**
+- **Ready for fine-tuning**
+- **Suitable for downstream tasks**
+
+### Potential Fine-Tunes
+
+Base models can be fine-tuned for:
+- Instruction following
+- Conversational AI
+- Domain-specific applications
+- Task-specific optimization
+
+## Integration Support
+
+### Frameworks
+
+- Hugging Face Transformers
+- PyTorch
+- Standard inference libraries
+- Custom deployment pipelines
+
+## Comparison: Cerebras-GPT vs. Traditional Training
+
+| Aspect | Cerebras-GPT | Traditional Training |
+|--------|--------------|---------------------|
+| Token/Param Ratio | 20:1 | Often <10:1 |
+| Compute Efficiency | Optimal | Variable |
+| Performance/Cost | Best | Suboptimal |
+| Open Source | Full Release | Often Limited |
+
+## Licensing
+
+**Apache 2.0 License** allows:
+- Commercial use without royalties
+- Modification and distribution
+- Private use
+- Patent use
+
+## Release Information
+
+- **Release Date**: 2023
+- **Developer**: Cerebras
+- **Training Platform**: Andromeda AI supercomputer
+- **Availability**: Public open-source release
+
+## Pricing
+
+Free and open source under Apache 2.0 license.

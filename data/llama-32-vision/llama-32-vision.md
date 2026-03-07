@@ -1,0 +1,223 @@
+## Overview
+
+Llama 3.2 Vision is Meta's collection of multimodal large language models released on September 25, 2024, bringing image understanding capabilities to the Llama family. Available in 11B and 90B parameter sizes, these models enable visual recognition, image reasoning, and document understanding while maintaining Llama's strong text capabilities.
+
+## Model Variants
+
+### Llama 3.2-Vision 11B
+- **Parameters**: 11 billion
+- **Modalities**: Text + Images in / Text out
+- **Use Case**: Efficient multimodal processing
+- **Deployment**: Edge and mobile-friendly
+
+### Llama 3.2-Vision 90B
+- **Parameters**: 90 billion
+- **Modalities**: Text + Images in / Text out
+- **Use Case**: Maximum visual reasoning capability
+- **Deployment**: Cloud and data center
+
+### Available Versions
+Both sizes offered in:
+- **Pretrained**: Base models for fine-tuning
+- **Instruct**: Instruction-tuned for chat and assistant applications
+
+## Architecture
+
+### Base Foundation
+**Built on Llama 3.1**: Llama 3.2-Vision extends the Llama 3.1 text-only model, which uses an optimized transformer architecture.
+
+### Vision Integration
+**Adapter Weights**: To add image input support, Meta trained a set of adapter weights that integrate a pre-trained image encoder into the pre-trained language model.
+
+### Components
+- Pre-trained image encoder for visual processing
+- Llama 3.1 language model backbone
+- Cross-modal adapter for vision-language integration
+- Auto-regressive transformer for text generation
+
+## Training Details
+
+### Pre-training Data
+- **6 billion image and text pairs**
+- Diverse visual and textual content
+- High-quality curated datasets
+
+### Instruction Tuning
+- **3+ million synthetically generated examples**
+- Publicly available vision instruction datasets
+- Fine-tuned for visual question answering
+- Optimized for multimodal instruction following
+
+## Benchmark Performance
+
+### Competitive with Leading Models
+Meta's evaluation shows Llama 3.2 Vision models are **competitive with leading foundation models**:
+- **Claude 3 Haiku**: Comparable performance
+- **GPT-4o-mini**: Similar capabilities
+
+### Comprehensive Evaluation
+- Evaluated on **over 150 benchmark datasets**
+- Wide range of languages
+- Image understanding tasks
+- Visual reasoning benchmarks
+
+### Outperforms Open Source Competitors
+Llama 3.2 Vision **outperforms many available open source and closed multimodal models** on common industry benchmarks.
+
+## Key Capabilities
+
+### Visual Recognition
+- Object detection and identification
+- Scene understanding
+- Image classification
+- Visual entity recognition
+
+### Image Reasoning
+- Visual question answering
+- Common sense reasoning about images
+- Spatial relationship understanding
+- Complex visual inference
+
+### Document Understanding
+- **Charts and graphs interpretation**
+- Table extraction and understanding
+- Document layout analysis
+- Infographic comprehension
+
+### Image Captioning
+- Detailed image descriptions
+- Context-aware captions
+- Multi-object scene description
+- Action and event captioning
+
+### Visual Grounding
+- Locating objects in images based on text queries
+- Connecting textual descriptions to visual elements
+- Spatial reasoning tasks
+- Reference resolution in images
+
+## Use Cases
+
+### Enterprise Applications
+- Document processing and analysis
+- Visual content moderation
+- Product image analysis
+- Quality control and inspection
+
+### Accessibility
+- Image description for visually impaired users
+- Alt-text generation
+- Visual content summarization
+- Educational accessibility tools
+
+### Content Creation
+- Automated image tagging
+- Visual content categorization
+- Marketing material analysis
+- Social media content understanding
+
+### Research and Analysis
+- Scientific image analysis
+- Medical imaging assistance
+- Satellite imagery interpretation
+- Historical document digitization
+
+### Customer Service
+- Visual product support
+- Photo-based troubleshooting
+- Receipt and invoice processing
+- Damage assessment from photos
+
+## Deployment Options
+
+### Platforms
+- **Hugging Face Hub**: 
+  - meta-llama/Llama-3.2-11B-Vision
+  - meta-llama/Llama-3.2-90B-Vision
+- **IBM watsonx**: Full model support
+- **NVIDIA NIM**: Optimized inference
+- Meta's official channels
+
+### Edge and Mobile
+Optimized for:
+- On-device processing (11B variant)
+- Mobile deployment
+- Edge computing scenarios
+- Privacy-preserving applications
+
+### Cloud Deployment
+- AWS, Azure, Google Cloud
+- Kubernetes clusters
+- Docker containers
+- Serverless functions (11B)
+
+## Hardware Requirements
+
+### Llama 3.2-Vision 11B
+- **GPU**: High-end consumer GPU (24GB+)
+- **Use Case**: Edge, mobile, cost-effective cloud
+- **Quantization**: Supports 4-bit and 8-bit
+
+### Llama 3.2-Vision 90B
+- **GPU**: Multi-GPU setup or A100/H100
+- **Use Case**: Maximum performance applications
+- **Memory**: 180GB+ for FP16
+
+## Integration Support
+
+### Frameworks
+- Hugging Face Transformers
+- PyTorch native support
+- vLLM for efficient serving
+- TensorRT for NVIDIA optimization
+
+### APIs and Services
+- Meta Llama API
+- IBM watsonx integration
+- NVIDIA NIM deployment
+- Custom REST APIs
+
+## Performance Characteristics
+
+### Visual Understanding
+- Strong chart and graph interpretation
+- Competitive document understanding
+- Robust image captioning
+- Effective visual grounding
+
+### Text Generation
+- Maintains Llama 3.1's strong text capabilities
+- Coherent multimodal responses
+- Context-aware generation
+- Multi-turn conversation support
+
+## Comparison: Text vs. Vision Models
+
+**Llama 3.2-Vision vs. Molmo**:
+- **Text Understanding**: Llama 3.2 Vision stronger
+- **Image Understanding**: Molmo excels at pixel-level tasks (pointing, clocks)
+- **General Use**: Llama 3.2 Vision more balanced
+- **Specialized Vision**: Molmo better for fine-grained visual tasks
+
+## Licensing
+
+Llama 3.2 Community License - permissive for research and commercial use with some restrictions. Check official licensing terms for details.
+
+## Release Information
+
+- **Release Date**: September 25, 2024
+- **Developer**: Meta
+- **Availability**: Open weights
+- **Community**: Active Llama community support
+
+## Research Impact
+
+Llama 3.2 Vision demonstrates:
+- Effectiveness of adapter-based vision integration
+- Value of synthetic instruction data
+- Competitive open-source multimodal AI
+- Path to accessible vision-language models
+
+## Pricing
+
+Free and open source with Llama 3.2 Community License.

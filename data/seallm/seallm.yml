@@ -1,0 +1,280 @@
+name: SeaLLM
+description: Family of multilingual large language models tailored for Southeast
+  Asian languages including Thai, Vietnamese, Indonesian, and 9 others, built on
+  Llama-2 with extended vocabulary and outperforming ChatGPT-3.5 in non-Latin
+  languages.
+source_url: https://huggingface.co/SeaLLMs
+category: Foundation Models
+tags:
+  - multilingual
+  - southeast-asian
+  - regional
+featured: true
+markdown: >-
+  ## Overview
+
+
+  SeaLLMs is a family of large language models specifically tailored for
+  Southeast Asian (SEA) languages. Developed by teams from Alibaba DAMO Academy
+  and published at ACL 2024, these models address the linguistic bias in LLMs
+  that favors high-resource languages like English at the expense of regional
+  and low-resource languages.
+
+
+  ## Supported Languages
+
+
+  SeaLLMs supports 12 languages:
+
+  - English
+
+  - Chinese
+
+  - Indonesian
+
+  - Vietnamese
+
+  - Thai
+
+  - Tagalog (Filipino)
+
+  - Malay
+
+  - Burmese
+
+  - Khmer
+
+  - Lao
+
+  - Tamil
+
+  - Javanese
+
+
+  ## Model Development
+
+
+  ### Base Architecture
+
+  Built upon the Llama-2 model with:
+
+  - Extended vocabulary to better represent SEA languages
+
+  - Continued pre-training on regional language data
+
+  - Specialized instruction tuning for SEA contexts
+
+  - Alignment tuning to capture regional language intricacies
+
+
+  ### Training Approach
+
+  - Continued pre-training with expanded vocabulary
+
+  - Region-specific instruction datasets
+
+  - Alignment with regional cultural contexts
+
+  - Focus on low-resource language optimization
+
+
+  ## Model Versions
+
+
+  ### SeaLLM-7B-v2.5
+
+  - 7B parameter model
+
+  - State-of-the-art performance on world knowledge and reasoning tasks in SEA
+  languages
+
+  - Optimized balance of performance and efficiency
+
+
+  ### SeaLLMs 3 (Latest)
+
+  - Latest iteration released in 2024
+
+  - Covers all 12 supported languages
+
+  - Enhanced reasoning and instruction-following
+
+  - Improved handling of code-switching and mixed-language inputs
+
+
+  ## Benchmark Performance
+
+
+  ### Superior Regional Performance
+
+  - **Outperforms ChatGPT-3.5** in non-Latin SEA languages:
+    - Thai: Large margin improvement
+    - Khmer: Large margin improvement
+    - Lao: Large margin improvement
+    - Burmese: Large margin improvement
+
+  ### Competitive Across Tasks
+
+  - World knowledge benchmarks
+
+  - Commonsense reasoning
+
+  - Mathematical reasoning
+
+  - Reading comprehension
+
+  - Instruction following
+
+
+  ### Cost-Effective
+
+  Remains lightweight and cost-effective to operate while delivering superior
+  regional performance.
+
+
+  ## Key Capabilities
+
+
+  ### Linguistic Tasks
+
+  - Multilingual text generation in all 12 languages
+
+  - Code-switching between languages
+
+  - Translation between SEA languages
+
+  - Cultural context understanding
+
+
+  ### Assistant-Style Tasks
+
+  - Instruction following in regional languages
+
+  - Question answering with regional knowledge
+
+  - Conversational AI for SEA users
+
+  - Content summarization and generation
+
+
+  ## Addressing Linguistic Bias
+
+
+  SeaLLMs specifically targets the gap where:
+
+  - Most LLMs prioritize English and other high-resource languages
+
+  - Regional languages receive insufficient training data
+
+  - Cultural nuances are lost in translation
+
+  - Low-resource languages are underserved
+
+
+  ## Use Cases
+
+
+  ### Regional Applications
+
+  - Customer service chatbots in SEA countries
+
+  - Educational tools for local languages
+
+  - Government and public services
+
+  - Healthcare information systems
+
+  - E-commerce and retail assistants
+
+
+  ### Cross-Border Applications
+
+  - ASEAN business communications
+
+  - Tourism and hospitality services
+
+  - Multilingual content creation
+
+  - Regional social media tools
+
+
+  ## Research Significance
+
+
+  SeaLLMs demonstrates:
+
+  - Effective transfer learning to low-resource languages
+
+  - Importance of vocabulary expansion for regional scripts
+
+  - Value of region-specific instruction tuning
+
+  - Potential for specialized regional models to outperform general-purpose
+  models
+
+
+  ## Deployment Options
+
+
+  - **Hugging Face Hub**: https://huggingface.co/SeaLLMs
+
+  - **GitHub**: https://github.com/DAMO-NLP-SG/DAMO-SeaLLMs
+
+  - Standard transformer frameworks
+
+  - Compatible with Llama ecosystem tools
+
+
+  ## Training Infrastructure
+
+
+  Built using:
+
+  - Llama-2 foundation
+
+  - Extended tokenizer for SEA scripts
+
+  - Regional language corpora
+
+  - SEA-specific instruction datasets
+
+
+  ## Performance Characteristics
+
+
+  - **Lightweight**: 7B parameter models are efficient to deploy
+
+  - **Regional Excellence**: Superior to larger models on SEA languages
+
+  - **Multilingual**: Seamless handling of 12 languages
+
+  - **Cost-Effective**: Lower operational costs than larger multilingual models
+
+
+  ## Research Team
+
+
+  Developed by:
+
+  - Alibaba DAMO Academy researchers
+
+  - Southeast Asian NLP research community
+
+  - Published at ACL 2024
+
+
+  ## Licensing
+
+
+  Check model-specific licenses on Hugging Face. Generally follows Llama-2
+  derived model licensing.
+
+
+  ## Pricing
+
+
+  Free for research and non-commercial use. Check licensing terms for commercial
+  deployment.
+brand: Alibaba DAMO Academy
+images: []
+updated_at: 2026-03-07 19:13

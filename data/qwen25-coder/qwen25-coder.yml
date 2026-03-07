@@ -1,0 +1,297 @@
+name: Qwen2.5-Coder
+description: Alibaba's state-of-the-art open-source code model series (0.5B-32B
+  parameters) trained on 5.5T tokens, achieving SOTA on HumanEval-Infilling and
+  matching GPT-4o coding capabilities with the 32B variant while supporting 92
+  programming languages.
+source_url: https://qwenlm.github.io/blog/qwen2.5-coder-family/
+category: Code Generation Models
+tags:
+  - coding
+  - multilingual-code
+  - instruct-tuned
+featured: true
+markdown: >-
+  ## Overview
+
+
+  Qwen2.5-Coder is Alibaba Cloud's family of code-specialized large language
+  models, available in six sizes from 0.5B to 32B parameters. The 32B-Instruct
+  variant has become the current state-of-the-art open-source code model,
+  matching the coding capabilities of GPT-4o.
+
+
+  ## Model Variants
+
+
+  ### Available Sizes
+
+  - **Qwen2.5-Coder-0.5B**: Smallest, efficient for edge deployment
+
+  - **Qwen2.5-Coder-1.5B**: Balanced efficiency and capability
+
+  - **Qwen2.5-Coder-3B**: Mid-range performance
+
+  - **Qwen2.5-Coder-7B**: Strong general-purpose coding
+
+  - **Qwen2.5-Coder-14B**: Enhanced reasoning capabilities
+
+  - **Qwen2.5-Coder-32B**: Flagship model with SOTA performance
+
+
+  Each size available in Base and Instruct variants.
+
+
+  ## Architecture
+
+
+  ### Qwen2.5-Coder-32B Specifications
+
+  - **Parameters**: ~32.5 billion
+
+  - **Transformer Layers**: 64
+
+  - **Attention Heads**: 40 (query), 8 (key-value)
+
+  - **Attention Mechanism**: Grouped Query Attention (GQA)
+
+  - **Vocabulary Size**: 151,646 tokens
+
+  - **Position Encoding**: Rotary Position Embeddings (RoPE)
+
+  - **Activation**: SwiGLU
+
+  - **Normalization**: Root Mean Square Layer Normalization (RMSNorm)
+
+  - **QKV Bias**: Attention QKV bias enabled
+
+
+  ### Training Scale
+
+  - **Training Tokens**: 5.5 trillion tokens of code-related data
+
+  - **Programming Languages**: 92 languages supported
+
+
+  ## Benchmark Performance
+
+
+  ### Code Completion (SOTA on 5 benchmarks)
+
+  - **HumanEval-Infilling**: State-of-the-art
+
+  - **CrossCodeEval**: State-of-the-art
+
+  - **CrossCodeLongEval**: State-of-the-art
+
+  - **RepoEval**: State-of-the-art
+
+  - **SAFIM**: State-of-the-art
+
+
+  ### Code Generation
+
+  - **HumanEval**: Multiple benchmarks show strong performance
+    - Qwen2.5-7B-Instruct: 84.8% pass@1
+    - Through 4-stage filtering: Average improvement from 41.6% to 46.8%
+  - **MBPP**: Competitive scores across variants
+
+  - **EvalPlus**: Best performance among open-source models
+
+  - **LiveCodeBench**: Top rankings
+
+  - **BigCodeBench**: Leading scores
+
+
+  ### Multi-Language Code Repair
+
+  - **MdEval**: 75.2 (Qwen2.5-Coder-32B-Instruct) - Ranked 1st among open-source
+
+  - **McEval**: 65.9 - Strong multi-language reasoning
+
+
+  ### Real-World Performance
+
+  - **SWE-Bench Verified**: 73.7% (ranks 4th overall, behind only Claude 3.5
+  Sonnet and similar top models)
+
+  - **Qwen3-Coder**: 69.6% SWE-Bench Verified (surpasses Claude and GPT-4)
+
+  - **Aider Code Editing**: 73.7% (4th place)
+
+
+  ## Key Capabilities
+
+
+  ### Code Understanding
+
+  - Code review and analysis
+
+  - Bug detection and identification
+
+  - Code explanation and documentation
+
+  - Repository-level understanding
+
+
+  ### Code Generation
+
+  - Function and class generation from descriptions
+
+  - Multi-language code translation
+
+  - Test case generation
+
+  - Code completion and infilling
+
+
+  ### Code Reasoning
+
+  - Algorithm design
+
+  - Mathematical problem-solving through code
+
+  - Complex logic implementation
+
+  - Performance optimization suggestions
+
+
+  ## Supported Programming Languages
+
+
+  92 programming languages including:
+
+  - Python, Java, JavaScript, TypeScript
+
+  - C, C++, C#, Go, Rust
+
+  - PHP, Ruby, Swift, Kotlin
+
+  - SQL, Shell, PowerShell
+
+  - And 76+ more languages
+
+
+  ## Training Methodology
+
+
+  ### 4-Stage Filtering Process
+
+  Qwen2.5-Coder uses advanced data filtering:
+
+  1. Quality assessment and filtering
+
+  2. Diversity enhancement
+
+  3. Difficulty balancing
+
+  4. Length optimization
+
+
+  Result: Average HumanEval/MBPP scores increased from 41.6% to 46.8%
+
+
+  ### Training Data Composition
+
+  - High-quality code repositories
+
+  - Programming documentation
+
+  - StackOverflow and developer forums
+
+  - Technical tutorials and guides
+
+  - Code competitions and challenges
+
+
+  ## Use Cases
+
+
+  - **Software Development**: Autocomplete, code generation, refactoring
+
+  - **Code Review**: Automated review and suggestion systems
+
+  - **Education**: Programming tutors and learning assistants
+
+  - **DevOps**: Script generation and automation
+
+  - **Documentation**: Auto-generating code documentation
+
+  - **Testing**: Test case generation and quality assurance
+
+
+  ## Deployment Options
+
+
+  ### Cloud Platforms
+
+  - Alibaba Cloud ModelScope
+
+  - Hugging Face Hub
+
+  - NVIDIA NIM (Qwen2.5-Coder-32B-Instruct, 7B-Instruct)
+
+
+  ### Frameworks
+
+  - vLLM for high-throughput serving
+
+  - Text Generation Inference (TGI)
+
+  - llama.cpp for CPU inference
+
+  - Ollama for local deployment
+
+
+  ### Hardware Requirements
+
+  - 32B models: Multi-GPU or high-memory GPUs recommended
+
+  - 7B models: Single high-end GPU
+
+  - Smaller variants: Consumer GPUs and edge devices
+
+
+  ## Performance Comparison
+
+
+  ### vs. GPT-4o
+
+  - Qwen2.5-Coder-32B-Instruct matches GPT-4o on coding tasks
+
+
+  ### vs. Other Open-Source Models
+
+  - Outperforms CodeLlama across most benchmarks
+
+  - Superior to StarCoder2 on multiple tasks
+
+  - Leads DeepSeek-Coder on several metrics
+
+
+  ## Integration Examples
+
+
+  Compatible with:
+
+  - VS Code extensions
+
+  - JetBrains IDEs
+
+  - GitHub Copilot alternatives
+
+  - Custom IDE integrations
+
+
+  ## Licensing
+
+
+  Apache 2.0 License - permissive for research and commercial use.
+
+
+  ## Pricing
+
+
+  Free and open source.
+brand: Alibaba Cloud
+images: []
+updated_at: 2026-03-07 19:13

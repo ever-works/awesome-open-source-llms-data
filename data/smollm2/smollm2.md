@@ -1,0 +1,56 @@
+## Overview
+
+SmolLM2 is a family of compact language models available in three sizes: 135M, 360M, and 1.7B parameters. Developed by Hugging Face, these models are designed to be lightweight enough to run on-device while delivering state-of-the-art performance for their size class.
+
+## Architecture
+
+SmolLM2 uses a transformer-based architecture and was overtrained on massive amounts of data using a multi-stage training process:
+- **1.7B model**: Trained on 11 trillion tokens
+- **360M model**: Trained on 4 trillion tokens
+- **135M model**: Trained on 2 trillion tokens
+
+The training combines web text with specialized math, code, and instruction-following datasets, including FineWeb-Edu, DCLM, The Stack, and new mathematics and coding datasets.
+
+## Benchmark Performance
+
+### HellaSwag
+- SmolLM2-1.7B: **68.7%**
+
+### General Performance
+- Outperforms Meta's Llama-1B across multiple benchmarks
+- Outperforms Qwen2.5-1.5B and Llama3.2-1B
+- Significant improvements over SmolLM1-1.7B in instruction following, knowledge, reasoning, and mathematics
+
+## Capabilities
+
+- Text rewriting
+- Summarization
+- Function calling (instruct models)
+- Code generation
+- Mathematical reasoning
+- On-device inference
+
+## Training Data
+
+Trained on 11 trillion tokens using:
+- FineWeb-Edu
+- DCLM
+- The Stack
+- New mathematics datasets
+- New coding datasets
+- Instruction-following datasets from Argilla (Synth-APIGen-v0.1)
+
+## Deployment Options
+
+- Runs efficiently on consumer devices including laptops and mobile phones
+- Available through Hugging Face Hub
+- Supports standard transformer inference frameworks
+- Optimized for edge deployment scenarios
+
+## Licensing
+
+Apache 2.0 license - fully open source with permissive commercial use.
+
+## Pricing
+
+Free and open source.

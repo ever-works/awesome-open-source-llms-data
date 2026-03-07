@@ -1,0 +1,141 @@
+name: Amber (LLM360)
+description: The first fully transparent 7B English language model from the
+  LLM360 initiative, released with all 360 intermediate training checkpoints,
+  complete training data, metrics, and source code under Apache 2.0 license.
+source_url: https://www.llm360.ai/
+category: Research Models
+tags:
+  - fully-transparent
+  - reproducible
+  - research
+featured: true
+markdown: >-
+  ## Overview
+
+
+  Amber is the first model in the LLM360 family and represents a breakthrough in
+  AI transparency. It is a 7B parameter English language model with the LLaMA
+  architecture, pretrained on 1.3 trillion tokens. What makes Amber unique is
+  its commitment to full transparency in the training process.
+
+
+  ## Architecture
+
+
+  - **Parameters**: 7 billion
+
+  - **Base Architecture**: LLaMA
+
+  - **Training Tokens**: 1.3 trillion
+
+  - **Language**: English
+
+
+  ## The LLM360 Initiative
+
+
+  LLM360 is an initiative advocating for fully open-source LLMs where all
+  training code, data, model checkpoints, and intermediate results are made
+  available to the community. The goal is to support open and collaborative AI
+  research by making the end-to-end LLM training process transparent and
+  reproducible.
+
+
+  ## What Makes It "Fully Transparent"
+
+
+  Unlike most LLMs that only release final model weights or limited artifacts,
+  Amber includes:
+
+
+  ### Complete Training Artifacts
+
+  - **360 intermediate checkpoints**: All checkpoints saved during training
+
+  - **All pretraining data**: Complete dataset with mapping to checkpoints
+
+  - **All collected metrics**: Loss, gradient norm, evaluation results
+
+  - **All source code**: Preprocessing and model training code
+
+  - **Full data sequence**: Exact sequence of data used for training
+
+
+  ### Transparency Benefits
+
+  - Enables reproducibility of results
+
+  - Allows researchers to study training dynamics
+
+  - Supports investigation of emergent capabilities
+
+  - Facilitates debugging and improvement of training procedures
+
+  - Promotes collaborative advancement of the field
+
+
+  ## Why Full Transparency Matters
+
+
+  Most LLMs have only released partial artifacts such as final model weights or
+  inference code. Technical reports increasingly limit their scope to high-level
+  design choices and surface statistics, which hinders progress by degrading
+  transparency. LLM360 addresses this gap by releasing everything needed to
+  fully understand and reproduce the model.
+
+
+  ## Research Applications
+
+
+  - Studying training dynamics and loss curves
+
+  - Investigating emergence of capabilities during training
+
+  - Analyzing the impact of different data mixtures
+
+  - Developing improved training techniques
+
+  - Educational purposes and teaching
+
+  - Checkpoint-based fine-tuning experiments
+
+
+  ## Deployment Options
+
+
+  - Available on Hugging Face Hub
+
+  - Compatible with standard transformer frameworks
+
+  - All 360 checkpoints available for download
+
+  - Supports research and production deployments
+
+
+  ## Training Code
+
+
+  Complete pre-training code available at: https://github.com/LLM360/amber-train
+
+
+  ## Licensing
+
+
+  Apache 2.0 license covering:
+
+  - All 360 model checkpoints
+
+  - Full data sequence
+
+  - Training code and scripts
+
+  - Evaluation tools
+
+
+  ## Pricing
+
+
+  Free and open source for research and commercial use.
+brand: LLM360
+images: []
+updated_at: 2026-03-07 19:13

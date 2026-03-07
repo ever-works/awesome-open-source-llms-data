@@ -1,0 +1,234 @@
+## Overview
+
+H2O-Danube is H2O.ai's family of small language models optimized for edge and mobile deployment. With variants ranging from 500M to 4B parameters, Danube models deliver exceptional performance for their size, with the 1.8B variant achieving top rankings on the Hugging Face Open LLM Leaderboard for models under 2 billion parameters.
+
+## Model Generations
+
+### H2O-Danube-1.8B (First Generation)
+- **Parameters**: 1.8 billion
+- **Training**: High-quality curated data
+- **Performance**: Competitive across all benchmarks
+- **HellaSwag**: 69.58% accuracy
+- **Arc**: 39.42% accuracy (ranked 3rd)
+
+### H2O-Danube2-1.8B (Second Generation)
+- **Parameters**: 1.8 billion
+- **Training**: 2 trillion high-quality tokens
+- **Architecture**: Mistral architecture
+- **Performance**: 9% percentage point improvement over first generation
+- **Achievement**: **#1 on Hugging Face Open LLM Leaderboard** for <2B parameters
+- **Surpasses**: Google Gemma-2B (despite Gemma being 2.5B)
+
+### H2O-Danube3-4B
+- **Parameters**: 4 billion
+- **Training**: 6 trillion tokens
+- **Performance**: Best-in-class for knowledge benchmarks
+- **CommonsenseQA**: Best-in-class
+- **PhysicsQA**: Best-in-class
+- **GSM8K**: 50.14% accuracy (strong math performance)
+- **HellaSwag (10-shot)**: 80%+ (closing gap to much larger models)
+- **Ranking**: 2nd place (only after Phi-3-mini-4k-instruct) across most benchmarks
+
+### H2O-Danube3-500M
+- **Parameters**: 500 million
+- **Training**: 4 trillion tokens
+- **Performance**: Highest scores in 8 out of 12 benchmarks vs. Qwen2-0.5B-Instruct
+- **Use Case**: Ultra-lightweight edge deployment
+
+## Training Scale
+
+### Progressive Training
+- **Danube 1**: 1 trillion tokens (initial training)
+- **Danube 2**: +2 trillion tokens (3T total)
+- **Danube3-4B**: 6 trillion tokens
+- **Danube3-500M**: 4 trillion tokens
+
+### Data Quality
+- Curated high-quality datasets
+- Filtered for relevance and accuracy
+- Diverse domain coverage
+- Optimized token distribution
+
+## Benchmark Performance
+
+### H2O-Danube2-1.8B Achievements
+
+**Hugging Face Open LLM Leaderboard**:
+- **Top performing model under 2B parameters**
+- 9% percentage point increase over first generation
+- Surpasses larger models including Gemma-2B (2.5B)
+
+**Comparison with Qwen**:
+- Better performance than Qwen on all benchmarks except BoolQ
+- Trained on 2.2x fewer tokens than Qwen
+
+### H2O-Danube3-4B Performance
+
+**Knowledge Benchmarks**:
+- **CommonsenseQA**: Best-in-class
+- **PhysicsQA**: Best-in-class
+
+**Math Reasoning**:
+- **GSM8K**: 50.14% accuracy
+
+**General Performance**:
+- **HellaSwag (10-shot)**: 80%+
+- Ranks 2nd across most benchmarks (behind only Phi-3-mini-4k-instruct)
+
+### H2O-Danube3-500M Performance
+
+**vs. Qwen2-0.5B-Instruct**:
+- Highest scores in **8 out of 12 benchmarks**
+- Better efficiency and performance for similar size
+
+## Architecture
+
+### H2O-Danube2 Architecture
+- Based on **Mistral architecture**
+- Decoder-only transformer
+- Optimized for efficiency
+- Designed for edge deployment
+
+### Key Optimizations
+- Memory-efficient attention
+- Quantization-friendly design
+- Low-latency inference
+- Small model footprint
+
+## Key Capabilities
+
+### Text Generation
+- High-quality content creation
+- Coherent long-form text
+- Creative writing assistance
+- Professional communication
+
+### Reasoning and Knowledge
+- Commonsense reasoning
+- Physics and science questions
+- Mathematical problem-solving
+- Logical inference
+
+### Edge Applications
+- On-device language processing
+- Offline functionality
+- Privacy-preserving AI
+- Low-resource environments
+
+## Use Cases
+
+### Mobile Applications
+- **Smartphone AI assistants**
+- **Offline translation**
+- **Text completion keyboards**
+- **Voice-to-text enhancement**
+
+### Edge Computing
+- **IoT devices**
+- **Embedded systems**
+- **Edge servers**
+- **Consumer electronics**
+
+### Privacy-Focused Applications
+- **On-device processing** (no data sent to cloud)
+- **HIPAA-compliant healthcare tools**
+- **Financial services** (sensitive data)
+- **Enterprise security** (internal use only)
+
+### Resource-Constrained Environments
+- **Developing regions** with limited connectivity
+- **Field deployment** (military, scientific)
+- **Disaster response** (offline operation)
+- **Remote locations** (ships, aircraft)
+
+## Deployment Options
+
+### Platforms
+- **Hugging Face Hub**: All model variants
+- **H2O.ai Platform**: Native integration
+- **Mobile frameworks**: iOS, Android deployment
+- **Edge platforms**: Raspberry Pi, Jetson
+
+### Hardware Requirements
+
+**H2O-Danube3-500M**:
+- **CPU**: Modern smartphone processors
+- **RAM**: 1-2GB
+- **Storage**: <1GB
+
+**H2O-Danube2-1.8B**:
+- **CPU**: High-end smartphone or low-end GPU
+- **RAM**: 4GB
+- **Storage**: ~3.6GB
+
+**H2O-Danube3-4B**:
+- **GPU**: Consumer GPU or mobile GPU
+- **RAM**: 8-12GB
+- **Storage**: ~8GB
+
+### Quantization Support
+- **FP16**: Standard precision
+- **INT8**: 2x memory reduction
+- **INT4**: 4x memory reduction
+- **GGUF formats**: For llama.cpp deployment
+
+## Performance Characteristics
+
+### Efficiency
+- Fast inference on edge devices
+- Low memory footprint
+- Energy-efficient operation
+- Optimized for battery-powered devices
+
+### Quality
+- Competitive with larger models
+- Strong reasoning capabilities
+- High accuracy on benchmarks
+- Robust generalization
+
+## Comparison: Danube vs. Competitors
+
+| Model | Parameters | Leaderboard Rank (<2B) | Training Tokens |
+|-------|-----------|----------------------|----------------|
+| H2O-Danube2-1.8B | 1.8B | #1 | 2T |
+| Gemma-2B | 2.5B | Lower | Higher |
+| Qwen | ~2B | Lower | 4.4T |
+
+## Training Efficiency
+
+H2O-Danube models demonstrate exceptional training efficiency:
+- Better performance with fewer tokens
+- Optimized data selection
+- Quality over quantity approach
+- Cost-effective development
+
+## Research Team
+
+Developed by H2O.ai's research team:
+- Pascal Pfeiffer
+- Philipp Singer
+- Yauhen Babakhin
+- And the H2O.ai NLP team
+
+## Technical Reports
+
+Published research papers:
+- H2O-Danube-1.8B Technical Report
+- H2O-Danube3 Technical Report (available on arXiv)
+- Detailed architecture and training methodology
+
+## Licensing
+
+Apache 2.0 license - fully permissive for commercial and research use.
+
+## Release Information
+
+- **First Generation**: 2023-2024
+- **Second Generation (Danube2)**: 2024
+- **Third Generation (Danube3)**: 2024
+- **Developer**: H2O.ai
+- **Availability**: Open source on Hugging Face
+
+## Pricing
+
+Free and open source.
