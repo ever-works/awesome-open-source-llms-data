@@ -162,3 +162,67 @@
   name: Content Moderation
 - id: biomedical
   name: Biomedical
+- id: fully-transparent
+  name: Fully Transparent
+- id: reproducible
+  name: Reproducible
+- id: scientific
+  name: Scientific
+- id: healthcare
+  name: Healthcare
+- id: chinchilla-optimal
+  name: Chinchilla Optimal
+- id: apache-licensed
+  name: Apache Licensed
+- id: compute-efficient
+  name: Compute Efficient
+- id: time-series
+  name: Time Series
+- id: forecasting
+  name: Forecasting
+- id: zero-shot
+  name: Zero Shot
+- id: encoder-decoder
+  name: Encoder Decoder
+- id: code-understanding
+  name: Code Understanding
+- id: tool-use
+  name: Tool Use
+- id: small-models
+  name: Small Models
+- id: state-space-model
+  name: State Space Model
+- id: mamba
+  name: Mamba
+- id: edge-deployment
+  name: Edge Deployment
+- id: mobile
+  name: Mobile
+- id: image-reasoning
+  name: Image Reasoning
+- id: pointing
+  name: Pointing
+- id: agentic-ai
+  name: Agentic Ai
+- id: on-device
+  name: On Device
+- id: layer-wise-scaling
+  name: Layer Wise Scaling
+- id: high-quality
+  name: High Quality
+- id: multilingual-code
+  name: Multilingual Code
+- id: instruct-tuned
+  name: Instruct Tuned
+- id: southeast-asian
+  name: Southeast Asian
+- id: regional
+  name: Regional
+- id: llama-compatible
+  name: Llama Compatible
+- id: inference
+  name: Inference
+- id: serving
+  name: Serving
+- id: optimization
+  name: Optimization
