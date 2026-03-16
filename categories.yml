@@ -18,3 +18,7 @@
   name: Novel Architectures
 - id: specialized-models
   name: Specialized Models
+- id: large-language-model
+  name: Large Language Model
+- id: multilingual-models
+  name: Multilingual Models

@@ -226,3 +226,107 @@
   name: Serving
 - id: optimization
   name: Optimization
+- id: benchmark-leading
+  name: Benchmark Leading
+- id: specialized-domains
+  name: Specialized Domains
+- id: distilled-model
+  name: Distilled Model
+- id: mathematical-reasoning
+  name: Mathematical Reasoning
+- id: single-gpu
+  name: Single GPU
+- id: general-reasoning
+  name: General Reasoning
+- id: deepseek-ecosystem
+  name: Deepseek Ecosystem
+- id: offline-capability
+  name: Offline Capability
+- id: resource-efficient
+  name: Resource Efficient
+- id: nlp
+  name: Nlp
+- id: resource-constrained
+  name: Resource Constrained
+- id: efficient-deployment
+  name: Efficient Deployment
+- id: small-model
+  name: Small Model
+- id: document-analysis
+  name: Document Analysis
+- id: large-language-model
+  name: Large Language Model
+- id: code-generation
+  name: Code Generation
+- id: instruction-following
+  name: Instruction Following
+- id: large-context
+  name: Large Context
+- id: scientific-qa
+  name: Scientific Q&A
+- id: conversational-ai
+  name: Conversational Ai
+- id: scientific-reasoning
+  name: Scientific Reasoning
+- id: proprietary
+  name: Proprietary
+- id: general-knowledge
+  name: General Knowledge
+- id: scientific-understanding
+  name: Scientific Understanding
+- id: open-license
+  name: Open License
+- id: cost-effective
+  name: Cost Effective
+- id: fast
+  name: Fast
+- id: private-deployment
+  name: Private Deployment
+- id: data-control
+  name: Data Control
+- id: 1t-parameters
+  name: 1T Parameters
+- id: agentic
+  name: Agentic
+- id: free
+  name: Free
+- id: math
+  name: Math
+- id: evolutionary-chain-of-thought
+  name: Evolutionary Chain Of Thought
+- id: efficient-reasoning
+  name: Efficient Reasoning
+- id: multimodal-aesthetics
+  name: Multimodal Aesthetics
+- id: general-purpose
+  name: General Purpose
+- id: community-backed
+  name: Community Backed
+- id: balanced-performance
+  name: Balanced Performance
+- id: high-throughput
+  name: High Throughput
+- id: code-review
+  name: Code Review
+- id: bug-fixing
+  name: Bug Fixing
+- id: efficiency
+  name: Efficiency
+- id: moe
+  name: MoE
+- id: agent-capabilities
+  name: Agent Capabilities
+- id: dual-mode
+  name: Dual Mode
+- id: translation
+  name: Translation
+- id: code-completion
+  name: Code Completion
+- id: debugging
+  name: Debugging
+- id: competitive-coding
+  name: Competitive Coding
+- id: ai-agent
+  name: AI Agent
+- id: software-development
+  name: Software Development
