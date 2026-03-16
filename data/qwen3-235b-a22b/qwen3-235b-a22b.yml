@@ -1,74 +1,59 @@
 name: Qwen3-235B-A22B
-description: Alibaba's flagship mixture-of-experts model with 235B total
-  parameters and 22B activated parameters. Features hybrid thinking mode for
-  complex reasoning, math, and coding, plus non-thinking mode for efficient
-  dialogue. Supports 100+ languages with native MCP.
-source_url: https://huggingface.co/Qwen/Qwen3-235B-A22B
-category: Reasoning Models
+description: A versatile MoE model with 235B total parameters and 22B activated
+  parameters, featuring dual-mode operation for complex logical reasoning and
+  efficient dialogue, and supporting over 100 languages.
+source_url: https://github.com/QwenLM/Qwen
+category: Foundation Models
 tags:
-  - reasoning
-  - mixture-of-experts
+  - MoE
   - multilingual
-  - thinking-mode
-  - function-calling
-  - latest
-featured: true
+  - agent capabilities
+  - dual-mode
 markdown: >-
   ## Overview
 
-
-  Qwen3-235B-A22B is Alibaba's most advanced open-source language model,
-  implementing a mixture-of-experts (MoE) architecture with intelligent
-  parameter activation. The model features 235 billion total parameters with
-  only 22 billion activated per forward pass.
-
-
-  ## Hybrid Thinking Mode
-
-
-  A unique capability allowing seamless switching between:
-
-  - **Thinking Mode**: Complex logical reasoning, mathematics, and coding tasks
-
-  - **Non-Thinking Mode**: Efficient general-purpose dialogue and fast responses
+  Qwen3-235B-A22B features a MoE architecture with 235B total parameters and 22B
+  activated parameters. It uniquely supports seamless switching between thinking
+  mode for complex logical reasoning and non-thinking mode for efficient
+  dialogue. The model demonstrates enhanced reasoning capabilities, superior
+  human preference alignment, excellent agent capabilities for tool integration,
+  and supports over 100 languages with strong multilingual instruction
+  following.
 
 
-  This toggle ensures optimal performance across various scenarios without
-  sacrificing speed.
+  ## Capabilities
+
+  - **Dual-mode Operation**: Supports seamless switching between thinking mode
+  (complex logical reasoning, math, and coding) and non-thinking mode
+  (efficient, general-purpose dialogue).
+
+  - **Multilingual Support**: Supports over 100 languages and dialects with
+  strong multilingual instruction following and translation capabilities.
+
+  - **Agent Capabilities**: Excels in agent capabilities for precise integration
+  with external tools.
+
+  - **Context Length**: 131K context length.
 
 
-  ## Technical Specifications
+  ## Pros
+
+  - Dual-mode operation: thinking and non-thinking modes.
+
+  - Supports over 100 languages for global enterprises.
+
+  - Strong agent capabilities for tool integration.
 
 
-  - Context Length: 32,768 tokens natively, 131,072 with YaRN extension
+  ## Cons
 
-  - Training Data: 36 trillion tokens (double that of Qwen2.5)
+  - Requires careful mode selection for optimal performance.
 
-  - Architecture: MoE with intelligent activation patterns
-
-  - Native Support: Model Context Protocol (MCP)
-
-  - Function Calling: Advanced capabilities for agent-based tasks
+  - Large parameter count may need optimization for edge deployment.
 
 
-  ## Language Support
+  ## Pricing
 
-
-  Supports 100+ languages with strong multilingual instruction following and
-  translation capabilities.
-
-
-  ## Performance
-
-
-  Demonstrates significantly enhanced reasoning capabilities, surpassing both
-  QwQ and Qwen2.5 models on mathematics, code generation, and commonsense
-  reasoning tasks.
-
-
-  ## Licensing
-
-
-  Open-weighted under Apache 2.0 license.
-brand: Alibaba Cloud
-updated_at: 2026-03-03 13:51
+  $1.42/M tokens (output)
+brand: Qwen
+updated_at: 2026-03-16 11:12

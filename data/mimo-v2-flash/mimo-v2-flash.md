@@ -1,194 +1,22 @@
 ## Overview
+MiMo-V2-Flash is an A-tier open-source large language model from Xiaomi, known for its balanced performance across various tasks.
 
-MiMo-V2-Flash is an efficient software engineering model that outperforms larger open-source LLMs on software engineering benchmarks while using significantly fewer parameters, demonstrating exceptional parameter efficiency.
+## Features
+- **AIME 2025 Score:** 94.1.
+- **GPQA Diamond Score:** 83.7.
+- **Context Window:** 262K tokens.
+- **HumanEval Performance:** 84.8.
 
-## Key Innovation
+## Best for
+- Balanced coding and reasoning workloads
+- High-throughput production serving
 
-**Parameter Efficiency**:
-- Outperforms models with 2-3x more parameters
-- Specialized software engineering focus
-- Efficient architecture design
-- Competitive with much larger models
-- Cost-effective deployment
-
-## Performance Highlights
-
-**Software Engineering Benchmarks**:
-- Outperforms DeepSeek-V3.2
-- Outperforms Kimi-K2
-- Uses ~1/2 to 1/3 total parameters
-- Strong practical coding tasks
-- Excellent real-world performance
-
-## Key Features
-
-- **Efficient**: Fewer parameters, better performance
-- **Software Engineering**: Specialized focus
-- **Practical**: Real-world coding tasks
-- **Cost-Effective**: Lower resource requirements
-- **Latest**: 2026 state-of-the-art
-- **Open Source**: Accessible to community
-
-## Model Specifications
-
-**Parameter Count**: Significantly smaller than competitors
-**Specialization**: Software engineering tasks
-**Architecture**: Efficient design
-**Performance**: Outperforms larger models
-
-## Capabilities
-
-### Software Engineering
-- Code generation
-- Bug fixing
-- Code review
-- Refactoring assistance
-- Test generation
-
-### Practical Coding
-- Real-world scenarios
-- Production-quality code
-- Best practices
-- Error handling
-- Documentation
-
-### Multi-Language Support
-- Multiple programming languages
-- Cross-language understanding
-- Idiomatic code generation
-- Language-specific patterns
-
-## Use Cases
-
-### Software Development
-- Code generation assistance
-- Development productivity
-- Code quality improvement
-- Bug detection and fixing
-- Automated refactoring
-
-### Code Review
-- Automated review
-- Best practice suggestions
-- Security analysis
-- Performance optimization
-- Code quality checks
-
-### Testing
-- Test generation
-- Test case creation
-- Coverage analysis
-- Edge case identification
-- Test optimization
-
-### Documentation
-- Code documentation
-- API documentation
-- Comment generation
-- README creation
-- Technical writing
-
-## Efficiency Advantages
-
-**Resource Savings**:
-- Lower memory requirements
-- Faster inference
-- Reduced energy consumption
-- Cost-effective serving
-- Easier deployment
-
-**Performance Benefits**:
-- Quick response times
-- Real-time assistance
-- Lower latency
-- Scalable serving
-- Wide hardware compatibility
-
-## Benchmark Performance
-
-**Software Engineering Tasks**:
-- Beats DeepSeek-V3.2
-- Beats Kimi-K2
-- Real-world coding scenarios
-- Practical problem-solving
-- Production-quality code
-
-## Architecture Innovation
-
-**Efficient Design**:
-- Parameter efficiency focus
-- Specialized architecture
-- Optimized for software engineering
-- Reduced redundancy
-- Smart parameter allocation
-
-## MIMO AI
-
-**Organization Focus**:
-- Parameter efficiency
-- Software engineering specialization
-- Practical AI applications
-- Open-source contribution
-- Research innovation
-
-## Deployment
-
-**Advantages**:
-- Smaller infrastructure needs
-- Consumer hardware capable
-- Fast inference
-- Low memory footprint
-- Cost-effective scaling
-
-**Platforms**:
-- Cloud services
-- On-premises servers
-- Local development
-- Edge deployment potential
-- API services
-
-## Comparison with Other Models
-
-**vs DeepSeek-V3.2**:
-- MiMo: Fewer parameters
-- MiMo: Better software engineering
-- MiMo: More efficient
-
-**vs Kimi-K2**:
-- MiMo: 1/2-1/3 parameters
-- MiMo: Competitive performance
-- MiMo: Better efficiency
-
-## Research Contributions
-
-**Demonstrates**:
-- Parameter efficiency importance
-- Specialization benefits
-- Architecture innovation
-- Practical over theoretical
-- Efficient AI development
-
-## Integration
-
-**Compatible with**:
-- IDE integrations
-- CI/CD pipelines
-- Code review tools
-- Development workflows
-- Standard frameworks
-
-## Future Development
-
-- Enhanced capabilities
-- Broader language support
-- Improved efficiency
-- Community feedback
-- Regular updates
-
-## Licensing
-
-Open-source license (specific terms to be confirmed).
-
-## Pricing
-
-Free and open-source.
+## Benchmarks
+- MMLU: 86.7
+- MMLU-Pro: 84.9
+- HumanEval: 84.8
+- SWE-bench Verified: 73.4
+- LiveCodeBench: 80.6
+- AIME 2025: 94.1
+- GPQA Diamond: 83.7
+- Chatbot Arena: 1401

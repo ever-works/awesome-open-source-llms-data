@@ -1,31 +1,20 @@
 ## Overview
+Qwen3-235B-A22B features a MoE architecture with 235B total parameters and 22B activated parameters. It uniquely supports seamless switching between thinking mode for complex logical reasoning and non-thinking mode for efficient dialogue. The model demonstrates enhanced reasoning capabilities, superior human preference alignment, excellent agent capabilities for tool integration, and supports over 100 languages with strong multilingual instruction following.
 
-Qwen3-235B-A22B is Alibaba's most advanced open-source language model, implementing a mixture-of-experts (MoE) architecture with intelligent parameter activation. The model features 235 billion total parameters with only 22 billion activated per forward pass.
+## Capabilities
+- **Dual-mode Operation**: Supports seamless switching between thinking mode (complex logical reasoning, math, and coding) and non-thinking mode (efficient, general-purpose dialogue).
+- **Multilingual Support**: Supports over 100 languages and dialects with strong multilingual instruction following and translation capabilities.
+- **Agent Capabilities**: Excels in agent capabilities for precise integration with external tools.
+- **Context Length**: 131K context length.
 
-## Hybrid Thinking Mode
+## Pros
+- Dual-mode operation: thinking and non-thinking modes.
+- Supports over 100 languages for global enterprises.
+- Strong agent capabilities for tool integration.
 
-A unique capability allowing seamless switching between:
-- **Thinking Mode**: Complex logical reasoning, mathematics, and coding tasks
-- **Non-Thinking Mode**: Efficient general-purpose dialogue and fast responses
+## Cons
+- Requires careful mode selection for optimal performance.
+- Large parameter count may need optimization for edge deployment.
 
-This toggle ensures optimal performance across various scenarios without sacrificing speed.
-
-## Technical Specifications
-
-- Context Length: 32,768 tokens natively, 131,072 with YaRN extension
-- Training Data: 36 trillion tokens (double that of Qwen2.5)
-- Architecture: MoE with intelligent activation patterns
-- Native Support: Model Context Protocol (MCP)
-- Function Calling: Advanced capabilities for agent-based tasks
-
-## Language Support
-
-Supports 100+ languages with strong multilingual instruction following and translation capabilities.
-
-## Performance
-
-Demonstrates significantly enhanced reasoning capabilities, surpassing both QwQ and Qwen2.5 models on mathematics, code generation, and commonsense reasoning tasks.
-
-## Licensing
-
-Open-weighted under Apache 2.0 license.
+## Pricing
+$1.42/M tokens (output)

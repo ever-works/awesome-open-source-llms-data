@@ -1,0 +1,55 @@
+name: GLM-5
+description: Zhipu AI's larger successor to GLM-4.7, GLM-5 holds the highest
+  Chatbot Arena rating, demonstrating a strong capability in conversational AI
+  and software engineering tasks.
+source_url: https://www.zhipuai.cn/en/glm-5
+category: Large Language Model
+tags:
+  - conversational-ai
+  - software-engineering
+  - scientific-reasoning
+markdown: >-
+  ## Overview
+
+  GLM-5 is Zhipu AI's larger successor to GLM-4.7, focusing on depth and
+  conversational quality.
+
+
+  ## Features
+
+  - **Chatbot Arena Rating:** Highest on the leaderboard at 1451, indicating top
+  human preference.
+
+  - **Software Engineering:** SWE-bench Verified score of 77.8.
+
+  - **Scientific Reasoning:** GPQA Diamond score of 86.0.
+
+
+  ## Best for
+
+  - Conversational AI
+
+  - Software engineering tasks
+
+  - Scientific reasoning at scale
+
+
+  ## Benchmarks
+
+  - MMLU: 85.0
+
+  - MMLU-Pro: 70.4
+
+  - HumanEval: 90.0
+
+  - SWE-bench Verified: 77.8
+
+  - LiveCodeBench: 52.0
+
+  - AIME 2025: 84.0
+
+  - GPQA Diamond: 86.0
+
+  - Chatbot Arena: 1451
+brand: Zhipu AI
+updated_at: 2026-03-16 11:12

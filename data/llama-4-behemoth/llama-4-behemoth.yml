@@ -1,0 +1,30 @@
+name: Llama 4 Behemoth
+description: Llama 4 Behemoth is an open-source large language model excelling
+  in multilingual reasoning and offering a substantial context window, developed
+  by Meta AI.
+source_url: https://ai.meta.com/blog/
+category: Multilingual Models
+tags:
+  - open-source
+  - multilingual
+  - large language model
+markdown: >-
+  ## Overview
+
+  Llama 4 Behemoth is a cutting-edge open-source large language model from Meta
+  AI, designed with a focus on multilingual reasoning capabilities.
+
+
+  ## Performance
+
+  - **Reasoning (GPQA Diamond):** 73.7%
+
+  - **Multilingual Reasoning (MMMLU):** 85.8%
+
+
+  ## Technical Specifications
+
+  - **Cutoff date:** November 2024
+brand: Meta AI
+brand_logo_url: https://ai.meta.com/static/images/meta-ai-logo.svg
+updated_at: 2026-03-16 11:12

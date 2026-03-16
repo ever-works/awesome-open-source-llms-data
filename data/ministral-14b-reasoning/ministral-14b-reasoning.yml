@@ -1,0 +1,96 @@
+name: Ministral 14B Reasoning
+description: A compact reasoning model from Mistral AI, part of the Mistral 3
+  family, optimized for deployment in resource-constrained environments.
+source_url: https://mistral.ai
+category: Large Language Model
+tags:
+  - open-source
+  - reasoning
+  - efficient
+markdown: >-
+  ## Overview
+
+
+  Ministral 14B Reasoning, from Mistral AI, is a breakthrough in compact
+  reasoning models. With only 14 billion parameters, it achieves reasoning
+  performance that rivals models 5-10 times its size.
+
+
+  ## Architecture
+
+
+  The model employs a dense transformer architecture with specialized reasoning
+  training. It achieves efficiency through careful dataset curation and
+  reinforcement learning focused specifically on mathematical and logical
+  reasoning tasks.
+
+
+  ## Performance
+
+
+  - Approximately 85% accuracy on AIME 2025
+
+  - 68.2% on GPQA Diamond
+
+  - 82.7% on MATH-500
+
+  - 78.5% on HumanEval
+
+
+  ## Key Specs
+
+
+  - **Architecture:** Dense transformer with reasoning-optimized training
+
+  - **Total parameters:** ~14B
+
+  - **Active parameters:** ~14B (dense)
+
+  - **Context length:** 128K tokens
+
+  - **License:** Apache-2.0
+
+  - **Primary use cases:** Edge reasoning, local development,
+  resource-constrained environments, real-time interactive AI
+
+
+  ## Strengths
+
+
+  - Exceptional reasoning performance relative to model size (~85% AIME 2025 at
+  14B)
+
+  - Runs on consumer hardware (single RTX 4090 or similar) with strong
+  performance
+
+  - Fast inference speeds (40-60 t/s) enable real-time interactive applications
+
+  - Lower operational costs make reasoning AI accessible to smaller teams and
+  individual developers
+
+  - Apache-2.0 license with minimal deployment barriers
+
+
+  ## Weaknesses
+
+
+  - Lower absolute ceiling than 100B+ models on the most difficult reasoning
+  tasks
+
+  - Limited context window (128K) compared to million-token models
+
+  - Dense architecture means no parameter efficiency gains from sparsity
+
+  - May struggle with extremely long reasoning chains that require sustained
+  computation
+
+  - Smaller model capacity limits multilingual and multimodal capabilities
+
+
+  ## Pricing
+
+
+  Free and open-source under the Apache 2.0 license.
+brand: Mistral AI
+brand_logo_url: https://mistral.ai/assets/img/logo-mistral-ai.png
+updated_at: 2026-03-16 11:12

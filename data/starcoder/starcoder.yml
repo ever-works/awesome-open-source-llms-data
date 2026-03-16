@@ -1,178 +1,46 @@
 name: StarCoder
-description: 15.5B parameter code model from BigCode trained on 80+ programming
-  languages from The Stack. Features 8K context length, infilling capabilities,
-  and fast large-batch inference enabled by multi-query attention.
+description: An open-source LLM purpose-built for software development, designed
+  to understand code structure and assist with writing, debugging, and reviewing
+  code across various programming languages.
 source_url: https://huggingface.co/bigcode/starcoder
 category: Code Generation Models
 tags:
-  - coding
-  - multilingual
   - open-source
+  - code-completion
+  - debugging
 featured: true
 markdown: >-
   ## Overview
 
-
-  StarCoder is a 15.5B parameter code generation model from the BigCode Project,
-  an open scientific collaboration led by Hugging Face and ServiceNow. Trained
-  on 80+ programming languages from The Stack dataset.
-
-
-  ## Model Variants
+  StarCoder is an open-source large language model specifically engineered for
+  software development tasks. It is highly proficient in understanding code
+  structures and provides valuable assistance in various coding activities,
+  including writing new code, debugging existing code, and performing code
+  reviews.
 
 
-  ### StarCoderBase
+  ## Capabilities
 
-  - **Parameters**: 15.5B
+  - **Programming-Specific Training**: Uniquely designed for programming tasks,
+  with its training focused intently on code patterns rather than general text.
 
-  - **Training Data**: 1 trillion tokens from The Stack
+  - **Development Assistance**: Aids in debugging, refactoring, and cleaning up
+  code by comprehending syntax and identifying common error patterns.
 
-  - **Languages**: 80+ programming languages
-
-  - **Context Length**: 8K tokens
-
-
-  ### StarCoder
-
-  - **Base**: StarCoderBase
-
-  - **Additional Training**: 35B Python tokens
-
-  - **Specialization**: Enhanced Python capabilities
-
-
-  ### StarCoder2 (Next Generation)
-
-  - **3B parameters**: Compact variant
-
-  - **7B parameters**: Mid-size model
-
-  - **15B parameters**: Full-size model
-
-  - **Training**: 3.3 to 4.3 trillion tokens
-
-
-  ## Performance
-
-
-  **StarCoderBase**: Outperforms existing open Code LLMs on popular programming
-  benchmarks and matches or surpasses closed models such as code-cushman-001
-  from OpenAI.
-
-
-  **StarCoder (Python)**: A specialized prompt significantly increased the
-  HumanEval score from 34% to over 40%, setting a new state-of-the-art result
-  for open models.
-
-
-  **StarCoder2-3B**: Despite its small size, outperforms other Code LLMs of
-  similar size on most benchmarks, and also outperforms StarCoderBase-15B.
-
-
-  ## Key Features
-
-
-  - **Multi-Language Support**: 80+ programming languages
-
-  - **Long Context**: 8K token context window
-
-  - **Infilling**: Fill-in-the-middle code completion
-
-  - **Fast Inference**: Multi-query attention for efficient batching
-
-  - **Open Training Data**: The Stack with opt-out process
-
-  - **Permissive License**: Commercial use allowed
-
-
-  ## Technical Features
-
-
-  **Multi-Query Attention**: Enables fast large-batch inference with reduced
-  memory requirements.
-
-
-  **Infilling Capabilities**: Can complete code in the middle of existing code,
-  not just at the end.
-
-
-  **Long Context**: 8K tokens allows understanding of larger codebases.
-
-
-  ## Supported Languages
-
-
-  Includes but not limited to:
-
-  - Python, JavaScript, TypeScript
-
-  - Java, C, C++, C#
-
-  - Go, Rust, Swift, Kotlin
-
-  - PHP, Ruby, Shell
-
-  - SQL, HTML, CSS
-
-  - And 60+ more languages
-
-
-  ## Training Dataset: The Stack
-
-
-  - **Size**: 1+ trillion tokens
-
-  - **Source**: Permissively licensed GitHub repositories
-
-  - **Languages**: 80+ programming languages
-
-  - **Tools**: Inspection tools and opt-out process
-
-  - **Ethics**: Responsible data collection
+  - **Multi-language Support**: Supports a broad spectrum of programming
+  languages and frameworks, ranging from widely used languages like Python and
+  JavaScript to more specialized or niche languages.
 
 
   ## Use Cases
 
+  - Code generation and auto-completion.
 
-  - Code completion and generation
+  - Debugging and error correction in software development.
 
-  - Code explanation and documentation
+  - Code refactoring and optimization.
 
-  - Bug detection and fixing
-
-  - Code translation between languages
-
-  - Learning programming
-
-  - Development assistance
-
-
-  ## BigCode Project
-
-
-  StarCoder is part of the BigCode Project's mission:
-
-  - Responsible development of code LLMs
-
-  - Open science and transparency
-
-  - Community collaboration
-
-  - Ethical AI development
-
-
-  ## Licensing
-
-
-  Released under BigCode OpenRAIL-M license, allowing commercial use with
-  responsible AI provisions.
-
-
-  ## Pricing
-
-
-  Free and open-source.
+  - Support for various programming languages and frameworks.
 brand: BigCode
-brand_logo_url: https://huggingface.co/datasets/huggingface/brand-assets/resolve/main/hf-logo.png
-images: []
-updated_at: 2026-03-03 13:39
+brand_logo_url: https://huggingface.co/bigcode/starcoder/resolve/main/logo.png
+updated_at: 2026-03-16 11:12

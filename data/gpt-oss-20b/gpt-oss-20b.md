@@ -1,0 +1,14 @@
+## Overview
+GPT oss 20b is an open-source large language model (LLM) known for its efficiency and strong performance in specific benchmarks.
+
+## Performance
+- **High School Math (AIME 2025):** 98.7%
+- **Overall (Humanity's Last Exam):** 10.9%
+
+## Technical Specifications
+- **Context size:** 131,072
+- **Cutoff date:** April 2025
+- **I/O cost (per 1M tokens):** $0.08 / $0.35
+- **Max output:** 131,072
+- **Latency:** 4s
+- **Speed:** 564 t/s

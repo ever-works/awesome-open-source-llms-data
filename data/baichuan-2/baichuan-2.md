@@ -1,79 +1,12 @@
 ## Overview
+Baichuan 2 is an open-source large language model that excels in specialized fields such as healthcare, legal, and technical domains. It demonstrates strong capabilities in processing lengthy documents and maintaining high accuracy across various languages, with a notable performance in Asian languages.
 
-Baichuan 2 is an open-source, commercially-usable large-scale pre-trained language model developed by Baichuan Intelligence, one of China's leading AI startups. The model is based on Transformer architecture and designed for bilingual Chinese-English applications.
-
-## Architecture
-
-- **Parameters:** 13 billion
-- **Model Type:** Transformer-based architecture
-- **Training Data:** Approximately 1.2 trillion tokens
-- **Context Window:** 4096 tokens
-- **Languages:** Chinese and English
-
-## Key Features
-
-- Strong bilingual capabilities (Chinese and English)
-- Commercial use permitted
-- Efficient 13B parameter design
-- Good general-purpose performance
-- Optimized for Chinese language understanding
-- Suitable for enterprise applications
-
-## Performance
-
-- Competitive performance on Chinese language benchmarks
-- Strong general knowledge in both languages
-- Good reasoning and problem-solving
-- Effective for conversational applications
-- Solid coding capabilities
-
-## Baichuan Model Family
-
-Baichuan Intelligence has released multiple model versions:
-- Baichuan-7B: Smaller, more efficient variant
-- Baichuan-13B: Flagship model (Baichuan 2)
-- Various fine-tuned versions for specific tasks
-
-## Deployment Options
-
-- Self-hosting on standard GPU infrastructure
-- Cloud deployment through Chinese and international providers
-- Compatible with popular ML frameworks
-- Support for quantization and optimization
-- Integration with Chinese cloud ecosystems
+## Capabilities
+- **Multilingual Processing**: Effectively processes content in both English and non-English languages, with particularly strong performance in Asian languages.
+- **Domain Understanding**: Understands technical terminology and industry-specific language without requiring extensive fine-tuning for each individual field.
+- **Long Document Handling**: Capable of managing lengthy reports and documents while preserving context and preventing information fragmentation across sections.
 
 ## Use Cases
-
-- Chinese-English bilingual applications
-- Conversational AI for Chinese markets
-- Content generation in Chinese and English
-- Enterprise applications in China
-- Cross-lingual understanding tasks
-- Customer service and support
-- Educational applications
-
-## Market Position
-
-Baichuan Intelligence is part of the "AI tigers" group of hot Chinese AI startups, which includes:
-- Baichuan
-- Zhipu AI
-- Moonshot AI
-- MiniMax
-- StepFun
-- 01.AI
-
-## Industry Context
-
-As part of China's rapidly growing open-source LLM ecosystem, Baichuan represents:
-- Commercial viability of Chinese open-source models
-- Strong bilingual capabilities
-- Competitive alternative to Western models for Chinese markets
-- Growing sophistication of Chinese AI industry
-
-## Licensing
-
-Released under **Apache 2.0 license**, allowing:
-- Full commercial use
-- Modification and redistribution
-- No usage restrictions
-- Enterprise deployment
+- Applications in specialized fields like healthcare, legal, and other technical domains.
+- Processing and analyzing long documents and reports.
+- Projects requiring accurate multilingual text comprehension and generation.

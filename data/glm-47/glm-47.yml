@@ -1,79 +1,72 @@
 name: GLM-4.7
-description: Zhipu AI's frontier-level open-source model with 200K context
-  window and advanced reasoning. Achieves state-of-the-art performance on coding
-  (73.8% on SWE-bench) with MoE architecture optimizing computational efficiency
-  without sacrificing depth.
-source_url: https://huggingface.co/zai-org/GLM-4.7
-category: Code Generation Models
+description: The highest-ranked open-source LLM for practical needs, developed
+  by Zhipu AI, known for exceptional code generation, mathematical reasoning,
+  and scientific Q&A capabilities with a 200K context window.
+source_url: https://www.zhipuai.cn/en/glm-4-7
+category: Foundation Models
 tags:
-  - coding
+  - code generation
   - reasoning
-  - mixture-of-experts
-  - long-context
-  - software-engineering
-  - latest
-featured: true
-markdown: >-
+  - scientific Q&A
+markdown: >
   ## Overview
 
-
-  GLM-4.7 is a frontier-level open-source model from Zhipu AI featuring a
-  Mixture-of-Experts (MoE) architecture designed to balance computational
-  efficiency with depth. The model represents cutting-edge performance in code
-  generation and reasoning tasks.
-
-
-  ## Key Specifications
+  GLM-4.7, developed by Zhipu AI, is a frontier-class open-source large language
+  model that excels in various domains. It is recognized for its high
+  performance across multiple benchmarks, making it a versatile choice for
+  complex AI applications.
 
 
-  - Context Window: 200,000 tokens
+  ## Capabilities
 
-  - Output Capacity: 128,000 tokens per generation
+  *   **Code Generation:** Achieves a HumanEval score of 94.2, indicating strong
+  ability in generating and understanding code.
 
-  - Architecture: MoE-based for efficiency
+  *   **Mathematical Reasoning:** Scores 95.7 on AIME 2025, demonstrating
+  advanced mathematical problem-solving skills.
 
-  - Can generate complete software frameworks in a single pass
+  *   **Scientific Reasoning:** With a GPQA Diamond score of 85.7, it performs
+  exceptionally well in doctoral-level scientific reasoning tasks.
 
+  *   **Instruction Following:** Boasts an IFEval score of 88.0, showcasing its
+  ability to follow complex instructions accurately.
 
-  ## Benchmark Performance
+  *   **Context Window:** Features a 200K context window, allowing it to process
+  and generate long and complex texts.
 
-
-  **Coding Excellence:**
-
-  - SWE-bench: 73.8% (5.8% improvement over predecessor)
-
-  - SWE-bench Multilingual: 66.7% (12.9% improvement)
-
-  - LiveCodeBench-v6: 84.9% (surpassing Claude Sonnet 4.5 at 64%)
-
-  - Terminal Bench 2.0: 41% (+16.5% improvement)
+  *   **Real-world Coding:** Achieves 84.9 on LiveCodeBench, highlighting its
+  proficiency in competitive coding scenarios.
 
 
-  **Reasoning & Tool Use:**
+  ## Best For
 
-  - τ²-Bench: 87.4 (highest for any open-source tool-using model)
+  *   Coding agents
 
-  - HLE Benchmark: 42.8% (+12.4% improvement)
+  *   Complex reasoning tasks
 
-  - AIME 2025: 95.7%
+  *   Scientific Q&A
 
-  - GPQA-Diamond: 85.7%
-
-
-  ## Advanced Features
+  *   Multi-turn instruction-following applications
 
 
-  - Interleaved Thinking with Preserved Thinking and Turn-level Thinking
+  ## Benchmarks
 
-  - Tool-use capabilities for complex workflows
+  *   **MMLU:** 90.1
 
-  - Local deployment support via vLLM and SGLang
+  *   **MMLU-Pro:** 84.3
 
+  *   **HumanEval:** 94.2
 
-  ## Deployment
+  *   **SWE-bench Verified:** 73.8
 
+  *   **LiveCodeBench:** 84.9
 
-  Supports multiple inference frameworks for flexible local and cloud
-  deployment.
+  *   **AIME 2025:** 95.7
+
+  *   **GPQA Diamond:** 85.7
+
+  *   **Chatbot Arena:** 1445
+
+  *   **IFEval:** 88.0
 brand: Zhipu AI
-updated_at: 2026-03-03 13:51
+updated_at: 2026-03-16 11:12

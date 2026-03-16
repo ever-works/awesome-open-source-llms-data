@@ -1,0 +1,15 @@
+## Overview
+Developed by InclusionAI, Ling-1T is a trillion-parameter model built on the Ling 2.0 architecture, focused on pushing the boundaries of efficient reasoning. It incorporates an evolutionary chain-of-thought (Evo-CoT) process across its mid-training and post-training stages to achieve its advanced capabilities.
+
+## Architecture and Training
+- **Trillion-Parameter MoE Design:** Features 1 trillion total parameters with approximately 50 billion active per token, utilizing a Mixture-of-Experts (MoE) design optimized through the Ling Scaling Law for stability at this massive scale.
+- **Extensive Training Data:** Trained on over 20 trillion high-quality, reasoning-dense tokens, supporting context lengths of up to 128K.
+
+## Key Features and Advantages
+- **Efficient Reasoning:** Expands the Pareto frontier between reasoning accuracy and length on tasks like AIME 25. It demonstrates advanced reasoning compression, maintaining high accuracy with fewer generated tokens.
+- **Leading Performance:** Outperforms or matches top models such as DeepSeek-V3.1-Terminus, GPT-5-main, and Gemini-2.5-Pro across major math, reasoning, and code benchmarks.
+- **Emergent Intelligence at Trillion-Scale:** Exhibits strong emergent reasoning and transfer capabilities. It achieves around 70% tool-call accuracy (BFCL V3) without extensive trajectory fine-tuning, capable of interpreting complex natural-language instructions and transforming abstract logic into functional visual components.
+- **Aesthetic and Front-End Generation Strength:** Features a hybrid Syntax–Function–Aesthetics reward mechanism, enabling it to produce not only functional code but also visually refined front-end layouts. It currently ranks first among open-source models on ArtifactsBench, making it especially useful for applications combining reasoning and UI generation.
+
+## Current Limitations
+While highly capable, the current release has room for improvement in areas such as multi-turn interaction, long-term memory, and tool use.

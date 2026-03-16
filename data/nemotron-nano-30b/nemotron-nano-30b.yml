@@ -1,0 +1,38 @@
+name: Nemotron Nano 30B
+description: Nvidia Nemotron Nano 30B is a compact yet powerful LLM within the
+  Nemotron series, delivering solid MMLU-Pro scores and supporting a 1M token
+  context window, making it suitable for deployment on constrained hardware.
+source_url: https://developer.nvidia.com/nemotron
+category: Small Language Models
+tags:
+  - edge-deployment
+  - resource-constrained
+  - long-context
+markdown: >-
+  ## Overview
+
+  Nemotron Nano 30B is part of Nvidia's Nemotron series, offering strong
+  benchmark performance at much smaller parameter counts, making it ideal for
+  deployment on constrained hardware.
+
+
+  ## Features
+
+  - **MMLU-Pro Score:** 78.1.
+
+  - **Context Window:** 1M tokens (joint-longest on the board alongside Llama 4
+  Maverick).
+
+
+  ## Best for
+
+  - Edge deployment
+
+  - Resource-constrained environments
+
+
+  ## Benchmarks
+
+  - MMLU-Pro: 78.1
+brand: Nvidia
+updated_at: 2026-03-16 11:12

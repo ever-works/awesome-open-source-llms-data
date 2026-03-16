@@ -1,328 +1,75 @@
 name: Kimi K2.5
-description: Advanced language model from Moonshot AI with strong performance on
-  Chinese and English tasks. Part of the Kimi series achieving competitive
-  Chatbot Arena ELO ratings in the 1445-1451 range alongside GLM-5 in 2026.
-source_url: https://www.moonshot.cn/
+description: An S-tier open-source large language model from Moonshot, featuring
+  1 trillion parameters and a 262K context window. It excels in coding,
+  mathematical reasoning, and instruction adherence.
+source_url: https://moonshot.cn/
 category: Foundation Models
 tags:
-  - chinese
-  - bilingual
-  - high-performance
-featured: true
-markdown: >-
+  - coding
+  - mathematics
+  - reasoning
+  - instruction following
+markdown: >
   ## Overview
 
-
-  Kimi K2.5 is an advanced language model from Moonshot AI, achieving top-tier
-  performance on both Chinese and English tasks. It clusters within a tight ELO
-  range (1445-1451) alongside GLM-5 on Chatbot Arena in 2026.
-
-
-  ## Performance Highlights
-
-
-  **Chatbot Arena (2026)**:
-
-  - ELO rating: 1445-1451 range
-
-  - Clusters with GLM-5
-
-  - Top Chinese model performance
-
-  - Strong bilingual capabilities
-
-  - Competitive with leading models
-
-
-  ## Key Features
-
-
-  - **Bilingual Excellence**: Chinese and English
-
-  - **High Performance**: Top Arena ELO
-
-  - **Competitive**: Leading 2026 model
-
-  - **Balanced**: General-purpose capabilities
-
-  - **Latest**: State-of-the-art 2026 release
-
-
-  ## Model Specifications
-
-
-  **Version**: Kimi K2.5 (latest)
-
-  **Languages**: Chinese, English, multilingual
-
-  **Performance**: Top-tier on benchmarks
-
-  **Architecture**: Advanced transformer
+  Kimi K2.5, developed by Moonshot, is a frontier-level open-source large
+  language model known for its exceptional benchmark performance across various
+  domains. With 1 trillion parameters (32B active per token) and a
+  Mixture-of-Experts (MoE) architecture, it offers high efficiency and powerful
+  capabilities.
 
 
   ## Capabilities
 
+  *   **Coding:** Achieves a near-perfect HumanEval score of 99.0, making it the
+  highest-performing model in coding evaluation.
 
-  ### Chinese Language
+  *   **Mathematical Reasoning:** Leads in MATH-500 with a score of 98.0 and
+  performs strongly in AIME 2025 (96.1).
 
-  - Native Chinese understanding
+  *   **General Reasoning:** Excels in MMLU (92.0) and GPQA Diamond (87.6),
+  demonstrating superior general knowledge and scientific reasoning.
 
-  - Cultural context awareness
+  *   **Instruction Adherence:** Leads IFEval with a score of 94.0, indicating
+  precise and reliable adherence to complex prompts.
 
-  - Classical Chinese support
+  *   **Context Window:** Boasts a 262K context window, enabling it to handle
+  extremely long and intricate inputs.
 
-  - Regional variations
+  *   **Chatbot Arena:** Holds a high Chatbot Arena rating of 1447, signifying
+  strong human preference for its conversational quality.
 
-  - Idiomatic expressions
 
+  ## Best For
 
-  ### English Language
+  *   Any task requiring top-tier coding, math, reasoning, or instruction
+  adherence
 
-  - Strong English performance
+  *   Multi-domain AI applications
 
-  - Technical English
+  *   Complex problem-solving and nuanced understanding
 
-  - Academic writing
 
-  - Professional communication
+  ## Benchmarks
 
-  - Natural conversation
+  *   **MMLU:** 92.0
 
+  *   **MMLU-Pro:** 87.1
 
-  ### General Tasks
+  *   **HumanEval:** 99.0
 
-  - Question answering
+  *   **SWE-bench Verified:** 76.8
 
-  - Content generation
+  *   **LiveCodeBench:** 85.0
 
-  - Reasoning and analysis
+  *   **AIME 2025:** 96.1
 
-  - Problem-solving
+  *   **GPQA Diamond:** 87.6
 
-  - Creative writing
+  *   **MATH-500:** 98.0
 
+  *   **Chatbot Arena:** 1447
 
-  ## Use Cases
-
-
-  ### Chinese Market
-
-  - Chinese language services
-
-  - Local applications
-
-  - Business communication
-
-  - Content creation
-
-  - Customer service
-
-
-  ### International Applications
-
-  - Bilingual services
-
-  - Translation assistance
-
-  - Cross-cultural communication
-
-  - Global platforms
-
-  - Multilingual support
-
-
-  ### Professional Services
-
-  - Business analysis
-
-  - Technical documentation
-
-  - Research assistance
-
-  - Content generation
-
-  - Knowledge work
-
-
-  ## Moonshot AI
-
-
-  **Company Background**:
-
-  - Chinese AI company
-
-  - Focus on practical AI
-
-  - Research-driven development
-
-  - Commercial applications
-
-  - Innovation emphasis
-
-
-  ## Performance Metrics
-
-
-  **Chatbot Arena**:
-
-  - ELO: 1445-1451
-
-  - Tight clustering with GLM-5
-
-  - Top performance tier
-
-  - Strong user preference
-
-
-  **General Benchmarks**:
-
-  - Competitive on standard evaluations
-
-  - Strong reasoning
-
-  - Good multilingual capability
-
-  - Practical task performance
-
-
-  ## Comparison with Other Models
-
-
-  **vs GLM-5**:
-
-  - Similar ELO range (1445-1451)
-
-  - Competitive performance
-
-  - Both top Chinese models
-
-  - Different training approaches
-
-
-  **vs International Models**:
-
-  - Strong Chinese advantage
-
-  - Competitive English
-
-  - Cultural understanding
-
-  - Local optimization
-
-
-  ## Kimi Series Evolution
-
-
-  **K2.5**: Latest version with enhanced capabilities
-
-  **Previous Versions**: K2 and earlier
-
-  **Continuous Improvement**: Regular updates
-
-
-  ## Deployment
-
-
-  **Infrastructure**:
-
-  - Cloud platforms
-
-  - API services
-
-  - On-premises options
-
-  - Scalable deployment
-
-
-  **Integration**:
-
-  - Mobile applications
-
-  - Web services
-
-  - Enterprise systems
-
-  - Custom solutions
-
-
-  ## Chinese AI Ecosystem
-
-
-  **Part of Landscape**:
-
-  - Moonshot AI's flagship
-
-  - Competes with Qwen, GLM, DeepSeek
-
-  - Commercial success
-
-  - Market adoption
-
-
-  ## Research Contributions
-
-
-  **Innovation Areas**:
-
-  - Bilingual optimization
-
-  - Cultural understanding
-
-  - Performance efficiency
-
-  - Practical applications
-
-
-  ## Commercial Availability
-
-
-  **Kimi Services**:
-
-  - API access
-
-  - Cloud services
-
-  - Enterprise solutions
-
-  - Custom deployment
-
-
-  ## Community Impact
-
-
-  - Chinese AI advancement
-
-  - Open research contributions
-
-  - Industry applications
-
-  - Academic partnerships
-
-
-  ## Future Development
-
-
-  - Enhanced capabilities
-
-  - Broader language support
-
-  - Performance improvements
-
-  - New applications
-
-  - Continued innovation
-
-
-  ## Licensing
-
-
-  Commercial model - check Moonshot AI for specific terms.
-
-
-  ## Pricing
-
-
-  Commercial pricing through Moonshot AI services.
-brand: Moonshot AI
-images: []
-updated_at: 2026-03-03 13:39
+  *   **IFEval:** 94.0
+brand: Moonshot
+updated_at: 2026-03-16 11:12

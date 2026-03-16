@@ -1,145 +1,44 @@
 name: Llama 4 Maverick
-description: Meta's 400B multimodal model representing the Llama 4 flagship.
-  First open-weight natively multimodal MoE model delivering high-performance
-  text and image understanding with massive parameter scale.
-source_url: https://huggingface.co/meta-llama/Llama-4-Maverick-17B-128E-Instruct
-category: Multimodal Models
+description: Llama 4 Maverick, a 400B parameter LLM, stands out with a 1M token
+  context window, representing a significant advancement in handling extensive
+  long-context tasks, although its performance in other benchmarks is moderate.
+source_url: https://ai.meta.com/blog/Llama-4-Maverick-long-context/
+category: Large Language Model
 tags:
-  - multimodal
-  - mixture-of-experts
-  - high-performance
-  - latest
-  - meta
-featured: true
+  - long-context
+  - research
+  - open-source
 markdown: >-
   ## Overview
 
+  Llama 4 Maverick is an open-source large language model known for its
+  exceptionally long context window.
 
-  Llama 4 Maverick is Meta's flagship multimodal model, representing the
-  high-end of the Llama 4 family. With 400B parameters, it delivers exceptional
-  performance across text and image understanding tasks.
 
+  ## Features
 
-  ## Model Architecture
+  - **Context Window:** 1M tokens (joint-longest on the board).
 
+  - **Parameters:** 400B.
 
-  - **Total Parameters**: 400 billion
 
-  - **Architecture**: Mixture-of-Experts (MoE)
+  ## Best for
 
-  - **Modality**: Native multimodal (text + image)
+  - Tasks requiring extensive long-context understanding.
 
-  - **Pre-training**: 22 trillion tokens of multimodal data
 
-  - **Design**: Optimized for frontier performance
+  ## Benchmarks
 
+  - MMLU: 85.5
 
-  ## Training Data
+  - MMLU-Pro: 80.5
 
+  - HumanEval: 62.0
 
-  - Comprehensive multimodal dataset
+  - LiveCodeBench: 43.4
 
-  - 22 trillion tokens of training data
+  - GPQA Diamond: 69.8
 
-  - Public, licensed, and proprietary sources
-
-  - Meta product and service information
-
-  - High-quality curation for performance
-
-
-  ## Capabilities
-
-
-  **Text Understanding:**
-
-  - Complex reasoning
-
-  - Instruction following
-
-  - Long document processing
-
-  - Code understanding
-
-  - Knowledge synthesis
-
-
-  **Image Understanding:**
-
-  - Visual reasoning
-
-  - Object recognition
-
-  - Scene understanding
-
-  - Document image analysis
-
-  - Multi-image reasoning
-
-
-  ## Performance Profile
-
-
-  - Frontier-level performance
-
-  - Competitive with state-of-the-art models
-
-  - Strong across diverse benchmarks
-
-  - Excellent reasoning abilities
-
-  - Superior multimodal understanding
-
-
-  ## Key Advantages
-
-
-  - **Open Weights**: Available for research and commercial use
-
-  - **Natively Multimodal**: Unified vision-language understanding
-
-  - **Massive Scale**: 400B parameters for maximum capability
-
-  - **MoE Efficiency**: Effective parameter utilization
-
-  - **Frontier Performance**: Cutting-edge capabilities
-
-
-  ## Use Cases
-
-
-  - Document understanding and analysis
-
-  - Visual reasoning applications
-
-  - Multimodal search systems
-
-  - Content analysis and classification
-
-  - Research and development
-
-  - Enterprise AI applications
-
-  - Autonomous systems
-
-
-  ## Deployment
-
-
-  - Hugging Face availability
-
-  - llama.com official distribution
-
-  - Cloud platform support
-
-  - Enterprise deployment options
-
-  - Service integrator partnerships
-
-
-  ## Licensing
-
-
-  Open weights for unrestricted research and commercial applications.
-brand: Meta
-updated_at: 2026-03-03 13:51
+  - Chatbot Arena: 1328
+brand: Meta AI
+updated_at: 2026-03-16 11:12

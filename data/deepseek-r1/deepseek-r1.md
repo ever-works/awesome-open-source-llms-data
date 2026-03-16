@@ -1,161 +1,22 @@
 ## Overview
+DeepSeek R1 is an A-tier open-source large language model from DeepSeek, which was influential in 2025 and remains powerful, especially for mathematical and general knowledge tasks.
 
-DeepSeek-R1 is a reasoning-focused language model from DeepSeek, released in early 2025. It represents DeepSeek's specialized effort in building models that excel at complex reasoning and problem-solving tasks.
+## Features
+- **MATH-500 Score:** 97.3.
+- **MMLU Score:** 90.8.
+- **HumanEval Score:** 90.2.
 
-## Key Innovation
+## Best for
+- Mathematics
+- General reasoning
+- Workflows already integrated with the DeepSeek ecosystem
 
-**Reasoning Specialization**:
-- Optimized for complex reasoning
-- Multi-step problem-solving
-- Mathematical and logical tasks
-- Chain-of-thought capabilities
-- Systematic problem decomposition
-
-## Release Context
-
-**Early 2025 Release**:
-- Following DeepSeek V3 (end of 2024)
-- Part of DeepSeek's model family expansion
-- Focus on specialized reasoning
-- Complementary to general models
-- Cutting-edge reasoning approach
-
-## Key Features
-
-- **Reasoning Excellence**: Specialized for complex reasoning
-- **Problem-Solving**: Multi-step task decomposition
-- **Mathematical**: Strong math capabilities
-- **Logical**: Excellent logical deduction
-- **Open Source**: MIT license
-- **Latest Release**: 2025 state-of-the-art
-
-## Capabilities
-
-### Mathematical Reasoning
-- Complex problem-solving
-- Multi-step calculations
-- Proof generation
-- Mathematical concepts
-- Formula derivation
-
-### Logical Reasoning
-- Deductive reasoning
-- Inductive reasoning
-- Pattern recognition
-- Logical puzzles
-- Analytical thinking
-
-### Problem Decomposition
-- Breaking down complex problems
-- Systematic approach
-- Step-by-step solutions
-- Clear reasoning chains
-- Verification steps
-
-## Use Cases
-
-### Education
-- Mathematics tutoring
-- Problem-solving assistance
-- Concept explanation
-- Homework help
-- STEM education
-
-### Research
-- Scientific reasoning
-- Hypothesis generation
-- Data analysis support
-- Research assistance
-- Problem formulation
-
-### Professional Applications
-- Technical problem-solving
-- Decision support
-- Strategic analysis
-- Complex calculations
-- Logical analysis
-
-## Performance
-
-**Expected Strengths** (based on DeepSeek's track record):
-- Top-tier reasoning benchmarks
-- Strong mathematical performance
-- Excellent logical tasks
-- Multi-step problem-solving
-- Competitive with proprietary models
-
-## DeepSeek Family
-
-**Part of Ecosystem**:
-- DeepSeek V3: General reasoning
-- DeepSeek-Coder: Code specialization
-- DeepSeek-R1: Reasoning focus
-- Complementary capabilities
-- Unified approach
-
-## Architecture
-
-Likely features (based on DeepSeek's approach):
-- Advanced transformer architecture
-- Reasoning-optimized training
-- Efficient parameter usage
-- Scalable design
-- Production-ready
-
-## Training Approach
-
-**Reasoning Focus**:
-- Reasoning-heavy datasets
-- Mathematical problems
-- Logical puzzles
-- Multi-step tasks
-- Verification examples
-
-## Deployment
-
-**Infrastructure**:
-- Cloud platforms
-- On-premises servers
-- API access
-- Efficient inference
-- Scalable deployment
-
-## Comparison
-
-**vs DeepSeek V3**:
-- R1: Reasoning specialized
-- V3: General purpose
-- R1: Mathematical focus
-- V3: Broader capabilities
-
-**vs Other Reasoning Models**:
-- Competitive performance
-- Open-source advantage
-- MIT license
-- Latest techniques
-
-## Community Impact
-
-Expected contributions:
-- Open reasoning model
-- Research advancement
-- Educational applications
-- Benchmark improvements
-- Community adoption
-
-## Integration
-
-**Compatible with**:
-- Standard inference frameworks
-- API services
-- Custom applications
-- Research platforms
-- Educational tools
-
-## Licensing
-
-MIT License - fully permissive for commercial use.
-
-## Pricing
-
-Free and open-source.
+## Benchmarks
+- MMLU: 90.8
+- MMLU-Pro: 84.0
+- HumanEval: 90.2
+- LiveCodeBench: 65.9
+- AIME 2025: 87.5
+- GPQA Diamond: 71.5
+- MATH-500: 97.3
+- Chatbot Arena: 1398

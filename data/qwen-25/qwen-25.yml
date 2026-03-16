@@ -1,0 +1,51 @@
+name: Qwen 2.5
+description: An open-source LLM excelling in coding and multilingual support,
+  adaptable to various hardware setups, making it practical for global
+  development teams.
+source_url: https://qwenlm.github.io/
+category: Multilingual Models
+tags:
+  - open-source
+  - coding
+  - multilingual
+featured: true
+markdown: >-
+  ## Overview
+
+  Qwen 2.5 is an open-source large language model that stands out for its strong
+  capabilities in coding and its robust support for multiple languages. It is
+  designed to be adaptable across different hardware configurations, offering
+  practicality for both development teams and companies with global operations.
+
+
+  ## Capabilities
+
+  - **Coding**: Highly effective in writing, debugging, and reviewing code
+  across a multitude of programming languages, demonstrating good accuracy and
+  understanding of code structures.
+
+  - **Multilingual Support**: Proficiently processes text in many different
+  languages, producing clear and coherent output, which is beneficial for
+  international teams and global applications.
+
+  - **Hardware Scalability**: Available in various model sizes, allowing users
+  to match the model to their specific infrastructure and budgetary constraints.
+
+
+  ## Use Cases
+
+  - Software development, including code generation, debugging, and review.
+
+  - Applications requiring multilingual text processing and generation.
+
+  - Projects needing an adaptable LLM that can perform well on diverse hardware
+  setups.
+
+
+  ## Hardware Considerations
+
+  - Requires mid-level hardware resources. Available in various model sizes to
+  match different infrastructure capabilities.
+brand: Qwen
+brand_logo_url: https://qwenlm.github.io/assets/images/logo.png
+updated_at: 2026-03-16 11:12
