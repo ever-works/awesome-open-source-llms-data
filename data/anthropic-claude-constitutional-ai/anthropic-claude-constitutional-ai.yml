@@ -1,0 +1,14 @@
+name: Anthropic Claude (Constitutional AI)
+description: Anthropic's Constitutional AI approach embeds safety through the
+  model's intrinsic alignment with a built-in constitution of ethical
+  principles, rather than relying primarily on external filters. The model
+  self-polices by generating critiques and revisions when outputs violate its
+  rules.
+source_url: https://www.anthropic.com/claude
+category: AI Safety & Guardrails
+tags:
+  - constitutional-ai
+  - intrinsic-alignment
+  - self-critique
+brand: Anthropic
+updated_at: 2026-04-04 21:39

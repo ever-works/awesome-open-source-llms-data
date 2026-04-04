@@ -4,7 +4,7 @@ description: Qwen 3.5 by Alibaba is an A-tier open-source large language model
   achieves the best GPQA Diamond score on the leaderboard and high IFEval
   scores.
 source_url: https://qwenlm.github.io/qwen3.5
-category: Large Language Model
+category: Foundation Models
 tags:
   - scientific-reasoning
   - instruction-following
@@ -48,4 +48,4 @@ markdown: >-
 
   Open-source model; licensing details depend on specific release.
 brand: Alibaba
-updated_at: 2026-03-16 11:12
+updated_at: 2026-04-04 21:39

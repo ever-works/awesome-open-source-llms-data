@@ -1,7 +1,11 @@
 name: TinyLlama
-description: A compact 1.1B parameter language model pretrained on 1 trillion
-  tokens with LLaMA architecture, achieving superior training efficiency at
-  24,000 tokens/sec per A100 GPU and outperforming OPT-1.3B and Pythia-1.4B.
+description: TinyLlama is a 1.1B parameter open-source language model
+  pre-trained on 3 trillion tokens using the same architecture and tokenizer as
+  the LLaMA family. Despite its small size, it demonstrates surprisingly capable
+  language understanding and generation, making it ideal for experimentation and
+  resource-constrained deployments. Its fully open training methodology and
+  minimal compute requirements ($50K vs millions for larger models) democratize
+  access to language model training.
 source_url: https://github.com/jzhang38/TinyLlama
 category: Small Language Models
 tags:
@@ -14,7 +18,7 @@ markdown: >-
 
 
   TinyLlama is a compact 1.1B parameter language model pretrained on
-  approximately 1 trillion tokens for about 3 epochs. Building on the
+  approximately 3 trillion tokens for about 3 epochs. Building on the
   architecture and tokenizer of Llama 2, TinyLlama leverages advances from the
   open-source community to achieve exceptional computational efficiency while
   maintaining strong performance.
@@ -27,7 +31,7 @@ markdown: >-
 
   - **Base Architecture**: LLaMA 2
 
-  - **Training Tokens**: ~1 trillion (3 epochs)
+  - **Training Tokens**: ~3 trillion (3 epochs)
 
   - **Tokenizer**: LLaMA 2 tokenizer
 
@@ -162,7 +166,7 @@ markdown: >-
   ## Training Data
 
 
-  Pretrained on diverse text corpora totaling ~1 trillion tokens across:
+  Pretrained on diverse text corpora totaling ~3 trillion tokens across:
 
   - Web text
 
@@ -193,4 +197,4 @@ markdown: >-
   Free and open source.
 brand: TinyLlama Project
 images: []
-updated_at: 2026-03-07 19:13
+updated_at: 2026-04-04 21:39

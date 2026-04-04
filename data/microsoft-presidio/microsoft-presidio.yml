@@ -1,0 +1,12 @@
+name: Microsoft Presidio
+description: Open-source PII detection and anonymization library from Microsoft
+  for identifying and redacting sensitive personal data (emails, SSNs, phone
+  numbers, etc.) in text, enabling privacy-preserving LLM deployments.
+source_url: https://github.com/microsoft/presidio
+category: AI Safety & Guardrails
+tags:
+  - open-source
+  - pii-detection
+  - privacy
+brand: Microsoft
+updated_at: 2026-04-04 21:39

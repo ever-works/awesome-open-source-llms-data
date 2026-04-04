@@ -1,0 +1,43 @@
+name: Nebius Token Factory
+description: High-throughput hosted inference API service running on H100/H200
+  GPU clusters, offering competitive pricing for open source LLMs.
+source_url: https://nebius.com/token-factory
+category: Deployment Platforms
+tags:
+  - inference
+  - serverless
+  - open-source-models
+featured: false
+markdown: >-
+  ## Overview
+
+
+  Nebius Token Factory is a hosted API provider offering high-throughput
+  inference for open source LLMs. The service runs on H100/H200 GPU clusters,
+  providing competitive pricing for production workloads that require high
+  throughput.
+
+
+  ## Features
+
+
+  - High-throughput inference on H100/H200 GPU clusters
+
+  - Competitive pricing for production workloads
+
+  - Hosted API for open source models
+
+  - No infrastructure management required
+
+  - Suitable for production deployments
+
+
+  ## Pricing
+
+
+  - Competitive usage-based pricing
+
+  - Pay-per-token model with volume discounts available
+brand: Nebius
+brand_logo_url: https://nebius.com/logo.svg
+updated_at: 2026-04-04 21:39

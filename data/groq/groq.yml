@@ -1,0 +1,48 @@
+name: Groq
+description: Groq is a high-performance AI inference hardware and cloud platform
+  built around their custom Language Processing Unit (LPU) architecture. Unlike
+  GPU-based inference, Groq's LPUs are designed specifically for sequential
+  language model inference, delivering deterministic ultra-low latency with
+  sub-150ms time-to-first-token and 500+ tokens per second. The platform
+  supports popular open-source models including LLaMA, Mixtral, and Gemma
+  families, making it ideal for real-time applications requiring minimal
+  latency.
+source_url: https://groq.com
+category: Deployment Platforms
+tags:
+  - inference
+  - real-time
+  - serverless
+featured: false
+markdown: >-
+  ## Overview
+
+
+  Groq is a hosted API provider specializing in ultra-fast inference for open
+  source LLMs. It is optimized for real-time applications where low latency is
+  critical.
+
+
+  ## Features
+
+
+  - Fastest inference available among API providers
+
+  - Ideal for real-time applications requiring low latency
+
+  - Supports a selection of popular open source models
+
+  - Serverless hosted API with no infrastructure management
+
+  - Compatible with models available through API providers at competitive
+  pricing ($0.20-0.80/M tokens)
+
+
+  ## Pricing
+
+
+  Pay-per-use API pricing, estimated at $0.20-0.80 per million tokens depending
+  on model selection.
+brand: Groq
+brand_logo_url: https://groq.com/logo.svg
+updated_at: 2026-04-04 21:39

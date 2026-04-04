@@ -1,0 +1,39 @@
+## Overview
+
+Qwen2 72B is a powerful model from Alibaba's Qwen2 family, known for extremely long context window capabilities and strong multilingual performance. It is a formidable competitor to Llama 3.1 70B and excels at long-document analysis.
+
+## Architecture
+
+- 72B parameter dense transformer
+- 128k context window
+- Advanced tokenization for multilingual support
+
+## Key Features
+
+- Extremely long context window for processing large documents (financial reports, legal contracts)
+- Strong multilingual capabilities across many languages
+- Competitive performance on reasoning and general benchmarks
+- Robust language understanding for non-English text
+- 128k context enables analysis of very long structured documents
+
+## Use Cases
+
+- Long-document RAG (Retrieval-Augmented Generation)
+- Financial report and legal contract analysis
+- Multilingual applications and translation support
+- General-purpose AI assistants with strong non-English capabilities
+
+## Deployment
+
+- Ollama: `ollama run qwen2:72b`
+- Server deployment via vLLM or TGI
+- VRAM requirements: ~42 GB (4-bit), ~78 GB (8-bit)
+- Compatible with major inference frameworks
+
+## Licensing
+
+Licensed under Tongyi Qianwen (Tongyi Qianwen License 2.0), permissive for commercial use. Fine-tuning and modification are permitted. Users should review the full license text for specific terms.
+
+## Limitations
+
+The community and tooling ecosystem around Qwen is not as mature as that for Llama, which may mean fewer third-party integrations and tutorials compared to more established families.

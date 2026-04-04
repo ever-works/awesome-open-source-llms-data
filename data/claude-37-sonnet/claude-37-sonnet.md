@@ -1,0 +1,41 @@
+## Overview
+
+Claude 3.7 Sonnet was released on February 24, 2025 by Anthropic. It is particularly well-regarded for coding tasks and logical reasoning.
+
+## Features
+
+- **Extended Thinking Mode**: Walks through logic step by step, outputting up to 64,000 tokens per response for deep reasoning. Users can toggle between regular chat (faster) and Thinking Mode (deeper analysis)
+- **200,000-token context window**: Handles long sessions and large files without losing track
+- **8,000-token standard output**: Default output capacity (expandable to 64K in Thinking Mode)
+- **Extended Thinking + 64K context**: The thinking mode variant shows measurable improvements over the base model on complex tasks
+- **Claude Code (beta)**: Agentic coding model that runs directly in the terminal, capable of:
+  - Exploring codebases
+  - Editing files
+  - Running tests
+  - Fixing build errors
+  - Pushing to GitHub via natural language chat
+
+## Performance
+
+- MMLU: ~91%
+- 200K token context window
+- Exceptional coding assistance capability
+- Strong academic reasoning and domain knowledge
+
+## Use Cases
+
+- Software development and code review
+- Complex problem-solving requiring step-by-step logic
+- Long-document analysis and summarization
+- Terminal-based agentic coding workflows (Claude Code)
+
+## Modes
+
+- **Regular Mode**: Faster interactions for quick queries
+- **Thinking Mode**: Extended reasoning (up to 64K output tokens) for depth and precision
+
+## Limitations
+
+- Proprietary — cannot be modified or self-hosted
+- Paid API or subscription access
+- Thinking Mode responses are slower than standard mode

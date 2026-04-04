@@ -3,7 +3,7 @@ description: Mistral-based instruction-tuned model trained on 1 million entries
   of primarily GPT-4 generated data. OpenHermes 2.5 Mistral 7B achieves strong
   performance on instruction-following and code generation tasks.
 source_url: https://huggingface.co/teknium/OpenHermes-2.5-Mistral-7B
-category: Instruction Tuned Models
+category: Foundation Models
 tags:
   - instruction-tuned
   - mistral-based
@@ -162,4 +162,4 @@ markdown: >-
   Free and open-source.
 brand: Teknium
 images: []
-updated_at: 2026-03-03 13:39
+updated_at: 2026-04-04 21:39

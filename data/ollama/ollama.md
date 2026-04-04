@@ -1,0 +1,23 @@
+## Overview
+
+Ollama is an open source tool designed to make running large language models locally as simple as possible. It provides a CLI-first interface for downloading, managing, and running models like Qwen3, DeepSeek V3.2, Gemma 3, and many others on consumer hardware.
+
+## Features
+
+- Extremely simple setup - run models with a single command (e.g., `ollama run qwen3:30b`)
+- Supports a wide catalog of open source models
+- Runs on consumer GPUs (RTX 4060-4090) and Apple Silicon Macs
+- Automatic model downloads and management
+- GGUF quantization support out of the box
+- Ideal for development and prototyping
+- Can run 30B models on Apple Silicon Macs with 32GB unified memory
+
+## Deployment
+
+- Best suited for development and prototyping
+- For production workloads, consider vLLM or Text Generation Inference for better batching and throughput
+- Supports quantized models (GGUF format) for reduced memory footprint
+
+## Pricing
+
+Free and open source.

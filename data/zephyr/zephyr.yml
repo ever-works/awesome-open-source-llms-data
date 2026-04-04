@@ -3,7 +3,7 @@ description: Fine-tuned series of Mistral and Mixtral models trained to act as
   helpful assistants using Direct Preference Optimization (DPO). Zephyr-7B-α
   achieved state-of-the-art results for 7B-class models at release.
 source_url: https://huggingface.co/HuggingFaceH4/zephyr-7b-alpha
-category: Instruction Tuned Models
+category: Foundation Models
 tags:
   - instruction-tuned
   - dpo
@@ -160,4 +160,4 @@ markdown: >-
 brand: Hugging Face
 brand_logo_url: https://huggingface.co/datasets/huggingface/brand-assets/resolve/main/hf-logo.png
 images: []
-updated_at: 2026-03-03 13:39
+updated_at: 2026-04-04 21:39

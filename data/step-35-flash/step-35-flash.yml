@@ -3,7 +3,7 @@ description: Step-3.5-Flash is a highly efficient S-tier LLM from Stepfun,
   delivering exceptional reasoning per parameter, particularly in mathematical
   and competitive coding tasks, despite its smaller size at 196B parameters.
 source_url: https://www.stepfun.com/
-category: Large Language Model
+category: Foundation Models
 tags:
   - mathematical-reasoning
   - competitive-coding
@@ -43,4 +43,4 @@ markdown: >-
 
   - AIME 2025: 97.3
 brand: Stepfun
-updated_at: 2026-03-16 11:12
+updated_at: 2026-04-04 21:39

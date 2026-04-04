@@ -1,0 +1,46 @@
+name: Seq2Seq
+description: A foundational deep learning approach for machine translation,
+  image captioning, and NLP developed by Google. Seq2Seq uses an encoder-decoder
+  architecture and underlies several modern LLMs including LaMDA and Amazon's
+  AlexaTM 20B.
+source_url: https://google.github.io/seq2seq/
+category: Foundation Models
+tags:
+  - encoder-decoder
+  - machine-translation
+  - open-source
+featured: false
+markdown: >-
+  ## Overview
+
+
+  Seq2Seq (Sequence-to-Sequence) is a deep learning approach developed by Google
+  for tasks including machine translation, image captioning, and natural
+  language processing. It underlies several modern large language models.
+
+
+  ## Architecture
+
+
+  - Uses a mix of encoders and decoders
+
+  - Encoder processes the input sequence into a fixed-size representation
+
+  - Decoder generates the output sequence from the encoded representation
+
+  - Decoder-only transformer variant used in models like LaMDA
+
+
+  ## Legacy
+
+
+  - Underlies LaMDA (Language Model for Dialogue Applications)
+
+  - Underlies AlexaTM 20B, Amazon's large language model
+
+  - Foundation for many modern NLP architectures
+
+  - Paved the way for the transformer architecture that dominates current LLM
+  designs
+brand: Google
+updated_at: 2026-04-04 21:39

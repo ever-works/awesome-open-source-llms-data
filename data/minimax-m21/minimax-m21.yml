@@ -1,0 +1,100 @@
+name: MiniMax-M2.1
+description: Agentic LLM from MiniMax with 230B total parameters and only 10B
+  activated per token, purpose-built for tool-interactive reasoning with
+  interleaved reasoning and action capabilities across extended agent loops for
+  web navigation, multi-file coding, and structured research.
+source_url: https://www.minimax.io/
+category: Reasoning Models
+tags:
+  - agentic
+  - tool-interactive
+  - sparse-moe
+featured: false
+markdown: >-
+  ## Overview
+
+
+  MiniMax-M2.1 is an agentic LLM geared toward tool-interactive reasoning. It
+  uses a 230B total parameter design with only 10B activated per token, implying
+  a large MoE or similar sparsity architecture.
+
+
+  ## Architecture
+
+
+  - **Type**: Sparse, agent-optimized LLM
+
+  - **Total Parameters**: ~230B
+
+  - **Active Parameters**: ~10B per token
+
+  - **Context Length**: Long context (exact size not publicly specified)
+
+
+  ## Capabilities
+
+
+  - Interleaved reasoning and action
+
+  - Can reason, call tools, and react to observations across extended agent
+  loops
+
+  - Suited for tasks involving long sequences of actions
+
+  - Supports function calling and multi-turn agent execution via inference
+  engines like vLLM
+
+
+  ## Primary Use Cases
+
+
+  - Web navigation and browsing
+
+  - Multi-file coding tasks
+
+  - Structured research tasks
+
+  - Tool-based agents
+
+  - Long workflow execution
+
+
+  ## Benchmarks
+
+
+  MiniMax reports strong internal results on agent benchmarks including:
+
+  - SWE-Bench
+
+  - BrowseComp
+
+  - xBench
+
+
+  ## Strengths
+
+
+  - Purpose-built for agent workflows
+
+  - High reasoning efficiency per active parameter
+
+  - Strong long-horizon task handling
+
+
+  ## Weaknesses
+
+
+  - Limited public benchmarks and documentation
+
+  - Smaller ecosystem than peers
+
+  - Requires optimized inference setup
+
+
+  ## Licensing
+
+
+  Open-weight with limited publicly specified license details.
+brand: MiniMax
+brand_logo_url: https://www.minimax.io/favicon.ico
+updated_at: 2026-04-04 21:39

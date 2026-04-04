@@ -1,0 +1,52 @@
+name: Together AI
+description: Together AI is a cloud platform and API provider that serves
+  open-source LLMs with a developer-friendly interface and competitive pricing.
+  They maintain a comprehensive model collection spanning LLaMA, Mistral, Qwen,
+  DeepSeek, and fine-tuned community models with automatic scaling. The platform
+  offers fine-tuning capabilities, embedding models, and image generation APIs,
+  positioning itself as the most comprehensive open-source model serving
+  platform.
+source_url: https://www.together.ai
+category: Deployment Platforms
+tags:
+  - inference
+  - serverless
+  - open-source-models
+featured: false
+markdown: >-
+  ## Overview
+
+
+  Together AI is a hosted API platform providing access to a wide selection of
+  open source large language models with competitive pricing. It offers the
+  benefits of open source models with the convenience of a SaaS deployment
+  model.
+
+
+  ## Features
+
+
+  - Wide selection of open source LLMs available via a single API
+
+  - Competitive pricing for inference
+
+  - Supports models including DeepSeek V3.2 Speciale, GLM-4.7, and MiMo-V2-Flash
+  via API
+
+  - Typical API pricing at $0.20–0.80/M tokens
+
+  - Serverless deployment - no infrastructure to manage
+
+  - Suitable for production workloads
+
+
+  ## Pricing
+
+
+  - Pay-per-use API pricing
+
+  - Estimated costs at $0.20–0.80 per million tokens depending on the model
+  selected
+brand: Together AI
+brand_logo_url: https://www.together.ai/images/logo.svg
+updated_at: 2026-04-04 21:39

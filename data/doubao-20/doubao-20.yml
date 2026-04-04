@@ -1,0 +1,73 @@
+name: Doubao 2.0
+description: ByteDance's next-generation large language model featuring enhanced
+  reasoning, dialogue, and real-time voice interaction capabilities. Part of
+  ByteDance's broader multimodal AI suite integrating text, image, and video
+  generation.
+source_url: https://www.doubao.com/
+category: Foundation Models
+tags:
+  - multimodal
+  - chinese-ai
+  - enterprise
+featured: false
+markdown: >-
+  ## Overview
+
+
+  Doubao 2.0 is ByteDance's next-generation large language model, released
+  around February 2026 alongside Seedream 5.0 (image generation) and SeedDance
+  2.0 (video generation) as part of a coordinated multimodal AI suite. The
+  release reflects ByteDance's DNA as a content platform company, positioning
+  its AI stack for integrated text-image-video workflows.
+
+
+  ## Features
+
+
+  - Enhanced reasoning and dialogue capabilities
+
+  - Real-time voice interaction with emotional expression
+
+  - End-to-end speech capabilities with ultra-low latency
+
+  - Character imitation support
+
+  - Interactive AI features including real-time voice
+
+
+  ## Ecosystem
+
+
+  Doubao 2.0 is the centerpiece of ByteDance's Doubao ecosystem, which reports
+  over 50 trillion daily token usage across its large models — a tenfold
+  increase year-over-year. The multimodal suite includes:
+
+
+  - **Doubao 2.0**: Next-generation LLM with text and voice capabilities
+
+  - **Seedream 5.0**: Advanced image generation with improved Chinese cultural
+  aesthetics
+
+  - **SeedDance 2.0**: Next-generation video synthesis for content creation
+
+
+  ## Integration
+
+
+  - Exclusive AI cloud partnership with the 2026 CCTV Spring Festival Gala
+  through ByteDance's Volcano Engine division
+
+  - Direct integration with ByteDance's content ecosystem
+
+
+  ## Availability
+
+
+  - Access via API through ByteDance's Volcano Engine platform
+
+  - Historically proprietary with aggressive pricing, undercutting competitors
+  to drive adoption
+
+  - Limited international availability (China-first distribution)
+brand: ByteDance
+updated_at: 2026-04-04 21:39

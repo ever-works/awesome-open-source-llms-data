@@ -1,9 +1,13 @@
 name: Llama 3
-description: A general-purpose open-source LLM from Meta, Llama 3 delivers solid
-  performance for writing, applications, and team workflows, backed by an active
-  community.
+description: Meta's Llama 3 is a family of openly available large language
+  models trained on over 15 trillion tokens, available in 8B, 70B, and 405B
+  parameter sizes. It features state-of-the-art instruction following,
+  multilingual support across 8+ languages, and a 128K context window, making it
+  well-suited for chatbots, content generation, and enterprise applications. It
+  competes with models like Qwen 3 and GPT-4o-mini in its size class, offering
+  industry-leading performance for open-weight models.
 source_url: https://llama.meta.com/
-category: Large Language Model
+category: Foundation Models
 tags:
   - open-source
   - general-purpose
@@ -79,4 +83,4 @@ markdown: >-
   Free and open-source under permissible licenses.
 brand: Meta
 brand_logo_url: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Meta_Platforms_Inc._logo.svg/2560px-Meta_Platforms_Inc._logo.svg.png
-updated_at: 2026-03-16 11:12
+updated_at: 2026-04-04 21:39

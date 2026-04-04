@@ -1,8 +1,10 @@
 name: Mistral 7B
-description: Mistral AI's flagship 7-billion-parameter model with exceptional
-  performance-to-size ratio, outperforming LLaMA 2 13B on most benchmarks.
-  Features sliding window attention for efficient long-context handling and
-  Apache 2.0 license.
+description: Mistral AI's foundational 7B parameter language model that uses
+  sliding window attention and grouped-query attention for efficient processing
+  of long contexts. Trained on 8K+ context windows with excellent instruction
+  following, it became the go-to small open-source model upon release. It
+  spawned thousands of fine-tuned variants and remains popular for local
+  deployment, competing with LLaMA 3 8B.
 source_url: https://mistral.ai/news/announcing-mistral-7b/
 category: Foundation Models
 tags:
@@ -474,4 +476,4 @@ markdown: >-
   This permissive licensing combined with exceptional performance made Mistral
   7B one of the most impactful open-source models.
 brand: Mistral AI
-updated_at: 2026-03-03 13:09
+updated_at: 2026-04-04 21:39

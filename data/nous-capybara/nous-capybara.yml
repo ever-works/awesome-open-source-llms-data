@@ -3,7 +3,7 @@ description: Multi-turn conversational model from Nous Research with extended
   context support. Trained on high-quality multi-turn datasets for improved
   dialogue coherence and context retention across long conversations.
 source_url: https://huggingface.co/NousResearch/Nous-Capybara-7B-V1.9
-category: Instruction Tuned Models
+category: Foundation Models
 tags:
   - conversational
   - long-context
@@ -435,4 +435,4 @@ markdown: >-
   Free and open-source.
 brand: Nous Research
 images: []
-updated_at: 2026-03-03 13:39
+updated_at: 2026-04-04 21:39

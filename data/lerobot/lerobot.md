@@ -1,0 +1,17 @@
+## Overview
+
+LeRobot is Hugging Face's open source robotics library that provides models, datasets, and tools for real-world robotics built on PyTorch. It supports three primary learning paradigms: imitation learning, reinforcement learning, and vision-language-action models.
+
+## Features
+
+- Supports imitation learning, reinforcement learning, and vision-language-action models
+- Provides datasets spanning household manipulation tasks to autonomous driving
+- Compatible with the Hugging Face ecosystem of models and datasets
+- PyTorch-based implementation for real-world robotics applications
+- Used by both industry, academic labs, and hobbyist communities
+
+## Ecosystem Context
+
+Hugging Face's acquisition of Pollen Robotics opened open source robotic sales to both industry and academic labs, as well as everyday hobbyists. The library has experienced rapid growth, with its GitHub repository stars nearly tripling over the past year.
+
+Robotics datasets on Hugging Face grew from 1,145 in 2024 to 26,991 in 2025, climbing from rank 44 to the single largest dataset category on the Hub. The largest multimodal dataset for spatial intelligence, Learning to Drive (L2D), was released through a LeRobot collaboration.

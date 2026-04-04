@@ -1,0 +1,13 @@
+name: Vertex AI Safety Filters
+description: Google Cloud Vertex AI's built-in safety filtering system that
+  classifies LLM outputs across harm categories and adjusts filtering
+  thresholds. Supports customizable safety settings for responsible generative
+  AI deployment.
+source_url: https://cloud.google.com/vertex-ai/generative-ai/docs/multimodal/configure-safety-filters
+category: AI Safety & Guardrails
+tags:
+  - google-cloud
+  - safety-settings
+  - harm-classification
+brand: Google Cloud
+updated_at: 2026-04-04 21:39

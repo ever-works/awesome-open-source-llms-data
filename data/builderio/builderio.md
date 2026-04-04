@@ -1,0 +1,34 @@
+## Overview
+
+Builder.io is an agentic AI platform designed specifically for frontend workflows. Unlike traditional code editors, Builder treats "done" as "the UI is correct" — not just "the code compiles." Visual verification is built into the loop, reducing cleanup and design drift.
+
+## Use Cases
+
+- Frontend engineering
+- Design system maintenance
+- UI regression prevention
+- Component generation with visual verification
+- Automatic PR shipping
+
+## Features
+
+- Visual verification of rendered output
+- Design-system grounding with component intent
+- Spacing and token alignment
+- Review anchored to rendered output, not just code changes
+- Automatic PR shipping
+- Background agent integrations (Jira, Linear, Slack)
+- Brings multiple LLMs into the frontend workflow
+
+## Strengths
+
+- Catches "almost right" changes early through visual checks
+- Reduces visual drift and design system misalignment
+- Makes render correctness part of the development loop
+- Strong integration ecosystem
+- Multi-LLM support
+
+## Weaknesses
+
+- Specialized for frontend rather than general-purpose coding
+- Not the first choice for backend or non-UI-heavy tasks

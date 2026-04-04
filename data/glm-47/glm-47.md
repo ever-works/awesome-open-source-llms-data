@@ -1,27 +1,51 @@
 ## Overview
-GLM-4.7, developed by Zhipu AI, is a frontier-class open-source large language model that excels in various domains. It is recognized for its high performance across multiple benchmarks, making it a versatile choice for complex AI applications.
 
-## Capabilities
-*   **Code Generation:** Achieves a HumanEval score of 94.2, indicating strong ability in generating and understanding code.
-*   **Mathematical Reasoning:** Scores 95.7 on AIME 2025, demonstrating advanced mathematical problem-solving skills.
-*   **Scientific Reasoning:** With a GPQA Diamond score of 85.7, it performs exceptionally well in doctoral-level scientific reasoning tasks.
-*   **Instruction Following:** Boasts an IFEval score of 88.0, showcasing its ability to follow complex instructions accurately.
-*   **Context Window:** Features a 200K context window, allowing it to process and generate long and complex texts.
-*   **Real-world Coding:** Achieves 84.9 on LiveCodeBench, highlighting its proficiency in competitive coding scenarios.
+GLM-4.7 is a 355B-parameter open model with task-oriented reasoning enhancements, designed not just for Q&A but for end-to-end agentic coding and problem-solving. It leads open-source models across reasoning, coding, and agent tasks.
 
-## Best For
-*   Coding agents
-*   Complex reasoning tasks
-*   Scientific Q&A
-*   Multi-turn instruction-following applications
+## Architecture
+
+- **Type**: Sparse Mixture-of-Experts
+- **Total Parameters**: ~355B
+- **Active Parameters**: ~32B per token
+- **Context Length**: Up to ~200K tokens
+- **License**: MIT
+
+## Reasoning Modes
+
+- **Interleaved Reasoning**: Performs chain-of-thought before every tool call or response
+- **Retention-Based Mode**: Keeps inner monologue as needed
+- **Round-Level Reasoning**: Can skip inner monologue as needed
+- **Think-Before-Acting**: Multi-turn reasoning controls to stabilize complex tasks
 
 ## Benchmarks
-*   **MMLU:** 90.1
-*   **MMLU-Pro:** 84.3
-*   **HumanEval:** 94.2
-*   **SWE-bench Verified:** 73.8
-*   **LiveCodeBench:** 84.9
-*   **AIME 2025:** 95.7
-*   **GPQA Diamond:** 85.7
-*   **Chatbot Arena:** 1445
-*   **IFEval:** 88.0
+
+| Benchmark | Score |
+|-----------|------|
+| Humanity's Last Exam (HLE) with tool use | ~42.8% |
+| LiveCodeBench v6 | ~84.9% |
+| SWE-Bench Verified | ~73.8% |
+| BrowseComp | Strong performance |
+| τ²-Bench | Strong multi-step reasoning |
+
+## Strengths
+
+- Strong performance in multi-step reasoning and coding
+- Designed for agent-style execution loops
+- Long-context support for complex tasks
+- Competitive with leading open reasoning models
+
+## Weaknesses
+
+- High inference cost due to scale
+- Advanced reasoning increases latency
+- Limited English-first documentation
+
+## Primary Use Cases
+
+- Coding and software engineering
+- Mathematical reasoning
+- Agent workflows and autonomous systems
+
+## Licensing
+
+Open-weight with commercial use permitted under MIT license.

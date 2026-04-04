@@ -1,0 +1,31 @@
+## Overview
+
+Claude Opus 4.6 is Anthropic's current flagship and most capable model, representing the pinnacle of the Claude 4 family.
+
+## Specifications
+
+| Attribute | Value |
+|---|---|
+| Parameters | Not disclosed |
+| Context Window | 200K tokens standard, 1M tokens (beta) |
+| Max Output | 128,000 tokens |
+| Knowledge Cutoff | Mar 2025 |
+
+## Benchmarks
+
+- 80.8% SWE-bench Verified
+- 65.4% Terminal-Bench 2.0
+- 68.8% ARC-AGI-2
+- Leads all frontier models on Humanity's Last Exam
+- Lowest misalignment score of any Claude model
+
+## Features
+
+- Adaptive thinking with four effort levels (low/medium/high/max)
+- Agent Teams for parallel sub-task orchestration
+- Multimodal (text + image)
+- Available via API, claude.ai (Pro, Max, Team, Enterprise), Amazon Bedrock, Google Cloud Vertex AI, and Microsoft Foundry
+
+## Pricing
+
+$5.00 per M input tokens / $25.00 per M output tokens.

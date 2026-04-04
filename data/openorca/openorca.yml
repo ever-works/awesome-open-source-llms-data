@@ -4,7 +4,7 @@ description: Large-scale instruction dataset and model series replicating
   explanations. OpenOrca dataset contains 4.2M+ augmented instructions for
   training instruction-following models.
 source_url: https://huggingface.co/Open-Orca
-category: Instruction Tuned Models
+category: Foundation Models
 tags:
   - instruction-tuned
   - synthetic-data
@@ -409,4 +409,4 @@ markdown: >-
   Free and open-source dataset and models.
 brand: Open-Orca
 images: []
-updated_at: 2026-03-03 13:39
+updated_at: 2026-04-04 21:39

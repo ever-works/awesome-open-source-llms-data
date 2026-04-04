@@ -4,7 +4,7 @@ description: High-performing instruction-tuned model series from Nous Research,
   variants available in multiple sizes based on Mixtral, Llama, and Yi
   foundations.
 source_url: https://huggingface.co/NousResearch
-category: Instruction Tuned Models
+category: Foundation Models
 tags:
   - instruction-tuned
   - reasoning
@@ -428,4 +428,4 @@ markdown: >-
   Free and open-source.
 brand: Nous Research
 images: []
-updated_at: 2026-03-03 13:39
+updated_at: 2026-04-04 21:39

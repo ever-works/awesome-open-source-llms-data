@@ -3,7 +3,7 @@ description: An open-source LLM offering complete transparency and an open
   license, suitable for private deployments and teams handling sensitive data
   needing full control over their systems.
 source_url: https://github.com/h2oai/h2ogpt
-category: Large Language Model
+category: Foundation Models
 tags:
   - open-source
   - private-deployment
@@ -48,4 +48,4 @@ markdown: >-
   while ensuring data control.
 brand: H2O.ai
 brand_logo_url: https://h2o.ai/wp-content/uploads/2023/11/h2oai-logo.svg
-updated_at: 2026-03-16 11:12
+updated_at: 2026-04-04 21:39

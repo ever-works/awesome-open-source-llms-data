@@ -3,7 +3,7 @@ description: Instruction-tuned model series from OpenAccess AI Collective
   focused on roleplay, creative writing, and multi-turn conversations. Features
   strong character consistency and engaging narrative capabilities.
 source_url: https://huggingface.co/openaccess-ai-collective/manticore-13b
-category: Instruction Tuned Models
+category: Foundation Models
 tags:
   - roleplaying
   - creative
@@ -401,4 +401,4 @@ markdown: >-
   Free and open-source.
 brand: OpenAccess AI Collective
 images: []
-updated_at: 2026-03-03 13:39
+updated_at: 2026-04-04 21:39

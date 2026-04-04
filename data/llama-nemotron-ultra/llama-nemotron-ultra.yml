@@ -1,0 +1,52 @@
+name: Llama Nemotron Ultra
+description: NVIDIA's Llama Nemotron Ultra is an open-weight large language
+  model optimized for enterprise applications. It scores 38 on the Quality Index
+  with 64% on LiveCodeBench, 64% on AIME 2025, and 83% on MMLU-Pro, positioning
+  it as a competitive option for deployment on NVIDIA GPU infrastructure.
+source_url: https://developer.nvidia.com/nemotron
+category: Foundation Models
+tags:
+  - nvidia
+  - open-weights
+  - enterprise
+featured: false
+markdown: >-
+  ## Overview
+
+
+  Llama Nemotron Ultra is NVIDIA's open-weight large language model, combining
+  the Llama architecture with NVIDIA's Nemotron training techniques.
+
+
+  ## Benchmark Performance
+
+
+  - **Quality Index**: 38
+
+  - **LiveCodeBench**: 64%
+
+  - **AIME 2025**: 64%
+
+  - **MMLU-Pro**: 83%
+
+
+  ## Features
+
+
+  - Built on the Llama architecture enhanced with NVIDIA's Nemotron training
+  pipeline
+
+  - Optimized for deployment on NVIDIA GPU infrastructure
+
+  - Open weights with commercial use permitted
+
+  - Enterprise-focused capabilities
+
+
+  ## Pricing
+
+
+  Free to download and use. Check specific license for fine-tuning and
+  redistribution terms.
+brand: NVIDIA
+updated_at: 2026-04-04 21:39

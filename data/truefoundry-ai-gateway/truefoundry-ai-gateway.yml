@@ -1,0 +1,58 @@
+name: TrueFoundry AI Gateway
+description: Enterprise AI gateway platform with guardrail capabilities
+  including PII masking, disallowed topic filtering, unwanted word blocking, and
+  automatic PII anonymization for on-premises deployments preventing data
+  exposure.
+source_url: https://www.truefoundry.com/ai-gateway
+category: AI Safety & Guardrails
+tags:
+  - enterprise
+  - pii-masking
+  - on-premises
+markdown: >-
+  ## Overview
+
+
+  TrueFoundry's AI Gateway provides a guardrail layer for enterprise LLM
+  deployments, enabling precise policy enforcement and privacy-preserving
+  transformations of inputs and outputs.
+
+
+  ## Features
+
+
+  - **PII masking**: Automatically detects and anonymizes personally
+  identifiable information (emails, SSNs, etc.) before it leaves the system
+
+  - **Topic filtering**: Block disallowed categories from appearing in model
+  outputs
+
+  - **Custom word blocking**: Define and enforce lists of forbidden terms
+  specific to the organization
+
+  - **Brand voice enforcement**: Ensure outputs align with company's
+  communication guidelines
+
+  - **On-premises guardrail gateway**: Deployable within private infrastructure
+  with no external data exposure
+
+  - **Configurable policies**: Administrators define precise rules tailored to
+  business requirements
+
+
+  ## Use Cases
+
+
+  - Enterprise applications handling sensitive customer data
+
+  - Organizations requiring strict data sovereignty and compliance
+
+  - Applications needing brand-safe output generation
+
+
+  ## Pricing
+
+
+  Enterprise pricing — contact TrueFoundry for details.
+brand: TrueFoundry
+updated_at: 2026-04-04 21:39

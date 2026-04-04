@@ -1,0 +1,71 @@
+name: GLM-Z1-9B-0414
+description: Compact 9B parameter reasoning model from the GLM series that
+  excels in mathematical reasoning and general tasks despite its smaller scale.
+  Features deep thinking capabilities and long context support through YaRN
+  technology, delivering leading performance among open-source models of similar
+  size.
+source_url: https://huggingface.co/THUDM/glm-z1-9b-0414
+category: Reasoning Models
+tags:
+  - open-source
+  - mathematical-reasoning
+  - lightweight
+featured: false
+markdown: >-
+  ## Overview
+
+
+  GLM-Z1-9B-0414 is a small-sized model in the GLM series with only 9 billion
+  parameters that maintains the open-source tradition while showcasing
+  surprising capabilities. Despite its smaller scale, it exhibits excellent
+  performance in mathematical reasoning and general tasks, achieving leading
+  results among open-source models of the same size.
+
+
+  ## Architecture
+
+
+  - 9 billion parameters
+
+  - Deep thinking capabilities
+
+  - YaRN technology for long context handling
+
+  - Trained using the same series of techniques applied to larger models in the
+  GLM family
+
+
+  ## Core Strengths
+
+
+  - Outstanding mathematical reasoning for its size
+
+  - Deep thinking capabilities for complex problem solving
+
+  - Excellent balance between efficiency and effectiveness in
+  resource-constrained scenarios
+
+  - Lightweight deployment suitable for edge computing
+
+  - Handles long contexts through YaRN technology
+
+
+  ## Pricing
+
+
+  - $0.086/M output tokens on SiliconFlow
+
+
+  ## Use Cases
+
+
+  - Applications requiring mathematical reasoning abilities with limited
+  computational resources
+
+  - Edge deployment scenarios
+
+  - Resource-constrained environments
+
+  - Lightweight mathematical problem solving and step-by-step explanations
+brand: THUDM
+updated_at: 2026-04-04 21:39

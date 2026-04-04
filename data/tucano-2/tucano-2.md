@@ -1,0 +1,70 @@
+## Overview
+
+Tucano 2 is a family of open Portuguese foundation models ranging from 0.5B to 3.7B parameters, built from the ground up for the Portuguese language. Each model is accompanied by a 2-tier evaluation suite that distinguishes early-training signals from late-training differentiation. All datasets, models, training recipes, and evaluation code are released under permissive licenses.
+
+## Model Variants
+
+- **Base models** — Foundation models trained either from scratch (Tucano2-0.6-Base, 670M) or via continual pretraining from Qwen3 (Tucano2-qwen-1.5-Base, Tucano2-qwen-2.5-Base, Tucano2-qwen-3.7-Base).
+- **Instruct models** — Optimized for following instructions clearly and accurately, trained via supervised fine-tuning (SFT) and Anchored Preference Optimization (APO).
+- **Think models** — Designed for step-by-step reasoning with chain-of-thought traces produced entirely in Portuguese.
+
+## Architecture
+
+- Llama-style architecture for from-scratch models.
+- Hybrid optimizer (AdamW + Muon).
+- Custom tokenizer with ~49,000 tokens trained on a 40/40/20 split of Portuguese, English, and code (1.51 sub-word pieces per word, 2.88 chars per token).
+- Continual pretraining models use a swapped vocab layer (replacing Qwen3's 151K-token vocab with the 49K-token Portuguese tokenizer), cutting the embedding layer by ~68%.
+
+## Datasets
+
+- **GigaVerbo-v2** — ~320 billion-token cleaned Portuguese corpus across 372M documents, with educational quality and toxicity annotations.
+- **GigaVerbo-v2 Synth** — 9.3 billion tokens of synthetic data for domain coverage (scientific reasoning, coding examples, etc.).
+- **GigaVerbo-v2 SFT** — ~4M supervised fine-tuning examples across 12 task types: coding, tool use, structured output, retrieval-augmented generation, math, and more.
+- **GigaVerbo-v2 Preferences** — ~28,000 preference pairs for preference optimization.
+
+## Evaluation
+
+Two-tier evaluation suite:
+- **Easy Set** — Reliable signals early in training (under 200B tokens), suitable for ablation studies.
+- **Hard Set** — Tougher evaluations that differentiate models after 1T+ tokens.
+
+Adapted benchmarks: IFEval, GSM8K, RULER, and HumanEval for Portuguese.
+
+## Benchmark Performance
+
+| Model | Aggregate Score |
+|---|---|
+| Tucano2-qwen-3.7-Base | 59.21 |
+| Qwen3-4B-Base | 57.86 |
+| Qwen2.5-7B | 57.97 |
+
+- Tucano2-qwen-3.7-Instruct achieved the highest Knowledge & Reasoning score among all models in the 3–4B parameter range.
+- Tucano2-qwen-3.7-Think topped the reasoning leaderboard among thinking models with full Portuguese reasoning.
+
+## Training Details
+
+- **From-scratch path** — Tucano2-0.6-Base trained on ~408B tokens with a three-stage curriculum progressively shifting toward higher-quality educational and reasoning content. Used 92% less energy than Tucano-2b4.
+- **Continual pretraining path** — Larger models adapted from Qwen3 bases on 50–100B tokens of Portuguese-only data. Additional compute cost was less than 0.13% of Qwen3's original pretraining.
+
+## Pricing
+
+Free and open-source under permissive licenses. All datasets, models, training recipes, and evaluation code are publicly released.
+
+## Energy & Environmental Impact
+
+| Phase | Energy (kWh) | CO₂ Equivalent (kg) |
+|---|---|---|
+| Synthetic data generation | 14,400 | 5,472 |
+| Continual pretraining | 2,326 | 884 |
+| Data ablations | 1,600 | 608 |
+| Evaluations | 1,000 | 380 |
+| Post-training (SFT + APO) | 530 | 201 |
+| Pretraining (from scratch) | 873 | 332 |
+| **Total** | **~20,856** | **~7,929** |
+
+Also reports an elemental material footprint: 0.307 kg copper, 0.010 kg iron, plus smaller quantities of tin, silicon, and nickel across all training runs.
+
+## Source Code & Paper
+
+- Source code: github.com/Polygl0t
+- Paper: arXiv:2603.03543

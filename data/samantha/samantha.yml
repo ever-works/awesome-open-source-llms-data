@@ -4,7 +4,7 @@ description: Companion-focused instruction-tuned model designed for engaging,
   abilities, emotional intelligence, and personality-driven responses for
   assistant and companion applications.
 source_url: https://huggingface.co/cognitivecomputations/samantha-1.2-mistral-7b
-category: Instruction Tuned Models
+category: Foundation Models
 tags:
   - conversational
   - empathetic
@@ -462,4 +462,4 @@ markdown: >-
   Free and open-source.
 brand: Cognitive Computations
 images: []
-updated_at: 2026-03-03 13:39
+updated_at: 2026-04-04 21:39

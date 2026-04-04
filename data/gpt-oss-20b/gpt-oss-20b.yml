@@ -2,7 +2,7 @@ name: GPT oss 20b
 description: GPT oss 20b is an open-source large language model excelling in
   high-school math, affordability, and speed, with a significant context window.
 source_url: https://www.together.ai/blog/oss-llm-leaderboard
-category: Large Language Model
+category: Foundation Models
 tags:
   - open-source
   - cost-effective
@@ -34,4 +34,4 @@ markdown: >-
   - **Latency:** 4s
 
   - **Speed:** 564 t/s
-updated_at: 2026-03-16 11:12
+updated_at: 2026-04-04 21:39

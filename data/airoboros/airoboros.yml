@@ -3,7 +3,7 @@ description: Instruction-tuned model series using self-generated synthetic
   training data via LLM bootstrapping. Features context obedient question
   answering, creative writing capabilities, and strong function calling support.
 source_url: https://huggingface.co/jondurbin/airoboros-l2-70b-2.2.1
-category: Instruction Tuned Models
+category: Foundation Models
 tags:
   - instruction-tuned
   - synthetic-data
@@ -460,4 +460,4 @@ markdown: >-
   Free and open-source.
 brand: Jon Durbin
 images: []
-updated_at: 2026-03-03 13:39
+updated_at: 2026-04-04 21:39

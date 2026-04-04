@@ -1,0 +1,32 @@
+## Overview
+
+MOSS is an open-source conversational language model developed by Fudan University's Natural Language Processing Lab. Announced in April 2023, it was described as the first open-source conversational language model in China with plugin enhancements.
+
+## Architecture
+
+- **Type**: Transformer-based conversational language model
+- **License**: Apache-2.0
+- **Training Data**: Primarily Chinese and English text corpora
+
+## Capabilities
+
+- Bilingual Chinese-English conversation
+- Plugin-enhanced functionality (tool use, external data access)
+- Public API access for developers and researchers
+- Open model weights and training code
+
+## Significance
+
+- First open-source conversational LLM in China with plugin support
+- Helped catalyze academic and community interest in Chinese open-source language models
+- Released under a permissive Apache-2.0 license enabling commercial and research use
+
+## Deployment
+
+- Public API available for testing and integration
+- Model code shared openly on GitHub
+- Weights available on Hugging Face
+
+## Context
+
+MOSS represents an important milestone in the Chinese open-source AI landscape, emerging from academic research at one of China's premier universities. Its release preceded the wave of Chinese tech giants open-sourcing their LLMs.

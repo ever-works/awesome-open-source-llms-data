@@ -1,0 +1,43 @@
+name: DeepSeek R1 Distill 70B
+description: Reasoning-focused open source model distilled at 70B parameters,
+  leveraging knowledge distillation techniques from the DeepSeek R1 family to
+  deliver strong reasoning performance in a more efficient form factor.
+source_url: https://github.com/deepseek-ai/DeepSeek-R1
+category: Reasoning Models
+tags:
+  - open-source
+  - reasoning
+  - distilled
+featured: false
+markdown: >-
+  ## Overview
+
+
+  DeepSeek R1 Distill 70B is a reasoning-focused model in the 70B parameter
+  range, part of the DeepSeek R1 distill family. It uses knowledge distillation
+  to compress reasoning capabilities from larger models into a more efficient
+  70B parameter form.
+
+
+  ## Deployment
+
+
+  - **VRAM Requirements**: 24-48GB
+
+  - **Hardware**: Requires A100/H100 or multi-GPU consumer setup
+
+  - **Frameworks**: Compatible with Ollama, vLLM, llama.cpp, and Text Generation
+  Inference
+
+  - **Quantization**: Supports GGUF quantization (Q4_K_M) to reduce VRAM by
+  50-75% with approximately 2% quality loss
+
+
+  ## Capabilities
+
+
+  - Strong reasoning performance
+
+  - Open source license for self-hosting and fine-tuning
+brand: DeepSeek
+updated_at: 2026-04-04 21:39

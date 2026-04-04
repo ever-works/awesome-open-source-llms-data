@@ -3,7 +3,7 @@ description: Databricks' instruction-following LLM demonstrating that
   high-quality instruction-tuning can be achieved with relatively small, curated
   datasets. Dolly 2.0 trained on 15K human-generated instruction-response pairs.
 source_url: https://github.com/databrickslabs/dolly
-category: Instruction Tuned Models
+category: Foundation Models
 tags:
   - instruction-tuned
   - human-annotated
@@ -309,4 +309,4 @@ markdown: >-
 brand: Databricks
 brand_logo_url: https://www.databricks.com/favicon.ico
 images: []
-updated_at: 2026-03-03 13:39
+updated_at: 2026-04-04 21:39

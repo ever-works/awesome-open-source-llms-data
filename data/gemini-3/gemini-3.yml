@@ -1,0 +1,57 @@
+name: Gemini 3
+description: Google's LLM optimized for UI design and UI change work. Excels at
+  multi-signal reasoning covering layout, spacing, interaction, accessibility,
+  and visual intent — making it the strongest model for frontend and
+  rendering-focused tasks.
+source_url: https://ai.google.dev/gemma
+category: Code Generation Models
+tags:
+  - api
+  - ui-design
+  - frontend
+featured: false
+markdown: >-
+  ## Overview
+
+
+  Gemini 3 stands out for UI-focused coding work. UI tasks are inherently
+  multi-signal, requiring understanding of layout, spacing, interaction,
+  accessibility, and visual intent. Gemini 3 demonstrates strong "UI brain"
+  instincts, especially when paired with products that offer fast visual
+  verification.
+
+
+  ## Use Cases
+
+
+  - UI design and layout work
+
+  - Frontend component generation
+
+  - Accessibility-aware coding
+
+  - Visual intent translation to code
+
+  - Design system alignment
+
+
+  ## Strengths
+
+
+  - Strong UI intuition
+
+  - Multi-signal reasoning (layout, spacing, interaction)
+
+  - Better than most models for visual correctness
+
+  - Fast response times
+
+
+  ## Weaknesses
+
+
+  - Primarily optimized for UI work rather than deep backend reasoning
+
+  - Works best when paired with a product providing visual verification
+brand: Google
+updated_at: 2026-04-04 21:39

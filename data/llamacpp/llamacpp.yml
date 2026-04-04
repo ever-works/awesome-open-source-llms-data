@@ -1,0 +1,59 @@
+name: llama.cpp
+description: llama.cpp is a high-performance C++ inference engine for running
+  LLMs efficiently on consumer hardware, including CPUs and GPUs without
+  specialized AI accelerators. It introduced the GGUF quantization format,
+  enabling 4-bit and 8-bit quantized models that run with minimal memory
+  overhead. It's the most popular choice for local model inference on Mac,
+  Linux, and embedded devices, supporting GGUF models from hundreds of
+  organizations.
+source_url: https://github.com/ggerganov/llama.cpp
+category: Deployment Platforms
+tags:
+  - open-source
+  - edge-deployment
+  - cpu-inference
+featured: false
+markdown: >-
+  ## Overview
+
+
+  llama.cpp is a plain C/C++ implementation for running large language models
+  efficiently on consumer hardware, including CPU-only systems. It is one of the
+  most performant and widely supported inference engines, particularly for GGUF
+  quantized models.
+
+
+  ## Features
+
+
+  - CPU-friendly inference, works on older hardware
+
+  - Supports GGUF quantized models
+
+  - Runs models without requiring a GPU
+
+  - Minimal dependencies
+
+  - Cross-platform support (Linux, macOS, Windows)
+
+  - Strong community and active development
+
+
+  ## Deployment
+
+
+  - Designed for local, on-device inference
+
+  - Works on systems without dedicated GPUs
+
+  - Supports GGUF quantization formats for maximum compatibility
+
+  - Ideal when GPU resources are unavailable or cost-prohibitive
+
+
+  ## Pricing
+
+
+  Free and open source under the MIT license.
+brand: ggml-org
+updated_at: 2026-04-04 21:39

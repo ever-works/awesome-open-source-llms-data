@@ -3,7 +3,7 @@ description: Nexusflow's open-source 72B model fine-tuned from Qwen 2.5 72B,
   ranked best on Chatbot Arena. Athene-V2-Chat excels in chat/math/coding, while
   Athene-V2-Agent surpasses GPT-4o in function calling and agentic applications.
 source_url: https://huggingface.co/Nexusflow/Athene-V2-Chat
-category: Instruction Tuned Models
+category: Foundation Models
 tags:
   - instruction-tuned
   - reasoning
@@ -124,4 +124,4 @@ markdown: >-
   Open-source with permissive licensing for research and commercial
   applications.
 brand: Nexusflow
-updated_at: 2026-03-03 13:51
+updated_at: 2026-04-04 21:39

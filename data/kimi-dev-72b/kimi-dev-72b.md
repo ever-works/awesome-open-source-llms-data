@@ -1,0 +1,39 @@
+## Overview
+
+Kimi-Dev-72B is a 72B parameter open-source coding model developed by Moonshot AI. It achieves 60.4% on SWE-bench Verified, setting a state-of-the-art result among open-source models on this benchmark. The model is specifically designed for real-world software engineering tasks.
+
+## Architecture & Training
+
+- 72 billion parameters optimized through large-scale reinforcement learning
+- Autonomously patches real codebases in Docker environments
+- Reward mechanism triggered only when full test suites pass, ensuring correct and robust solutions
+
+## Key Features
+
+- State-of-the-art 60.4% performance on SWE-bench Verified among open-source models
+- Real-world codebase patching capabilities in isolated Docker environments
+- Reinforcement learning optimization aligned with practical software engineering standards
+- Delivers correct, robust, and deployable solutions
+
+## Strengths & Limitations
+
+**Strengths:**
+- Unmatched open-source performance on real-world coding benchmarks
+- Practical solutions that work in production-relevant scenarios
+- Reinforcement learning directly tied to test suite validation
+
+**Limitations:**
+- Specialized primarily for coding tasks, not a general-purpose model
+- Requires Docker environment for optimal evaluation and deployment
+
+## Pricing
+
+Via SiliconFlow API:
+- Input: $0.29/M tokens
+- Output: $1.15/M tokens
+
+## Use Cases
+
+- Automated bug fixing in production codebases
+- Software engineering tasks requiring full test suite validation
+- Developer tooling and coding assistants focused on practical code generation

@@ -4,7 +4,7 @@ description: Open-source language model series optimized for conversational AI
   methodology. OpenChat 3.5 serves as the foundation for Starling and achieves
   strong performance on dialogue benchmarks.
 source_url: https://github.com/imoneoi/openchat
-category: Instruction Tuned Models
+category: Foundation Models
 tags:
   - conversational
   - open-source
@@ -405,4 +405,4 @@ markdown: >-
   Free and open-source.
 brand: OpenChat Team
 images: []
-updated_at: 2026-03-03 13:39
+updated_at: 2026-04-04 21:39

@@ -1,0 +1,14 @@
+name: Protect AI (AI Radar)
+description: Protect AI offers security-focused guardrail tools aimed at LLM
+  supply chain and application security, providing classifiers that detect
+  prompt injection and data leakage in real-time. The solution provides multiple
+  versions (v1, v2) of their classifier model with iterative improvements to
+  reduce bypass rates.
+source_url: https://www.protectai.com/
+category: AI Safety & Guardrails
+tags:
+  - prompt-injection-detection
+  - supply-chain-security
+  - real-time-scanning
+brand: Protect AI
+updated_at: 2026-04-04 21:39

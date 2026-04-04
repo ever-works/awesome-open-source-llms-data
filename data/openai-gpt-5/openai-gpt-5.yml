@@ -3,7 +3,7 @@ description: The successor to the GPT series, this unified system intelligently
   routes prompts to different internal models based on complexity, excelling in
   general intelligence and multimodal reasoning.
 source_url: https://openai.com/gpt-5
-category: Large Language Model
+category: Foundation Models
 tags:
   - multimodal
   - reasoning
@@ -55,4 +55,4 @@ markdown: >-
   shows architecturall influence from the 'thinking' meta, dynamically
   allocating GPU power to 'think harder' on difficult problems.
 brand: OpenAI
-updated_at: 2026-03-16 11:12
+updated_at: 2026-04-04 21:39

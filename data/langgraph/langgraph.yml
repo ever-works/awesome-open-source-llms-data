@@ -1,0 +1,61 @@
+name: LangGraph
+description: Specialized agent framework within the LangChain ecosystem for
+  building controllable, stateful agents that maintain context throughout
+  interactions. Released in 2024 with 24,800+ GitHub stars and 34.5 million
+  monthly downloads, it is the most downloaded agent framework and is used by
+  over 400 companies including Cisco, Uber, LinkedIn, BlackRock, and JPMorgan.
+source_url: https://www.langchain.com/langgraph
+category: Agent Framework
+tags:
+  - stateful-agents
+  - multi-agent
+  - human-in-the-loop
+featured: true
+markdown: >-
+  ## Overview
+
+
+  LangGraph is a specialized agent framework within the LangChain ecosystem,
+  released in 2024. It focuses on building controllable, stateful agents that
+  maintain context throughout interactions. With over 24,800 GitHub stars and
+  34.5 million monthly downloads, it leads in enterprise adoption among agent
+  frameworks.
+
+
+  ## Core Capabilities
+
+
+  - Stateful agent orchestration with streaming support
+
+  - Support for single-agent, multi-agent, hierarchical, and sequential control
+  flows
+
+  - Long-term memory and human-in-the-loop workflows
+
+  - Integration with LangChain products like LangSmith for monitoring agent
+  performance
+
+
+  ## Notable Enterprise Usage
+
+
+  - Klarna: Customer support bot handles two-thirds of all customer inquiries,
+  doing the work of 853 employees and saving $60 million
+
+  - AppFolio: Copilot Realm-X improved response accuracy by 2x
+
+  - Elastic: AI-powered threat detection in SecOps tasks
+
+  - Additional users: Cisco, Uber, LinkedIn, BlackRock, and JPMorgan
+
+
+  ## Best For
+
+
+  Enterprise applications requiring state management and complex agent
+  orchestration workflows.
+brand: LangChain
+brand_logo_url: https://cdn.prod.website-files.com/65b8cd72835ceeacd4449a53/66e9eba12c7b7687aa41515f_LangChain.svg
+images:
+  - https://blog.langchain.dev/content/images/2024/01/langgraph.png
+updated_at: 2026-04-04 21:39

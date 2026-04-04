@@ -1,0 +1,53 @@
+name: OpenAI Agents SDK
+description: A lightweight Python framework for creating multi-agent workflows
+  with tracing and guardrails. Released in March 2025, it has over 19,000 GitHub
+  stars and 10.3 million monthly downloads. The framework is provider-agnostic
+  and compatible with over 100 LLMs, making it versatile for quick prototyping
+  and general-purpose agent development.
+source_url: https://github.com/openai/openai-agents-python
+category: Agent Framework
+tags:
+  - multi-agent
+  - provider-agnostic
+  - tracing
+featured: false
+markdown: >-
+  ## Overview
+
+
+  The OpenAI Agents SDK is a lightweight Python framework released in March
+  2025, focusing on creating multi-agent workflows with tracing and guardrails.
+  It has grown to over 19,000 GitHub stars and 10.3 million monthly downloads,
+  benefiting from OpenAI's strong reputation and developer ecosystem.
+
+
+  ## Main Features
+
+
+  - Lightweight design optimized for multi-agent workflows
+
+  - Comprehensive tracing and guardrails for production reliability
+
+  - Provider-agnostic compatibility with 100+ LLMs
+
+  - Low learning curve for Python developers
+
+
+  ## Use Cases
+
+
+  - Website-to-agent conversions
+
+  - Documentation assistants
+
+  - Applications in finance, customer service, and software development
+
+
+  ## Best For
+
+
+  Quick prototyping and general-purpose agent development with minimal learning
+  curve.
+brand: OpenAI
+brand_logo_url: https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/openai.svg
+updated_at: 2026-04-04 21:39

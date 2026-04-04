@@ -1,12 +1,12 @@
 ## Overview
 
-TinyLlama is a compact 1.1B parameter language model pretrained on approximately 1 trillion tokens for about 3 epochs. Building on the architecture and tokenizer of Llama 2, TinyLlama leverages advances from the open-source community to achieve exceptional computational efficiency while maintaining strong performance.
+TinyLlama is a compact 1.1B parameter language model pretrained on approximately 3 trillion tokens for about 3 epochs. Building on the architecture and tokenizer of Llama 2, TinyLlama leverages advances from the open-source community to achieve exceptional computational efficiency while maintaining strong performance.
 
 ## Architecture
 
 - **Parameters**: 1.1 billion
 - **Base Architecture**: LLaMA 2
-- **Training Tokens**: ~1 trillion (3 epochs)
+- **Training Tokens**: ~3 trillion (3 epochs)
 - **Tokenizer**: LLaMA 2 tokenizer
 
 ## Training Efficiency
@@ -82,7 +82,7 @@ Evaluated on:
 
 ## Training Data
 
-Pretrained on diverse text corpora totaling ~1 trillion tokens across:
+Pretrained on diverse text corpora totaling ~3 trillion tokens across:
 - Web text
 - Books
 - Code repositories

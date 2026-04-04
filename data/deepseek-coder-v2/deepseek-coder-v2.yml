@@ -1,0 +1,88 @@
+name: DeepSeek Coder V2
+description: DeepSeek Coder V2 is a 16B-parameter code generation model
+  available in both base and instruction-tuned variants, trained on trillions of
+  tokens of code spanning 338 programming languages. It features multi-stage
+  pre-training, fill-in-the-middle support, and strong performance on HumanEval
+  and MBPP benchmarks. The model outperforms general-purpose models of similar
+  size on coding tasks and rivals specialized competitors like CodeLlama-70B,
+  making it well-suited for IDE integrations, code review, and automated
+  refactoring pipelines.
+source_url: https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2
+category: Code Generation Models
+tags:
+  - code-generation
+  - mixture-of-experts
+  - open-weights
+featured: false
+markdown: >-
+  ## Overview
+
+
+  DeepSeek Coder V2 is a specialist model from the DeepSeek-V2 family,
+  specifically fine-tuned for code generation, completion, and reasoning. It
+  supports over 300 programming languages and has demonstrated state-of-the-art
+  performance on coding benchmarks.
+
+
+  ## Architecture
+
+
+  - MoE architecture with 236B total parameters and 21B active parameters per
+  token
+
+  - 128k context window
+
+  - Efficient token compute through mixture-of-experts routing
+
+
+  ## Key Features
+
+
+  - Supports over 300 programming languages
+
+  - State-of-the-art performance on coding benchmarks (HumanEval, MBPP)
+
+  - Optimized for code generation, completion, and reasoning tasks
+
+  - Efficient inference with only 21B active parameters per forward pass
+
+  - Multiple quantization options available (4-bit, 8-bit GGUF)
+
+
+  ## Use Cases
+
+
+  - Developer assistants and IDE integrations
+
+  - Automated code generation and refactoring pipelines
+
+  - Code review and explanation
+
+  - Multi-language codebases support
+
+
+  ## Deployment
+
+
+  - Ollama: `ollama run deepseek-coder-v2`
+
+  - VRAM requirements: ~16 GB (4-bit), ~25 GB (8-bit)
+
+  - Compatible with vLLM, SGLang, and LMDeploy
+
+
+  ## Licensing
+
+
+  Licensed under DeepSeek Model License 2.0, which is permissive for both
+  commercial and research use, requiring attribution.
+
+
+  ## Limitations
+
+
+  While exceptional at coding tasks, its general reasoning capabilities are not
+  as strong as the base DeepSeek-V2 model. It is recommended for code-centric
+  applications rather than general-purpose chat or reasoning.
+brand: DeepSeek
+updated_at: 2026-04-04 21:39

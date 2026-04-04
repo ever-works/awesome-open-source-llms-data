@@ -1,8 +1,11 @@
 name: RedPajama-INCITE
-description: Open-source model family from Together AI trained on the 1.2
-  trillion token RedPajama dataset. Includes 3B and 7B variants (base, chat,
-  instruct) with Apache 2.0 license. RedPajama-3B outperforms GPT-Neo and
-  Pythia-2.8B on benchmarks.
+description: RedPajama-INCITE is a family of instruction-tuned open-source
+  models (3B and 7B parameter variants) built on the open RedPajama dataset with
+  additional fine-tuning for instruction following. It provides a fully
+  reproducible model training pipeline from data through deployment, addressing
+  transparency concerns in open-source AI. While less capable than larger models
+  like LLaMA or Mistral, it represents an important step toward open and
+  reproducible language model development.
 source_url: https://www.together.ai/blog/redpajama
 category: Foundation Models
 tags:
@@ -417,4 +420,4 @@ markdown: >-
 
   - Most permissive open-source license
 brand: Together AI
-updated_at: 2026-03-03 13:09
+updated_at: 2026-04-04 21:39

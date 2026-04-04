@@ -1,0 +1,65 @@
+name: Gemini 3.1 Flash-Lite
+description: Google's fastest and most cost-efficient Gemini 3 model, delivering
+  2.5x faster time to first token and 45% faster output than Gemini 2.5 Flash.
+  Surpasses prior-gen despite smaller size, ideal for high-volume workloads.
+source_url: https://deepmind.google/technologies/gemini/flash-lite/
+category: General LLMs
+tags:
+  - cost-efficient
+  - high-throughput
+  - multimodal
+markdown: >-
+  ## Overview
+
+
+  Gemini 3.1 Flash-Lite is the fastest and most cost-efficient model in the
+  Gemini 3 family, designed for high-volume production workloads.
+
+
+  ## Specifications
+
+
+  | Attribute | Value |
+
+  |---|---|
+
+  | Parameters | Not disclosed |
+
+  | Context Window | 1,000,000 tokens |
+
+  | Max Output | 64,000 tokens |
+
+  | Knowledge Cutoff | Jan 2025 |
+
+
+  ## Benchmarks
+
+
+  - 86.9% GPQA Diamond
+
+  - 76.8% MMMU Pro
+
+
+  ## Features
+
+
+  - 2.5x faster Time to First Token vs. 2.5 Flash
+
+  - 45% faster output than 2.5 Flash
+
+  - Surpasses prior-gen Gemini 2.5 Flash despite smaller size
+
+  - Thinking levels built in
+
+  - Ideal for high-volume translation, content moderation, real-time interfaces
+
+  - Multimodal
+
+
+  ## Pricing
+
+
+  $0.25 per M input tokens / $1.50 per M output tokens.
+brand: Google DeepMind
+brand_logo_url: https://www.google.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg
+updated_at: 2026-04-04 21:39

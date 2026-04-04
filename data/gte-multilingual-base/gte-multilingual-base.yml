@@ -1,0 +1,57 @@
+name: gte-multilingual-base
+description: The latest model in Alibaba Group's GTE (General Text Embedding)
+  family with 305 million parameters. It features strong multilingual retrieval
+  performance across 70+ languages, elastic dense embeddings, and an
+  encoder-only transformer architecture delivering 10x inference speed over
+  decode-only alternatives.
+source_url: https://huggingface.co/Alibaba-NLP/gte-multilingual-base
+category: Embedding Models
+tags:
+  - multilingual
+  - encoder-only
+  - elastic-vectors
+markdown: >-
+  ## Overview
+
+
+  gte-multilingual-base is the latest model in Alibaba Group's GTE (General Text
+  Embedding) family. With 305 million parameters, it balances high-quality
+  embeddings with efficient resource usage, and stands out for strong
+  multilingual retrieval and comprehensive representation evaluation
+  performance.
+
+
+  ## Features
+
+
+  - **Multilingual support**: Covers more than 70 languages with reliable
+  multilingual retrieval performance
+
+  - **Elastic dense embeddings**: Supports elastic output dense representations,
+  optimizing storage and improving downstream task efficiency
+
+  - **Encoder-only transformer architecture**: Smaller and more
+  resource-efficient than decoder-only models like gte-qwen2-1.5b-instruct;
+  delivers 10x inference speed improvement
+
+  - **Sparse vectors**: Can generate both dense and sparse vector
+  representations
+
+
+  ## Usage Considerations
+
+
+  - Performance may vary for certain languages due to limited language data
+  during contrastive pre-training
+
+  - Results in inconsistent performance across different language families
+
+
+  ## Related Models
+
+
+  - gte-Qwen2-7B-instruct: A top-ranking model on the MTEB leaderboard
+
+  - gte-large-en-v1.5: Optimized for English with a max sequence length of 8192
+brand: Alibaba Group
+updated_at: 2026-04-04 21:39

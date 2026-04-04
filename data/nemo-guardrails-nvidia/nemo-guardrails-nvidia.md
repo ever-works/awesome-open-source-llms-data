@@ -1,0 +1,24 @@
+## Overview
+
+NeMo Guardrails is an open-source toolkit developed by NVIDIA for adding programmable guardrails to Large Language Model applications. It provides a framework for controlling conversational behavior, enforcing safety policies, and ensuring compliance in production LLM deployments.
+
+## Features
+
+- **Programmable guardrails**: Define rules using Colang, a modeling language for conversational AI dialogs
+- **Input and output validation**: Filter and validate both user inputs and model outputs against defined policies
+- **Self-check prompts**: Built-in support for using the LLM itself to guardrail its own responses
+- **Streaming support**: Supports streaming generation with guardrail checks applied progressively, reducing time-to-first-token latency
+- **Flexible model integration**: Compatible with various foundation models from different providers
+- **Lightweight default models**: Provides small, fine-tuned guardrail models for common safety tasks (toxicity, PII detection, etc.)
+- **Extensible architecture**: Plugin system allows integration of third-party moderation tools including Microsoft Presidio for PII detection
+- **On-premises deployment**: Designed for flexible deployment including air-gapped and on-premises environments
+
+## Use Cases
+
+- Enterprise chatbots requiring topic control and safety guardrails
+- Compliance-sensitive applications needing audit trails and policy enforcement
+- Multi-tenant LLM platforms requiring configurable safety thresholds per client
+
+## Pricing
+
+Free and open-source under BSD-3-Clause license.

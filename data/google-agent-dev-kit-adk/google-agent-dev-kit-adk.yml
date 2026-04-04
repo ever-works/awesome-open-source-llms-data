@@ -1,0 +1,60 @@
+name: Google Agent Dev Kit (ADK)
+description: A modular framework by Google for building AI agents with deep
+  integration into the Google ecosystem including Gemini and Vertex AI.
+  Announced in April 2025, it supports hierarchical agent compositions and
+  custom tool development, requiring less than 100 lines of code for efficient
+  agent creation.
+source_url: https://google.github.io/adk-docs/
+category: Agent Framework
+tags:
+  - google-ecosystem
+  - hierarchical-agents
+  - vertex-ai
+featured: false
+markdown: >-
+  ## Overview
+
+
+  The Google Agent Dev Kit (ADK) was announced in April 2025 and has grown to
+  17,800 GitHub stars with 3.3 million monthly downloads. This modular framework
+  integrates deeply with the Google ecosystem, including Gemini and Vertex AI.
+
+
+  ## ADK Features
+
+
+  - Modular framework with Google ecosystem integration (Gemini, Vertex AI)
+
+  - Support for hierarchical agent compositions
+
+  - Custom tool development capabilities
+
+  - Efficient development requiring less than 100 lines of code
+
+
+  ## Use Cases
+
+
+  - Google uses ADK in their Agentspace platform
+
+  - Customer engagement solutions
+
+  - Google Cloud workflow automation
+
+
+  ## Trade-offs
+
+
+  The framework has a moderate to steep learning curve due to Google Cloud
+  integration requirements. It is well-suited for teams already operating within
+  the Google Cloud platform.
+
+
+  ## Best For
+
+
+  Google Cloud-based applications and teams building customer engagement
+  solutions within Google's ecosystem.
+brand: Google
+brand_logo_url: https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png
+updated_at: 2026-04-04 21:39

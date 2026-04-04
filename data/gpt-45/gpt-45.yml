@@ -1,0 +1,70 @@
+name: GPT-4.5
+description: OpenAI's GPT-4.5 (Orion) features a 128,000-token context window
+  with long-term memory for consistent, context-aware extended conversations. It
+  achieved 85.1% on MMLU benchmarks and delivers more direct, conversational
+  responses with a broader knowledge base that helps reduce hallucinations
+  across diverse topics.
+source_url: https://platform.openai.com/docs/models/gpt-4.5
+category: General LLMs
+tags:
+  - proprietary
+  - long-context
+  - conversational
+featured: true
+markdown: >-
+  ## Overview
+
+
+  GPT-4.5 (codenamed Orion) was released by OpenAI on February 27, 2025 as a
+  significant upgrade over earlier GPT-4 iterations.
+
+
+  ## Features
+
+
+  - **128,000-token context window**: Enables long-term memory across extended
+  conversations, maintaining consistency and context awareness
+
+  - **Improved directness**: Delivers more concise, to-the-point responses
+  compared to previous versions, reducing unnecessary verbosity
+
+  - **Broader knowledge base**: Reduces hallucinations when discussing a wide
+  range of topics
+
+  - **Natural conversational style**: More human-like interaction quality;
+  optimized for casual chats and quick content generation
+
+  - **85.1% MMLU score**: Strong performance on major benchmarks for general
+  knowledge and reasoning
+
+
+  ## Performance
+
+
+  - MMLU: 85.1%
+
+  - 128K token memory window
+
+  - Optimized for speed and directness over deep technical problem-solving
+
+
+  ## Use Cases
+
+
+  - Casual conversation and quick content generation
+
+  - Broad-knowledge queries across diverse topics
+
+  - Situations requiring concise, direct answers
+
+
+  ## Limitations
+
+
+  - Not always the best choice for deep technical problem-solving
+
+  - Proprietary — cannot be fine-tuned or modified by users
+
+  - Paid API access only
+brand: OpenAI
+updated_at: 2026-04-04 21:39

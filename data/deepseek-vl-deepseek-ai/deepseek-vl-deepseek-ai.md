@@ -1,0 +1,35 @@
+## Overview
+
+DeepSeek-VL is a compact open-source vision-language model family from DeepSeek AI, available in 1.3B and 4.5B parameter variants. It uses a Mixture of Experts (MoE) architecture for computational efficiency while maintaining strong reasoning capabilities, particularly in scientific and technical domains. The 1.3B model is one of the smallest high-performance VLMs available.
+
+## Technical Details
+
+- **Model Sizes**: 1.3B, 4.5B parameters
+- **Architecture**: Mixture of Experts (MoE) for computational efficiency
+- **Vision Encoder**: SigLIP-L
+- **Vision-Language Adapter**: Connects visual and language modules
+- **Language Backbone**: DeepSeekMoE LLM
+- **Training Data**: Diverse datasets including scientific content and real-world vision tasks
+
+## Features
+
+- **Mixture of Experts Architecture**: Activates only relevant expert sub-networks per input, reducing computation
+- **Strong Reasoning Capabilities**: Enhanced logical reasoning for complex visual tasks
+- **Scientific Domain Expertise**: Specifically trained on scientific diagrams and technical content
+- **Compact Size Options**: 1.3B variant enables deployment on resource-constrained hardware
+- **Robust Visual Reasoning**: Designed for understanding complex visual scenes and relationships
+- **Real-World Task Performance**: Trained on practical, real-world vision-language tasks
+
+## Use Cases
+
+- Scientific diagram analysis and interpretation
+- Visual reasoning for robotics applications
+- Logical scene understanding
+- Autonomous robot lab equipment layout understanding
+- Pharmaceutical chemical pathway chart interpretation
+- Experiment result summarization from visual data
+- Edge deployment with the 1.3B variant for low-resource environments
+
+## Licensing
+
+Open source license, allowing free use for research and commercial purposes.

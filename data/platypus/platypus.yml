@@ -4,7 +4,7 @@ description: Efficient fine-tuned model family using curated Open-Platypus
   examples. Demonstrates that dataset quality and curation matter more than
   quantity for fine-tuning.
 source_url: https://huggingface.co/garage-bAInd
-category: Instruction Tuned Models
+category: Foundation Models
 tags:
   - efficient
   - curated-data
@@ -450,4 +450,4 @@ markdown: >-
   Free and open-source, including dataset.
 brand: Garage-bAInd
 images: []
-updated_at: 2026-03-03 13:39
+updated_at: 2026-04-04 21:39

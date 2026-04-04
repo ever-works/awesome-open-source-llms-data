@@ -4,7 +4,7 @@ description: Efficient instruction-tuned model using QLoRA (Quantized Low-Rank
   quantized models can be fine-tuned effectively, reducing memory requirements
   significantly.
 source_url: https://github.com/artidoro/qlora
-category: Instruction Tuned Models
+category: Foundation Models
 tags:
   - efficient
   - instruction-tuned
@@ -360,4 +360,4 @@ markdown: >-
   Free and open-source. Dramatically reduced training costs.
 brand: University of Washington
 images: []
-updated_at: 2026-03-03 13:39
+updated_at: 2026-04-04 21:39

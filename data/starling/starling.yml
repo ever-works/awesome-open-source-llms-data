@@ -3,7 +3,7 @@ description: Starling 7B alpha is based on OpenChat 3.5, a refinement of Mistral
   7B using Conditioned Reinforcement Learning from AI Feedback (C-RLFT). Leads
   in summary consistency and performance among 7B instruction-tuned models.
 source_url: https://huggingface.co/berkeley-nest/Starling-LM-7B-alpha
-category: Instruction Tuned Models
+category: Foundation Models
 tags:
   - instruction-tuned
   - reasoning
@@ -206,4 +206,4 @@ markdown: >-
   Free and open-source.
 brand: Berkeley
 images: []
-updated_at: 2026-03-03 13:39
+updated_at: 2026-04-04 21:39

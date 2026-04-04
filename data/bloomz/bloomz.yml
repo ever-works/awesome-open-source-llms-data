@@ -3,7 +3,7 @@ description: Instruction-tuned variant of BLOOM with 176B parameters, fine-tuned
   on multilingual tasks using xP3 dataset. Supports instruction-following across
   46 languages, making it ideal for global multilingual applications.
 source_url: https://huggingface.co/bigscience/bloomz
-category: Instruction Tuned Models
+category: Foundation Models
 tags:
   - multilingual
   - instruction-tuned
@@ -398,4 +398,4 @@ markdown: >-
 brand: BigScience
 brand_logo_url: https://huggingface.co/datasets/huggingface/brand-assets/resolve/main/hf-logo.png
 images: []
-updated_at: 2026-03-03 13:39
+updated_at: 2026-04-04 21:39

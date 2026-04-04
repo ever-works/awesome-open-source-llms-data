@@ -1,0 +1,68 @@
+name: Mastra
+description: A TypeScript-first agent framework built by the team behind Gatsby,
+  filling the gap for JavaScript/TypeScript teams building agents. Reached
+  version 1.0 in January 2026, it features graph-based workflows, multi-agent
+  routing, and four-tier memory system. Backed by a $13M seed round from
+  investors including Paul Graham and Guillermo Rauch.
+source_url: https://mastra.ai/
+category: Agent Framework
+tags:
+  - typescript
+  - graph-workflows
+  - y-combinator
+featured: false
+markdown: >-
+  ## Overview
+
+
+  Mastra is a TypeScript-first agent framework built by the team behind Gatsby
+  (the React static site generator). It launched in August 2024 and reached
+  version 1.0 in January 2026, with over 1.77 million monthly NPM downloads. The
+  framework is backed by Y Combinator and a $13M seed round from investors
+  including Paul Graham and Guillermo Rauch. It fills the gap for JavaScript and
+  TypeScript teams who want to build agents without switching ecosystems.
+
+
+  ## Main Features
+
+
+  - Workflows run as graphs with .then(), .branch(), and .parallel() primitives;
+  can suspend/resume for human-in-the-loop patterns
+
+  - Any agent can become a routing agent through the .network() method,
+  delegating tasks to sub-agents and tools
+
+  - Memory system with four tiers: message history, working memory, semantic
+  recall, and RAG
+
+  - Works with 81 LLM providers and 2,436+ models through the Vercel AI SDK
+
+  - Ships with a local dev playground in the browser for testing agents,
+  visualizing workflow graphs, and running evaluations
+
+
+  ## Production Traction
+
+
+  - Replit uses Mastra in Agent 3 (AI coding assistant with isolated Docker
+  sandboxes), improving task success rates from 80% to 96%
+
+  - Marsh McLennan deployed a Mastra-based search tool to 75,000 employees
+
+  - SoftBank built their Satto Workspace platform on Mastra
+
+
+  ## Trade-offs
+
+
+  TypeScript-only, so Python-heavy ML teams cannot adopt it. Integration
+  ecosystem is still growing compared to more established frameworks like
+  LangGraph.
+
+
+  ## Best For
+
+
+  JavaScript/TypeScript teams building agents without switching ecosystems.
+brand: Mastra
+updated_at: 2026-04-04 21:39

@@ -1,7 +1,10 @@
 name: Mistral NeMo
-description: 12B parameter state-of-the-art model with 128K context window
-  developed by Mistral AI and NVIDIA, released under Apache 2.0 license with
-  leading performance on instruction following, reasoning, and code generation.
+description: A 12B parameter model co-developed by Mistral AI and NVIDIA,
+  combining Mistral's efficient architecture with large-scale training
+  infrastructure. Features include 128K context window, multilingual support,
+  and state-of-the-art performance for its size class. It bridges the gap
+  between small 7-8B models and larger 70B models, offering better performance
+  than LLaMA 3 8B while still fitting on a single GPU.
 source_url: https://mistral.ai/news/mistral-nemo
 category: Foundation Models
 tags:
@@ -472,4 +475,4 @@ markdown: >-
 brand: Mistral AI
 brand_logo_url: https://mistral.ai/images/logo_hubc88c4ece131b91c7cb753f40e9e1cc5_2589_256x0_resize_q97_h2_lanczos_3.webp
 images: []
-updated_at: 2026-03-07 19:13
+updated_at: 2026-04-04 21:39

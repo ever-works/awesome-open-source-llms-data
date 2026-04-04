@@ -3,7 +3,7 @@ description: Llama 4 Maverick, a 400B parameter LLM, stands out with a 1M token
   context window, representing a significant advancement in handling extensive
   long-context tasks, although its performance in other benchmarks is moderate.
 source_url: https://ai.meta.com/blog/Llama-4-Maverick-long-context/
-category: Large Language Model
+category: Foundation Models
 tags:
   - long-context
   - research
@@ -41,4 +41,4 @@ markdown: >-
 
   - Chatbot Arena: 1328
 brand: Meta AI
-updated_at: 2026-03-16 11:12
+updated_at: 2026-04-04 21:39

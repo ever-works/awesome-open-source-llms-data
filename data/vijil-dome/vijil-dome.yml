@@ -1,0 +1,14 @@
+name: Vijil Dome
+description: Vijil Dome is a guardrails-as-a-service platform that provides a
+  hosted guardrail API using fine-tuned LLMs and custom ML models to evaluate
+  prompts and responses. It covers known jailbreak scenarios including 15+
+  DAN-style attacks and offers integration with monitoring tools like Weights &
+  Biases.
+source_url: https://www.vijil.ai/
+category: AI Safety & Guardrails
+tags:
+  - guardrails-as-a-service
+  - jailbreak-detection
+  - hosted-api
+brand: Vijil
+updated_at: 2026-04-04 21:39

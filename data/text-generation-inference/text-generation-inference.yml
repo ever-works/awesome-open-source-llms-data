@@ -1,0 +1,65 @@
+name: Text Generation Inference
+description: Text Generation Inference (TGI) is Hugging Face's production-ready
+  inference framework for deploying large language models at scale with
+  optimized throughput. Features include tensor parallelism, continuous
+  batching, quantization support, and built-in OpenAI-compatible API server.
+  It's the go-to deployment solution for enterprises serving open-source LLMs,
+  offering GPU utilization comparable to proprietary serving systems and native
+  integration with Hugging Face models.
+source_url: https://github.com/huggingface/text-generation-inference
+category: Deployment Platforms
+tags:
+  - open-source
+  - production
+  - hugging-face
+featured: false
+markdown: >-
+  ## Overview
+
+
+  Text Generation Inference (TGI) is an open source toolkit for deploying and
+  serving large language models, developed by Hugging Face. It is designed for
+  production workloads with optimized batching, continuous batching, and high
+  throughput.
+
+
+  ## Features
+
+
+  - Production-grade LLM serving
+
+  - Optimized throughput with continuous batching
+
+  - Native support for transformers models
+
+  - Tensor parallelism for multi-GPU setups
+
+  - Prometheus metrics for monitoring
+
+  - Token streaming support
+
+  - Safe tensors loading for fast startup
+
+  - Watermarking capabilities
+
+
+  ## Deployment
+
+
+  - Designed for production-grade deployments
+
+  - Supports multi-GPU setups for large models
+
+  - Better throughput and batching compared to development-focused tools like
+  Ollama
+
+  - Integrates well with Hugging Face model hub
+
+
+  ## Pricing
+
+
+  Free and open source.
+brand: Hugging Face
+brand_logo_url: https://huggingface.co/datasets/huggingface/brand-assets/resolve/main/hf-logo.svg
+updated_at: 2026-04-04 21:39

@@ -4,7 +4,7 @@ description: Stanford's instruction-following model fine-tuned from LLaMA 7B
   the use of synthetic data from stronger models for instruction-tuning smaller
   models.
 source_url: https://github.com/tatsu-lab/stanford_alpaca
-category: Instruction Tuned Models
+category: Foundation Models
 tags:
   - instruction-tuned
   - synthetic-data
@@ -329,4 +329,4 @@ markdown: >-
   Free for research use. Training cost <$600 to reproduce.
 brand: Stanford University
 images: []
-updated_at: 2026-03-03 13:39
+updated_at: 2026-04-04 21:39

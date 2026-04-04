@@ -17,4 +17,41 @@ GPT-oss 120B is OpenAI's seminal open-weight release since GPT-2, marking a sign
 - SWE-bench Verified: 62.4
 - LiveCodeBench: 60.0
 - GPQA Diamond: 80.9
-- Chatbot Arena: 1354
+- Chatbot Arena: 1354nts
+
+| Variant | Total Params | Active Params | Min VRAM (quantized) | Target Hardware |
+|---------|-------------|---------------|----------------------|----------------|
+| gpt-oss-120B | 117B | 5.1B | 80GB | 1x H100/A100 80GB |
+| gpt-oss-20B | 21B | 3.6B | 16GB | RTX 4070/4060 Ti |
+
+## Features
+
+- Chain-of-thought reasoning with <think> tags support
+- Full tool integration via APIs
+- High instruction-following quality
+- Optimized for latency
+- Agent-ready with tool use support
+- Near-proprietary reasoning parity (AIME/GPQA)
+
+## Benchmarks
+
+- Near-parity with o4-mini on core reasoning benchmarks
+- Outperforms other open models of similar size on reasoning and tool use
+- 20B variant matches o3-mini performance
+
+## Strengths
+
+- Near-proprietary reasoning (AIME/GPQA parity)
+- Single-GPU viable deployment
+- Full CoT/tool APIs for agents
+- Fully Apache-2.0 licensed
+
+## Weaknesses
+
+- 120B deploy still requires tensor-parallel for setups under 80GB
+- Community fine-tunes are nascent
+- No native image/vision capabilities
+
+## Licensing
+
+Fully Apache-2.0 licensed for both 120B and 20B variants.

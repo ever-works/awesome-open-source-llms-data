@@ -1,51 +1,45 @@
 ## Overview
 
-Grok 3 is xAI's latest frontier model launched in February 2025. Representing a massive leap forward, it was trained on approximately 200,000 GPUs housed in xAI's Memphis data center, creating an unprecedented scale of compute.
+Grok-3 was released by xAI (Elon Musk's AI company) on February 17, 2025. Designed to compete with the best proprietary models, it features advanced reasoning modes and real-time information retrieval.
 
-## Capabilities
+## Architecture
 
-Elon Musk described Grok 3 as "an order of magnitude more capable" than Grok 2.5, with substantial improvements in:
-- **Reasoning**: Advanced problem-solving
-- **Coding**: Superior programming capabilities
-- **Multimodal**: Enhanced vision understanding
-- **General Knowledge**: Broader understanding
+- **Context window**: 1 million tokens for managing massive conversations or documents
+- **Multimodal understanding**: Visual content analysis (tested on MMMU) and video content (EgoSchema)
 
-## Training Infrastructure
+## Reasoning Modes
 
-- **Compute Scale**: 200,000 GPUs
-- **Data Center**: xAI Memphis facility
-- **Training Scale**: Massive dataset
-- **Model Size**: Frontier-level parameters
+- **Think Mode**: Step-by-step problem-solving for math equations and project planning
+- **Big Brain Mode**: Extended reasoning for multi-step challenges requiring deep logic
 
-## Open-Source Plans
+## Features
 
-Elon Musk confirmed that Grok 3 will be open-sourced, continuing xAI's pattern of releasing models after advancing to newer versions:
-- **August 2025**: Grok 2.5 open-sourced
-- **February 2026**: Grok 3 targeted for open-source release (~6 months after announcement)
+- **DeepSearch**: Pulls live data from the internet and X (formerly Twitter), actively browsing, cross-checking sources, and delivering real-time information
+- **Fast responses**: Delivers thoughtful, accurate answers even without deep reasoning modes
+- **Multimodal**: Handles image and video content for complex analysis
 
-## Historical Pattern
+## Benchmark Performance
 
-xAI follows a transparent release strategy:
-- **Grok 1**: Open-sourced after advancing to Grok 2
-- **Grok 2.5**: Open-sourced in August 2025
-- **Grok 3**: Expected open-source release early 2026
+- **AIME**: 96% on advanced math exams
+- **GPQA**: 84% on graduate-level science benchmarks
+- **Coding**: Nearly 80% success rate
+- **MMMU**: Image understanding
+- **EgoSchema**: Video content understanding
 
-## Transparency Agenda
+## Use Cases
 
-Through public release of recommendation algorithms and AI models, xAI advances a transparency agenda distinguishing it from competitors like Anthropic and previously OpenAI.
+- Market research (real-time data gathering)
+- News analysis
+- Fact-checking
+- Technical lookups
+- Multi-step reasoning tasks
+- Image and video analysis
 
-## Performance Expected
+## Future Development
 
-- Frontier-level reasoning
-- Advanced coding capabilities
-- Strong mathematical ability
-- Real-time information processing
-- Multimodal understanding
+- xAI is training even larger models using approximately 200,000 GPUs
 
-## Licensing
+## Limitations
 
-Likely to use Grok community license agreement similar to Grok 2.5.
-
-## Impact
-
-When released open-source, Grok 3 will significantly impact the open-source AI landscape, providing frontier-level capabilities to researchers and developers.
+- Proprietary model
+- Big Brain mode may be slower than standard operation

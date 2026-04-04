@@ -1,8 +1,11 @@
 name: LLaMA 2 (Meta)
-description: Meta's second-generation open-source foundation model family with
-  7B, 13B, and 70B variants, featuring improved training, safety alignment, and
-  commercial licensing. Includes both base and Chat variants optimized for
-  dialogue applications.
+description: LLaMA 2 is Meta's second-generation open-weights model family,
+  trained on 2 trillion tokens with 7B, 13B, and 70B variants. It introduced
+  chat-optimized versions with RLHF and safety training, becoming the backbone
+  for many fine-tuned models and remaining a reliable foundation for custom
+  fine-tuning and edge deployment. Though surpassed by LLaMA 3, its smaller
+  parameter counts make it ideal for resource-constrained environments,
+  competing with models like Mistral 7B as an early open-weight standard.
 source_url: https://llama.meta.com/llama2/
 category: Foundation Models
 tags:
@@ -459,4 +462,4 @@ markdown: >-
   - More permissive than research-only licenses
 brand: Meta
 brand_logo_url: https://llama.meta.com/favicon.ico
-updated_at: 2026-03-03 13:09
+updated_at: 2026-04-04 21:39

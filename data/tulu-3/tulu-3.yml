@@ -1,0 +1,58 @@
+name: Tülu 3
+description: Tülu 3 is the Allen Institute for AI's latest instruction-tuned
+  language model, built by fine-tuning LLaMA base models with extensive
+  supervised fine-tuning and preference optimization. It achieves competitive
+  performance with proprietary models on instruction-following and reasoning
+  benchmarks through rigorous alignment training. Released as fully open weights
+  with transparent training data and methodology, making it a gold standard for
+  reproducible AI research.
+source_url: https://allenai.org/tulu
+category: Foundation Models
+tags:
+  - open-source
+  - reinforcement-learning
+  - fine-tuning
+featured: false
+markdown: >-
+  ## Overview
+
+
+  Tülu 3 is an open source 405-billion-parameter large language model developed
+  by the Allen Institute for AI (Ai2). It combines supervised fine-tuning (SFT)
+  and reinforcement learning at a larger scale than previous iterations.
+
+
+  ## Architecture
+
+
+  - 405 billion parameters
+
+  - Supervised fine-tuning combined with reinforcement learning
+
+  - Uses Reinforcement Learning from Verifiable Rewards (RLVR) framework
+
+
+  ## Key Features
+
+
+  - Fine-tuned for tasks with verifiable outcomes
+
+  - Strong performance on mathematical problem-solving
+
+  - Improved instruction following capabilities
+
+  - Open source license enables research and commercial use
+
+
+  ## Use Cases
+
+
+  - Mathematical reasoning and problem-solving
+
+  - Complex instruction following
+
+  - Research benchmarking
+
+  - Training pipeline development for verifiable reward systems
+brand: Allen Institute for AI
+updated_at: 2026-04-04 21:39

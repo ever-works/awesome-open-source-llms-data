@@ -1,0 +1,39 @@
+## Overview
+
+MiniMax M2.2 is the latest iteration of the M2 series, released in February 2026. It builds on the strong foundation of M2 and M2.1 predecessors, with a primary focus on enhancing programming capabilities and deeper agentic workflow integration for real-world development tasks.
+
+## Architecture
+
+- **Total Parameters**: 230 billion
+- **Active Parameters**: 10 billion
+- **Architecture**: Mixture-of-Experts (MoE)
+- **Optimized For**: Coding and agentic workflows
+- **Inference**: Can be served on as few as four NVIDIA H100 GPUs at FP8 precision
+
+## Features
+
+- Enhanced multi-language programming support across Rust, Java, Go, C++, Kotlin, Objective-C, TypeScript, and JavaScript
+- Computer-use capabilities carried forward from M2.1
+- Deeper agentic workflow integration for real-world development tasks
+- Competitive inference speed at a fraction of US frontier model costs
+
+## Pricing
+
+- Input tokens: approximately $0.30 per million tokens
+- Output tokens: approximately $1.20 per million tokens
+- Roughly 8% of Claude 4.5 Sonnet's cost
+
+## Licensing
+
+- MIT license for commercial use
+- Unrestricted commercial use and modification enabled
+
+## Series History
+
+- **M2 (Base)**: 230B total / 10B active parameters, MoE architecture, MIT license, optimized for coding and agentic workflows
+- **M2.1 (December 2025)**: Enhanced multi-language programming with computer-use capabilities
+- **M2.2 (February 2026)**: Further programming enhancements with deeper agentic workflow integration
+
+## Deployment
+
+The M2.2 model can be deployed on enterprise infrastructure with minimal hardware requirements, requiring as few as four NVIDIA H100 GPUs at FP8 precision for serving.
