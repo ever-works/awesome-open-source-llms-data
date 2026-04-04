@@ -9,7 +9,7 @@
 - id: chinese
   name: Chinese
 - id: apache-20
-  name: Apache 20
+  name: Apache 2.0
 - id: multilingual
   name: Multilingual
 - id: collaborative
@@ -89,7 +89,7 @@
 - id: microsoft
   name: Microsoft
 - id: mit-license
-  name: Mit License
+  name: MIT License
 - id: mistral
   name: Mistral
 - id: interpretability
@@ -235,7 +235,7 @@
 - id: mathematical-reasoning
   name: Mathematical Reasoning
 - id: single-gpu
-  name: Single GPU
+  name: Single Gpu
 - id: general-reasoning
   name: General Reasoning
 - id: deepseek-ecosystem
@@ -330,3 +330,257 @@
   name: AI Agent
 - id: software-development
   name: Software Development
+- id: sentence-transformers
+  name: Sentence Transformers
+- id: semantic-search
+  name: Semantic Search
+- id: on-premises
+  name: On Premises
+- id: governance
+  name: Governance
+- id: constitutional-ai
+  name: Constitutional Ai
+- id: intrinsic-alignment
+  name: Intrinsic Alignment
+- id: self-critique
+  name: Self Critique
+- id: multi-agent
+  name: Multi Agent
+- id: event-driven
+  name: Event Driven
+- id: azure
+  name: Azure
+- id: content-safety
+  name: Content Safety
+- id: jailbreak-detection
+  name: Jailbreak Detection
+- id: aws
+  name: Aws
+- id: pii-detection
+  name: Pii Detection
+- id: configurable-thresholds
+  name: Configurable Thresholds
+- id: embeddings
+  name: Embeddings
+- id: multi-vector
+  name: Multi Vector
+- id: chinese-llm
+  name: Chinese Llm
+- id: frontend
+  name: Frontend
+- id: visual-verification
+  name: Visual Verification
+- id: planning
+  name: Planning
+- id: chat
+  name: Chat
+- id: legal-ai
+  name: Legal Ai
+- id: extended-thinking
+  name: Extended Thinking
+- id: adaptive-thinking
+  name: Adaptive Thinking
+- id: role-based-agents
+  name: Role Based Agents
+- id: low-complexity
+  name: Low Complexity
+- id: ide
+  name: Ide
+- id: repo-native
+  name: Repo Native
+- id: diffs
+  name: Diffs
+- id: open-source-models
+  name: Open Source Models
+- id: serverless
+  name: Serverless
+- id: chain-of-thought
+  name: Chain Of Thought
+- id: distilled
+  name: Distilled
+- id: sparse-attention
+  name: Sparse Attention
+- id: million-token-context
+  name: Million Token Context
+- id: autonomous
+  name: Autonomous
+- id: long-horizon
+  name: Long Horizon
+- id: low-code
+  name: Low Code
+- id: visual-builder
+  name: Visual Builder
+- id: medical-ai
+  name: Medical Ai
+- id: chinese-ai
+  name: Chinese Ai
+- id: edge-ai
+  name: Edge Ai
+- id: medium-scale
+  name: Medium Scale
+- id: monitoring
+  name: Monitoring
+- id: custom-policies
+  name: Custom Policies
+- id: web-data-collection
+  name: Web Data Collection
+- id: structured-extraction
+  name: Structured Extraction
+- id: browser-sandbox
+  name: Browser Sandbox
+- id: cost-efficient
+  name: Cost Efficient
+- id: agentic-coding
+  name: Agentic Coding
+- id: api
+  name: Api
+- id: ui-design
+  name: Ui Design
+- id: sparse-moe
+  name: Sparse Moe
+- id: moe-architecture
+  name: Moe Architecture
+- id: google-ecosystem
+  name: Google Ecosystem
+- id: hierarchical-agents
+  name: Hierarchical Agents
+- id: vertex-ai
+  name: Vertex Ai
+- id: low-latency
+  name: Low Latency
+- id: open-weight
+  name: Open Weight
+- id: reasoning-modes
+  name: Reasoning Modes
+- id: real-time-search
+  name: Real Time Search
+- id: real-time
+  name: Real Time
+- id: encoder-only
+  name: Encoder Only
+- id: elastic-vectors
+  name: Elastic Vectors
+- id: mrl
+  name: Mrl
+- id: reinforcement-learning
+  name: Reinforcement Learning
+- id: trillion-parameter
+  name: Trillion Parameter
+- id: deep-reasoning
+  name: Deep Reasoning
+- id: chain-based
+  name: Chain Based
+- id: single-agent
+  name: Single Agent
+- id: stateful-agents
+  name: Stateful Agents
+- id: human-in-the-loop
+  name: Human In The Loop
+- id: robotics
+  name: Robotics
+- id: vision-language-action
+  name: Vision Language Action
+- id: edge-optimized
+  name: Edge Optimized
+- id: tool-calling
+  name: Tool Calling
+- id: mobile-deployment
+  name: Mobile Deployment
+- id: self-hosted
+  name: Self Hosted
+- id: nvidia
+  name: Nvidia
+- id: cpu-inference
+  name: Cpu Inference
+- id: typescript
+  name: Typescript
+- id: graph-workflows
+  name: Graph Workflows
+- id: y-combinator
+  name: Y Combinator
+- id: prompt-injection
+  name: Prompt Injection
+- id: classifier
+  name: Classifier
+- id: ultra-sparse-moe
+  name: Ultra Sparse Moe
+- id: math-competitions
+  name: Math Competitions
+- id: tool-interactive
+  name: Tool Interactive
+- id: prompt-security
+  name: Prompt Security
+- id: framework
+  name: Framework
+- id: edge
+  name: Edge
+- id: provider-agnostic
+  name: Provider Agnostic
+- id: tracing
+  name: Tracing
+- id: cloud-api
+  name: Cloud Api
+- id: safety
+  name: Safety
+- id: openai
+  name: Openai
+- id: prototyping
+  name: Prototyping
+- id: prompt-injection-detection
+  name: Prompt Injection Detection
+- id: supply-chain-security
+  name: Supply Chain Security
+- id: real-time-scanning
+  name: Real Time Scanning
+- id: video-understanding
+  name: Video Understanding
+- id: document-processing
+  name: Document Processing
+- id: math-reasoning
+  name: Math Reasoning
+- id: hybrid-moe
+  name: Hybrid Moe
+- id: instruction-aware
+  name: Instruction Aware
+- id: hybrid-attention
+  name: Hybrid Attention
+- id: extreme-efficiency
+  name: Extreme Efficiency
+- id: multi-token-prediction
+  name: Multi Token Prediction
+- id: video-generation
+  name: Video Generation
+- id: content-creation
+  name: Content Creation
+- id: machine-translation
+  name: Machine Translation
+- id: fully-open-recipe
+  name: Fully Open Recipe
+- id: cli
+  name: Cli
+- id: cost-control
+  name: Cost Control
+- id: production
+  name: Production
+- id: hugging-face
+  name: Hugging Face
+- id: pii-masking
+  name: Pii Masking
+- id: portuguese
+  name: Portuguese
+- id: continual-pretraining
+  name: Continual Pretraining
+- id: fine-tuning
+  name: Fine Tuning
+- id: google-cloud
+  name: Google Cloud
+- id: safety-settings
+  name: Safety Settings
+- id: harm-classification
+  name: Harm Classification
+- id: guardrails-as-a-service
+  name: Guardrails As A Service
+- id: hosted-api
+  name: Hosted Api
+- id: performance
+  name: Performance

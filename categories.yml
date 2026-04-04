@@ -22,3 +22,27 @@
   name: Large Language Model
 - id: multilingual-models
   name: Multilingual Models
+- id: embedding-models
+  name: Embedding Models
+- id: ai-safety-guardrails
+  name: AI Safety & Guardrails
+- id: agent-framework
+  name: Agent Framework
+- id: ai-coding-ides
+  name: AI Coding IDEs
+- id: general-llms
+  name: General LLMs
+- id: agentic-coding
+  name: Agentic Coding
+- id: low-code-agent-platform
+  name: Low Code Agent Platform
+- id: agent-tools
+  name: Agent Tools
+- id: code-generation
+  name: Code Generation
+- id: llm-research
+  name: LLM Research
+- id: agentic-frameworks
+  name: Agentic Frameworks
+- id: language-specific-llms
+  name: Language Specific LLMs
