@@ -41,7 +41,7 @@
 - id: code-generation
   name: Code Generation
 - id: llm-research
-  name: LLM Research
+  name: Llm Research
 - id: agentic-frameworks
   name: Agentic Frameworks
 - id: language-specific-llms

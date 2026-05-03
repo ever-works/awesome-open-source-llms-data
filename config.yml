@@ -34,16 +34,15 @@ pagination:
 custom_menu:
   header: []
   footer: []
-version: 0.1.5
+version: 0.1.6
 metadata:
   last_request_data:
     generation_method: create-update
     update_with_pull_request: false
     website_repository_creation_method: create-using-template
     name: Awesome Open Source LLMs
-    prompt: A comprehensive directory of open source large language models (LLMs),
-      comparing architectures, benchmark performance, licensing, and deployment
-      options
+    prompt: generate list of open source large language models, comparing
+      architectures, benchmark performance, licensing, and deployment options
     providers:
       pipeline: agent-pipeline
       search: tavily
@@ -54,5 +53,10 @@ metadata:
       capture_screenshots: false
       max_pages_to_process: 20
     _processedPluginConfig: {}
+    config:
+      max_search_queries: 10
+      max_results_per_query: 5
+      max_pages_to_process: 10
+      ai_first_generation_enabled: false
   initial_prompt: generate list of open source large language models, comparing
     architectures, benchmark performance, licensing, and deployment options

@@ -1,4 +1,4 @@
-# open-source-llms-data
+# awesome-open-source-llms-data
 
-This repository holds data used to generate [open-source-llms](https://github.com/paradoxe35/open-source-llms)
+This repository holds data used to generate [awesome-open-source-llms](https://github.com/ever-works/awesome-open-source-llms)
 

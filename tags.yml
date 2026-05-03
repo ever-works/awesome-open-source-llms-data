@@ -584,3 +584,15 @@
   name: Hosted Api
 - id: performance
   name: Performance
+- id: benchmarking
+  name: Benchmarking
+- id: evaluation
+  name: Evaluation
+- id: scraper
+  name: Scraper
+- id: data-extraction
+  name: Data Extraction
+- id: shell
+  name: Shell
+- id: llm-interaction
+  name: Llm Interaction
