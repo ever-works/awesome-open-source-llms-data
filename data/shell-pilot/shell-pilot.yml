@@ -1,0 +1,34 @@
+name: Shell-Pilot
+description: Interact with LLM using Ollama models(or openAI, mistralAI)via pure
+  shell scripts on your Linux(or MacOS) system, enhancing intelligent system
+  management without any dependencies.
+source_url: https://github.com/hannibal046/awesome-llm
+category: Agent Framework
+tags:
+  - open-source
+  - shell
+  - llm-interaction
+featured: false
+markdown: >-
+  ## Overview
+
+  Shell-Pilot is a pure shell script tool that enables interaction with LLMs
+  (Ollama, OpenAI, MistralAI) on Linux and macOS systems, facilitating
+  intelligent system management without any external dependencies.
+
+
+  ## Features
+
+  - Interact with Ollama, OpenAI, and MistralAI models
+
+  - Implemented purely in shell scripts, requiring no additional dependencies
+
+  - Compatible with Linux and macOS environments
+
+  - Enhances intelligent system management capabilities
+
+
+  ## Pricing
+
+  Free and open-source.
+updated_at: 2026-05-03 22:55

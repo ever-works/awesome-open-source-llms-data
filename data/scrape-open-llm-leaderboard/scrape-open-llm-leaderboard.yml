@@ -1,0 +1,61 @@
+name: Scrape Open LLM Leaderboard
+description: A GitHub repository containing a scraper for the Open LLM
+  Leaderboard that extracts data directly from the Hugging Face space, allowing
+  export to CSV, HTML, and JSON formats. This tool speeds up data collection
+  compared to using the leaderboard's result datasets.
+source_url: https://github.com/Weyaxi/scrape-open-llm-leaderboard
+category: llm-research
+tags:
+  - scraper
+  - data-extraction
+  - open-source
+featured: false
+markdown: >
+  # Scrape Open LLM Leaderboard
+
+
+  ## Overview
+
+
+  Scrape Open LLM Leaderboard is a GitHub repository that provides a scraper for
+  extracting data directly from the Open LLM Leaderboard on Hugging Face. The
+  scraper bypasses the need to use the leaderboard's result datasets,
+  significantly speeding up the data extraction process.
+
+
+  ## Features
+
+
+  - Scrapes data from the Open LLM Leaderboard space
+
+  - Exports extracted data to CSV, HTML, and JSON formats
+
+  - Faster than using the leaderboard's provided datasets
+
+  - Open source and freely available
+
+
+  ## Use Cases
+
+
+  - Researchers and developers who need to collect leaderboard data for analysis
+
+  - Building custom dashboards or offline leaderboards
+
+  - Automating data collection for LLM benchmarking studies
+
+
+  ## Pricing
+
+
+  Free and open source.
+
+
+  ## Licensing
+
+
+  Please refer to the repository's license file for details.
+brand: Weyaxi
+brand_logo_url: ""
+images: []
+updated_at: 2026-05-03 22:55
