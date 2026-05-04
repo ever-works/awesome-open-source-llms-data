@@ -1,70 +1,66 @@
 name: Ministral-3-3B-Instruct-2512
-description: Ministral 3 3B Instruct is Mistral AI's December 2025 release of
-  their ultra-compact instruction-following model, optimized for fast inference
-  on consumer hardware. Features include strong instruction adherence, tool use
-  capabilities, and efficient processing thanks to Mistral's architecture
-  optimizations. It's designed for edge deployment and real-time applications
-  where latency matters, competing with Qwen 2.5 3B and LLaMA 3.2 3B.
-source_url: https://mistral.ai/news/mistral-3/
+description: Ministral-3-3B-Instruct-2512 is a multimodal SLM developed by
+  Mistral AI. It’s the smallest instruct model in the Ministral 3 family,
+  designed specifically for edge and resource-constrained deployments.
+  Architecturally, it combines a 3.4B language model with a 0.4B vision encoder,
+  supporting basic visual understanding alongside chat and instruction
+  following. In practice, it can run on a single GPU and fit into roughly 8 GB
+  of VRAM in FP8, or even less with further quantization.
+source_url: https://huggingface.co/mistralai/Ministral-3B-Instruct-2410
 category: Small Language Models
 tags:
   - multimodal
   - edge-deployment
-  - function-calling
+  - vision
 featured: false
 markdown: >-
   ## Overview
 
 
-  Ministral-3-3B-Instruct-2512 is a multimodal small language model developed by
-  Mistral AI. It is the smallest instruct model in the Ministral 3 family,
-  designed specifically for edge and resource-constrained deployments.
+  Ministral-3-3B-Instruct-2512 is a multimodal SLM developed by Mistral AI. It’s
+  the smallest instruct model in the Ministral 3 family, designed specifically
+  for edge and resource-constrained deployments.
 
 
-  ## Architecture
+  ## Features
 
 
-  - 3.4B language model with 0.4B vision encoder
+  - Combines a 3.4B language model with a 0.4B vision encoder
 
   - Supports basic visual understanding alongside chat and instruction following
 
-  - Runs on a single GPU, fitting into roughly 8 GB of VRAM in FP8 (less with
-  further quantization)
+  - Can run on a single GPU
 
-  - Supports up to 256K token context
+  - Fits into roughly 8 GB of VRAM in FP8, or even less with further
+  quantization
 
+  - Supports up to 256k tokens context
 
-  ## Key Features
-
-
-  - **Vision + text in one small model**: Practical for lightweight image tasks
-  like screenshot understanding, image captioning, and simple visual Q&A without
-  moving to a large vision-language model
-
-  - **Agent-ready**: Designed with function calling and structured (JSON-style)
-  outputs for easy integration into tool-using and agentic workflows
-
-  - **Large context for its size**: Up to 256K tokens supports document-heavy
-  prompts, long logs, or multi-file inputs
+  - Designed with function calling and structured (JSON-style) outputs in mind
 
 
-  ## Limitations
+  ## Use Cases
 
 
-  - Visual reasoning capability is limited; best used for simple descriptions
-  and basic Q&A rather than detailed image analysis or complex visual reasoning
+  - Lightweight image tasks: screenshot understanding, image captioning, simple
+  visual Q&A
 
-  - For stronger multimodal reasoning, the Ministral-3-3B-Reasoning-2512 variant
-  is recommended
+  - Tool-using and agentic workflows
 
-
-  ## Deployment
+  - Document-heavy prompts, long logs, or multi-file inputs
 
 
-  Runs on a single GPU with approximately 8 GB VRAM in FP8 precision, making it
-  accessible for edge and resource-constrained environments. Further
-  quantization can reduce memory requirements.
+  ## Considerations
+
+
+  - Vision is functional, not deep: visual reasoning capability is limited
+
+  - Suggested for simple descriptions and basic Q&A rather than detailed image
+  analysis or complex visual reasoning
+
+  - For stronger multimodal reasoning, consider Ministral-3-3B-Reasoning-2512
+  instead
 brand: Mistral AI
-images:
-  - https://mistral.ai/images/logo.svg
-updated_at: 2026-04-04 21:39
+brand_logo_url: ""
+images: []
+updated_at: 2026-05-04 12:36

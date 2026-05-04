@@ -1,64 +1,87 @@
 name: Open LLM Leaderboard
-description: The Open LLM Leaderboard is a hub organization on Hugging Face that
-  maintains a platform for evaluating and comparing open-source large language
-  models. It provides datasets with detailed results, queries, score results,
-  and request states for models on the leaderboard, enabling users to look up
-  model names for detailed predictions.
+description: The Open LLM Leaderboard is a hub organization maintaining a
+  benchmark for evaluating open source large language models. It provides
+  detailed results, datasets, and queries for models on the leaderboard,
+  enabling researchers and developers to compare performance across various
+  tasks.
 source_url: https://huggingface.co/open-llm-leaderboard
-category: llm-research
+category: Llm Research
 tags:
-  - benchmarking
-  - evaluation
   - open-source
-featured: false
-markdown: >
+  - leaderboard
+  - evaluation
+featured: true
+markdown: >-
   # Open LLM Leaderboard
 
 
   ## Overview
 
 
-  The Open LLM Leaderboard is a hub organization on Hugging Face dedicated to
-  evaluating and comparing open-source large language models (LLMs). It provides
-  a standardized platform for benchmarking LLMs across various tasks.
+  The Open LLM Leaderboard is a platform hosted by Hugging Face that evaluates
+  and ranks open source large language models (LLMs) based on standardized
+  benchmarks. It serves as a central repository for model performance metrics,
+  enabling transparent comparison across architectures, sizes, and training
+  methodologies.
 
 
   ## Features
 
 
-  - Hosts datasets with detailed evaluation results and queries for models on
-  the leaderboard
+  - **Comprehensive Benchmarking**: Evaluates models on multiple datasets
+  including ARC, HellaSwag, MMLU, TruthfulQA, Winogrande, and GSM8K.
 
-  - Provides score results and current state of requests
+  - **Detailed Results**: Provides full leaderboard tables with average scores
+  and individual task performance.
 
-  - Enables users to look up model names for detailed predictions
+  - **Dataset Access**: Hosts the evaluation dataset and scripts for
+  reproducibility.
 
-  - Maintains a transparent and open evaluation process
+  - **Model Cards**: Links to model repositories on Hugging Face Hub for easy
+  access.
+
+  - **Community Updates**: Regularly updated with new model submissions and
+  benchmark revisions.
 
 
   ## Use Cases
 
 
-  - Researchers and developers can compare the performance of different
-  open-source LLMs
+  - Researchers comparing LLM architectures and training techniques.
 
-  - Users can identify top-performing models for specific tasks
+  - Developers selecting models for deployment based on verified performance.
 
-  - Track progress of LLM capabilities over time
+  - Educators teaching model evaluation methodologies.
+
+  - Organizations tracking progress in open source LLM development.
 
 
   ## Pricing
 
 
-  Free to use; the leaderboard and associated datasets are openly accessible.
+  The Open LLM Leaderboard is completely free to use. All data, datasets, and
+  evaluation scripts are openly available under permissive licenses.
 
 
-  ## Licensing
+  ## Technical Details
 
 
-  The leaderboard itself is provided by Hugging Face; model evaluations follow
-  the licenses of the respective models.
+  - Built on the Hugging Face Hub infrastructure.
+
+  - Utilizes the `lm-evaluation-harness` for standardized evaluations.
+
+  - Results are stored in publicly accessible datasets.
+
+  - Leaderboard updates are triggered via automated workflows upon model
+  submission.
+
+
+  ## License
+
+
+  The leaderboard and associated datasets are released under the Apache 2.0
+  license or similar open licenses, permitting free use and redistribution.
 brand: Hugging Face
 brand_logo_url: https://huggingface.co/frontend/assets/huggingface_logo.svg
 images: []
-updated_at: 2026-05-03 22:55
+updated_at: 2026-05-04 12:36

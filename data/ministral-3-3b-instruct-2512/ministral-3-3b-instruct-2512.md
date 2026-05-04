@@ -1,25 +1,24 @@
 ## Overview
 
-Ministral-3-3B-Instruct-2512 is a multimodal small language model developed by Mistral AI. It is the smallest instruct model in the Ministral 3 family, designed specifically for edge and resource-constrained deployments.
+Ministral-3-3B-Instruct-2512 is a multimodal SLM developed by Mistral AI. It’s the smallest instruct model in the Ministral 3 family, designed specifically for edge and resource-constrained deployments.
 
-## Architecture
+## Features
 
-- 3.4B language model with 0.4B vision encoder
+- Combines a 3.4B language model with a 0.4B vision encoder
 - Supports basic visual understanding alongside chat and instruction following
-- Runs on a single GPU, fitting into roughly 8 GB of VRAM in FP8 (less with further quantization)
-- Supports up to 256K token context
+- Can run on a single GPU
+- Fits into roughly 8 GB of VRAM in FP8, or even less with further quantization
+- Supports up to 256k tokens context
+- Designed with function calling and structured (JSON-style) outputs in mind
 
-## Key Features
+## Use Cases
 
-- **Vision + text in one small model**: Practical for lightweight image tasks like screenshot understanding, image captioning, and simple visual Q&A without moving to a large vision-language model
-- **Agent-ready**: Designed with function calling and structured (JSON-style) outputs for easy integration into tool-using and agentic workflows
-- **Large context for its size**: Up to 256K tokens supports document-heavy prompts, long logs, or multi-file inputs
+- Lightweight image tasks: screenshot understanding, image captioning, simple visual Q&A
+- Tool-using and agentic workflows
+- Document-heavy prompts, long logs, or multi-file inputs
 
-## Limitations
+## Considerations
 
-- Visual reasoning capability is limited; best used for simple descriptions and basic Q&A rather than detailed image analysis or complex visual reasoning
-- For stronger multimodal reasoning, the Ministral-3-3B-Reasoning-2512 variant is recommended
-
-## Deployment
-
-Runs on a single GPU with approximately 8 GB VRAM in FP8 precision, making it accessible for edge and resource-constrained environments. Further quantization can reduce memory requirements.
+- Vision is functional, not deep: visual reasoning capability is limited
+- Suggested for simple descriptions and basic Q&A rather than detailed image analysis or complex visual reasoning
+- For stronger multimodal reasoning, consider Ministral-3-3B-Reasoning-2512 instead

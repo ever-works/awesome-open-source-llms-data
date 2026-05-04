@@ -1,29 +1,27 @@
 ## Overview
 
-Qwen3.5-0.8B is a lightweight multimodal model from Alibaba's Qwen family, released under the Apache 2.0 license. It combines a 0.8B causal language model with a vision encoder and supports both thinking and non-thinking modes.
+Qwen3.5-0.8B is a lightweight multimodal model from Alibaba’s Qwen family, released under the Apache 2.0 license. It combines a 0.8B causal language model with a vision encoder and supports both thinking and non-thinking modes.
 
-## Architecture
+## Features
 
-- 0.8B causal language model with integrated vision encoder
-- Supports both thinking and non-thinking inference modes
-- Native context window of up to 262K tokens
-- Trained to support 200+ languages and dialects
+- Multimodal at a very small scale: handles text, images, and video in one compact model
+- Long context: native support for up to 262K tokens
+- Broad language coverage: supports 200+ languages and dialects
+- Thinking and non-thinking modes
+- Apache 2.0 license
 
-## Key Features
+## Use Cases
 
-- **Multimodal at small scale**: Handles text, images, and video in one compact model, practical for lightweight multimodal assistants, document understanding, screenshot Q&A, and simple video summarization
-- **Long context for small-footprint deployments**: Native support for up to 262K tokens works well for long documents, long chat histories, and agent workflows
-- **Broad language coverage**: Benefits from Qwen3.5's training across 200+ languages and dialects, ideal for on-device global products
+- Lightweight multimodal assistants
+- Document understanding
+- Screenshot Q&A
+- Simple video summarization
 
-## Limitations
+## Considerations
 
-- More suitable for lightweight multimodal and general assistant tasks than for deep reasoning, complex coding, or high-stakes knowledge work
-- Thinking mode can be unstable — more prone to entering thinking loops than larger Qwen3.5 variants, requiring careful sampling tuning and guardrails
+- Small-model limits: more suitable for lightweight multimodal and general assistant tasks than for deep reasoning, complex coding, or high-stakes knowledge work
+- Thinking mode can be unstable: prone to entering thinking loops; requires careful sampling tuning and guardrails for production deployments
 
-## Licensing
+## Recommendation
 
-Released under the Apache 2.0 license, allowing free commercial use and modification.
-
-## Deployment
-
-Fits comfortably on a single GPU at this 0.8B scale, making it suitable for resource-constrained environments and on-device deployments.
+If you can afford a bit more compute, consider Qwen3.5-2B and Qwen3.5-4B, which keep the same multimodal design and offer comparable or better performance than models like GPT-OSS-120B.

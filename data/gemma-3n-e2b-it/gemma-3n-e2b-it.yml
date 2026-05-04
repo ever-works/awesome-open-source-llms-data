@@ -1,0 +1,81 @@
+name: Gemma-3n-E2B-IT
+description: Gemma-3n-E2B-IT is an instruction-tuned multimodal small model from
+  Google DeepMind, built for on-device and other low-resource deployments. It
+  accepts text, image, audio, and video inputs and generates text outputs. While
+  the raw parameter count is around 5B, it uses selective parameter activation,
+  so it can run with a memory footprint closer to a traditional 2B model in many
+  deployments. The Gemma 3n family is trained on data spanning 140+ languages,
+  which is a big deal if you need multilingual support without jumping to much
+  larger models.
+source_url: https://huggingface.co/google/gemma-3n-e2b-it
+category: Small Language Models
+tags:
+  - multimodal
+  - on-device
+  - multilingual
+featured: false
+markdown: >-
+  ## Overview
+
+
+  Gemma-3n-E2B-IT is an instruction-tuned multimodal small model from Google
+  DeepMind, built for on-device and other low-resource deployments. It accepts
+  text, image, audio, and video inputs and generates text outputs. While the raw
+  parameter count is around 5B, it uses selective parameter activation, so it
+  can run with a memory footprint closer to a traditional 2B model in many
+  deployments. The Gemma 3n family is trained on data spanning 140+ languages.
+
+
+  ## Features
+
+
+  - Multimodal by design: handles text, image, audio, and video inputs
+
+  - Mobile-first architecture: efficient encoders including mobile-optimized
+  vision encoder and integrated audio encoder
+
+  - Selective parameter activation: runs with memory footprint closer to a 2B
+  model despite ~5B parameters
+
+  - Multilingual: trained on 140+ languages
+
+  - Solid baseline quality for captioning, transcription, translation,
+  lightweight Q&A
+
+
+  ## Use Cases
+
+
+  - Speech transcription
+
+  - Image description
+
+  - Video clip analysis
+
+  - Normal chat
+
+  - Real-time or near-real-time on-device experiences
+
+
+  ## Considerations
+
+
+  - Context is shared across modalities: total input context of 32K tokens
+  across text, image, audio, and video; multimodal tokens consume context
+  quickly
+
+  - Production needs modality-specific evaluation: performance in speech-to-text
+  and speech translation can vary by language, accent, noise, and domain;
+  benchmark before production rollout
+
+
+  ## Alternatives
+
+
+  If you need better performance, consider the E4B variant, which achieves an
+  LMArena score over 1300, surpassing models like Llama 4 Maverick 17B 128E and
+  GPT 4.1-nano.
+brand: Google DeepMind
+brand_logo_url: ""
+images: []
+updated_at: 2026-05-04 12:36

@@ -2,30 +2,24 @@
 
 SmolLM3-3B is a fully open instruct and reasoning model from Hugging Face. At the 3B scale, it outperforms Llama-3.2-3B and Qwen2.5-3B, while staying competitive with many 4B-class alternatives (including Qwen3 and Gemma 3) across 12 popular LLM benchmarks.
 
-## Architecture
+## Features
 
-- 3B parameters
-- Dual-mode inference: /think and /no_think
-- Trained to 64K context, stretchable to 128K with YaRN extrapolation
-- Best performance in six main European languages
+- Dual-mode reasoning: supports /think and /no_think, so you can default to fast responses and only pay the reasoning cost when a request is genuinely hard
+- Long context window: trained to 64K and can stretch to 128K tokens with YaRN extrapolation
+- Fully open recipe: released under the Apache 2 license plus detailed training notes, public data mixture, and configs
+- Transparency: full engineering blueprint published, including architecture decisions, data mixture, and post-training methodology
 
-## Key Features
+## Use Cases
 
-- **Dual-mode reasoning**: Supports /think and /no_think modes, allowing fast responses by default and only paying the reasoning cost when a request is genuinely hard
-- **Long context window**: Trained to 64K tokens, can stretch to 128K with YaRN extrapolation — strong fit for long-running agent sessions
-- **Fully open recipe**: Released under the Apache 2.0 license with detailed training notes, public data mixture, and architecture configurations — reduces guesswork for fine-tuning or building derivatives
-- **High benchmark performance**: Published full engineering blueprint including architecture decisions, data mixture, and post-training methodology
+- Long-running agent sessions
+- Document analysis
+- Reasoning-intensive tasks
+- Instruction following
 
-## Benchmark Performance
+## Considerations
 
-- Outperforms Llama-3.2-3B and Qwen2.5-3B
-- Competitive with many 4B-class alternatives including Qwen3 and Gemma 3
-- Evaluated across 12 popular LLM benchmarks
+- Multilingual coverage is narrower than some peers: works best in six main European languages. If you need broader global coverage, benchmark carefully and consider alternatives.
 
-## Limitations
+## Recommendation
 
-- Multilingual coverage is narrower than some peers; works best in six main European languages. For broader global coverage, careful benchmarking is recommended
-
-## Licensing
-
-Released under the Apache 2.0 license with fully transparent training methodology, data mixtures, and configuration files.
+If you're building internal variants or want to understand what actually drives quality at 3B, the full transparency of SmolLM3-3B matters.
