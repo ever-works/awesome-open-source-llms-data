@@ -1,9 +1,9 @@
 name: Awesome Open Source LLMs
 providers:
-  pipeline: agent-pipeline
-  search: tavily
   ai: openrouter
+  pipeline: agent-pipeline
   contentExtractor: local-content-extractor
+  search: tavily
 website_repo: ever-works/awesome-open-source-llms-website
 schedule:
   enabled: true
