@@ -596,3 +596,7 @@
   name: Shell
 - id: llm-interaction
   name: Llm Interaction
+- id: vision
+  name: Vision
+- id: leaderboard
+  name: Leaderboard
