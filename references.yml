@@ -1,0 +1,36 @@
+- url: https://dagshub.com/blog/best-open-source-llms/
+  normalized_url: https://dagshub.com/blog/best-open-source-llms
+  first_seen_at: 2026-05-05T11:50:43.169Z
+  last_attempted_at: 2026-05-05T11:50:43.169Z
+  status: empty
+  items_created: 0
+  pipeline: agent-pipeline
+  provider: Local (Readability)
+  error: No items extracted
+- url: https://github.com/eugeneyan/open-llms
+  normalized_url: https://github.com/eugeneyan/open-llms
+  first_seen_at: 2026-05-05T11:52:51.395Z
+  last_attempted_at: 2026-05-05T11:52:51.395Z
+  status: empty
+  items_created: 0
+  pipeline: agent-pipeline
+  provider: Local (Readability)
+  error: No items extracted
+- url: https://huggingface.co/blog/daya-shankar/open-source-llms
+  normalized_url: https://huggingface.co/blog/daya-shankar/open-source-llms
+  first_seen_at: 2026-05-05T11:57:33.883Z
+  last_attempted_at: 2026-05-05T11:57:33.883Z
+  status: empty
+  items_created: 0
+  pipeline: agent-pipeline
+  provider: Local (Readability)
+  error: No items extracted
+- url: https://huggingface.co/open-llm-leaderboard
+  normalized_url: https://huggingface.co/open-llm-leaderboard
+  first_seen_at: 2026-05-05T11:59:46.248Z
+  last_attempted_at: 2026-05-05T11:59:46.248Z
+  status: empty
+  items_created: 0
+  pipeline: agent-pipeline
+  provider: Local (Readability)
+  error: No items extracted
