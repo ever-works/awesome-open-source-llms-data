@@ -60,3 +60,15 @@ metadata:
       ai_first_generation_enabled: false
   initial_prompt: generate list of open source large language models, comparing
     architectures, benchmark performance, licensing, and deployment options
+name: Awesome Open Source LLMs
+providers:
+  ai: openrouter
+  pipeline: agent-pipeline
+  contentExtractor: local-content-extractor
+  search: tavily
+website_repo: ever-works/awesome-open-source-llms-website
+schedule:
+  enabled: true
+  cadence: daily
+initial_prompt: generate list of open source large language models, comparing
+  architectures, benchmark performance, licensing, and deployment options
