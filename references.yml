@@ -7,6 +7,33 @@
   pipeline: agent-pipeline
   provider: Local (Readability)
   error: No items extracted
+- url: https://en.wikipedia.org/wiki/List_of_large_language_models
+  normalized_url: https://en.wikipedia.org/wiki/List_of_large_language_models
+  first_seen_at: 2026-05-06T11:53:05.377Z
+  last_attempted_at: 2026-05-06T11:53:05.377Z
+  status: empty
+  items_created: 0
+  pipeline: agent-pipeline
+  provider: Local (Readability)
+  error: No items extracted
+- url: https://estha.ai/blog/benchmarking-open-source-vs-closed-llms-a-comprehensive-guide/
+  normalized_url: https://estha.ai/blog/benchmarking-open-source-vs-closed-llms-a-comprehensive-guide
+  first_seen_at: 2026-05-06T11:58:39.961Z
+  last_attempted_at: 2026-05-06T11:58:39.961Z
+  status: empty
+  items_created: 0
+  pipeline: agent-pipeline
+  provider: Local (Readability)
+  error: No items extracted
+- url: https://github.com/continuedev/what-llm-to-use/blob/main/LLMs.csv
+  normalized_url: https://github.com/continuedev/what-llm-to-use/blob/main/LLMs.csv
+  first_seen_at: 2026-05-06T12:39:46.283Z
+  last_attempted_at: 2026-05-06T12:39:46.283Z
+  status: empty
+  items_created: 0
+  pipeline: agent-pipeline
+  provider: Local (Readability)
+  error: No items extracted
 - url: https://github.com/eugeneyan/open-llms
   normalized_url: https://github.com/eugeneyan/open-llms
   first_seen_at: 2026-05-05T11:52:51.395Z
@@ -15,6 +42,15 @@
   items_created: 0
   pipeline: agent-pipeline
   provider: Local (Readability)
+  error: No items extracted
+- url: https://huggingface.co/api/models?sort=downloads&search=&limit=100
+  normalized_url: https://huggingface.co/api/models?limit=100&search=&sort=downloads
+  first_seen_at: 2026-05-06T12:22:13.389Z
+  last_attempted_at: 2026-05-06T12:22:13.389Z
+  status: empty
+  items_created: 0
+  pipeline: agent-pipeline
+  provider: Tavily
   error: No items extracted
 - url: https://huggingface.co/blog/daya-shankar/open-source-llms
   normalized_url: https://huggingface.co/blog/daya-shankar/open-source-llms
@@ -25,10 +61,80 @@
   pipeline: agent-pipeline
   provider: Local (Readability)
   error: No items extracted
+- url: https://huggingface.co/meta-llama/Llama-2-7b-hf
+  normalized_url: https://huggingface.co/meta-llama/Llama-2-7b-hf
+  first_seen_at: 2026-05-06T12:33:24.119Z
+  last_attempted_at: 2026-05-06T12:33:24.119Z
+  status: empty
+  items_created: 0
+  pipeline: agent-pipeline
+  provider: Local (Readability)
+  error: No items extracted
+- url: https://huggingface.co/mistralai/Mistral-7B-v0.1
+  normalized_url: https://huggingface.co/mistralai/Mistral-7B-v0.1
+  first_seen_at: 2026-05-06T12:25:48.845Z
+  last_attempted_at: 2026-05-06T12:25:48.845Z
+  last_success_at: 2026-05-06T12:25:48.845Z
+  status: success
+  items_created: 1
+  pipeline: agent-pipeline
 - url: https://huggingface.co/open-llm-leaderboard
   normalized_url: https://huggingface.co/open-llm-leaderboard
   first_seen_at: 2026-05-05T11:59:46.248Z
   last_attempted_at: 2026-05-05T11:59:46.248Z
+  status: empty
+  items_created: 0
+  pipeline: agent-pipeline
+  provider: Local (Readability)
+  error: No items extracted
+- url: https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard
+  normalized_url: https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard
+  first_seen_at: 2026-05-06T12:01:52.800Z
+  last_attempted_at: 2026-05-06T12:01:52.800Z
+  status: empty
+  items_created: 0
+  pipeline: agent-pipeline
+  provider: Local (Readability)
+  error: No items extracted
+- url: https://huggingface.co/togethercomputer/LLaMA-2-7B-32K
+  normalized_url: https://huggingface.co/togethercomputer/LLaMA-2-7B-32K
+  first_seen_at: 2026-05-06T12:15:50.995Z
+  last_attempted_at: 2026-05-06T12:15:50.995Z
+  status: empty
+  items_created: 0
+  pipeline: agent-pipeline
+  provider: Local (Readability)
+  error: No items extracted
+- url: https://llmmodels.org/open-source/
+  normalized_url: https://llmmodels.org/open-source
+  first_seen_at: 2026-05-06T12:36:34.586Z
+  last_attempted_at: 2026-05-06T12:36:34.586Z
+  status: empty
+  items_created: 0
+  pipeline: agent-pipeline
+  provider: Local (Readability)
+  error: No items extracted
+- url: https://raw.githubusercontent.com/eugeneyan/open-llms/master/README.md
+  normalized_url: https://raw.githubusercontent.com/eugeneyan/open-llms/master/README.md
+  first_seen_at: 2026-05-06T12:12:06.506Z
+  last_attempted_at: 2026-05-06T12:12:06.506Z
+  status: empty
+  items_created: 0
+  pipeline: agent-pipeline
+  provider: Tavily
+  error: No items extracted
+- url: https://www.instaclustr.com/education/open-source-ai/top-7-open-source-llms-for-2026/
+  normalized_url: https://www.instaclustr.com/education/open-source-ai/top-7-open-source-llms-for-2026
+  first_seen_at: 2026-05-06T12:46:25.951Z
+  last_attempted_at: 2026-05-06T12:46:25.951Z
+  last_success_at: 2026-05-06T12:46:25.951Z
+  status: success
+  items_created: 7
+  pipeline: agent-pipeline
+- url: https://www.lakera.ai/blog/open-source-llms
+  normalized_url: https://www.lakera.ai/blog/open-source-llms
+  first_seen_at: 2026-05-06T12:50:20.882Z
+  last_attempted_at: 2026-05-06T12:50:20.882Z
   status: empty
   items_created: 0
   pipeline: agent-pipeline

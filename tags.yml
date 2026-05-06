@@ -600,3 +600,7 @@
   name: Vision
 - id: leaderboard
   name: Leaderboard
+- id: scalable
+  name: Scalable
+- id: 7b
+  name: 7B
