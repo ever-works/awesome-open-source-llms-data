@@ -1,19 +1,16 @@
 ## Overview
-Qwen 3.5 is an excellent all-around performer, particularly strong in areas demanding accurate instruction following and deep scientific understanding. It sets a new bar for GPQA Diamond scores among listed models.
 
-## Key Features
-*   **GPQA Diamond Score:** 88.4 (best of any model on the leaderboard)
-*   **IFEval Score:** 92.6 (exceptional instruction following with high fidelity)
-*   **LiveCodeBench Score:** 83.6
-*   **SWE-bench Verified Score:** 76.4
-*   **MMLU Score:** 88.5
-*   **MMLU-Pro Score:** 87.8
-*   **Parameters:** 397B (implied from context)
+Qwen 3.5 is a large-scale open-weight model designed as a native multimodal agent, combining vision and language capabilities within a unified architecture. It uses a hybrid design that mixes sparse mixture-of-experts with linear attention mechanisms to improve efficiency while maintaining strong performance. The model is trained on large multimodal datasets and supports long-context reasoning, tool use, and multilingual tasks.
 
-## Best For
-*   Scientific reasoning applications
-*   Complex instruction-following scenarios
-*   Multilingual workloads
+## Features
+
+- Hybrid MoE architecture: Combines sparse mixture-of-experts with linear attention to balance performance and inference efficiency
+- Native multimodality: Integrates text and visual inputs through early fusion for cross-modal reasoning
+- Large context window: Supports up to 1M tokens for long documents, conversations, and video inputs
+- Agentic tool use: Includes built-in support for tool calling, search, and code execution within workflows
+- Expanded multilingual support: Covers over 200 languages and dialects for global use cases
+- Efficient inference design: Activates a small subset of parameters per request to reduce compute cost while maintaining capability
 
 ## Pricing
-Open-source model; licensing details depend on specific release.
+
+Free and open-source under the Apache 2.0 license (open variants).

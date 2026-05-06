@@ -1,0 +1,54 @@
+name: LLaMA 4
+description: LlaMA 4 is the latest generation of Meta’s open-weight language
+  models, designed for scalability, efficiency, and multimodal capabilities. It
+  supports both text and visual inputs natively, enabling more advanced
+  reasoning across different data types. The models are optimized for deployment
+  across environments, from single-GPU setups to large-scale distributed
+  systems, and include variants tailored for performance and cost efficiency.
+source_url: https://github.com/meta-llama
+category: Large Language Model
+tags:
+  - open-source
+  - multimodal
+  - scalable
+featured: false
+markdown: >-
+  ## Overview
+
+
+  LlaMA 4 is the latest generation of Meta’s open-weight language models,
+  designed for scalability, efficiency, and multimodal capabilities. It supports
+  both text and visual inputs natively, enabling more advanced reasoning across
+  different data types. The models are optimized for deployment across
+  environments, from single-GPU setups to large-scale distributed systems, and
+  include variants tailored for performance and cost efficiency.
+
+
+  ## Features
+
+
+  - Native multimodal capabilities: Processes both text and images using a
+  unified architecture with early fusion of modalities
+
+  - Long context window: Supports context lengths up to 10 million tokens for
+  handling long documents and extended conversations
+
+  - Efficient deployment: Designed to run efficiently even on a single
+  high-performance GPU while scaling to larger infrastructures
+
+  - Advanced reasoning and coding performance: Demonstrates strong results
+  across benchmarks for reasoning, coding, and knowledge tasks
+
+  - Image grounding capabilities: Provides detailed understanding and reasoning
+  over visual inputs
+
+  - Built-in safety mechanisms: Includes system-level protections and tools to
+  mitigate risks in generative AI applications
+
+
+  ## Pricing
+
+
+  Free and open-source under the Meta Llama 4 community license.
+brand: Meta
+updated_at: 2026-05-06 12:50

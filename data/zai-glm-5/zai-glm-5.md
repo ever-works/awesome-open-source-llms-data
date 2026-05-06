@@ -1,0 +1,15 @@
+## Overview
+
+GLM-5 is a large-scale mixture-of-experts model for complex reasoning and long-horizon agentic tasks. It expands over previous versions in total parameters and training data, while introducing optimizations such as sparse attention to reduce deployment cost. The model combines large-scale pretraining with reinforcement learning to improve reasoning, coding, and tool-use performance across a range of benchmarks.
+
+## Features
+
+- Mixture-of-experts scaling: Uses a large parameter pool (744B total, 40B active) to improve efficiency while maintaining high performance
+- Long-context support: Handles extended contexts with optimized attention mechanisms such as DeepSeek Sparse Attention
+- Reinforcement learning infrastructure: Uses an asynchronous RL system to improve training efficiency and enable iterative refinement
+- Agentic task optimization: Designed for complex multi-step tasks such as systems engineering and tool-based workflows
+- Broad benchmark performance: Demonstrates strong results across reasoning, coding, and tool-use evaluations
+
+## Pricing
+
+Free and open-source under the MIT license.

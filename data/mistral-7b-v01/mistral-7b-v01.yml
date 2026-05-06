@@ -1,0 +1,41 @@
+name: Mistral-7B-v0.1
+description: The Mistral-7B-v0.1 Large Language Model (LLM) is a pretrained
+  generative text model with 7 billion parameters. Mistral-7B-v0.1 outperforms
+  Llama 2 13B on all benchmarks tested.
+source_url: https://huggingface.co/mistralai/Mistral-7B-v0.1
+category: large-language-model
+tags:
+  - open-source
+  - 7B
+  - transformer
+featured: false
+markdown: >
+  ## Overview
+
+
+  The Mistral-7B-v0.1 is a pretrained generative text model with 7 billion
+  parameters.
+
+
+  ## Features
+
+
+  - Grouped-Query Attention
+
+  - Sliding-Window Attention
+
+  - Byte-fallback BPE tokenizer
+
+
+  ## Performance
+
+
+  - Outperforms Llama 2 13B on all benchmarks tested.
+
+
+  ## Availability
+
+
+  The model is available for free and open source use on the Hugging Face Hub.
+brand: Mistral AI
+updated_at: 2026-05-06 12:50

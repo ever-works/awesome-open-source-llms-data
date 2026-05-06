@@ -1,21 +1,15 @@
 ## Overview
-MiniMax M2.5 is an S-tier open-source large language model primarily recognized for its strong performance in real-world software engineering tasks.
+
+MiniMax M2.5 is a reinforcement learning–driven model focused on real-world productivity tasks such as coding, tool use, and office workflows. It is trained across a large number of simulated environments to improve task decomposition, planning, and execution. The model emphasizes efficiency in reasoning and cost, enabling faster completion of complex tasks with fewer steps.
 
 ## Features
-- **SWE-bench Verified Score:** 80.2 (highest of any model on the leaderboard).
-- **Parameters:** 230B.
-- **Context Window:** 205K tokens.
 
-## Best for
-- Software engineering
-- Code review
-- Bug fixing in real-world codebases
+- Reinforcement learning at scale: Trained on hundreds of thousands of environments to improve real-world task performance
+- Strong coding capabilities: Supports full software lifecycle tasks, from system design to testing across multiple languages
+- Efficient task decomposition: Breaks down complex problems into structured steps with reduced token usage
+- Advanced tool use and search: Performs multi-step retrieval and tool interactions with improved decision-making
+- High throughput and low cost: Optimized for fast inference and reduced operational cost in agentic workflows
 
-## Benchmarks
-- MMLU: 85.0
-- MMLU-Pro: 76.5
-- HumanEval: 89.6
-- SWE-bench Verified: 80.2
-- LiveCodeBench: 65.0
-- AIME 2025: 86.3
-- GPQA Diamond: 85.2
+## Pricing
+
+Free and open-source under the Modified MIT license.

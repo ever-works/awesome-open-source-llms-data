@@ -1,0 +1,16 @@
+## Overview
+
+Gemma 4 is a family of open models derived from Gemini research, aiming to maximize performance relative to model size while remaining efficient enough for local deployment. It includes multiple model sizes ranging from edge devices to workstation-scale systems, and supports multimodal reasoning, multilingual tasks, and agentic workflows.
+
+## Features
+
+- Agentic workflows: Supports function calling and task planning for building autonomous agents
+- Multimodal reasoning: Processes audio and visual inputs alongside text for richer applications
+- Multilingual support: Handles over 140 languages with contextual understanding beyond translation
+- Efficient architecture: Optimized to run on local hardware, including edge devices and consumer GPUs
+- Flexible fine-tuning: Can be adapted to specific tasks using common training frameworks
+- Edge deployment capability: Smaller variants run offline with low latency on devices like phones and embedded systems
+
+## Pricing
+
+Free and open-source under the Apache 2.0 license.

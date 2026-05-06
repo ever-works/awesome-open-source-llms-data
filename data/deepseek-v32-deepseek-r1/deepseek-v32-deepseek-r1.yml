@@ -1,0 +1,55 @@
+name: DeepSeek-V3.2 / DeepSeek-R1
+description: "DeepSeek’s open source LLM family includes two complementary
+  approaches: DeepSeek-V3 as a high-performance general-purpose model and
+  DeepSeek-R1 as a reasoning-focused model. DeepSeek-V3 uses a
+  mixture-of-experts architecture optimized for efficient training and inference
+  at scale, while DeepSeek-R1 builds on this foundation with reinforcement
+  learning to enhance reasoning capabilities. Together, they provide both strong
+  general language performance and advanced problem-solving abilities."
+source_url: https://github.com/deepseek-ai
+category: Large Language Model
+tags:
+  - open-source
+  - mixture-of-experts
+  - reasoning
+featured: false
+markdown: >-
+  ## Overview
+
+
+  DeepSeek’s open source LLM family includes two complementary approaches:
+  DeepSeek-V3 as a high-performance general-purpose model and DeepSeek-R1 as a
+  reasoning-focused model.
+
+
+  ## Features
+
+
+  - Mixture-of-experts architecture: Uses large total parameters with selective
+  activation (e.g., 671B total, 37B active) to improve efficiency and
+  scalability
+
+  - Reinforcement learning-driven reasoning: DeepSeek-R1 develops advanced
+  reasoning behaviors such as chain-of-thought, self-reflection, and
+  verification through RL
+
+  - Multi-stage training pipeline: Combines pretraining, supervised fine-tuning,
+  and reinforcement learning to improve both general and reasoning capabilities
+
+  - Distillation into smaller models: Transfers reasoning capabilities from
+  large models into smaller, more efficient variants
+
+  - Extended context support: Handles long inputs with context windows up to
+  128K tokens
+
+  - Efficient training and inference design: Includes innovations such as
+  multi-token prediction and optimized training strategies to reduce compute
+  cost
+
+
+  ## Pricing
+
+
+  Free and open-source under the Apache 2.0 license.
+brand: DeepSeek AI
+updated_at: 2026-05-06 12:50

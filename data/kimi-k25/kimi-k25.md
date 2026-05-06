@@ -1,27 +1,15 @@
 ## Overview
-Kimi K2.5, developed by Moonshot, is a frontier-level open-source large language model known for its exceptional benchmark performance across various domains. With 1 trillion parameters (32B active per token) and a Mixture-of-Experts (MoE) architecture, it offers high efficiency and powerful capabilities.
 
-## Capabilities
-*   **Coding:** Achieves a near-perfect HumanEval score of 99.0, making it the highest-performing model in coding evaluation.
-*   **Mathematical Reasoning:** Leads in MATH-500 with a score of 98.0 and performs strongly in AIME 2025 (96.1).
-*   **General Reasoning:** Excels in MMLU (92.0) and GPQA Diamond (87.6), demonstrating superior general knowledge and scientific reasoning.
-*   **Instruction Adherence:** Leads IFEval with a score of 94.0, indicating precise and reliable adherence to complex prompts.
-*   **Context Window:** Boasts a 262K context window, enabling it to handle extremely long and intricate inputs.
-*   **Chatbot Arena:** Holds a high Chatbot Arena rating of 1447, signifying strong human preference for its conversational quality.
+Kimi K2.5 is a multimodal mixture-of-experts model for agentic workflows, combining vision and language understanding with coordinated multi-agent execution. It is trained on a large corpus of mixed visual and text data and supports both fast responses and deeper reasoning modes. The model is intended to handle complex workflows by decomposing tasks and executing them across multiple agents.
 
-## Best For
-*   Any task requiring top-tier coding, math, reasoning, or instruction adherence
-*   Multi-domain AI applications
-*   Complex problem-solving and nuanced understanding
+## Features
 
-## Benchmarks
-*   **MMLU:** 92.0
-*   **MMLU-Pro:** 87.1
-*   **HumanEval:** 99.0
-*   **SWE-bench Verified:** 76.8
-*   **LiveCodeBench:** 85.0
-*   **AIME 2025:** 96.1
-*   **GPQA Diamond:** 87.6
-*   **MATH-500:** 98.0
-*   **Chatbot Arena:** 1447
-*   **IFEval:** 94.0
+- Native multimodality: Trained on joint vision and text data for cross-modal reasoning and visual grounding
+- Agent swarm execution: Decomposes tasks into parallel subtasks handled by coordinated agents
+- Dual interaction modes: Supports both fast responses and step-by-step reasoning depending on task needs
+- Large context window: Handles up to 256K tokens for long interactions and documents
+- Tool and coding integration: Generates code from visual inputs and orchestrates tools for complex workflows
+
+## Pricing
+
+Free and open-source under the Modified MIT license.
