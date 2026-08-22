@@ -47,9 +47,8 @@ markdown: >-
   - GPQA Diamond: 80.9
 
   - Chatbot Arena: 1354
-brand: OpenAI
-updated_at: 2026-04-04 21:39
-ariant | Total Params | Active Params | Min VRAM (quantized) | Target Hardware |
+
+  | Variant | Total Params | Active Params | Min VRAM (quantized) | Target Hardware |
   |---------|-------------|---------------|----------------------|----------------|
   | gpt-oss-120B | 117B | 5.1B | 80GB | 1x H100/A100 80GB |
   | gpt-oss-20B | 21B | 3.6B | 16GB | RTX 4070/4060 Ti |
