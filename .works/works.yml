@@ -27,13 +27,16 @@ settings:
     hero_badge_text: Open-Source AI Models
     hero_title: Discover Open Source
     hero_title_gradient: Large Language Models
-    hero_description: A directory of open-source LLMs — foundation,
-      instruction-tuned, reasoning, code, small and multimodal models — with the
-      architecture, benchmark results, license and deployment options of each.
+    hero_description: A directory of open-source LLMs — foundation, instruction-tuned, reasoning, code, small and multimodal models — with the architecture, benchmark results, license and deployment options of each.
   footer:
     subscribe_enabled: true
     version_enabled: true
     theme_selector_enabled: true
+  monetization:
+    sponsor_ads:
+      currency: USD
+      weekly_price: 100
+      monthly_price: 300
 pagination:
   type: standard
   itemsPerPage: 12
@@ -47,8 +50,7 @@ metadata:
     update_with_pull_request: false
     website_repository_creation_method: create-using-template
     name: Awesome Open Source LLMs
-    prompt: generate list of open source large language models, comparing
-      architectures, benchmark performance, licensing, and deployment options
+    prompt: generate list of open source large language models, comparing architectures, benchmark performance, licensing, and deployment options
     providers:
       pipeline: agent-pipeline
       search: tavily
@@ -64,8 +66,7 @@ metadata:
       max_results_per_query: 5
       max_pages_to_process: 10
       ai_first_generation_enabled: false
-  initial_prompt: generate list of open source large language models, comparing
-    architectures, benchmark performance, licensing, and deployment options
+  initial_prompt: generate list of open source large language models, comparing architectures, benchmark performance, licensing, and deployment options
 name: Awesome Open Source LLMs
 providers:
   ai: openrouter
@@ -73,8 +74,7 @@ providers:
   contentExtractor: local-content-extractor
   search: tavily
 website_repo: ever-works/awesome-open-source-llms-website
-initial_prompt: generate list of open source large language models, comparing
-  architectures, benchmark performance, licensing, and deployment options
+initial_prompt: generate list of open source large language models, comparing architectures, benchmark performance, licensing, and deployment options
 deployProvider: vercel
 activity_sync:
   mode: pull
