@@ -1,6 +1,6 @@
 ---
 title: About Awesome Open Source LLMs
-description: Awesome Open Source LLMs is a directory of open-source large language models comparing architectures, benchmarks, licensing and deployment options.
+description: Awesome Open Source LLMs is a directory of open-source large language models with their architectures, benchmarks, licensing and deployment options.
 lastUpdated: 2026-08-22
 ---
 
@@ -11,7 +11,7 @@ Awesome Open Source LLMs is a curated, continuously updated directory of open-so
 ## What you'll find here
 
 - **Models by type** — foundation, instruction-tuned, reasoning, code generation, small, multilingual, multimodal, embedding and research models.
-- **Key facts per model** — architecture, parameter count, benchmarks, license and links to weights and papers.
+- **Key facts per model** — architecture, parameter count, benchmarks, license and a link back to the original source.
 - **Deployment platforms and safety tooling** — inference servers, hosting options and guardrails.
 
 ## How the directory is maintained

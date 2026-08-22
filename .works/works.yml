@@ -25,9 +25,9 @@ settings:
     default_view: classic
     default_sort: popularity
     hero_badge_text: Open-Source AI Models
-    hero_title: Compare Open Source
+    hero_title: Discover Open Source
     hero_title_gradient: Large Language Models
-    hero_description: A directory of open-source LLMs — foundation, instruction-tuned, reasoning, code, small and multimodal models — with their architectures, benchmark results, licenses and deployment options side by side.
+    hero_description: A directory of open-source LLMs — foundation, instruction-tuned, reasoning, code, small and multimodal models — with the architecture, benchmark results, license and deployment options of each.
   footer:
     subscribe_enabled: true
     version_enabled: true
