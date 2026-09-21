@@ -51,9 +51,8 @@ markdown: >-
   - GPQA Diamond: 83.7
 
   - Chatbot Arena: 1401
-brand: Xiaomi
-updated_at: 2026-04-04 21:39
-*: ~150 tokens/second
+
+  - **Inference throughput:** ~150 tokens/second
 
 
   ## Benchmarks
