@@ -9,47 +9,29 @@ tags:
   - general-knowledge
   - scientific-understanding
   - open-license
-markdown: >-
+markdown: |-
   ## Overview
-
-  GPT-oss 120B is OpenAI's seminal open-weight release since GPT-2, marking a
-  significant contribution to the open-source LLM landscape.
-
+  GPT-oss 120B is OpenAI's seminal open-weight release since GPT-2, marking a significant contribution to the open-source LLM landscape.
 
   ## Features
-
   - **MMLU-Pro Score:** 90.0 (highest on the entire leaderboard).
-
   - **GPQA Diamond Score:** 80.9, indicating strong scientific understanding.
-
   - **License:** Apache 2.0 license, highly commercially permissive.
 
-
   ## Best for
-
   - General knowledge applications
-
   - Scientific Q&A
-
   - Teams that prefer OpenAI-origin models with open licensing
 
-
   ## Benchmarks
-
   - MMLU: 90.0
-
   - MMLU-Pro: 90.0
-
   - SWE-bench Verified: 62.4
-
   - LiveCodeBench: 60.0
-
   - GPQA Diamond: 80.9
+  - Chatbot Arena: 1354nts
 
-  - Chatbot Arena: 1354
-brand: OpenAI
-updated_at: 2026-04-04 21:39
-ariant | Total Params | Active Params | Min VRAM (quantized) | Target Hardware |
+  | Variant | Total Params | Active Params | Min VRAM (quantized) | Target Hardware |
   |---------|-------------|---------------|----------------------|----------------|
   | gpt-oss-120B | 117B | 5.1B | 80GB | 1x H100/A100 80GB |
   | gpt-oss-20B | 21B | 3.6B | 16GB | RTX 4070/4060 Ti |
