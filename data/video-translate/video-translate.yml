@@ -1,0 +1,16 @@
+name: video translate
+description: "Video Translate: AI Video Translator in Your Voice"
+source_url: https://videotranslators.com/
+category:
+  - ai-safety-guardrails
+  - large-language-model
+tags:
+  - coding
+  - instruction-tuned
+  - apache-20
+collections: []
+featured: false
+updated_at: 2026-11-18 01:42
+status: pending
+submitted_by: 948e0fbb-7a88-46ee-806a-e790108ee70e
+submitted_at: 2026-11-18 01:42
